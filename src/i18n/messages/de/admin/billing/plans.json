@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "Pläne",
+        "general": "Allgemein",
+        "translations": "Übersetzungen",
+        "features": "Funktionen",
+        "periods": "Zeiträume",
+        "editPlan": "Plan bearbeiten",
+        "createNewPlan": "Neuen Plan erstellen",
+        "saveError": "Plan konnte nicht gespeichert werden",
+        "updateSuccess": "Plan erfolgreich aktualisiert",
+        "createSuccess": "Plan erfolgreich erstellt",
+        "syncSuccess": "Plan erfolgreich synchronisiert",
+        "saving": "Wird gespeichert...",
+        "update": "Aktualisieren",
+        "create": "Erstellen",
+        "cancel": "Abbrechen",
+        "createError": "Plan konnte nicht erstellt werden",
+        "updateError": "Plan konnte nicht aktualisiert werden",
+        "syncError": "Plan konnte nicht synchronisiert werden",
+        "generalTab": {
+          "code": "Code",
+          "codePlaceholder": "z.B. BASIC, PRO, ENTERPRISE",
+          "status": "Status",
+          "statusPlaceholder": "Status auswählen",
+          "billingScheme": "Abrechnungsschema",
+          "billingSchemePlaceholder": "Abrechnungsschema auswählen",
+          "isPopular": "Ist beliebt",
+          "sortOrder": "Sortierreihenfolge",
+          "validFrom": "Gültig ab",
+          "validUntil": "Gültig bis (optional)",
+          "PlanStatus": {
+            "active": "Aktiv",
+            "deprecated": "Veraltet",
+            "archived": "Archiviert"
+          },
+          "BillingScheme": {
+            "creditBased": "Guthabenbasiert",
+            "timeBased": "Zeitbasiert",
+            "hybrid": "Hybrid"
+          }
+        },
+        "featuresTab": {
+          "feature": "Funktion",
+          "included": "Enthalten",
+          "primary": "Primär",
+          "limit": "Limit",
+          "limitPlaceholder": "Leer lassen für kein Limit",
+          "notApplicable": "Nicht zutreffend",
+          "noAvailableFeatures": "Keine verfügbaren Funktionen",
+          "referenced": "Referenziert"
+        },
+        "periodsTab": {
+          "noPeriods": "Keine Abrechnungszeiträume. Bitte fügen Sie mindestens einen Zeitraum hinzu.",
+          "actions": "Aktionen",
+          "period": "Zeitraum",
+          "resetPeriodType": "Zurücksetzen Zeitraumtyp",
+          "resetPeriodValue": "Zurücksetzen Zeitraumwert",
+          "price": "Preis",
+          "selectPeriodType": "Zeitraumtyp auswählen",
+          "periodType": "Zeitraumtyp",
+          "periodValue": "Zeitraumwert",
+          "addPeriod": "Zeitraum hinzufügen",
+          "code": "Code",
+          "credits": "Guthaben"
+        },
+        "translationsTab": {
+          "noTranslations": "Keine Übersetzungen. Bitte fügen Sie mindestens eine Übersetzung hinzu.",
+          "selectLanguage": "Sprache auswählen",
+          "addTranslation": "Übersetzung hinzufügen",
+          "language": "Sprache",
+          "name": "Name",
+          "subtitle": "Untertitel",
+          "description": "Beschreibung",
+          "actions": "Aktionen",
+          "planName": "Planname",
+          "planSubtitle": "Planuntertitel",
+          "planDescription": "Planbeschreibung"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "admin": {
+    "billing": {
+      "purchases": {
+        "title": "购买记录",
+        "loading": "加载中...",
+        "user": "用户",
+        "plan": "计划",
+        "date": "日期",
+        "status": "状态",
+        "actions": "操作",
+        "refund": "退款",
+        "confirmRefund": "确定要退款吗？",
+        "allStatus": "所有状态",
+        "period": "周期",
+        "resetPeriod": "重置周期",
+        "periodTypes": {
+          "day": "天",
+          "days": "天",
+          "week": "周",
+          "weeks": "周",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年",
+          "oneTime": "一次性",
+          "lifetime": "终身"
+        },
+        "statuses": {
+          "completed": "已完成",
+          "refunded": "已退款",
+          "pending": "待处理",
+          "failed": "失败"
+        },
+        "cancel": "取消",
+        "confirm": "确认"
+      }
+    }
+  }
+}

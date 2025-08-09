@@ -1,0 +1,72 @@
+{
+  "task": {
+    "preview": {
+      "taskInformation": "Aufgabeninformationen",
+      "metadata": "Metadaten",
+      "parameters": "Parameter",
+      "fileInformation": "Dateiinformationen",
+      "labels": {
+        "id": "ID",
+        "type": "Typ",
+        "status": "Status",
+        "created": "Erstellt"
+      }
+    },
+    "tooltip": {
+      "id": "Aufgaben-ID",
+      "type": "Typ",
+      "status": "Status",
+      "createdAt": "Erstellt am",
+      "updatedAt": "Aktualisiert am",
+      "prompt": "Prompt",
+      "negativePrompt": "Negativer Prompt",
+      "models": "Modelle",
+      "images": "Bilder",
+      "subTasks": "Teilaufgaben",
+      "subTaskId": "Teilaufgaben-ID",
+      "subTaskStatus": "Teilaufgabenstatus"
+    },
+    "taskType": {
+      "model-direct-invocation": "Direkte Modellaufruf",
+      "template": "Vorlage",
+      "other": "Andere"
+    },
+    "status": {
+      "pending": "Ausstehend",
+      "processing": "In Bearbeitung",
+      "completed": "Abgeschlossen",
+      "failed": "Fehlgeschlagen",
+      "cancelled": "Abgebrochen",
+      "aborted": "Abgebrochen",
+      "partially_completed": "Teilweise abgeschlossen"
+    },
+    "metadata": {
+      "true": "Ja",
+      "false": "Nein",
+      "labels": {
+        "templateType": "Vorlagentyp",
+        "modelCategory": "Modellkategorie",
+        "model": "Modell",
+        "models": "Modelle",
+        "isPublic": "Öffentlich"
+      }
+    },
+    "templateType": {
+      "stylized-anime-image": "Stilisiertes Anime-Bild",
+      "realistic-image": "Realistisches Bild",
+      "stylized-image": "Stilisiertes Bild"
+    },
+    "modelCategory": {
+      "text-to-image": "Text zu Bild",
+      "image-to-image": "Bild zu Bild",
+      "text-to-video": "Text zu Video",
+      "image-to-video": "Bild zu Video",
+      "text-to-music": "Text zu Musik"
+    },
+    "recall": {
+      "tooltip": "Aufgabe erneut aufrufen"
+    },
+    "public": "Öffentlich",
+    "private": "Privat"
+  }
+}

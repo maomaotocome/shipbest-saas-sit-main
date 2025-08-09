@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "Rechnungsverwaltung",
+          "filters": {
+            "emailLabel": "Kunden-E-Mail",
+            "emailPlaceholder": "Suche nach E-Mail...",
+            "dateRangeLabel": "Ausstellungsdatumsbereich",
+            "searchButton": "Suchen"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "Rechnungsnummer",
+          "customerEmail": "Kunden-E-Mail",
+          "customerName": "Kundenname",
+          "amount": "Betrag",
+          "status": "Status",
+          "type": "Typ",
+          "planName": "Planname",
+          "periodNumber": "Periode",
+          "issueDate": "Ausstellungsdatum",
+          "paidDate": "Zahlungsdatum",
+          "actions": "Aktionen",
+          "dueDate": "Fälligkeitsdatum"
+        },
+        "status": {
+          "paid": "Bezahlt",
+          "open": "Offen",
+          "void": "Ungültig",
+          "uncollectible": "Uneinbringlich",
+          "unknown": "Unbekannt"
+        },
+        "types": {
+          "subscription": "Abonnement",
+          "purchase": "Kauf",
+          "unknown": "Unbekannt"
+        },
+        "downloadPdf": "PDF herunterladen",
+        "viewOnline": "Online anzeigen"
+      }
+    }
+  }
+}

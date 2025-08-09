@@ -1,0 +1,23 @@
+{
+  "playground": {
+    "new": "新建",
+    "history": "歷史",
+    "prompt": {
+      "placeholder": "我今天能為您做些什麼？"
+    },
+    "chat": {
+      "input": {
+        "placeholder": "輸入您的訊息...",
+        "send": "發送",
+        "enterToSend": "按 Enter 發送",
+        "shiftEnterForNewline": "Shift + Enter 換行"
+      },
+      "noMessages": "我今天能為您做些什麼？"
+    },
+    "history": {
+      "title": "對話歷史",
+      "searchPlaceholder": "搜尋對話歷史...",
+      "loading": "載入中..."
+    }
+  }
+}

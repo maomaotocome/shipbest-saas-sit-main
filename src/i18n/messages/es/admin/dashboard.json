@@ -1,0 +1,13 @@
+{
+  "admin": {
+    "dashboard": {
+      "title": "Panel de Administración",
+      "general": "General",
+      "metadata": {
+        "title": "Panel de Administración",
+        "description": "Panel de Administración",
+        "keywords": "Panel de Administración"
+      }
+    }
+  }
+}

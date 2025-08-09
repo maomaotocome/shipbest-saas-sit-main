@@ -1,0 +1,15 @@
+{
+  "home": {
+    "hero": {
+      "title": "example AI",
+      "description": "example AI 為您提供一系列強大的 AI 工具。探索、創建和創新，與尖端 AI 應用。",
+      "getStarted": "開始",
+      "learnMore": "了解更多"
+    },
+    "metadata": {
+      "title": "example AI",
+      "description": "example AI 為您提供一系列強大的 AI 工具。探索、創建和創新，與尖端 AI 應用。",
+      "keywords": "AI, 工具, 創造力, 創新, 夢想"
+    }
+  }
+}

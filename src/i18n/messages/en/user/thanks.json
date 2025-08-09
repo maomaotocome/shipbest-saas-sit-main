@@ -1,0 +1,22 @@
+{
+  "user": {
+    "thanks": {
+      "title": "Thank you for your purchase",
+      "loading": "Confirming your order status...",
+      "success": {
+        "purchaseTitle": "Purchase Successful!",
+        "purchaseMessage": "You have successfully purchased {planName}",
+        "subscriptionTitle": "Subscription Successful!",
+        "subscriptionMessage": "You have successfully subscribed to {planName}",
+        "button": "View Order"
+      },
+      "error": {
+        "title": "Order Processing",
+        "message": "We are processing your order, please try again later",
+        "button": "Back to Home"
+      },
+      "period": "Subscription Period",
+      "resetPeriod": "Reset Period"
+    }
+  }
+}

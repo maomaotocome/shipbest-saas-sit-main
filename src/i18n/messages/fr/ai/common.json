@@ -1,0 +1,116 @@
+{
+  "ai": {
+    "common": {
+      "prompt": "Décrivez votre vision",
+      "promptPlaceholder": "Entrez votre description ici...",
+      "negativePrompt": "Prompt Négatif",
+      "negativePromptPlaceholder": "Ce que vous ne voulez pas voir dans le résultat...",
+      "model": "Modèle",
+      "models": "modèles",
+      "multiSelect": "Sélection Multiple",
+      "numImages": "Nombre d'Images",
+      "numVideos": "Nombre de Vidéos",
+      "aspectRatio": "Ratio d'Aspect",
+      "image": "Image",
+      "seed": "Graine",
+      "taskList": "Liste des Tâches",
+      "loadMore": "Charger Plus",
+      "loading": "Chargement...",
+      "loadingMore": "Chargement de Plus...",
+      "errorLoading": "Erreur de Chargement des Tâches",
+      "selectModel": "Sélectionner un Modèle",
+      "selectModelTitle": "Sélectionner un Modèle",
+      "demoGallery": "Galerie de Démonstration",
+      "creditPreview": "Aperçu des Crédits",
+      "totalCredits": "Crédits Totaux",
+      "creditDetails": "Détails des Crédits",
+      "quantity": "Quantité",
+      "calculating": "Calcul des crédits...",
+      "fillParameters": "Remplissez les paramètres pour voir la consommation de crédits",
+      "calculationError": "Erreur de calcul des crédits",
+      "estimatedConsumption": "* Il s'agit d'une consommation estimée de crédits. La consommation réelle peut varier en raison d'échecs de tâches avec remboursements partiels de crédits.",
+      "viewDetails": "Voir les Détails",
+      "taskVisibility": "Visibilité de la Tâche",
+      "publicTask": "Public",
+      "privateTask": "Privé",
+      "publicTaskDescription": "Les tâches publiques sont visibles par tous les utilisateurs",
+      "privateTaskDescription": "Les tâches privées ne sont visibles que par vous",
+      "privateTaskProfileLink": "Vous pouvez modifier ce paramètre par défaut dans votre profil",
+      "openProfileSettings": "Ouvrir les paramètres de profil",
+      "loginRequired": "Connexion requise",
+      "premiumFeature": "Fonctionnalité premium",
+      "login": "Se Connecter",
+      "getPermission": "Mettre à Niveau",
+      "advancedParameters": "Paramètres Avancés",
+      "showAdvancedParameters": "Afficher les paramètres avancés",
+      "hideAdvancedParameters": "Masquer les paramètres avancés",
+      "slideToDo": {
+        "readyText": "Glissez pour soumettre la tâche",
+        "completedText": "Tâche soumise",
+        "slidingAtEndingText": "Relâchez pour confirmer la soumission"
+      },
+      "tooltip": {
+        "id": "ID de la tâche",
+        "type": "Type",
+        "status": "Statut",
+        "createdAt": "Créé le",
+        "updatedAt": "Mis à jour le",
+        "prompt": "Prompt",
+        "negativePrompt": "Prompt négatif",
+        "models": "Modèles",
+        "numImages": "Nombre d'images",
+        "aspectRatio": "Format d'image",
+        "images": "Images d'entrée"
+      },
+      "actions": {
+        "downloadOriginal": "Télécharger l'original",
+        "recreateTask": "Créer une tâche avec la même configuration",
+        "recreateTaskDialogTitle": "Créer une tâche avec la même configuration"
+      },
+      "fileInfo": {
+        "dimensions": "Dimensions",
+        "fileSize": "Taille du fichier",
+        "resolution": "Résolution",
+        "duration": "Durée",
+        "seconds": "secondes"
+      },
+      "boolean": {
+        "enabled": "Activé",
+        "disabled": "Désactivé",
+        "on": "Activé",
+        "off": "Désactivé"
+      },
+      "validation": {
+        "loadingUserInfo": "Chargement des informations utilisateur, veuillez réessayer plus tard",
+        "userNotLoggedIn": "Veuillez vous connecter pour continuer",
+        "creditCalculationFailed": "Échec du calcul des crédits, veuillez vérifier si les paramètres sont complets",
+        "cannotGetUserCredits": "Impossible d'obtenir les informations de crédit utilisateur, veuillez réessayer plus tard",
+        "insufficientCredits": "Crédits insuffisants ! Besoin de {requiredCredits} crédits, vous n'avez actuellement que {availableCredits} crédits",
+        "taskExecutionFailed": "Échec de l'exécution de la tâche",
+        "creditCalculationError": "Échec du calcul des crédits"
+      },
+      "taskSubmittedSuccessfully": "Tâche soumise avec succès",
+      "pleaseUploadImageFirst": "Veuillez d'abord télécharger une image",
+      "pleaseCompleteRequiredField": "Veuillez compléter le champ requis : {fieldName}",
+      "upload": {
+        "imageUploadFailed": "Échec du téléchargement d'image, veuillez réessayer"
+      },
+      "aspectRatioSelector": {
+        "custom": "Personnalisé",
+        "customWidth": "Largeur",
+        "customHeight": "Hauteur",
+        "notSelected": "Non sélectionné"
+      },
+      "imageComparison": {
+        "title": "Comparaison d'images",
+        "instructions": "Faites glisser le curseur ou déplacez votre souris pour comparer les images.",
+        "inputImage": "Image d'entrée",
+        "generatedImage": "Image générée"
+      },
+      "imageActions": {
+        "preview": "Aperçu de l'image",
+        "compare": "Comparer avec l'image générée"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "Invoice Management",
+          "filters": {
+            "emailLabel": "Customer Email",
+            "emailPlaceholder": "Search by email...",
+            "dateRangeLabel": "Issue Date Range",
+            "searchButton": "Search"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "Invoice Number",
+          "customerEmail": "Customer Email",
+          "customerName": "Customer Name",
+          "amount": "Amount",
+          "status": "Status",
+          "type": "Type",
+          "planName": "Plan Name",
+          "periodNumber": "Period",
+          "issueDate": "Issue Date",
+          "paidDate": "Paid Date",
+          "actions": "Actions",
+          "dueDate": "Due Date"
+        },
+        "status": {
+          "paid": "Paid",
+          "open": "Open",
+          "void": "Void",
+          "uncollectible": "Uncollectible",
+          "unknown": "Unknown"
+        },
+        "types": {
+          "subscription": "Subscription",
+          "purchase": "Purchase",
+          "unknown": "N/A"
+        },
+        "downloadPdf": "Download PDF",
+        "viewOnline": "View Online"
+      }
+    }
+  }
+}

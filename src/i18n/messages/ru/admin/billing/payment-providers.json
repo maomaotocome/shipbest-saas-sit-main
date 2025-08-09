@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "billing": {
+      "payment-providers": {
+        "title": "Платёжные провайдеры",
+        "addProvider": "Добавить провайдера",
+        "editProvider": "Редактировать провайдера",
+        "columns": {
+          "name": "Название",
+          "code": "Код",
+          "provider": "Провайдер",
+          "status": "Статус",
+          "priority": "Приоритет",
+          "dailyQuota": "Дневная квота",
+          "monthlyQuota": "Месячная квота"
+        },
+        "form": {
+          "name": "Название",
+          "code": "Код",
+          "provider": "Провайдер",
+          "status": "Статус",
+          "priority": "Приоритет",
+          "secretKey": "Секретный ключ провайдера",
+          "webhookSecret": "Секрет webhook"
+        },
+        "unlimited": "Без ограничений",
+        "status": {
+          "ACTIVE": "Активен",
+          "SUSPENDED": "Приостановлен",
+          "BLOCKED": "Заблокирован",
+          "QUOTA_EXCEEDED": "Квота превышена",
+          "MAINTENANCE": "На обслуживании"
+        },
+        "deleteConfirmation": {
+          "title": "Удалить провайдера",
+          "message": "Вы уверены, что хотите удалить этого платёжного провайдера?",
+          "messageWithName": "Вы уверены, что хотите удалить платёжного провайдера '{name}'?"
+        },
+        "cancel": "Отмена",
+        "delete": "Удалить",
+        "deleting": "Удаление...",
+        "saving": "Сохранение...",
+        "update": "Обновить",
+        "create": "Создать",
+        "createSuccess": "Платёжный провайдер успешно создан",
+        "createError": "Не удалось создать платёжного провайдера",
+        "updateSuccess": "Платёжный провайдер успешно обновлён",
+        "updateError": "Не удалось обновить платёжного провайдера",
+        "deleteSuccess": "Платёжный провайдер успешно удалён",
+        "deleteError": "Не удалось удалить платёжного провайдера",
+        "registerWebhook": "Зарегистрировать Webhook",
+        "webhookRegistered": "Webhook успешно зарегистрирован",
+        "webhookRegistrationFailed": "Не удалось зарегистрировать webhook",
+        "webhookRegistrationDescription": "Это зарегистрирует конечную точку webhook для платёжного провайдера. URL webhook будет:",
+        "registering": "Регистрация...",
+        "register": "Зарегистрировать"
+      }
+    }
+  }
+}

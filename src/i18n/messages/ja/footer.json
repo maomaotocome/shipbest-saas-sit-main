@@ -1,0 +1,32 @@
+{
+  "footer": {
+    "links": {
+      "videoTools": {
+        "title": "動画ツール",
+        "aiVideoGenerator": "AI動画生成",
+        "imageToVideo": "画像から動画",
+        "videoToVideo": "動画から動画",
+        "consistentCharacter": "一貫性のあるキャラクター動画",
+        "videoEnhancer": "AI動画エンハンサー"
+      },
+      "videoModels": {
+        "title": "動画モデル",
+        "klingAi": "Kling AI",
+        "runway": "Runway",
+        "viduAi": "Vidu AI",
+        "lumaAi": "Luma AI",
+        "pixverseAi": "PixVerse AI"
+      },
+      "company": {
+        "title": "会社情報",
+        "aboutUs": "会社概要",
+        "contactUs": "お問い合わせ",
+        "pricing": "料金プラン",
+        "community": "コミュニティ",
+        "resources": "リソース",
+        "termsAndConditions": "利用規約",
+        "privacyPolicy": "プライバシーポリシー"
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "ai": {
+    "common": {
+      "prompt": "Describe your vision",
+      "promptPlaceholder": "Enter your description here...",
+      "negativePrompt": "Negative Prompt",
+      "negativePromptPlaceholder": "What you don't want to see in the result...",
+      "model": "Model",
+      "models": "models",
+      "multiSelect": "Multi Select",
+      "numImages": "Number of Images",
+      "numVideos": "Number of Videos",
+      "aspectRatio": "Aspect Ratio",
+      "image": "Image",
+      "seed": "Seed",
+      "taskList": "Task List",
+      "loadMore": "Load More",
+      "loading": "Loading...",
+      "loadingMore": "Loading More...",
+      "errorLoading": "Error Loading Tasks",
+      "selectModel": "Select Model",
+      "selectModelTitle": "Select Model",
+      "demoGallery": "Demo Gallery",
+      "creditPreview": "Credit Preview",
+      "totalCredits": "Total Credits",
+      "creditDetails": "Credit Details",
+      "quantity": "Quantity",
+      "calculating": "Calculating credits...",
+      "fillParameters": "Fill in parameters to view credit consumption",
+      "calculationError": "Credit calculation error",
+      "estimatedConsumption": "* This is an estimated credit consumption. Actual consumption may vary due to task failures with partial credit refunds.",
+      "viewDetails": "View Details",
+      "taskVisibility": "Task Visibility",
+      "publicTask": "Public",
+      "privateTask": "Private",
+      "publicTaskDescription": "Public tasks are visible to all users",
+      "privateTaskDescription": "Private tasks are only visible to you",
+      "privateTaskProfileLink": "You can change this default setting in your profile",
+      "openProfileSettings": "Open Profile Settings",
+      "loginRequired": "Login required",
+      "premiumFeature": "Premium feature",
+      "login": "Login",
+      "getPermission": "Upgrade",
+      "advancedParameters": "Advanced Parameters",
+      "showAdvancedParameters": "Show Advanced Parameters",
+      "hideAdvancedParameters": "Hide Advanced Parameters",
+      "slideToDo": {
+        "readyText": "Slide to Submit Task",
+        "completedText": "Task Submitted",
+        "slidingAtEndingText": "Release to Confirm Submission"
+      },
+      "tooltip": {
+        "id": "Task ID",
+        "type": "Type",
+        "status": "Status",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At",
+        "prompt": "Prompt",
+        "negativePrompt": "Negative Prompt",
+        "models": "Models",
+        "numImages": "Number of Images",
+        "aspectRatio": "Aspect Ratio",
+        "images": "Input Images"
+      },
+      "actions": {
+        "downloadOriginal": "Download Original",
+        "recreateTask": "Create Task with Same Configuration",
+        "recreateTaskDialogTitle": "Create Task with Same Configuration"
+      },
+      "fileInfo": {
+        "dimensions": "Dimensions",
+        "fileSize": "File Size",
+        "resolution": "Resolution",
+        "duration": "Duration",
+        "seconds": "seconds"
+      },
+      "boolean": {
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "on": "On",
+        "off": "Off"
+      },
+      "validation": {
+        "loadingUserInfo": "Loading user information, please try again later",
+        "userNotLoggedIn": "Please log in to continue",
+        "creditCalculationFailed": "Failed to calculate credits, please check if parameters are complete",
+        "cannotGetUserCredits": "Unable to get user credit information, please try again later",
+        "insufficientCredits": "Insufficient credits! Need {requiredCredits} credits, currently only have {availableCredits} credits",
+        "taskExecutionFailed": "Task execution failed",
+        "creditCalculationError": "Failed to calculate credits"
+      },
+      "taskSubmittedSuccessfully": "Task submitted successfully",
+      "pleaseUploadImageFirst": "Please upload an image first",
+      "pleaseCompleteRequiredField": "Please complete the required field: {fieldName}",
+      "upload": {
+        "imageUploadFailed": "Image upload failed, please try again"
+      },
+      "aspectRatioSelector": {
+        "custom": "Custom",
+        "customWidth": "Width",
+        "customHeight": "Height",
+        "notSelected": "Not selected"
+      },
+      "imageComparison": {
+        "title": "Image Comparison",
+        "instructions": "Drag the slider or move your mouse to compare the images.",
+        "inputImage": "Input Image",
+        "generatedImage": "Generated Image"
+      },
+      "imageActions": {
+        "preview": "Preview image",
+        "compare": "Compare with generated image"
+      }
+    }
+  }
+}

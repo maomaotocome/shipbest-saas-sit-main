@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "notifications": {
+      "title": "알림 관리",
+      "create": "알림 생성",
+      "edit": "알림 편집",
+      "search": "검색",
+      "searchTitlePlaceholder": "검색할 알림 제목 입력",
+      "columns": {
+        "title": "제목",
+        "priority": "우선순위",
+        "targetUsers": "대상 사용자",
+        "scheduledAt": "예약 시간",
+        "expiresAt": "만료 시간",
+        "createdAt": "생성일",
+        "readStatus": "읽기 상태",
+        "system": "시스템",
+        "userTypes": {
+          "all": "모든 사용자",
+          "newUsers": "신규 사용자",
+          "existingUsers": "기존 사용자"
+        },
+        "scheduledStatus": {
+          "immediate": "즉시"
+        },
+        "expiryStatus": {
+          "never": "만료되지 않음"
+        },
+        "actions": "작업"
+      },
+      "form": {
+        "title": "제목",
+        "content": "내용",
+        "titlePlaceholder": "제목 입력",
+        "contentPlaceholder": "내용 입력",
+        "cancel": "취소",
+        "save": "저장",
+        "saving": "저장 중..."
+      },
+      "send": {
+        "title": "알림 보내기",
+        "allUsers": "모든 사용자",
+        "specificUsers": "특정 사용자",
+        "searchPlaceholder": "사용자 검색...",
+        "noUsersFound": "사용자를 찾을 수 없습니다",
+        "searchToFindUsers": "사용자를 검색하려면 입력하세요",
+        "selectedUsers": "선택된 사용자: {count}",
+        "unknownUser": "알 수 없는 사용자",
+        "submit": "보내기"
+      },
+      "modal": {
+        "editTitle": "알림 편집",
+        "createTitle": "알림 생성",
+        "basicSettings": "기본 설정",
+        "notificationType": "알림 유형",
+        "priority": "우선순위",
+        "priorityHelp": "낮은 숫자가 더 높은 우선순위를 의미합니다 (0-100)",
+        "scheduledTime": "예약 시간",
+        "scheduledTimeHelp": "설정하지 않으면 알림이 즉시 전송됩니다",
+        "expiryTime": "만료 시간",
+        "expiryTimeHelp": "설정하지 않으면 알림이 만료되지 않습니다",
+        "targetUsers": "대상 사용자 그룹",
+        "targetUsersHelp": {
+          "all": "알림이 모든 사용자에게 전송됩니다",
+          "new": "알림이 나중에 등록하는 신규 사용자에게만 전송됩니다",
+          "existing": "알림이 일정 기간 사용해온 기존 사용자에게만 전송됩니다"
+        },
+        "systemNoticeHelp": "시스템 알림은 모든 자격을 갖춘 사용자에게 전송됩니다. 사용자가 접근할 때 연결 레코드가 생성됩니다. 공지사항, 중요한 업데이트 및 널리 전달해야 하는 기타 정보에 적합합니다.",
+        "personalizedNoticeHelp": "개인화된 알림은 선택한 특정 사용자에게만 전송됩니다. 특정 사용자를 위한 알림, 인사말 및 기타 개인화된 정보에 적합합니다.",
+        "selectRecipients": "수신자 선택",
+        "searchUserPlaceholder": "사용자명 또는 이메일로 검색...",
+        "search": "검색",
+        "selectedUsers": "{count}명의 사용자 선택됨",
+        "clearSelection": "선택 해제",
+        "selectAll": "모두 선택",
+        "usersFound": "{total}명의 사용자 발견",
+        "loadingError": "사용자 로딩 오류",
+        "noMatchingUsers": "일치하는 사용자를 찾을 수 없습니다",
+        "pleaseSearchUsers": "사용자를 검색하려면 키워드를 입력하세요",
+        "clearSearch": "검색 지우기",
+        "unknownUser": "알 수 없는 사용자",
+        "notificationContent": "알림 내용",
+        "selectLanguage": "언어 선택",
+        "title": "제목",
+        "titlePlaceholder": "{locale} 제목 입력",
+        "content": "내용",
+        "contentPlaceholder": "{locale} 내용 입력",
+        "cancel": "취소",
+        "saveNotification": "알림 저장",
+        "errors": {
+          "fetchUsersFailed": "사용자를 가져올 수 없습니다",
+          "personalizedNoUser": "개인화된 알림을 위해 최소 한 명의 사용자를 선택해야 합니다",
+          "needTitleContent": "최소 한 언어에 제목과 내용이 필요합니다",
+          "updateFailed": "알림을 업데이트할 수 없습니다: {message}",
+          "createFailed": "알림을 생성할 수 없습니다: {message}",
+          "unknownError": "알 수 없는 오류가 발생했습니다. 나중에 다시 시도해 주세요"
+        },
+        "success": {
+          "updated": "알림이 성공적으로 업데이트되었습니다",
+          "created": "알림이 성공적으로 생성되었습니다"
+        },
+        "userGroup": {
+          "all": "모든 사용자",
+          "new": "신규 사용자",
+          "existing": "기존 사용자"
+        },
+        "notificationTypes": {
+          "personalized": "개인화된 알림",
+          "system": "시스템 알림"
+        },
+        "removeUser": "사용자 {name} 제거"
+      }
+    }
+  }
+}

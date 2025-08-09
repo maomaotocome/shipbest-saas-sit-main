@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "Histórico de compras",
+      "planName": "Nome do plano",
+      "billingCycle": "Ciclo de cobrança",
+      "purchaseStatus": "Status da compra",
+      "invoiceStatus": "Status da fatura",
+      "amount": "Valor",
+      "purchaseDate": "Data da compra",
+      "orderId": "ID do pedido",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "Concluído",
+          "REFUNDED": "Reembolsado"
+        },
+        "invoiceStatus": {
+          "DRAFT": "Rascunho",
+          "OPEN": "Aberto",
+          "PAID": "Pago",
+          "VOID": "Anulado",
+          "UNCOLLECTIBLE": "Incobrável"
+        }
+      }
+    }
+  }
+}

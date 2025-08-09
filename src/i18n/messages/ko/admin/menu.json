@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "menu": {
+      "home": "홈",
+      "users": "사용자",
+      "blog": "블로그",
+      "posts": "게시물",
+      "tags": "태그",
+      "categories": "카테고리",
+      "billing": "결제",
+      "providers": "결제 제공업체",
+      "plans": "플랜",
+      "subscriptions": "구독",
+      "purchases": "구매 내역",
+      "settings": "설정",
+      "oss": "객체 스토리지",
+      "notifications": "알림",
+      "affiliates": "제휴",
+      "invoice": "송장",
+      "general": "일반",
+      "content": "콘텐츠",
+      "explore": "탐색 관리"
+    }
+  }
+}

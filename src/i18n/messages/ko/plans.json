@@ -1,0 +1,24 @@
+{
+  "plans": {
+    "periodFormat": {
+      "day": "{value}일",
+      "days": "{value}일",
+      "week": "{value}주",
+      "weeks": "{value}주",
+      "month": "{value}개월",
+      "months": "{value}개월",
+      "year": "{value}년",
+      "years": "{value}년",
+      "oneTime": "1회",
+      "lifetime": "평생"
+    },
+    "periodType": {
+      "days": "일간",
+      "weeks": "주간",
+      "months": "월간",
+      "years": "연간",
+      "oneTime": "1회",
+      "lifetime": "평생"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "user": {
+    "invoices": {
+      "title": "發票",
+      "number": "發票編號",
+      "status": "狀態",
+      "issueDate": "開具日期",
+      "dueDate": "付款截止日期",
+      "total": "總金額",
+      "paidAt": "支付日期",
+      "downloadPdf": "下載PDF",
+      "viewOnline": "在線查看",
+      "type": "類型",
+      "typePurchase": "購買",
+      "typeSubscription": "訂閱",
+      "planName": "計劃",
+      "startDate": "開始日期",
+      "billingPeriod": "計費週期",
+      "resetPeriod": "重置週期"
+    }
+  }
+}

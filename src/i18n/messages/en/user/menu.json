@@ -1,0 +1,19 @@
+{
+  "user": {
+    "menu": {
+      "home": "Home",
+      "credits": "Credits",
+      "notifications": "Notifications",
+      "invoice": "Invoice",
+      "subscriptions": "Subscriptions",
+      "purchases": "Purchases",
+      "settings": "Settings",
+      "teams": "Teams",
+      "affiliates": "Affiliates",
+      "library": "Library",
+      "profile": "Profile",
+      "account": "Account",
+      "billing": "Billing"
+    }
+  }
+}

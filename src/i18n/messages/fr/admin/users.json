@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "Gestion des Utilisateurs",
+      "search": "Rechercher",
+      "form": {
+        "name": "Nom",
+        "email": "Email"
+      },
+      "searchNamePlaceholder": "Rechercher par nom...",
+      "searchEmailPlaceholder": "Rechercher par email...",
+      "columns": {
+        "name": "Nom",
+        "email": "Email",
+        "role": "Rôle",
+        "verified": "Vérifié",
+        "not_available": "Non applicable",
+        "actions": "Actions",
+        "view_notifications": "Voir les Notifications",
+        "view_credits": "Voir les Crédits",
+        "view_billing_history": "Voir l'Historique de Facturation"
+      },
+      "verification": {
+        "yes": "Oui",
+        "no": "Non"
+      },
+      "roles": {
+        "ADMIN": "Administrateur",
+        "USER": "Utilisateur Régulier"
+      },
+      "role_change": {
+        "error_self": "Vous ne pouvez pas modifier votre propre rôle",
+        "success": "Rôle mis à jour vers {role}",
+        "confirm_to_admin": {
+          "title": "Promouvoir en Administrateur ?",
+          "message": "Attention : Cela accordera les privilèges administratifs complets à cet utilisateur. Cette action doit être effectuée avec prudence.",
+          "cancel": "Annuler",
+          "confirm": "Oui, Accorder l'Accès Administrateur"
+        },
+        "confirm_to_user": {
+          "title": "Rétrograder en Utilisateur Régulier ?",
+          "message": "Cela supprimera tous les privilèges administratifs de cet utilisateur.",
+          "cancel": "Annuler",
+          "confirm": "Oui, Supprimer l'Accès Administrateur"
+        }
+      },
+      "common": {
+        "created_at": "Créé le",
+        "source": "Source",
+        "validity": "Validité",
+        "permanent": "Permanent",
+        "transaction_time": "Heure de la Transaction",
+        "transaction_type": "Type de Transaction",
+        "amount_consumed": "Montant Consommé",
+        "status": "Statut",
+        "description": "Description",
+        "no_description": "Pas de Description",
+        "loading": "Chargement...",
+        "error": "Erreur",
+        "no_data": "Pas de Données",
+        "actions": "Actions",
+        "transaction_id": "ID de Transaction",
+        "clear": "Effacer"
+      },
+      "sources": {
+        "PURCHASE": "Achat",
+        "ONE_TIME_PURCHASE": "Achat Unique",
+        "SYSTEM_GRANT": "Octroi Système",
+        "SUBSCRIPTION_PERIODIC": "Octroi Périodique d'Abonnement",
+        "ADMIN_GRANT": "Octroi Administrateur",
+        "PROMOTION": "Promotion",
+        "REFUND": "Remboursement",
+        "OTHER": "Autre"
+      },
+      "transaction_types": {
+        "DEDUCT": "Déduire",
+        "GRANT": "Octroyer",
+        "REFUND": "Rembourser",
+        "ADJUSTMENT": "Ajustement"
+      },
+      "transaction_statuses": {
+        "PENDING": "En attente",
+        "CONFIRMED": "Confirmé",
+        "CANCELLED": "Annulé",
+        "GRANTED": "Octroyé"
+      },
+      "summary": {
+        "stats_title": "Statistiques des Crédits",
+        "stats": {
+          "total": "Crédits Totaux",
+          "available": "Crédits Disponibles",
+          "reserved": "Crédits Réservés",
+          "used": "Crédits Utilisés",
+          "expiring": "Crédits Expirant (dans 30 jours)"
+        },
+        "expiring_alert": {
+          "title": "Crédits Expirant Bientôt",
+          "description": "{count, plural, one {# crédit} other {# crédits}} expireront dans 30 jours"
+        },
+        "recent_grants": {
+          "title": "Octrois de Crédits Récents (Max 5)",
+          "columns": {
+            "amount": "Montant"
+          },
+          "empty": "Aucun enregistrement d'octroi récent"
+        },
+        "recent_transactions": {
+          "title": "Enregistrements de Consommation Récents (Max 5)",
+          "empty": "Aucun enregistrement de consommation récent",
+          "disclaimer": "Note : Les enregistrements de consommation récents affichés ici peuvent inclure d'autres utilisateurs. Un filtrage précis nécessite une optimisation du backend."
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "Source du Crédit",
+          "total": "Crédits Totaux",
+          "remaining_total": "Restant/Total",
+          "used": "Crédits Utilisés"
+        },
+        "actions": {
+          "view_usage_detail": "Détails d'Utilisation"
+        },
+        "filters": {
+          "source_label": "Source du Crédit",
+          "all_sources": "Toutes les Sources",
+          "valid_only_label": "Afficher Seulement Valides"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "Voir les Détails"
+        },
+        "filters": {
+          "date_range_label": "Plage de Dates",
+          "all_types": "Tous les Types",
+          "all_statuses": "Tous les Statuts"
+        }
+      },
+      "grant_detail": {
+        "back_button": "Retour à la Liste des Octrois de Crédits",
+        "error_load": "Impossible de charger les détails de l'octroi de crédit.",
+        "title": "Détails de l'Octroi de Crédit (ID : {shortId}...)",
+        "source": "Source",
+        "created_at": "Acquis le",
+        "total_credits": "Crédits Totaux",
+        "remaining_credits": "Crédits Restants",
+        "available_credits": "Crédits Disponibles",
+        "reserved_credits": "Crédits Réservés",
+        "used_credits": "Crédits Utilisés",
+        "validity": "Validité",
+        "usage": {
+          "title": "Enregistrements d'Utilisation",
+          "description": "Tous les enregistrements d'utilisation pour cet octroi de crédit",
+          "empty": "Cet octroi de crédit n'a pas encore été utilisé",
+          "columns": {
+            "transaction_time": "Heure de la Transaction",
+            "transaction_id": "ID de Transaction",
+            "transaction_type": "Type de Transaction",
+            "amount_used": "Montant Utilisé",
+            "balance_after": "Solde Après",
+            "transaction_description": "Description de la Transaction"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "Retour à la Liste des Transactions",
+        "error_load": "Impossible de charger les détails de la transaction.",
+        "title": "Détails de la Transaction",
+        "id": "ID de Transaction",
+        "transaction_time": "Heure de la Transaction",
+        "total_consumed": "Crédits Totaux Consommés",
+        "transaction_type": "Type de Transaction",
+        "status": "Statut",
+        "description": "Description",
+        "expire_at": "Heure d'Expiration",
+        "confirmed_at": "Heure de Confirmation",
+        "cancelled_at": "Heure d'Annulation",
+        "metadata": "Métadonnées",
+        "usage_detail": {
+          "title": "Détails d'Utilisation des Crédits",
+          "description": "Détails des octrois de crédits consommés par cette transaction",
+          "empty": "Aucun détail d'utilisation des crédits",
+          "columns": {
+            "grant_id": "ID d'Octroi",
+            "source": "Source du Crédit",
+            "amount": "Montant Consommé",
+            "balance_after": "Solde Après (Détail)"
+          }
+        }
+      },
+      "modal": {
+        "title": "Détails des Crédits de {userName}",
+        "title_no_name": "Détails des Crédits pour l'Utilisateur {userId}",
+        "tabs": {
+          "summary": "Résumé",
+          "grants": "Octrois",
+          "transactions": "Transactions"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "Notifications de {name}",
+        "modal_title_fallback": "Notifications de l'Utilisateur",
+        "tabs": {
+          "system": "Notifications Système",
+          "personalized": "Notifications Personnalisées"
+        },
+        "columns": {
+          "title": "Titre",
+          "no_title": "Pas de Titre",
+          "content": "Contenu",
+          "no_content": "Pas de Contenu",
+          "status": "Statut",
+          "time": "Heure"
+        },
+        "status": {
+          "READ": "Lu",
+          "UNREAD": "Non Lu"
+        },
+        "error_loading": "Échec du chargement des notifications",
+        "no_messages": "Aucun message de notification"
+      },
+      "billing_history": {
+        "title": "Historique de Facturation - {name}",
+        "description": "Voir l'historique des abonnements et des achats pour {name}.",
+        "close_button": "Fermer",
+        "unknown_error": "Erreur inconnue",
+        "type_subscription": "Abonnement",
+        "type_purchase": "Achat",
+        "table": {
+          "header_type": "Type",
+          "header_plan": "Plan/Article",
+          "header_amount": "Montant",
+          "header_status": "Statut",
+          "header_date": "Date",
+          "header_provider": "Fournisseur",
+          "loading": "Chargement...",
+          "error": "Échec du chargement : {message}",
+          "empty": "Aucun historique de facturation trouvé"
+        },
+        "pagination": {
+          "total_records": "Total {count, plural, one {# enregistrement} other {# enregistrements}}",
+          "previous": "Précédent",
+          "next": "Suivant",
+          "page_info": "Page {page} sur {totalPages}"
+        }
+      }
+    }
+  }
+}

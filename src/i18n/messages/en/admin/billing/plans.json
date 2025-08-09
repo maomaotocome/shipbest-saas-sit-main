@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "Plans",
+        "general": "General",
+        "translations": "Translations",
+        "features": "Features",
+        "periods": "Periods",
+        "editPlan": "Edit Plan",
+        "createNewPlan": "Create New Plan",
+        "saveError": "Failed to save plan",
+        "updateSuccess": "Plan updated successfully",
+        "createSuccess": "Plan created successfully",
+        "syncSuccess": "Plan synchronized successfully",
+        "saving": "Saving...",
+        "update": "Update",
+        "create": "Create",
+        "cancel": "Cancel",
+        "createError": "Failed to create plan",
+        "updateError": "Failed to update plan",
+        "syncError": "Failed to synchronize plans",
+        "syncToProvider": "Sync to Provider",
+        "syncPlansDialogTitle": "Sync Plans to Payment Provider",
+        "selectProvider": "Select Provider",
+        "selectProviderPlaceholder": "Select a provider",
+        "selectProviderError": "Please select a payment provider",
+        "syncing": "Syncing...",
+        "confirmSync": "Confirm Sync",
+        "manageFeatures": "Manage Features",
+        "addPlan": "Add Plan",
+        "addFeature": "Add Feature",
+        "noFeaturesDefined": "No features defined",
+        "noPeriodsDefined": "No periods defined",
+        "noTranslations": "No translations",
+        "allocationsByPeriod": "Allocations by period:",
+        "limitLabel": "Limit",
+        "notIncluded": "Not included",
+        "unlimited": "Unlimited",
+        "resetEvery": "Reset every",
+        "headers": {
+          "code": "Code",
+          "name": "Name",
+          "status": "Status",
+          "billingScheme": "Billing Scheme",
+          "features": "Features",
+          "periods": "Periods",
+          "validFrom": "Valid From",
+          "validUntil": "Valid Until"
+        },
+        "generalTab": {
+          "code": "Code",
+          "codePlaceholder": "e.g. BASIC, PRO, ENTERPRISE",
+          "status": "Status",
+          "statusPlaceholder": "Select status",
+          "billingScheme": "Billing Scheme",
+          "billingSchemePlaceholder": "Select billing scheme",
+          "isPopular": "Is Popular",
+          "sortOrder": "Sort Order",
+          "validFrom": "Valid From",
+          "validUntil": "Valid Until (optional)",
+          "PlanStatus": {
+            "active": "Active",
+            "deprecated": "Deprecated",
+            "archived": "Archived"
+          },
+          "BillingScheme": {
+            "creditBased": "Credit Based",
+            "creditbased": "Credit Based",
+            "timeBased": "Time Based",
+            "timebased": "Time Based",
+            "hybrid": "Hybrid"
+          }
+        },
+        "featuresTab": {
+          "feature": "Feature",
+          "included": "Included",
+          "primary": "Primary",
+          "limit": "Limit",
+          "limitPlaceholder": "Leave blank for no limit",
+          "notApplicable": "Not Applicable",
+          "noAvailableFeatures": "No available features",
+          "referenced": "Referenced"
+        },
+        "periodsTab": {
+          "noPeriods": "No billing periods. Please add at least one period.",
+          "actions": "Actions",
+          "period": "Period",
+          "resetPeriodType": "Reset Period Type",
+          "resetPeriodValue": "Reset Period Value",
+          "price": "Price",
+          "selectPeriodType": "Select period type",
+          "periodType": "Period Type",
+          "periodValue": "Period Value",
+          "addPeriod": "Add Period",
+          "code": "Code",
+          "credits": "Credits"
+        },
+        "translationsTab": {
+          "noTranslations": "No translations. Please add at least one translation.",
+          "selectLanguage": "Select language",
+          "addTranslation": "Add Translation",
+          "language": "Language",
+          "name": "Name",
+          "subtitle": "Subtitle",
+          "description": "Description",
+          "actions": "Actions",
+          "planName": "Plan name",
+          "planSubtitle": "Plan subtitle",
+          "planDescription": "Plan description"
+        }
+      }
+    }
+  }
+}

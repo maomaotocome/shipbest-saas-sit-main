@@ -1,0 +1,24 @@
+{
+  "plans": {
+    "periodFormat": {
+      "day": "{value} день",
+      "days": "{value} дней",
+      "week": "{value} неделя",
+      "weeks": "{value} недель",
+      "month": "{value} месяц",
+      "months": "{value} месяцев",
+      "year": "{value} год",
+      "years": "{value} лет",
+      "oneTime": "Одноразово",
+      "lifetime": "Пожизненно"
+    },
+    "periodType": {
+      "days": "Ежедневно",
+      "weeks": "Еженедельно",
+      "months": "Ежемесячно",
+      "years": "Ежегодно",
+      "oneTime": "Одноразово",
+      "lifetime": "Пожизненно"
+    }
+  }
+}

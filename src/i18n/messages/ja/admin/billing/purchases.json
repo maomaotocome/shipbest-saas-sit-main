@@ -1,0 +1,40 @@
+{
+  "admin": {
+    "billing": {
+      "purchases": {
+        "title": "購入履歴",
+        "loading": "読み込み中...",
+        "user": "ユーザー",
+        "plan": "プラン",
+        "date": "日付",
+        "status": "ステータス",
+        "actions": "操作",
+        "refund": "返金",
+        "confirmRefund": "返金してもよろしいですか？",
+        "allStatus": "すべてのステータス",
+        "period": "期間",
+        "resetPeriod": "期間をリセット",
+        "periodTypes": {
+          "day": "日",
+          "days": "日",
+          "week": "週",
+          "weeks": "週",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年",
+          "oneTime": "一回限り",
+          "lifetime": "永久"
+        },
+        "statuses": {
+          "completed": "完了",
+          "refunded": "返金済み",
+          "pending": "処理中",
+          "failed": "失敗"
+        },
+        "cancel": "キャンセル",
+        "confirm": "確認"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "workspace": {
+    "sidebar": {
+      "themeToggler": {
+        "title": "Cambia tema"
+      },
+      "home": "Home",
+      "logout": "Logout",
+      "pin": "Fissa barra laterale",
+      "unpin": "Rimuovi fissaggio barra laterale",
+      "userAvatar": "Avatar utente"
+    },
+    "area": {
+      "goBack": "Indietro"
+    },
+    "projects": {
+      "fetchError": "Errore nel caricamento dei progetti",
+      "noItemsFound": "Nessun elemento trovato"
+    }
+  }
+}

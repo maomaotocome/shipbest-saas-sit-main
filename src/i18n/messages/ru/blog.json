@@ -1,0 +1,34 @@
+{
+  "blog": {
+    "title": "Блог",
+    "description": "Читайте наши последние статьи и следите за новостями и советами.",
+    "tags": "Теги",
+    "categories": "Категории",
+    "latest": {
+      "title": "Последние посты",
+      "description": "Откройте для себя наши самые свежие статьи и идеи"
+    },
+    "metadata": {
+      "all": {
+        "title": "Блог",
+        "description": "Читайте наши последние статьи и следите за новостями и советами.",
+        "keywords": "блог, статьи, новости, советы"
+      },
+      "category": {
+        "title": "Категория: {category}",
+        "description": "Просмотреть все статьи в категории {category}",
+        "keywords": "блог, категория, {category}, статьи"
+      },
+      "tag": {
+        "title": "Тег: {tag}",
+        "description": "Просмотреть все статьи с тегом {tag}",
+        "keywords": "блог, тег, {tag}, статьи"
+      },
+      "post": {
+        "title": "{title}",
+        "description": "{description}",
+        "keywords": "{keywords}"
+      }
+    }
+  }
+}

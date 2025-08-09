@@ -1,0 +1,48 @@
+{
+  "explore": {
+    "title": "探索",
+    "subtitle": "コミュニティからの素晴らしい創作物を発見",
+    "filters": {
+      "type": "タイプ",
+      "all": "すべて",
+      "images": "画像",
+      "videos": "動画",
+      "featured": "注目",
+      "featuredOnly": "注目のみ",
+      "regular": "通常",
+      "sortBy": "並び替え",
+      "newest": "最新",
+      "reset": "リセット"
+    },
+    "gallery": {
+      "viewDetails": "詳細を表示",
+      "noItems": "アイテムが見つかりません",
+      "noItemsDescription": "フィルターを調整するか、後で新しいコンテンツをチェックしてください。",
+      "loadMore": "もっと読み込む",
+      "loading": "読み込み中...",
+      "error": "アイテムの読み込みに失敗しました"
+    },
+    "preview": {
+      "title": "プレビュー",
+      "imageAlt": "プレビュー画像",
+      "loading": "読み込み中...",
+      "videoNotSupported": "お使いのブラウザは動画再生をサポートしていません。",
+      "details": "詳細",
+      "type": "タイプ",
+      "dimensions": "寸法",
+      "created": "作成日",
+      "featured": "注目",
+      "actions": "アクション",
+      "download": "オリジナルをダウンロード",
+      "recreate": "再作成",
+      "originalSettings": "オリジナル設定",
+      "creatorInformation": "作成者情報",
+      "fileInformation": "ファイル情報",
+      "share": "シェア"
+    },
+    "stats": {
+      "totalItems": "総アイテム数",
+      "featuredItems": "注目アイテム数"
+    }
+  }
+}

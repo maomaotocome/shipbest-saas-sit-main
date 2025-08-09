@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "billing": {
+      "payment-providers": {
+        "title": "Zahlungsanbieter",
+        "addProvider": "Anbieter hinzufügen",
+        "editProvider": "Anbieter bearbeiten",
+        "columns": {
+          "name": "Name",
+          "code": "Code",
+          "provider": "Anbieter",
+          "status": "Status",
+          "priority": "Priorität",
+          "dailyQuota": "Tageslimit",
+          "monthlyQuota": "Monatslimit"
+        },
+        "form": {
+          "name": "Name",
+          "code": "Code",
+          "provider": "Anbieter",
+          "status": "Status",
+          "priority": "Priorität",
+          "secretKey": "Anbieter-Geheimschlüssel",
+          "webhookSecret": "Webhook-Geheimnis"
+        },
+        "unlimited": "Unbegrenzt",
+        "status": {
+          "ACTIVE": "Aktiv",
+          "SUSPENDED": "Ausgesetzt",
+          "BLOCKED": "Gesperrt",
+          "QUOTA_EXCEEDED": "Limit überschritten",
+          "MAINTENANCE": "Wartung"
+        },
+        "deleteConfirmation": {
+          "title": "Anbieter löschen",
+          "message": "Sind Sie sicher, dass Sie diesen Zahlungsanbieter löschen möchten?",
+          "messageWithName": "Sind Sie sicher, dass Sie den Zahlungsanbieter '{name}' löschen möchten?"
+        },
+        "cancel": "Abbrechen",
+        "delete": "Löschen",
+        "deleting": "Wird gelöscht...",
+        "saving": "Wird gespeichert...",
+        "update": "Aktualisieren",
+        "create": "Erstellen",
+        "createSuccess": "Zahlungsanbieter erfolgreich erstellt",
+        "createError": "Fehler beim Erstellen des Zahlungsanbieters",
+        "updateSuccess": "Zahlungsanbieter erfolgreich aktualisiert",
+        "updateError": "Fehler beim Aktualisieren des Zahlungsanbieters",
+        "deleteSuccess": "Zahlungsanbieter erfolgreich gelöscht",
+        "deleteError": "Fehler beim Löschen des Zahlungsanbieters",
+        "registerWebhook": "Webhook registrieren",
+        "webhookRegistered": "Webhook erfolgreich registriert",
+        "webhookRegistrationFailed": "Fehler bei der Webhook-Registrierung",
+        "webhookRegistrationDescription": "Dies registriert einen Webhook-Endpunkt für den Zahlungsanbieter. Die Webhook-URL wird sein:",
+        "registering": "Wird registriert...",
+        "register": "Registrieren"
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "ユーザー管理",
+      "search": "検索",
+      "form": {
+        "name": "名前",
+        "email": "メールアドレス"
+      },
+      "searchNamePlaceholder": "名前で検索...",
+      "searchEmailPlaceholder": "メールアドレスで検索...",
+      "columns": {
+        "name": "名前",
+        "email": "メールアドレス",
+        "role": "役割",
+        "verified": "認証済み",
+        "not_available": "該当なし",
+        "actions": "アクション",
+        "view_notifications": "通知を表示",
+        "view_credits": "クレジットを表示",
+        "view_billing_history": "請求履歴を表示"
+      },
+      "verification": {
+        "yes": "はい",
+        "no": "いいえ"
+      },
+      "roles": {
+        "ADMIN": "管理者",
+        "USER": "通常ユーザー"
+      },
+      "role_change": {
+        "error_self": "自分の役割を変更することはできません",
+        "success": "役割が{role}に更新されました",
+        "confirm_to_admin": {
+          "title": "管理者に昇格しますか？",
+          "message": "警告：これにより、このユーザーに完全な管理者権限が付与されます。この操作は慎重に行ってください。",
+          "cancel": "キャンセル",
+          "confirm": "はい、管理者アクセスを許可する"
+        },
+        "confirm_to_user": {
+          "title": "通常ユーザーに降格しますか？",
+          "message": "これにより、このユーザーからすべての管理者権限が削除されます。",
+          "cancel": "キャンセル",
+          "confirm": "はい、管理者アクセスを削除する"
+        }
+      },
+      "common": {
+        "created_at": "作成日時",
+        "source": "ソース",
+        "validity": "有効期限",
+        "permanent": "無期限",
+        "transaction_time": "取引日時",
+        "transaction_type": "取引タイプ",
+        "amount_consumed": "消費量",
+        "status": "ステータス",
+        "description": "説明",
+        "no_description": "説明なし",
+        "loading": "読み込み中...",
+        "error": "エラー",
+        "no_data": "データなし",
+        "actions": "アクション",
+        "transaction_id": "取引ID",
+        "clear": "クリア"
+      },
+      "sources": {
+        "PURCHASE": "購入",
+        "ONE_TIME_PURCHASE": "一回限りの購入",
+        "SYSTEM_GRANT": "システム付与",
+        "SUBSCRIPTION_PERIODIC": "サブスクリプション定期付与",
+        "ADMIN_GRANT": "管理者付与",
+        "PROMOTION": "プロモーション",
+        "REFUND": "返金",
+        "OTHER": "その他"
+      },
+      "transaction_types": {
+        "DEDUCT": "控除",
+        "GRANT": "付与",
+        "REFUND": "返金",
+        "ADJUSTMENT": "調整"
+      },
+      "transaction_statuses": {
+        "PENDING": "保留中",
+        "CONFIRMED": "確認済み",
+        "CANCELLED": "キャンセル済み",
+        "GRANTED": "付与済み"
+      },
+      "summary": {
+        "stats_title": "クレジット統計",
+        "stats": {
+          "total": "合計クレジット",
+          "available": "利用可能クレジット",
+          "reserved": "予約済みクレジット",
+          "used": "使用済みクレジット",
+          "expiring": "期限切れ間近のクレジット（30日以内）"
+        },
+        "expiring_alert": {
+          "title": "まもなく期限切れのクレジット",
+          "description": "{count, plural, one {#クレジット} other {#クレジット}} が30日以内に期限切れになります"
+        },
+        "recent_grants": {
+          "title": "最近取得したクレジット付与（最大5件）",
+          "columns": {
+            "amount": "量"
+          },
+          "empty": "最近の付与記録はありません"
+        },
+        "recent_transactions": {
+          "title": "最近の消費記録（最大5件）",
+          "empty": "最近の消費記録はありません",
+          "disclaimer": "注意：ここに表示される最近の消費記録には、他のユーザーが含まれる場合があります。正確なフィルタリングにはバックエンドの最適化が必要です。"
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "クレジットソース",
+          "total": "合計クレジット",
+          "remaining_total": "残高/合計",
+          "used": "使用済みクレジット"
+        },
+        "actions": {
+          "view_usage_detail": "使用詳細"
+        },
+        "filters": {
+          "source_label": "クレジットソース",
+          "all_sources": "すべてのソース",
+          "valid_only_label": "有効なもののみ表示"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "詳細を表示"
+        },
+        "filters": {
+          "date_range_label": "日付範囲",
+          "all_types": "すべてのタイプ",
+          "all_statuses": "すべてのステータス"
+        }
+      },
+      "grant_detail": {
+        "back_button": "クレジット付与リストに戻る",
+        "error_load": "クレジット付与の詳細を読み込めませんでした。",
+        "title": "クレジット付与詳細 (ID: {shortId}...)",
+        "source": "ソース",
+        "created_at": "取得日時",
+        "total_credits": "合計クレジット",
+        "remaining_credits": "残クレジット",
+        "available_credits": "利用可能クレジット",
+        "reserved_credits": "予約済みクレジット",
+        "used_credits": "使用済みクレジット",
+        "validity": "有効期限",
+        "usage": {
+          "title": "使用記録",
+          "description": "このクレジット付与のすべての使用記録",
+          "empty": "このクレジット付与はまだ使用されていません",
+          "columns": {
+            "transaction_time": "取引日時",
+            "transaction_id": "取引ID",
+            "transaction_type": "取引タイプ",
+            "amount_used": "使用量",
+            "balance_after": "使用後残高",
+            "transaction_description": "取引説明"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "取引リストに戻る",
+        "error_load": "取引の詳細を読み込めませんでした。",
+        "title": "取引詳細",
+        "id": "取引ID",
+        "transaction_time": "取引日時",
+        "total_consumed": "合計消費クレジット",
+        "transaction_type": "取引タイプ",
+        "status": "ステータス",
+        "description": "説明",
+        "expire_at": "有効期限",
+        "confirmed_at": "確認日時",
+        "cancelled_at": "キャンセル日時",
+        "metadata": "メタデータ",
+        "usage_detail": {
+          "title": "クレジット使用詳細",
+          "description": "この取引によって消費されたクレジット付与の詳細",
+          "empty": "クレジット使用詳細はありません",
+          "columns": {
+            "grant_id": "付与ID",
+            "source": "クレジットソース",
+            "amount": "消費量",
+            "balance_after": "使用後残高（詳細）"
+          }
+        }
+      },
+      "modal": {
+        "title": "{userName}のクレジット詳細",
+        "title_no_name": "ユーザー{userId}のクレジット詳細",
+        "tabs": {
+          "summary": "概要",
+          "grants": "付与",
+          "transactions": "取引"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "{name}の通知",
+        "modal_title_fallback": "ユーザーの通知",
+        "tabs": {
+          "system": "システム通知",
+          "personalized": "パーソナライズ通知"
+        },
+        "columns": {
+          "title": "タイトル",
+          "no_title": "タイトルなし",
+          "content": "内容",
+          "no_content": "内容なし",
+          "status": "ステータス",
+          "time": "時間"
+        },
+        "status": {
+          "READ": "既読",
+          "UNREAD": "未読"
+        },
+        "error_loading": "通知の読み込みに失敗しました",
+        "no_messages": "通知メッセージはありません"
+      },
+      "billing_history": {
+        "title": "請求履歴 - {name}",
+        "description": "{name}のサブスクリプションと購入履歴を表示します。",
+        "close_button": "閉じる",
+        "unknown_error": "不明なエラー",
+        "type_subscription": "サブスクリプション",
+        "type_purchase": "購入",
+        "table": {
+          "header_type": "タイプ",
+          "header_plan": "プラン/アイテム",
+          "header_amount": "金額",
+          "header_status": "ステータス",
+          "header_date": "日付",
+          "header_provider": "プロバイダー",
+          "loading": "読み込み中...",
+          "error": "読み込みに失敗しました：{message}",
+          "empty": "請求履歴が見つかりません"
+        },
+        "pagination": {
+          "total_records": "合計 {count, plural, one {# 件} other {# 件}}",
+          "previous": "前へ",
+          "next": "次へ",
+          "page_info": "{totalPages}ページ中{page}ページ"
+        }
+      }
+    }
+  }
+}

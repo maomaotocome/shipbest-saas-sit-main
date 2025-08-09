@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "クレジット",
+      "availableCredits": "利用可能なクレジット",
+      "availableAmount": "利用可能な金額",
+      "pendingCredits": "保留中のクレジット",
+      "creditGrants": "クレジット付与",
+      "transactions": "取引履歴",
+      "amount": "金額",
+      "refundAmount": "返金額",
+      "remainingAmount": "残額",
+      "grantDate": "付与日",
+      "validFrom": "有効開始日",
+      "validUntil": "有効期限",
+      "source": "ソース",
+      "actions": "アクション",
+      "viewDetails": "詳細を表示",
+      "grantDetails": "付与の詳細",
+      "transactionDetails": "取引の詳細",
+      "date": "日付",
+      "type": "タイプ",
+      "status": "ステータス",
+      "description": "説明",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "サブスクリプション定期",
+          "PLAN_INITIAL": "プラン初期",
+          "ONE_TIME_PURCHASE": "一回限りの購入",
+          "PROMOTION": "プロモーション",
+          "MANUAL": "手動",
+          "NEW_USER_AWARD": "新規ユーザー報酬",
+          "DAILY_LOGIN_AWARD": "毎日ログイン報酬",
+          "INVITE_AWARD": "招待報酬"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "保留中",
+          "CONFIRMED": "確認済み",
+          "CANCELLED": "キャンセル済み",
+          "GRANTED": "付与済み"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "控除",
+          "REFUND": "返金",
+          "RESERVE": "予約",
+          "GRANT": "付与"
+        }
+      }
+    }
+  }
+}

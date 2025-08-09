@@ -1,0 +1,13 @@
+{
+  "user": {
+    "profile": {
+      "privacy": {
+        "title": "Datenschutz-Einstellungen",
+        "publicDefault": "Meine Aufgaben standardmäßig öffentlich machen",
+        "publicDefaultDescription": "Wenn aktiviert, werden Ihre KI-generierten Inhalte standardmäßig öffentlich sein. Sie können dies jederzeit für einzelne Aufgaben ändern.",
+        "success": "Datenschutz-Einstellungen erfolgreich aktualisiert",
+        "openProfileInNewTab": "Profil-Einstellungen in neuem Tab öffnen"
+      }
+    }
+  }
+}

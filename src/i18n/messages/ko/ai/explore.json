@@ -1,0 +1,48 @@
+{
+  "explore": {
+    "title": "탐색",
+    "subtitle": "커뮤니티의 놀라운 창작물을 발견하세요",
+    "filters": {
+      "type": "유형",
+      "all": "전체",
+      "images": "이미지",
+      "videos": "동영상",
+      "featured": "추천",
+      "featuredOnly": "추천만",
+      "regular": "일반",
+      "sortBy": "정렬 기준",
+      "newest": "최신순",
+      "reset": "재설정"
+    },
+    "gallery": {
+      "viewDetails": "세부 정보 보기",
+      "noItems": "항목을 찾을 수 없습니다",
+      "noItemsDescription": "필터를 조정하거나 나중에 새 콘텐츠를 확인해 보세요.",
+      "loadMore": "더 보기",
+      "loading": "로딩 중...",
+      "error": "항목 로드 실패"
+    },
+    "preview": {
+      "title": "미리보기",
+      "imageAlt": "미리보기 이미지",
+      "loading": "로딩 중...",
+      "videoNotSupported": "브라우저에서 동영상 재생을 지원하지 않습니다.",
+      "details": "세부 정보",
+      "type": "유형",
+      "dimensions": "크기",
+      "created": "생성일",
+      "featured": "추천",
+      "actions": "작업",
+      "download": "원본 다운로드",
+      "recreate": "재생성",
+      "originalSettings": "원본 설정",
+      "creatorInformation": "작성자 정보",
+      "fileInformation": "파일 정보",
+      "share": "공유"
+    },
+    "stats": {
+      "totalItems": "총 항목 수",
+      "featuredItems": "추천 항목 수"
+    }
+  }
+}

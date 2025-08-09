@@ -1,0 +1,22 @@
+{
+  "user": {
+    "invoices": {
+      "title": "Fatture",
+      "number": "Numero fattura",
+      "status": "Stato",
+      "issueDate": "Data di emissione",
+      "dueDate": "Data di scadenza",
+      "total": "Importo totale",
+      "paidAt": "Data di pagamento",
+      "downloadPdf": "Scarica PDF",
+      "viewOnline": "Visualizza online",
+      "type": "Tipo",
+      "typePurchase": "Acquisto",
+      "typeSubscription": "Abbonamento",
+      "planName": "Piano",
+      "startDate": "Data di inizio",
+      "billingPeriod": "Periodo di fatturazione",
+      "resetPeriod": "Periodo di ripristino"
+    }
+  }
+}

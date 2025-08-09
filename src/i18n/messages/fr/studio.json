@@ -1,0 +1,25 @@
+{
+  "studio": {
+    "menu": {
+      "home": "Accueil",
+      "text-to-image": "Texte vers Image",
+      "image-to-image": "Image vers Image",
+      "image-to-video": "Image vers Vidéo",
+      "stylize-anime": "Stylize Anime",
+      "image": "Image",
+      "video": "Vidéo"
+    },
+    "home": {
+      "title": "AI Studio",
+      "description": "Créez du contenu incroyable avec les outils IA. Choisissez parmi une variété de modèles IA pour générer des images, des vidéos et plus encore."
+    },
+    "dashboard": {
+      "title": "Studio",
+      "metadata": {
+        "title": "AI Studio",
+        "description": "AI Studio - Créez du contenu incroyable avec l'IA",
+        "keywords": "AI Studio, texte vers image, image vers vidéo, génération IA"
+      }
+    }
+  }
+}

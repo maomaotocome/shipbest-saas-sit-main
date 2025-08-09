@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "플랜",
+        "general": "일반",
+        "translations": "번역",
+        "features": "기능",
+        "periods": "기간",
+        "editPlan": "플랜 수정",
+        "createNewPlan": "새 플랜 생성",
+        "saveError": "플랜 저장 실패",
+        "updateSuccess": "플랜이 성공적으로 업데이트되었습니다",
+        "createSuccess": "플랜이 성공적으로 생성되었습니다",
+        "syncSuccess": "플랜이 성공적으로 동기화되었습니다",
+        "saving": "저장 중...",
+        "update": "업데이트",
+        "create": "생성",
+        "cancel": "취소",
+        "createError": "플랜 생성 실패",
+        "updateError": "플랜 업데이트 실패",
+        "syncError": "플랜 동기화 실패",
+        "generalTab": {
+          "code": "코드",
+          "codePlaceholder": "예: BASIC, PRO, ENTERPRISE",
+          "status": "상태",
+          "statusPlaceholder": "상태 선택",
+          "billingScheme": "결제 방식",
+          "billingSchemePlaceholder": "결제 방식 선택",
+          "isPopular": "인기",
+          "sortOrder": "정렬 순서",
+          "validFrom": "유효 시작일",
+          "validUntil": "유효 종료일 (선택사항)",
+          "PlanStatus": {
+            "active": "활성",
+            "deprecated": "사용 중단",
+            "archived": "보관됨"
+          },
+          "BillingScheme": {
+            "creditBased": "크레딧 기반",
+            "timeBased": "시간 기반",
+            "hybrid": "하이브리드"
+          }
+        },
+        "featuresTab": {
+          "feature": "기능",
+          "included": "포함됨",
+          "primary": "주요",
+          "limit": "제한",
+          "limitPlaceholder": "제한 없음은 공백으로 둠",
+          "notApplicable": "해당 없음",
+          "noAvailableFeatures": "사용 가능한 기능이 없습니다",
+          "referenced": "참조됨"
+        },
+        "periodsTab": {
+          "noPeriods": "결제 기간이 없습니다. 최소 하나의 기간을 추가해주세요.",
+          "actions": "작업",
+          "period": "기간",
+          "resetPeriodType": "초기화 기간 유형",
+          "resetPeriodValue": "초기화 기간 값",
+          "price": "가격",
+          "selectPeriodType": "기간 유형 선택",
+          "periodType": "기간 유형",
+          "periodValue": "기간 값",
+          "addPeriod": "기간 추가",
+          "code": "코드",
+          "credits": "크레딧"
+        },
+        "translationsTab": {
+          "noTranslations": "번역이 없습니다. 최소 하나의 번역을 추가해주세요.",
+          "selectLanguage": "언어 선택",
+          "addTranslation": "번역 추가",
+          "language": "언어",
+          "name": "이름",
+          "subtitle": "부제목",
+          "description": "설명",
+          "actions": "작업",
+          "planName": "플랜 이름",
+          "planSubtitle": "플랜 부제목",
+          "planDescription": "플랜 설명"
+        }
+      }
+    }
+  }
+}

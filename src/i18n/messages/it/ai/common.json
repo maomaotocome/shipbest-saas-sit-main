@@ -1,0 +1,116 @@
+{
+  "ai": {
+    "common": {
+      "prompt": "Descrivi la tua visione",
+      "promptPlaceholder": "Inserisci qui la tua descrizione...",
+      "negativePrompt": "Prompt Negativo",
+      "negativePromptPlaceholder": "Quello che non vuoi vedere nel risultato...",
+      "model": "Modello",
+      "models": "modelli",
+      "multiSelect": "Selezione Multipla",
+      "numImages": "Numero di Immagini",
+      "numVideos": "Numero di Video",
+      "aspectRatio": "Rapporto d'Aspetto",
+      "image": "Immagine",
+      "seed": "Seme",
+      "taskList": "Lista Attività",
+      "loadMore": "Carica Altri",
+      "loading": "Caricamento...",
+      "loadingMore": "Caricamento Altri...",
+      "errorLoading": "Errore nel Caricamento Attività",
+      "selectModel": "Seleziona Modello",
+      "selectModelTitle": "Seleziona Modello",
+      "demoGallery": "Galleria Demo",
+      "creditPreview": "Anteprima Crediti",
+      "totalCredits": "Crediti Totali",
+      "creditDetails": "Dettagli Crediti",
+      "quantity": "Quantità",
+      "calculating": "Calcolo crediti...",
+      "fillParameters": "Compila i parametri per visualizzare il consumo di crediti",
+      "calculationError": "Errore calcolo crediti",
+      "estimatedConsumption": "* Questo è un consumo stimato di crediti. Il consumo effettivo può variare a causa di fallimenti di attività con rimborsi parziali di crediti.",
+      "viewDetails": "Visualizza Dettagli",
+      "taskVisibility": "Visibilità Attività",
+      "publicTask": "Pubblico",
+      "privateTask": "Privato",
+      "publicTaskDescription": "Le attività pubbliche sono visibili a tutti gli utenti",
+      "privateTaskDescription": "Le attività private sono visibili solo a te",
+      "privateTaskProfileLink": "Puoi modificare questa impostazione predefinita nel tuo profilo",
+      "openProfileSettings": "Apri impostazioni profilo",
+      "loginRequired": "Accesso richiesto",
+      "premiumFeature": "Funzione premium",
+      "login": "Accedi",
+      "getPermission": "Aggiorna",
+      "advancedParameters": "Parametri Avanzati",
+      "showAdvancedParameters": "Mostra parametri avanzati",
+      "hideAdvancedParameters": "Nascondi parametri avanzati",
+      "slideToDo": {
+        "readyText": "Scorri per inviare l'attività",
+        "completedText": "Attività inviata",
+        "slidingAtEndingText": "Rilascia per confermare l'invio"
+      },
+      "tooltip": {
+        "id": "ID attività",
+        "type": "Tipo",
+        "status": "Stato",
+        "createdAt": "Creato il",
+        "updatedAt": "Aggiornato il",
+        "prompt": "Prompt",
+        "negativePrompt": "Prompt negativo",
+        "models": "Modelli",
+        "numImages": "Numero di immagini",
+        "aspectRatio": "Rapporto d'aspetto",
+        "images": "Immagini di input"
+      },
+      "actions": {
+        "downloadOriginal": "Scarica originale",
+        "recreateTask": "Crea attività con la stessa configurazione",
+        "recreateTaskDialogTitle": "Crea attività con la stessa configurazione"
+      },
+      "fileInfo": {
+        "dimensions": "Dimensioni",
+        "fileSize": "Dimensione file",
+        "resolution": "Risoluzione",
+        "duration": "Durata",
+        "seconds": "secondi"
+      },
+      "boolean": {
+        "enabled": "Abilitato",
+        "disabled": "Disabilitato",
+        "on": "Acceso",
+        "off": "Spento"
+      },
+      "validation": {
+        "loadingUserInfo": "Caricamento informazioni utente, riprova più tardi",
+        "userNotLoggedIn": "Effettua l'accesso per continuare",
+        "creditCalculationFailed": "Calcolo crediti fallito, controlla se i parametri sono completi",
+        "cannotGetUserCredits": "Impossibile ottenere informazioni crediti utente, riprova più tardi",
+        "insufficientCredits": "Crediti insufficienti! Servono {requiredCredits} crediti, attualmente hai solo {availableCredits} crediti",
+        "taskExecutionFailed": "Esecuzione attività fallita",
+        "creditCalculationError": "Calcolo crediti fallito"
+      },
+      "taskSubmittedSuccessfully": "Attività inviata con successo",
+      "pleaseUploadImageFirst": "Si prega di caricare prima un'immagine",
+      "pleaseCompleteRequiredField": "Si prega di completare il campo richiesto: {fieldName}",
+      "upload": {
+        "imageUploadFailed": "Caricamento immagine fallito, si prega di riprovare"
+      },
+      "aspectRatioSelector": {
+        "custom": "Personalizzato",
+        "customWidth": "Larghezza",
+        "customHeight": "Altezza",
+        "notSelected": "Non selezionato"
+      },
+      "imageComparison": {
+        "title": "Confronto immagini",
+        "instructions": "Trascina il cursore o muovi il mouse per confrontare le immagini.",
+        "inputImage": "Immagine di input",
+        "generatedImage": "Immagine generata"
+      },
+      "imageActions": {
+        "preview": "Anteprima immagine",
+        "compare": "Confronta con immagine generata"
+      }
+    }
+  }
+}

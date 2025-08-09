@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "Resgatar suas recompensas",
+      "claim_new_user": "Resgatar recompensa de novo usuário",
+      "claim_daily": "Resgatar recompensa de login diário",
+      "loading": "Processando...",
+      "success": "Recompensa resgatada com sucesso!",
+      "error": "Falha ao resgatar a recompensa",
+      "already_received": "Você já recebeu esta recompensa",
+      "verify_human": "Por favor, verifique se você é humano",
+      "decline_today": "Hoje não",
+      "decline_forever": "Nunca mostrar novamente",
+      "later": "Depois",
+      "daily_login": "Recompensa de login diário em {date}",
+      "new_user": "Recompensa de novo usuário",
+      "invite": "Recompensa por convite",
+      "credits": "Créditos",
+      "newUserDescription": "Bem-vindo! Resgate sua recompensa de novo usuário para começar.",
+      "dailyLoginDescription": "Volte todos os dias para resgatar sua recompensa de login!"
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "Gestión de Usuarios",
+      "search": "Buscar",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo electrónico"
+      },
+      "searchNamePlaceholder": "Buscar por nombre...",
+      "searchEmailPlaceholder": "Buscar por correo electrónico...",
+      "columns": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "role": "Rol",
+        "verified": "Verificado",
+        "not_available": "No aplica",
+        "actions": "Acciones",
+        "view_notifications": "Ver Notificaciones",
+        "view_credits": "Ver Créditos",
+        "view_billing_history": "Ver Historial de Facturación"
+      },
+      "verification": {
+        "yes": "Sí",
+        "no": "No"
+      },
+      "roles": {
+        "ADMIN": "Administrador",
+        "USER": "Usuario Regular"
+      },
+      "role_change": {
+        "error_self": "No puedes modificar tu propio rol",
+        "success": "Rol actualizado a {role}",
+        "confirm_to_admin": {
+          "title": "¿Promover a Administrador?",
+          "message": "Advertencia: Esto otorgará privilegios administrativos completos a este usuario. Esta acción debe tomarse con precaución.",
+          "cancel": "Cancelar",
+          "confirm": "Sí, Otorgar Acceso de Administrador"
+        },
+        "confirm_to_user": {
+          "title": "¿Degradar a Usuario Regular?",
+          "message": "Esto eliminará todos los privilegios administrativos de este usuario.",
+          "cancel": "Cancelar",
+          "confirm": "Sí, Eliminar Acceso de Administrador"
+        }
+      },
+      "common": {
+        "created_at": "Creado el",
+        "source": "Fuente",
+        "validity": "Validez",
+        "permanent": "Permanente",
+        "transaction_time": "Hora de la Transacción",
+        "transaction_type": "Tipo de Transacción",
+        "amount_consumed": "Cantidad Consumida",
+        "status": "Estado",
+        "description": "Descripción",
+        "no_description": "Sin Descripción",
+        "loading": "Cargando...",
+        "error": "Error",
+        "no_data": "Sin Datos",
+        "actions": "Acciones",
+        "transaction_id": "ID de Transacción",
+        "clear": "Limpiar"
+      },
+      "sources": {
+        "PURCHASE": "Compra",
+        "ONE_TIME_PURCHASE": "Compra Única",
+        "SYSTEM_GRANT": "Otorgamiento del Sistema",
+        "SUBSCRIPTION_PERIODIC": "Otorgamiento Periódico de Suscripción",
+        "ADMIN_GRANT": "Otorgamiento del Administrador",
+        "PROMOTION": "Promoción",
+        "REFUND": "Reembolso",
+        "OTHER": "Otro"
+      },
+      "transaction_types": {
+        "DEDUCT": "Deducir",
+        "GRANT": "Otorgar",
+        "REFUND": "Reembolso",
+        "ADJUSTMENT": "Ajuste"
+      },
+      "transaction_statuses": {
+        "PENDING": "Pendiente",
+        "CONFIRMED": "Confirmado",
+        "CANCELLED": "Cancelado",
+        "GRANTED": "Otorgado"
+      },
+      "summary": {
+        "stats_title": "Estadísticas de Créditos",
+        "stats": {
+          "total": "Créditos Totales",
+          "available": "Créditos Disponibles",
+          "reserved": "Créditos Reservados",
+          "used": "Créditos Usados",
+          "expiring": "Créditos por Vencer (en 30 días)"
+        },
+        "expiring_alert": {
+          "title": "Créditos a punto de Vencer",
+          "description": "{count, plural, one {# crédito} other {# créditos}} vencerán en 30 días"
+        },
+        "recent_grants": {
+          "title": "Otorgamientos de Crédito Recientes (Máx. 5)",
+          "columns": {
+            "amount": "Cantidad"
+          },
+          "empty": "No hay registros recientes de otorgamientos"
+        },
+        "recent_transactions": {
+          "title": "Registros de Consumo Recientes (Máx. 5)",
+          "empty": "No hay registros recientes de consumo",
+          "disclaimer": "Nota: Los registros de consumo recientes mostrados aquí pueden incluir otros usuarios. El filtrado preciso requiere optimización del backend."
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "Fuente del Crédito",
+          "total": "Créditos Totales",
+          "remaining_total": "Restante/Total",
+          "used": "Créditos Usados"
+        },
+        "actions": {
+          "view_usage_detail": "Detalles de Uso"
+        },
+        "filters": {
+          "source_label": "Fuente del Crédito",
+          "all_sources": "Todas las Fuentes",
+          "valid_only_label": "Mostrar Solo Válidos"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "Ver Detalles"
+        },
+        "filters": {
+          "date_range_label": "Rango de Fechas",
+          "all_types": "Todos los Tipos",
+          "all_statuses": "Todos los Estados"
+        }
+      },
+      "grant_detail": {
+        "back_button": "Volver a la Lista de Otorgamientos de Crédito",
+        "error_load": "No se pudieron cargar los detalles del otorgamiento de crédito.",
+        "title": "Detalles del Otorgamiento de Crédito (ID: {shortId}...)",
+        "source": "Fuente",
+        "created_at": "Obtenido el",
+        "total_credits": "Créditos Totales",
+        "remaining_credits": "Créditos Restantes",
+        "available_credits": "Créditos Disponibles",
+        "reserved_credits": "Créditos Reservados",
+        "used_credits": "Créditos Usados",
+        "validity": "Validez",
+        "usage": {
+          "title": "Registros de Uso",
+          "description": "Todos los registros de uso para este otorgamiento de crédito",
+          "empty": "Este otorgamiento de crédito aún no se ha utilizado",
+          "columns": {
+            "transaction_time": "Hora de la Transacción",
+            "transaction_id": "ID de Transacción",
+            "transaction_type": "Tipo de Transacción",
+            "amount_used": "Cantidad Usada",
+            "balance_after": "Saldo Después",
+            "transaction_description": "Descripción de la Transacción"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "Volver a la Lista de Transacciones",
+        "error_load": "No se pudieron cargar los detalles de la transacción.",
+        "title": "Detalles de la Transacción",
+        "id": "ID de Transacción",
+        "transaction_time": "Hora de la Transacción",
+        "total_consumed": "Créditos Totales Consumidos",
+        "transaction_type": "Tipo de Transacción",
+        "status": "Estado",
+        "description": "Descripción",
+        "expire_at": "Hora de Vencimiento",
+        "confirmed_at": "Hora de Confirmación",
+        "cancelled_at": "Hora de Cancelación",
+        "metadata": "Metadatos",
+        "usage_detail": {
+          "title": "Detalles de Uso de Crédito",
+          "description": "Detalles de los otorgamientos de crédito consumidos por esta transacción",
+          "empty": "Sin detalles de uso de crédito",
+          "columns": {
+            "grant_id": "ID de Otorgamiento",
+            "source": "Fuente del Crédito",
+            "amount": "Cantidad Consumida",
+            "balance_after": "Saldo Después (Detalle)"
+          }
+        }
+      },
+      "modal": {
+        "title": "Detalles de Crédito de {userName}",
+        "title_no_name": "Detalles de Crédito para el Usuario {userId}",
+        "tabs": {
+          "summary": "Resumen",
+          "grants": "Otorgamientos",
+          "transactions": "Transacciones"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "Notificaciones de {name}",
+        "modal_title_fallback": "Notificaciones del Usuario",
+        "tabs": {
+          "system": "Notificaciones del Sistema",
+          "personalized": "Notificaciones Personalizadas"
+        },
+        "columns": {
+          "title": "Título",
+          "no_title": "Sin Título",
+          "content": "Contenido",
+          "no_content": "Sin Contenido",
+          "status": "Estado",
+          "time": "Hora"
+        },
+        "status": {
+          "READ": "Leído",
+          "UNREAD": "No Leído"
+        },
+        "error_loading": "Error al cargar las notificaciones",
+        "no_messages": "No hay mensajes de notificación"
+      },
+      "billing_history": {
+        "title": "Historial de Facturación - {name}",
+        "description": "Ver el historial de suscripciones y compras de {name}.",
+        "close_button": "Cerrar",
+        "unknown_error": "Error desconocido",
+        "type_subscription": "Suscripción",
+        "type_purchase": "Compra",
+        "table": {
+          "header_type": "Tipo",
+          "header_plan": "Plan/Artículo",
+          "header_amount": "Monto",
+          "header_status": "Estado",
+          "header_date": "Fecha",
+          "header_provider": "Proveedor",
+          "loading": "Cargando...",
+          "error": "Error al cargar: {message}",
+          "empty": "No se encontró historial de facturación"
+        },
+        "pagination": {
+          "total_records": "Total {count, plural, one {# registro} other {# registros}}",
+          "previous": "Anterior",
+          "next": "Siguiente",
+          "page_info": "Página {page} de {totalPages}"
+        }
+      }
+    }
+  }
+}

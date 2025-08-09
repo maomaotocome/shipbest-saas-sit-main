@@ -1,0 +1,23 @@
+{
+  "playground": {
+    "new": "新規",
+    "history": "履歴",
+    "prompt": {
+      "placeholder": "今日は何かお手伝いできることはありますか？"
+    },
+    "chat": {
+      "input": {
+        "placeholder": "メッセージを入力してください...",
+        "send": "送信",
+        "enterToSend": "Enterで送信",
+        "shiftEnterForNewline": "Shift + Enterで改行"
+      },
+      "noMessages": "今日は何かお手伝いできることはありますか？"
+    },
+    "history": {
+      "title": "会話履歴",
+      "searchPlaceholder": "会話履歴を検索...",
+      "loading": "読み込み中..."
+    }
+  }
+}

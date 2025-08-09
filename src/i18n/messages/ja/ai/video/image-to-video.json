@@ -1,0 +1,11 @@
+{
+  "ai": {
+    "video": {
+      "image-to-video": {
+        "hero": {
+          "title": "画像を動画に変換"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "billing": {
+      "payment-providers": {
+        "title": "Payment Providers",
+        "addProvider": "Add Provider",
+        "editProvider": "Edit Provider",
+        "columns": {
+          "name": "Name",
+          "code": "Code",
+          "provider": "Provider",
+          "status": "Status",
+          "priority": "Priority",
+          "dailyQuota": "Daily Quota",
+          "monthlyQuota": "Monthly Quota"
+        },
+        "form": {
+          "name": "Name",
+          "code": "Code",
+          "provider": "Provider",
+          "status": "Status",
+          "priority": "Priority",
+          "secretKey": "Provider Secret Key",
+          "webhookSecret": "Webhook Secret"
+        },
+        "unlimited": "Unlimited",
+        "status": {
+          "ACTIVE": "Active",
+          "SUSPENDED": "Suspended",
+          "BLOCKED": "Blocked",
+          "QUOTA_EXCEEDED": "Quota Exceeded",
+          "MAINTENANCE": "Maintenance"
+        },
+        "deleteConfirmation": {
+          "title": "Delete Provider",
+          "message": "Are you sure you want to delete this payment provider?",
+          "messageWithName": "Are you sure you want to delete the payment provider '{name}'?"
+        },
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "deleting": "Deleting...",
+        "saving": "Saving...",
+        "update": "Update",
+        "create": "Create",
+        "createSuccess": "Payment provider created successfully",
+        "createError": "Failed to create payment provider",
+        "updateSuccess": "Payment provider updated successfully",
+        "updateError": "Failed to update payment provider",
+        "deleteSuccess": "Payment provider deleted successfully",
+        "deleteError": "Failed to delete payment provider",
+        "registerWebhook": "Register Webhook",
+        "webhookRegistered": "Webhook registered successfully",
+        "webhookRegistrationFailed": "Failed to register webhook",
+        "webhookRegistrationDescription": "This will register a webhook endpoint for the payment provider. The webhook URL will be:",
+        "registering": "Registering...",
+        "register": "Register"
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "blog": {
+      "posts": {
+        "title": "Blog Posts",
+        "addPost": "Add Post",
+        "editPost": "Edit Post",
+        "createPost": "Create Post",
+        "cancel": "Cancel",
+        "update": "Update",
+        "create": "Create",
+        "search": "Search",
+        "searchTitlePlaceholder": "Search by title...",
+        "searchAuthorPlaceholder": "Search by author...",
+        "columns": {
+          "slug": "Slug",
+          "titles": "Titles",
+          "category": "Category",
+          "tags": "Tags",
+          "author": "Author",
+          "status": "Status"
+        },
+        "status": {
+          "published": "Published",
+          "draft": "Draft"
+        },
+        "form": {
+          "author": "Author",
+          "slug": "Slug",
+          "coverImage": "Cover Image URL",
+          "category": "Category",
+          "selectCategory": "Select category",
+          "tags": "Tags",
+          "title": "Title",
+          "content": "Content",
+          "metadata": "Metadata",
+          "translateFrom": "Translate from {locale}",
+          "selectedTags": "Selected Tags",
+          "selectTags": "Select Tags",
+          "slugRequired": "Lo slug è obbligatorio",
+          "titlePlaceholder": "Inserisci il titolo",
+          "contentPlaceholder": "Inserisci il contenuto",
+          "saving": "Salvataggio...",
+          "atLeastOneTranslation": "Si prega di compilare almeno il titolo e il contenuto di una lingua",
+          "slugEmptyError": "Si prega di inserire uno slug"
+        },
+        "messages": {
+          "createSuccess": "Articolo creato con successo",
+          "updateSuccess": "Articolo aggiornato con successo",
+          "deleteSuccess": "Articolo eliminato con successo",
+          "saveFailed": "Salvataggio fallito: {message}",
+          "deleteFailed": "Eliminazione fallita: {message}",
+          "unknownError": "Si è verificato un errore sconosciuto durante il salvataggio dell'articolo",
+          "unknownDeleteError": "Si è verificato un errore sconosciuto durante l'eliminazione dell'articolo",
+          "noAuthorsFound": "Nessun autore del blog trovato, si prega di creare prima un autore del blog"
+        }
+      },
+      "categories": {
+        "title": "Blog Categories",
+        "addCategory": "Add Category",
+        "editCategory": "Edit Category",
+        "createCategory": "Create Category",
+        "cancel": "Cancel",
+        "update": "Update",
+        "create": "Create",
+        "search": "Search",
+        "searchSlugPlaceholder": "Search by slug...",
+        "searchNamePlaceholder": "Search by name...",
+        "form": {
+          "slug": "Slug",
+          "slugPlaceholder": "Enter category slug",
+          "name": "{locale} Name",
+          "namePlaceholder": "Enter category name",
+          "translateFrom": "Translate from {locale}"
+        },
+        "messages": {
+          "createSuccess": "Category created successfully",
+          "updateSuccess": "Category updated successfully",
+          "deleteSuccess": "Category deleted successfully",
+          "error": "An error occurred"
+        },
+        "confirmDelete": {
+          "title": "Delete Category",
+          "description": "Are you sure you want to delete this category? This action cannot be undone."
+        },
+        "confirm": "Confirm",
+        "save": "Save"
+      },
+      "tags": {
+        "title": "Blog Tags",
+        "addTag": "Add Tag",
+        "editTag": "Edit Tag",
+        "createTag": "Create Tag",
+        "cancel": "Cancel",
+        "update": "Update",
+        "create": "Create",
+        "search": "Search",
+        "searchSlugPlaceholder": "Search by slug...",
+        "searchNamePlaceholder": "Search by name...",
+        "form": {
+          "slug": "Slug",
+          "name": "Name",
+          "nameWithLocale": "{locale} Name",
+          "translateFrom": "Translate from {locale}"
+        },
+        "messages": {
+          "createSuccess": "Tag created successfully",
+          "updateSuccess": "Tag updated successfully",
+          "deleteSuccess": "Tag deleted successfully",
+          "error": "An error occurred"
+        },
+        "confirmDelete": {
+          "title": "Delete Tag",
+          "description": "Are you sure you want to delete this tag? This action cannot be undone."
+        },
+        "confirm": "Confirm",
+        "save": "Save"
+      }
+    }
+  }
+}

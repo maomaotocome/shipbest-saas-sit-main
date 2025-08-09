@@ -1,0 +1,62 @@
+{
+    "en": {
+        "title": "What Our Users Say",
+        "description": "Join thousands of satisfied users who trust FLUX.1 [dev]",
+        "items": [
+            {
+                "name": "Dr. Sarah Chen",
+                "role": "AI Researcher, TechLab",
+                "content": "FLUX.1 [dev] has revolutionized our image generation capabilities. The 12B parameter model delivers exceptional quality while maintaining remarkable efficiency.",
+                "avatar": "/images/testimonials/home/avatar.svg"
+            },
+            {
+                "name": "Michael Rodriguez",
+                "role": "Creative Director, ArtFlow",
+                "content": "The open weights and guidance distillation approach have enabled us to develop innovative workflows that were previously impossible.",
+                "avatar": "/images/testimonials/home/avatar.svg"
+            },
+            {
+                "name": "Emma Thompson",
+                "role": "Research Scientist, AI Institute",
+                "content": "The model's competitive prompt following and cutting-edge output quality make it an invaluable tool for scientific research and development.",
+                "avatar": "/images/testimonials/home/avatar.svg"
+            },
+            {
+                "name": "David Kumar",
+                "role": "Technical Lead, DevTeam",
+                "content": "The reference implementation and sampling code provided in the GitHub repository have made integration seamless and straightforward.",
+                "avatar": "/images/testimonials/home/avatar.svg"
+            }
+        ]
+    },
+    "zh": {
+        "title": "用户评价",
+        "description": "加入数千名信任FLUX.1 [dev]的满意用户",
+        "items": [
+            {
+                "name": "陈博士",
+                "role": "AI研究员, 技术实验室",
+                "content": "FLUX.1 [dev]彻底改变了我们的图像生成能力。这个120亿参数模型在保持卓越效率的同时提供了出色的质量。",
+                "avatar": "/images/testimonials/home/avatar.svg"
+            },
+            {
+                "name": "罗德里格斯",
+                "role": "创意总监, 艺术流",
+                "content": "开放权重和引导蒸馏方法使我们能够开发以前不可能的创新工作流程。",
+                "avatar": "/images/testimonials/home/avatar.svg"
+            },
+            {
+                "name": "汤普森",
+                "role": "研究科学家, AI研究所",
+                "content": "该模型具有竞争力的提示词遵循能力和尖端输出质量，使其成为科学研究和开发的宝贵工具。",
+                "avatar": "/images/testimonials/home/avatar.svg"
+            },
+            {
+                "name": "库马尔",
+                "role": "技术主管, 开发团队",
+                "content": "GitHub仓库中提供的参考实现和采样代码使集成变得无缝和直接。",
+                "avatar": "/images/testimonials/home/avatar.svg"
+            }
+        ]
+    }
+}

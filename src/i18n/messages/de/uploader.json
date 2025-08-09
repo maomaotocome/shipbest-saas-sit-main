@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "Gesamt",
+      "pending": "Ausstehend",
+      "uploading": "Hochladen",
+      "success": "Erfolgreich",
+      "failed": "Fehlgeschlagen",
+      "startUpload": "Upload starten",
+      "cancelUpload": "Upload abbrechen",
+      "clear": "Löschen",
+      "clearing": "Löschen..."
+    },
+    "fileLibrary": {
+      "title": "Datei auswählen",
+      "searchPlaceholder": "Dateiname suchen...",
+      "tabs": {
+        "all": "Alle",
+        "image": "Bilder",
+        "video": "Videos",
+        "audio": "Audio",
+        "document": "Dokumente",
+        "other": "Andere"
+      },
+      "selectedCount": "{count} Dateien ausgewählt",
+      "confirm": "Bestätigen",
+      "cancel": "Abbrechen",
+      "fileSize": "{size}KB"
+    },
+    "replaceDialog": {
+      "title": "Datei ersetzen",
+      "description": "Möchten Sie die aktuelle Datei `{current}` durch die neue Datei `{new}` ersetzen?",
+      "cancel": "Abbrechen",
+      "confirm": "Ersetzen",
+      "currentFile": "Aktuelle Datei",
+      "newFile": "Neue Datei",
+      "size": "Größe: {size}KB",
+      "type": "Typ: {type}"
+    },
+    "filePreview": {
+      "uploadFailed": "Upload fehlgeschlagen"
+    },
+    "fileActions": {
+      "delete": "Löschen",
+      "selectFromLibrary": "Aus Bibliothek auswählen",
+      "upload": "Hochladen",
+      "deleting": "Löschen..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "Datei hochladen oder auswählen"
+    },
+    "addButton": {
+      "addFile": "Datei hinzufügen"
+    },
+    "messages": {
+      "singleFileOnly": "Nur eine Datei kann ausgewählt werden",
+      "uploadComplete": "Alle Uploads abgeschlossen",
+      "uploadFailed": "Einige Dateien konnten nicht hochgeladen werden",
+      "fetchError": "Dateiliste konnte nicht abgerufen werden",
+      "dragSingleFile": "Nur eine Datei kann gezogen werden",
+      "unsupportedType": "Nicht unterstützter Dateityp",
+      "dropToReplace": "Zum Ersetzen der Datei ablegen",
+      "deleteFailed": "Löschen fehlgeschlagen",
+      "deleteError": "Löschfehler",
+      "deleteSuccess": "Erfolgreich gelöscht",
+      "fileSizeExceeded": "Dateigröße überschritten",
+      "clearAllSuccess": "Alle Dateien erfolgreich gelöscht",
+      "clearAllFailed": "Einige Dateien konnten nicht gelöscht werden"
+    }
+  }
+}

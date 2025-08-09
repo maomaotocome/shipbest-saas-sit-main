@@ -1,0 +1,202 @@
+// Main plan model
+model Plan {
+  id     String     @id @default(cuid())
+  code   String     @unique // Plan code, such as PRO, BASIC, etc.
+  status PlanStatus // Plan status
+
+  billingScheme BillingScheme @default(CREDIT_BASED)
+
+  allowPrivateTasks Boolean @default(false) // Whether the plan allows private tasks
+
+  sortOrder  Int // Display order
+  isPopular  Boolean   @default(false) // Whether it's a popular plan
+  validFrom  DateTime  @default(now()) // Plan effective time
+  validUntil DateTime?
+
+  teamMemberLimit Int? // Team member limit
+
+  // Relations
+  translations PlanTranslation[] // Multilingual translations
+  planFeatures PlanFeatureRelation[] // Many-to-many relationship between plans and features
+  planPeriods  PlanPeriod[] // Plan period configurations
+
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("billing_plans")
+}
+
+// Multilingual translations for plans
+model PlanTranslation {
+  id     String @id @default(cuid())
+  planId String
+  plan   Plan   @relation(fields: [planId], references: [id])
+  locale String
+
+  nickname    String // Plan nickname
+  description String // Plan description
+  subtitle    String // Subtitle
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([planId, locale])
+  @@index([planId])
+  @@index([locale])
+  @@map("billing_plan_translations")
+}
+
+// Feature type enum
+enum FeatureType {
+  AVAILABILITY // Availability features (e.g., dedicated customer service)
+  ALLOCATABLE // Non-consumable allocatable features (e.g., space quota)
+  CONSUMABLE // Consumable features (e.g., available credits)
+}
+
+// Feature model
+model Feature {
+  id   String @id @default(cuid())
+  code String @unique // Feature code
+
+  // Feature type (replaces the original isConsumable boolean field)
+  featureType FeatureType @default(AVAILABILITY)
+
+  // Default reset behavior for consumable features
+  defaultResetBehavior ResetBehavior? @default(RESET) // Default reset behavior
+
+  // Relations
+  translations FeatureTranslation[] // Multilingual descriptions for features
+
+  plans             PlanFeatureRelation[] // Many-to-many relationship with plans
+  periodAllocations PlanPeriodFeatureAllocation[] // New: Consumption quota relationship with plan periods
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("billing_features")
+}
+
+// Many-to-many relationship between plans and features
+model PlanFeatureRelation {
+  id        String  @id @default(cuid())
+  planId    String
+  plan      Plan    @relation(fields: [planId], references: [id])
+  featureId String
+  feature   Feature @relation(fields: [featureId], references: [id])
+
+  // Whether it's a primary feature
+  isPrimary Boolean @default(false)
+
+  isIncluded Boolean @default(true) // true means the feature is included, false means not included
+
+  // Quota for non-consumable features
+  limit Int?
+
+  sortOrder Int // Display order
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([planId, featureId])
+  @@index([planId])
+  @@index([featureId])
+  @@map("billing_plan_feature_relations")
+}
+
+// Multilingual translations for features
+model FeatureTranslation {
+  id          String  @id @default(cuid())
+  featureId   String
+  feature     Feature @relation(fields: [featureId], references: [id])
+  locale      String
+  name        String // Feature name
+  description String? // Feature description
+  unit        String? // Unit for quota
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([featureId, locale])
+  @@map("billing_feature_translations")
+}
+
+// Plan period model
+model PlanPeriod {
+  id     String @id @default(cuid())
+  planId String
+  plan   Plan   @relation(fields: [planId], references: [id])
+
+  periodCode  String     @unique // Period code
+  periodType  PeriodType // Period type
+  periodValue Int? // Period value (used when type=DAYS,MONTHS,YEARS)
+
+  // Price related
+  price       Int // Price * 100
+  currency    Currency @default(USD) // Currency
+  creditValue Int? // Credit value (if it's a credit-based billing scheme)
+
+  // Reset cycle for consumable feature quotas
+  resetPeriodType  PeriodType? // Reset period type
+  resetPeriodValue Int? // Reset period value
+
+  isActive  Boolean @default(true) // Whether it's active
+  sortOrder Int     @default(0) // Display order
+
+  // Relations
+  providerPriceConfigs PlanPeriodProviderConfig[] // Price configurations for different payment channels
+  featureAllocations   PlanPeriodFeatureAllocation[] // New: Quotas for consumable features
+
+  // Related subscriptions
+  subscriptions Subscription[]
+  purchases     Purchase[]
+
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([planId, periodType, periodValue])
+  @@index([planId])
+  @@map("billing_plan_periods")
+}
+
+// Price configurations for plan periods in different payment channels
+model PlanPeriodProviderConfig {
+  id           String                 @id @default(cuid())
+  planPeriodId String
+  planPeriod   PlanPeriod             @relation(fields: [planPeriodId], references: [id])
+  accountId    String
+  account      PaymentProviderAccount @relation(fields: [accountId], references: [id])
+
+  providerPriceId String // Price ID for the payment channel
+
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([planPeriodId, accountId])
+  @@index([planPeriodId])
+  @@index([accountId])
+  @@map("billing_plan_period_provider_configs")
+}
+
+// New: Consumable feature quotas for plan periods
+model PlanPeriodFeatureAllocation {
+  id           String     @id @default(cuid())
+  planPeriodId String
+  planPeriod   PlanPeriod @relation(fields: [planPeriodId], references: [id])
+  featureId    String
+  feature      Feature    @relation(fields: [featureId], references: [id])
+
+  // Quantity of the feature available in this plan period
+  quantity Int
+
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([planPeriodId, featureId])
+  @@index([planPeriodId])
+  @@index([featureId])
+  @@map("billing_plan_period_feature_allocations")
+}

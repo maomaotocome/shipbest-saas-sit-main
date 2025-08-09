@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "積分",
+      "availableCredits": "可用積分",
+      "availableAmount": "可用金額",
+      "pendingCredits": "待處理積分",
+      "creditGrants": "積分授予",
+      "transactions": "交易記錄",
+      "amount": "金額",
+      "refundAmount": "退款金額",
+      "remainingAmount": "剩餘金額",
+      "grantDate": "授予日期",
+      "validFrom": "生效日期",
+      "validUntil": "到期日期",
+      "source": "來源",
+      "actions": "操作",
+      "viewDetails": "查看詳情",
+      "grantDetails": "授予詳情",
+      "transactionDetails": "交易詳情",
+      "date": "日期",
+      "type": "類型",
+      "status": "狀態",
+      "description": "描述",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "訂閱週期性",
+          "PLAN_INITIAL": "計劃初始",
+          "ONE_TIME_PURCHASE": "一次性購買",
+          "PROMOTION": "促銷活動",
+          "MANUAL": "手動",
+          "NEW_USER_AWARD": "新用戶獎勵",
+          "DAILY_LOGIN_AWARD": "每日登錄獎勵",
+          "INVITE_AWARD": "邀請獎勵"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "待處理",
+          "CONFIRMED": "已確認",
+          "CANCELLED": "已取消",
+          "GRANTED": "已授予"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "扣減",
+          "REFUND": "退還",
+          "RESERVE": "預扣減",
+          "GRANT": "授予"
+        }
+      }
+    }
+  }
+}

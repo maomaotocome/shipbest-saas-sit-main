@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "Guthaben",
+      "availableCredits": "Verfügbares Guthaben",
+      "availableAmount": "Verfügbare Menge",
+      "pendingCredits": "Ausstehendes Guthaben",
+      "creditGrants": "Guthabenzuweisungen",
+      "transactions": "Transaktionen",
+      "amount": "Betrag",
+      "refundAmount": "Rückerstattungsbetrag",
+      "remainingAmount": "Verbleibend",
+      "grantDate": "Gewährungsdatum",
+      "validFrom": "Gültig ab",
+      "validUntil": "Gültig bis",
+      "source": "Quelle",
+      "actions": "Aktionen",
+      "viewDetails": "Details anzeigen",
+      "grantDetails": "Zuweisungsdetails",
+      "transactionDetails": "Transaktionsdetails",
+      "date": "Datum",
+      "type": "Typ",
+      "status": "Status",
+      "description": "Beschreibung",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "Abonnement Periodisch",
+          "PLAN_INITIAL": "Plan Initial",
+          "ONE_TIME_PURCHASE": "Einmaliger Kauf",
+          "PROMOTION": "Werbeaktion",
+          "MANUAL": "Manuell",
+          "NEW_USER_AWARD": "Neuer Benutzer Belohnung",
+          "DAILY_LOGIN_AWARD": "Tägliche Anmelde-Belohnung",
+          "INVITE_AWARD": "Einladungs-Belohnung"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "Ausstehend",
+          "CONFIRMED": "Bestätigt",
+          "CANCELLED": "Storniert",
+          "GRANTED": "Gewährt"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "Abziehen",
+          "REFUND": "Rückerstattung",
+          "RESERVE": "Reservieren",
+          "GRANT": "Gewähren"
+        }
+      }
+    }
+  }
+}

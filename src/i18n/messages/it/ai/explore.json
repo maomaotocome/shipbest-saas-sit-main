@@ -1,0 +1,48 @@
+{
+  "explore": {
+    "title": "Esplora",
+    "subtitle": "Scopri incredibili creazioni dalla nostra comunità",
+    "filters": {
+      "type": "Tipo",
+      "all": "Tutti",
+      "images": "Immagini",
+      "videos": "Video",
+      "featured": "In evidenza",
+      "featuredOnly": "Solo in evidenza",
+      "regular": "Normale",
+      "sortBy": "Ordina per",
+      "newest": "Più recenti",
+      "reset": "Ripristina"
+    },
+    "gallery": {
+      "viewDetails": "Visualizza dettagli",
+      "noItems": "Nessun elemento trovato",
+      "noItemsDescription": "Prova ad aggiustare i tuoi filtri o torna più tardi per nuovi contenuti.",
+      "loadMore": "Carica altro",
+      "loading": "Caricamento...",
+      "error": "Errore nel caricamento degli elementi"
+    },
+    "preview": {
+      "title": "Anteprima",
+      "imageAlt": "Immagine di anteprima",
+      "loading": "Caricamento...",
+      "videoNotSupported": "Il tuo browser non supporta la riproduzione video.",
+      "details": "Dettagli",
+      "type": "Tipo",
+      "dimensions": "Dimensioni",
+      "created": "Creato",
+      "featured": "In evidenza",
+      "actions": "Azioni",
+      "download": "Scarica originale",
+      "recreate": "Ricrea",
+      "originalSettings": "Impostazioni originali",
+      "creatorInformation": "Informazioni del Creatore",
+      "fileInformation": "Informazioni del File",
+      "share": "Condividi"
+    },
+    "stats": {
+      "totalItems": "Elementi totali",
+      "featuredItems": "Elementi in evidenza"
+    }
+  }
+}

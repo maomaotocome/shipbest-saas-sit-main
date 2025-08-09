@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "audio": {
+      "text-to-music": {
+        "hero": {
+          "title": "Musik mit KI erstellen",
+          "description": "Generieren Sie hochwertige Musik mit Texten aus Textaufforderungen. Beschreiben Sie den Stil, die Stimmung und das Thema, das Sie für Ihre Musik wünschen."
+        }
+      }
+    }
+  }
+}

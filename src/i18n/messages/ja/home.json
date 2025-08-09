@@ -1,0 +1,15 @@
+{
+  "home": {
+    "hero": {
+      "title": "example AI",
+      "description": "example AI は、強力な AI ツールのコレクションを提供します。探索、作成、そして革新を行い、最先端の AI アプリケーションを体験してください。",
+      "getStarted": "開始",
+      "learnMore": "詳しくはこちら"
+    },
+    "metadata": {
+      "title": "example AI",
+      "description": "example AI は、強力な AI ツールのコレクションを提供します。探索、作成、そして革新を行い、最先端の AI アプリケーションを体験してください。",
+      "keywords": "AI, ツール, 創造力, 革新, ドリーム"
+    }
+  }
+}

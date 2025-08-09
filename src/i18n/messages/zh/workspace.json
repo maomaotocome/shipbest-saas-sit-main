@@ -1,0 +1,21 @@
+{
+  "workspace": {
+    "sidebar": {
+      "themeToggler": {
+        "title": "切换主题"
+      },
+      "home": "首页",
+      "logout": "退出",
+      "pin": "固定侧边栏",
+      "unpin": "取消固定侧边栏",
+      "userAvatar": "用户头像"
+    },
+    "area": {
+      "goBack": "返回"
+    },
+    "projects": {
+      "fetchError": "获取项目失败",
+      "noItemsFound": "未找到项目"
+    }
+  }
+}

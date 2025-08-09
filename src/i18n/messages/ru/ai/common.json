@@ -1,0 +1,116 @@
+{
+  "ai": {
+    "common": {
+      "prompt": "Опишите ваше видение",
+      "promptPlaceholder": "Введите ваше описание здесь...",
+      "negativePrompt": "Негативный промпт",
+      "negativePromptPlaceholder": "Что вы не хотите видеть в результате...",
+      "model": "Модель",
+      "models": "модели",
+      "multiSelect": "Множественный выбор",
+      "numImages": "Количество изображений",
+      "numVideos": "Количество видео",
+      "aspectRatio": "Соотношение сторон",
+      "image": "Изображение",
+      "seed": "Сид",
+      "taskList": "Список задач",
+      "loadMore": "Загрузить больше",
+      "loading": "Загрузка...",
+      "loadingMore": "Загрузка еще...",
+      "errorLoading": "Ошибка загрузки задач",
+      "selectModel": "Выберите модель",
+      "selectModelTitle": "Выберите модель",
+      "demoGallery": "Демо галерея",
+      "creditPreview": "Предварительный просмотр кредитов",
+      "totalCredits": "Всего кредитов",
+      "creditDetails": "Детали кредитов",
+      "quantity": "Количество",
+      "calculating": "Подсчет кредитов...",
+      "fillParameters": "Заполните параметры для просмотра расхода кредитов",
+      "calculationError": "Ошибка расчета кредитов",
+      "estimatedConsumption": "* Это приблизительный расход кредитов. Фактический расход может отличаться из-за сбоев задач с частичным возвратом кредитов.",
+      "viewDetails": "Просмотреть детали",
+      "taskVisibility": "Видимость задачи",
+      "publicTask": "Публичная",
+      "privateTask": "Приватная",
+      "publicTaskDescription": "Публичные задачи видны всем пользователям",
+      "privateTaskDescription": "Приватные задачи видны только вам",
+      "privateTaskProfileLink": "Вы можете изменить эту настройку по умолчанию в вашем профиле",
+      "openProfileSettings": "Открыть настройки профиля",
+      "loginRequired": "Требуется вход",
+      "premiumFeature": "Премиум функция",
+      "login": "Войти",
+      "getPermission": "Обновить",
+      "advancedParameters": "Расширенные параметры",
+      "showAdvancedParameters": "Показать расширенные параметры",
+      "hideAdvancedParameters": "Скрыть расширенные параметры",
+      "slideToDo": {
+        "readyText": "Проведите для отправки задачи",
+        "completedText": "Задача отправлена",
+        "slidingAtEndingText": "Отпустите для подтверждения отправки"
+      },
+      "tooltip": {
+        "id": "ID задачи",
+        "type": "Тип",
+        "status": "Статус",
+        "createdAt": "Создано",
+        "updatedAt": "Обновлено",
+        "prompt": "Промпт",
+        "negativePrompt": "Негативный промпт",
+        "models": "Модели",
+        "numImages": "Количество изображений",
+        "aspectRatio": "Соотношение сторон",
+        "images": "Входные изображения"
+      },
+      "actions": {
+        "downloadOriginal": "Скачать оригинал",
+        "recreateTask": "Создать задачу с той же конфигурацией",
+        "recreateTaskDialogTitle": "Создать задачу с той же конфигурацией"
+      },
+      "fileInfo": {
+        "dimensions": "Размеры",
+        "fileSize": "Размер файла",
+        "resolution": "Разрешение",
+        "duration": "Продолжительность",
+        "seconds": "секунд"
+      },
+      "boolean": {
+        "enabled": "Включено",
+        "disabled": "Отключено",
+        "on": "Вкл",
+        "off": "Выкл"
+      },
+      "validation": {
+        "loadingUserInfo": "Загрузка информации о пользователе, попробуйте позже",
+        "userNotLoggedIn": "Пожалуйста, войдите в систему для продолжения",
+        "creditCalculationFailed": "Не удалось подсчитать кредиты, проверьте полноту параметров",
+        "cannotGetUserCredits": "Не удается получить информацию о кредитах пользователя, попробуйте позже",
+        "insufficientCredits": "Недостаточно кредитов! Нужно {requiredCredits} кредитов, доступно только {availableCredits} кредитов",
+        "taskExecutionFailed": "Выполнение задачи не удалось",
+        "creditCalculationError": "Ошибка расчета кредитов"
+      },
+      "taskSubmittedSuccessfully": "Задача успешно отправлена",
+      "pleaseUploadImageFirst": "Пожалуйста, сначала загрузите изображение",
+      "pleaseCompleteRequiredField": "Пожалуйста, заполните обязательное поле: {fieldName}",
+      "upload": {
+        "imageUploadFailed": "Не удалось загрузить изображение, попробуйте еще раз"
+      },
+      "aspectRatioSelector": {
+        "custom": "Пользовательский",
+        "customWidth": "Ширина",
+        "customHeight": "Высота",
+        "notSelected": "Не выбрано"
+      },
+      "imageComparison": {
+        "title": "Сравнение изображений",
+        "instructions": "Перетащите ползунок или переместите мышь для сравнения изображений.",
+        "inputImage": "Входное изображение",
+        "generatedImage": "Сгенерированное изображение"
+      },
+      "imageActions": {
+        "preview": "Предварительный просмотр изображения",
+        "compare": "Сравнить с сгенерированным изображением"
+      }
+    }
+  }
+}

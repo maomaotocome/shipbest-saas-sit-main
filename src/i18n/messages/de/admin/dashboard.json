@@ -1,0 +1,13 @@
+{
+  "admin": {
+    "dashboard": {
+      "title": "Admin-Dashboard",
+      "general": "Allgemein",
+      "metadata": {
+        "title": "Admin-Dashboard",
+        "description": "Admin-Dashboard",
+        "keywords": "Admin-Dashboard"
+      }
+    }
+  }
+}

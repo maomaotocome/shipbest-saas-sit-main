@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "explore": {
+      "title": "Explore Management",
+      "tabs": {
+        "items": "Explore Items",
+        "addFromTasks": "Add from Tasks"
+      },
+      "stats": {
+        "total": "Total",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "hidden": "Hidden",
+        "visible": "Visible",
+        "featured": "Featured"
+      },
+      "items": {
+        "title": "Explore Items",
+        "filters": {
+          "title": "Filters",
+          "status": "Status",
+          "type": "Type",
+          "visibility": "Visibility",
+          "featured": "Featured",
+          "allStatuses": "All Statuses",
+          "allTypes": "All Types",
+          "allVisibility": "All Visibility",
+          "allFeatured": "All Featured",
+          "reset": "Reset"
+        },
+        "status": {
+          "pending": "Pending",
+          "approved": "Approved",
+          "rejected": "Rejected",
+          "hidden": "Hidden"
+        },
+        "type": {
+          "image": "Image",
+          "video": "Video"
+        },
+        "visibility": {
+          "visible": "Visible",
+          "hidden": "Hidden"
+        },
+        "featured": {
+          "yes": "Yes",
+          "no": "No"
+        },
+        "table": {
+          "preview": "Preview",
+          "info": "Info",
+          "status": "Status",
+          "visibility": "Visibility",
+          "featured": "Featured",
+          "createdAt": "Created At",
+          "actions": "Actions"
+        },
+        "actions": {
+          "approve": "Approve",
+          "reject": "Reject",
+          "hide": "Hide",
+          "delete": "Delete",
+          "updateSuccess": "Update successful",
+          "deleteSuccess": "Delete successful"
+        },
+        "deleteDialog": {
+          "title": "Confirm Delete",
+          "description": "Are you sure you want to delete this explore item? This action cannot be undone.",
+          "cancel": "Cancel",
+          "confirm": "Delete"
+        },
+        "selectedCount": "{count} items selected",
+        "batchActions": "Batch Actions",
+        "batchApprove": "Batch Approve",
+        "batchReject": "Batch Reject",
+        "batchHide": "Batch Hide",
+        "batchUpdateSuccess": "Batch update successful",
+        "noData": "No data available",
+        "retry": "Retry",
+        "pagination": {
+          "previous": "Previous",
+          "next": "Next",
+          "page": "Page {page}"
+        }
+      },
+      "tasks": {
+        "filters": {
+          "title": "Filter Public Tasks",
+          "taskType": "Task Type",
+          "search": "Search",
+          "searchPlaceholder": "Search task ID or type...",
+          "searchButton": "Search",
+          "allTaskTypes": "All Types",
+          "reset": "Reset"
+        },
+        "taskType": {
+          "textToImage": "Text to Image",
+          "imageToImage": "Image to Image",
+          "textToVideo": "Text to Video",
+          "imageToVideo": "Image to Video"
+        },
+        "table": {
+          "taskId": "Task ID",
+          "taskType": "Task Type",
+          "subTasks": "Sub Tasks",
+          "completed": "Completed",
+          "availableMedia": "Available Media",
+          "mediaItems": "Media Items",
+          "alreadyAdded": "Already Added",
+          "createdAt": "Created At",
+          "actions": "Actions",
+          "addToExplore": "Add to Explore"
+        },
+        "addSuccess": "Successfully added to explore",
+        "noMediaFound": "No available media objects found",
+        "selectMediaItems": "Select Media Items",
+        "addThisItem": "Add This Item"
+      }
+    }
+  }
+}

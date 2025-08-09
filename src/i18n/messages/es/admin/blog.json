@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "blog": {
+      "posts": {
+        "title": "Artículos del Blog",
+        "addPost": "Agregar Artículo",
+        "editPost": "Editar Artículo",
+        "createPost": "Crear Artículo",
+        "cancel": "Cancelar",
+        "update": "Actualizar",
+        "create": "Crear",
+        "search": "Buscar",
+        "searchTitlePlaceholder": "Buscar por título...",
+        "searchAuthorPlaceholder": "Buscar por autor...",
+        "columns": {
+          "slug": "Slug",
+          "titles": "Títulos",
+          "category": "Categoría",
+          "tags": "Etiquetas",
+          "author": "Autor",
+          "status": "Estado"
+        },
+        "status": {
+          "published": "Publicado",
+          "draft": "Borrador"
+        },
+        "form": {
+          "author": "Autor",
+          "slug": "Slug",
+          "coverImage": "URL de Imagen de Portada",
+          "category": "Categoría",
+          "selectCategory": "Seleccionar categoría",
+          "tags": "Etiquetas",
+          "title": "Título",
+          "content": "Contenido",
+          "metadata": "Metadatos",
+          "translateFrom": "Traducir desde {locale}",
+          "selectedTags": "Etiquetas Seleccionadas",
+          "selectTags": "Seleccionar Etiquetas",
+          "slugRequired": "El slug es requerido",
+          "titlePlaceholder": "Ingrese el título",
+          "contentPlaceholder": "Ingrese el contenido",
+          "saving": "Guardando...",
+          "atLeastOneTranslation": "Por favor complete al menos el título y contenido de un idioma",
+          "slugEmptyError": "Por favor ingrese un slug"
+        },
+        "messages": {
+          "createSuccess": "Artículo creado exitosamente",
+          "updateSuccess": "Artículo actualizado exitosamente",
+          "deleteSuccess": "Artículo eliminado exitosamente",
+          "saveFailed": "Error al guardar: {message}",
+          "deleteFailed": "Error al eliminar: {message}",
+          "unknownError": "Ocurrió un error desconocido al guardar el artículo",
+          "unknownDeleteError": "Ocurrió un error desconocido al eliminar el artículo",
+          "noAuthorsFound": "No se encontraron autores de blog, por favor cree un autor de blog primero"
+        }
+      },
+      "categories": {
+        "title": "Categorías del Blog",
+        "addCategory": "Agregar Categoría",
+        "editCategory": "Editar Categoría",
+        "createCategory": "Crear Categoría",
+        "cancel": "Cancelar",
+        "update": "Actualizar",
+        "create": "Crear",
+        "search": "Buscar",
+        "searchSlugPlaceholder": "Buscar por slug...",
+        "searchNamePlaceholder": "Buscar por nombre...",
+        "form": {
+          "slug": "Slug",
+          "slugPlaceholder": "Ingrese el slug de la categoría",
+          "name": "Nombre {locale}",
+          "namePlaceholder": "Ingrese el nombre de la categoría",
+          "translateFrom": "Traducir desde {locale}"
+        },
+        "messages": {
+          "createSuccess": "Categoría creada exitosamente",
+          "updateSuccess": "Categoría actualizada exitosamente",
+          "deleteSuccess": "Categoría eliminada exitosamente",
+          "error": "Ocurrió un error"
+        },
+        "confirmDelete": {
+          "title": "Eliminar Categoría",
+          "description": "¿Está seguro de que desea eliminar esta categoría? Esta acción no se puede deshacer."
+        },
+        "confirm": "Confirmar",
+        "save": "Guardar"
+      },
+      "tags": {
+        "title": "Etiquetas del Blog",
+        "addTag": "Agregar Etiqueta",
+        "editTag": "Editar Etiqueta",
+        "createTag": "Crear Etiqueta",
+        "cancel": "Cancelar",
+        "update": "Actualizar",
+        "create": "Crear",
+        "search": "Buscar",
+        "searchSlugPlaceholder": "Buscar por slug...",
+        "searchNamePlaceholder": "Buscar por nombre...",
+        "form": {
+          "slug": "Slug",
+          "name": "Nombre",
+          "nameWithLocale": "Nombre {locale}",
+          "translateFrom": "Traducir desde {locale}"
+        },
+        "messages": {
+          "createSuccess": "Etiqueta creada exitosamente",
+          "updateSuccess": "Etiqueta actualizada exitosamente",
+          "deleteSuccess": "Etiqueta eliminada exitosamente",
+          "error": "Ocurrió un error"
+        },
+        "confirmDelete": {
+          "title": "Eliminar Etiqueta",
+          "description": "¿Está seguro de que desea eliminar esta etiqueta? Esta acción no se puede deshacer."
+        },
+        "confirm": "Confirmar",
+        "save": "Guardar"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "購買記錄",
+      "planName": "計劃名稱",
+      "billingCycle": "計費週期",
+      "purchaseStatus": "購買狀態",
+      "invoiceStatus": "發票狀態",
+      "amount": "金額",
+      "purchaseDate": "購買日期",
+      "orderId": "訂單號",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "已完成",
+          "REFUNDED": "已退款"
+        },
+        "invoiceStatus": {
+          "DRAFT": "草稿",
+          "OPEN": "待付款",
+          "PAID": "已付款",
+          "VOID": "已作廢",
+          "UNCOLLECTIBLE": "無法收取"
+        }
+      }
+    }
+  }
+}

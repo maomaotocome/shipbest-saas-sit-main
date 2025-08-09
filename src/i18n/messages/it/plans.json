@@ -1,0 +1,24 @@
+{
+  "plans": {
+    "periodFormat": {
+      "day": "{value} Giorno",
+      "days": "{value} Giorni",
+      "week": "{value} Settimana",
+      "weeks": "{value} Settimane",
+      "month": "{value} Mese",
+      "months": "{value} Mesi",
+      "year": "{value} Anno",
+      "years": "{value} Anni",
+      "oneTime": "Una volta",
+      "lifetime": "A vita"
+    },
+    "periodType": {
+      "days": "Giornaliero",
+      "weeks": "Settimanale",
+      "months": "Mensile",
+      "years": "Annuale",
+      "oneTime": "Una volta",
+      "lifetime": "A vita"
+    }
+  }
+}

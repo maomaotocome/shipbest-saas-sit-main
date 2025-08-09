@@ -1,0 +1,27 @@
+{
+  "user": {
+    "notifications": {
+      "title": "通知",
+      "loading": "正在載入通知...",
+      "noData": "暫無通知。",
+      "tabs": {
+        "personalized": "個人化",
+        "system": "系統"
+      },
+      "markAllAsRead": "全部標記為已讀",
+      "markAsRead": "標記為已讀",
+      "showMore": "顯示更多",
+      "showLess": "顯示更少",
+      "status": {
+        "unread": "未讀",
+        "read": "已讀"
+      },
+      "columns": {
+        "title": "標題",
+        "content": "內容",
+        "status": "狀態",
+        "date": "日期"
+      }
+    }
+  }
+}

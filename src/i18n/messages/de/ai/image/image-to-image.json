@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "image": {
+      "image-to-image": {
+        "hero": {
+          "title": "Verwandeln Sie Ihre Bilder mit KI",
+          "description": "Bearbeiten und verbessern Sie Ihre Bilder mit KI-gesteuerten Transformationen. Laden Sie ein Bild hoch und beschreiben Sie die gewünschten Änderungen."
+        }
+      }
+    }
+  }
+}

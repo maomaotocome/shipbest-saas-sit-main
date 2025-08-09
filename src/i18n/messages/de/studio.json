@@ -1,0 +1,25 @@
+{
+  "studio": {
+    "menu": {
+      "home": "Startseite",
+      "text-to-image": "Text zu Bild",
+      "image-to-image": "Bild zu Bild",
+      "image-to-video": "Bild zu Video",
+      "stylize-anime": "Stylize Anime",
+      "image": "Bild",
+      "video": "Video"
+    },
+    "home": {
+      "title": "AI Studio",
+      "description": "Erstellen Sie erstaunlichen Content mit KI-Tools. Wählen Sie aus verschiedenen KI-Modellen, um Bilder, Videos und mehr zu generieren."
+    },
+    "dashboard": {
+      "title": "Studio",
+      "metadata": {
+        "title": "AI Studio",
+        "description": "AI Studio - Erstellen Sie erstaunliche Inhalte mit KI",
+        "keywords": "AI Studio, Text zu Bild, Bild zu Video, KI-Generierung"
+      }
+    }
+  }
+}

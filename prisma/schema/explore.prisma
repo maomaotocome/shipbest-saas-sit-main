@@ -1,0 +1,47 @@
+model ExploreItem {
+  id        String  @id @default(uuid())
+  taskId    String
+  subTaskId String
+  objectId  String?
+
+  belongUserId String?
+  user         User?   @relation(fields: [belongUserId], references: [id])
+
+  // Display information
+  publicUrl           String // Direct access URL
+  compressedPublicUrl String? // Compressed public URL
+  width               Int // Image/video width
+  height              Int // Image/video height
+  type                String // image/video
+  taskType            String
+
+  // Original data reference (supports recreation functionality)
+  originalRequest  Json? // Redundant key request parameters
+  originalMetadata Json? // Redundant key metadata
+
+  // Management fields
+  status    ExploreItemStatus @default(PENDING)
+  isVisible Boolean           @default(false)
+  featured  Boolean           @default(false) // Featured recommendation
+
+  // Relationships
+  task    Task    @relation(fields: [taskId], references: [id])
+  subTask SubTask @relation(fields: [subTaskId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([belongUserId])
+  @@index([status, isVisible])
+  @@index([type, featured])
+  @@index([taskId])
+  @@index([subTaskId])
+  @@map("explore_items")
+}
+
+enum ExploreItemStatus {
+  PENDING // Pending review
+  APPROVED // Approved
+  REJECTED // Rejected
+  HIDDEN // Hidden
+}

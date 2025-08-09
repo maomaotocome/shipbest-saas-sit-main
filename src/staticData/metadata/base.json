@@ -1,0 +1,57 @@
+{
+  "en": {
+    "title": "example AI - All-in-One AIGC Creation Platform",
+    "description": "example is a comprehensive AIGC creation platform supporting text-to-image, image-to-image, image-to-text, text-to-video, and image-to-video generation. Unleash your creativity with our powerful AI tools.",
+    "keywords": "AIGC, AI art, text to image, image to image, text to video, image to video, AI creation, example"
+  },
+  "zh": {
+    "title": "example AI - 全能AIGC创作平台",
+    "description": "example是一个支持文生图、图生图、图生文、文生视频、图生视频的全能AIGC创作平台。用我们强大的AI工具释放您的创造力。",
+    "keywords": "AIGC, AI艺术, 文生图, 图生图, 文生视频, 图生视频, AI创作, example"
+  },
+  "es": {
+    "title": "example AI - Plataforma Integral de Creación AIGC",
+    "description": "example es una plataforma integral de creación AIGC que soporta generación de texto a imagen, imagen a imagen, imagen a texto, texto a video e imagen a video. Libera tu creatividad con nuestras potentes herramientas de IA.",
+    "keywords": "AIGC, arte con IA, texto a imagen, imagen a imagen, texto a video, imagen a video, creación con IA, example"
+  },
+  "fr": {
+    "title": "example AI - Plateforme de Création AIGC Tout-en-Un",
+    "description": "example est une plateforme complète de création AIGC supportant la génération de texte vers image, image vers image, image vers texte, texte vers vidéo et image vers vidéo. Libérez votre créativité avec nos puissants outils d'IA.",
+    "keywords": "AIGC, art IA, texte vers image, image vers image, texte vers vidéo, image vers vidéo, création IA, example"
+  },
+  "de": {
+    "title": "example AI - All-in-One AIGC-Kreationsplattform",
+    "description": "example ist eine umfassende AIGC-Kreationsplattform, die Text-zu-Bild, Bild-zu-Bild, Bild-zu-Text, Text-zu-Video und Bild-zu-Video-Generierung unterstützt. Entfesseln Sie Ihre Kreativität mit unseren leistungsstarken KI-Tools.",
+    "keywords": "AIGC, KI-Kunst, Text zu Bild, Bild zu Bild, Text zu Video, Bild zu Video, KI-Kreation, example"
+  },
+  "it": {
+    "title": "example AI - Piattaforma di Creazione AIGC Tutto-in-Uno",
+    "description": "example è una piattaforma completa di creazione AIGC che supporta la generazione da testo a immagine, immagine a immagine, immagine a testo, testo a video e immagine a video. Libera la tua creatività con i nostri potenti strumenti di IA.",
+    "keywords": "AIGC, arte IA, testo a immagine, immagine a immagine, testo a video, immagine a video, creazione IA, example"
+  },
+  "ja": {
+    "title": "example AI - オールインワンAIGC創作プラットフォーム",
+    "description": "exampleは、テキストから画像、画像から画像、画像からテキスト、テキストから動画、画像から動画の生成をサポートする総合AIGC創作プラットフォームです。強力なAIツールで創造性を解き放ちましょう。",
+    "keywords": "AIGC, AIアート, テキストから画像, 画像から画像, テキストから動画, 画像から動画, AI創作, example"
+  },
+  "ko": {
+    "title": "example AI - 올인원 AIGC 창작 플랫폼",
+    "description": "example는 텍스트-이미지, 이미지-이미지, 이미지-텍스트, 텍스트-비디오, 이미지-비디오 생성을 지원하는 종합 AIGC 창작 플랫폼입니다. 강력한 AI 도구로 창의성을 발휘하세요.",
+    "keywords": "AIGC, AI 아트, 텍스트-이미지, 이미지-이미지, 텍스트-비디오, 이미지-비디오, AI 창작, example"
+  },
+  "pt": {
+    "title": "example AI - Plataforma de Criação AIGC Tudo-em-Um",
+    "description": "example é uma plataforma completa de criação AIGC que suporta geração de texto para imagem, imagem para imagem, imagem para texto, texto para vídeo e imagem para vídeo. Libere sua criatividade com nossas poderosas ferramentas de IA.",
+    "keywords": "AIGC, arte IA, texto para imagem, imagem para imagem, texto para vídeo, imagem para vídeo, criação IA, example"
+  },
+  "zh-hk": {
+    "title": "example AI - 全能AIGC創作平台",
+    "description": "example係一個支持文生圖、圖生圖、圖生文、文生視頻、圖生視頻嘅全能AIGC創作平台。用我哋強大嘅AI工具釋放你嘅創造力。",
+    "keywords": "AIGC, AI藝術, 文生圖, 圖生圖, 文生視頻, 圖生視頻, AI創作, example"
+  },
+  "ru": {
+    "title": "example AI - Универсальная Платформа Создания AIGC",
+    "description": "example - это комплексная платформа создания AIGC, поддерживающая генерацию от текста к изображению, от изображения к изображению, от изображения к тексту, от текста к видео и от изображения к видео. Раскройте свой творческий потенциал с нашими мощными инструментами ИИ.",
+    "keywords": "AIGC, искусство ИИ, текст в изображение, изображение в изображение, текст в видео, изображение в видео, создание ИИ, example"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "billing": {
+      "payment-providers": {
+        "title": "支付提供商",
+        "addProvider": "添加提供商",
+        "editProvider": "编辑提供商",
+        "columns": {
+          "name": "名称",
+          "code": "代码",
+          "provider": "提供商",
+          "status": "状态",
+          "priority": "优先级",
+          "dailyQuota": "每日配额",
+          "monthlyQuota": "每月配额"
+        },
+        "form": {
+          "name": "名称",
+          "code": "代码",
+          "provider": "提供商",
+          "status": "状态",
+          "priority": "优先级",
+          "secretKey": "提供商密钥",
+          "webhookSecret": "Webhook密钥"
+        },
+        "unlimited": "无限",
+        "status": {
+          "ACTIVE": "启用",
+          "SUSPENDED": "暂停",
+          "BLOCKED": "锁定",
+          "QUOTA_EXCEEDED": "配额超出",
+          "MAINTENANCE": "维护"
+        },
+        "deleteConfirmation": {
+          "title": "删除提供商",
+          "message": "确定要删除这个支付提供商吗？",
+          "messageWithName": "确定要删除支付提供商 '{name}' 吗？"
+        },
+        "cancel": "取消",
+        "delete": "删除",
+        "deleting": "删除中...",
+        "saving": "保存中...",
+        "update": "更新",
+        "create": "创建",
+        "createSuccess": "支付提供商创建成功",
+        "createError": "创建支付提供商失败",
+        "updateSuccess": "支付提供商更新成功",
+        "updateError": "更新支付提供商失败",
+        "deleteSuccess": "支付提供商删除成功",
+        "deleteError": "删除支付提供商失败",
+        "registerWebhook": "注册Webhook",
+        "webhookRegistered": "Webhook注册成功",
+        "webhookRegistrationFailed": "Webhook注册失败",
+        "webhookRegistrationDescription": "这将注册一个Webhook端点用于支付提供商。Webhook URL将会是：",
+       "registering": "注册中...",
+        "register": "注册"
+      }
+    }
+  }
+}

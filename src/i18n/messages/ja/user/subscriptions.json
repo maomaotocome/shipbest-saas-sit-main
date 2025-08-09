@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "サブスクリプション管理",
+      "status": "ステータス",
+      "startDate": "開始日",
+      "price": "価格",
+      "cancelAt": "キャンセル日",
+      "cancelAtPeriodEnd": "期間終了時にキャンセル",
+      "subscriptionPeriods": "サブスクリプション期間",
+      "periodNumber": "期間番号",
+      "endDate": "終了日",
+      "planName": "プラン名",
+      "billingCycle": "請求サイクル",
+      "currentPeriodEndDate": "現在の期間終了日",
+      "viewPeriods": "期間を表示",
+      "confirmCancelTitle": "サブスクリプションのキャンセル確認",
+      "confirmCancelDescription": "このサブスクリプションをキャンセルしてもよろしいですか？サブスクリプションは現在の請求期間の終了時にキャンセルされます。",
+      "subscriptionDetails": "サブスクリプション詳細",
+      "cancel": "キャンセル",
+      "confirm": "確認",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "アクティブ",
+          "CANCELLED": "キャンセル済み",
+          "EXPIRED": "期限切れ",
+          "PRECANCEL": "キャンセル予定"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "予定済み",
+          "ACTIVE": "アクティブ",
+          "COMPLETED": "完了",
+          "CANCELLED": "キャンセル済み",
+          "FAILED": "失敗"
+        }
+      }
+    }
+  }
+}

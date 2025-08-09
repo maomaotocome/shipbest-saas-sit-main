@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "使用者管理",
+      "search": "搜尋",
+      "form": {
+        "name": "姓名",
+        "email": "電子郵件"
+      },
+      "searchNamePlaceholder": "按姓名搜尋...",
+      "searchEmailPlaceholder": "按電子郵件搜尋...",
+      "columns": {
+        "name": "姓名",
+        "email": "電子郵件",
+        "role": "角色",
+        "verified": "已驗證",
+        "not_available": "不可用",
+        "actions": "操作",
+        "view_notifications": "檢視通知",
+        "view_credits": "檢視點數",
+        "view_billing_history": "檢視帳單記錄"
+      },
+      "verification": {
+        "yes": "是",
+        "no": "否"
+      },
+      "roles": {
+        "ADMIN": "管理員",
+        "USER": "一般使用者"
+      },
+      "role_change": {
+        "error_self": "您無法修改自己的角色",
+        "success": "角色已更新為 {role}",
+        "confirm_to_admin": {
+          "title": "提升為管理員？",
+          "message": "警告：這將授予此使用者完整的管理權限。此操作應謹慎執行。",
+          "cancel": "取消",
+          "confirm": "是，授予管理員權限"
+        },
+        "confirm_to_user": {
+          "title": "降級為一般使用者？",
+          "message": "這將移除此使用者的所有管理權限。",
+          "cancel": "取消",
+          "confirm": "是，移除管理員權限"
+        }
+      },
+      "common": {
+        "created_at": "建立於",
+        "source": "來源",
+        "validity": "有效期",
+        "permanent": "永久",
+        "transaction_time": "交易時間",
+        "transaction_type": "交易類型",
+        "amount_consumed": "消耗數量",
+        "status": "狀態",
+        "description": "描述",
+        "no_description": "無描述",
+        "loading": "載入中...",
+        "error": "錯誤",
+        "no_data": "無資料",
+        "actions": "操作",
+        "transaction_id": "交易 ID",
+        "clear": "清除"
+      },
+      "sources": {
+        "PURCHASE": "購買",
+        "ONE_TIME_PURCHASE": "一次性購買",
+        "SYSTEM_GRANT": "系統發放",
+        "SUBSCRIPTION_PERIODIC": "訂閱週期性發放",
+        "ADMIN_GRANT": "管理員發放",
+        "PROMOTION": "促銷活動",
+        "REFUND": "退款",
+        "OTHER": "其他"
+      },
+      "transaction_types": {
+        "DEDUCT": "扣除",
+        "GRANT": "發放",
+        "REFUND": "退款",
+        "ADJUSTMENT": "調整"
+      },
+      "transaction_statuses": {
+        "PENDING": "待處理",
+        "CONFIRMED": "已確認",
+        "CANCELLED": "已取消",
+        "GRANTED": "已發放"
+      },
+      "summary": {
+        "stats_title": "點數統計",
+        "stats": {
+          "total": "總點數",
+          "available": "可用點數",
+          "reserved": "預留點數",
+          "used": "已用點數",
+          "expiring": "即將過期點數（30 天內）"
+        },
+        "expiring_alert": {
+          "title": "點數即將過期",
+          "description": "{count, plural, one {# 個點數} other {# 個點數}} 將在 30 天內過期"
+        },
+        "recent_grants": {
+          "title": "最近獲得的點數發放記錄（最多 5 筆）",
+          "columns": {
+            "amount": "數量"
+          },
+          "empty": "暫無最近發放記錄"
+        },
+        "recent_transactions": {
+          "title": "最近消費記錄（最多 5 筆）",
+          "empty": "暫無最近消費記錄",
+          "disclaimer": "注意：此處顯示的最近消費記錄可能包含其他使用者。精確篩選需要後端最佳化。"
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "點數來源",
+          "total": "總點數",
+          "remaining_total": "剩餘/總計",
+          "used": "已用點數"
+        },
+        "actions": {
+          "view_usage_detail": "使用詳情"
+        },
+        "filters": {
+          "source_label": "點數來源",
+          "all_sources": "所有來源",
+          "valid_only_label": "僅顯示有效"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "檢視詳情"
+        },
+        "filters": {
+          "date_range_label": "日期範圍",
+          "all_types": "所有類型",
+          "all_statuses": "所有狀態"
+        }
+      },
+      "grant_detail": {
+        "back_button": "返回點數發放列表",
+        "error_load": "無法載入點數發放詳情。",
+        "title": "點數發放詳情 (ID: {shortId}...)",
+        "source": "來源",
+        "created_at": "取得時間",
+        "total_credits": "總點數",
+        "remaining_credits": "剩餘點數",
+        "available_credits": "可用點數",
+        "reserved_credits": "預留點數",
+        "used_credits": "已用點數",
+        "validity": "有效期",
+        "usage": {
+          "title": "使用記錄",
+          "description": "此點數發放的所有使用記錄",
+          "empty": "此點數發放尚未使用",
+          "columns": {
+            "transaction_time": "交易時間",
+            "transaction_id": "交易 ID",
+            "transaction_type": "交易類型",
+            "amount_used": "使用數量",
+            "balance_after": "之後餘額",
+            "transaction_description": "交易描述"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "返回交易列表",
+        "error_load": "無法載入交易詳情。",
+        "title": "交易詳情",
+        "id": "交易 ID",
+        "transaction_time": "交易時間",
+        "total_consumed": "消耗總點數",
+        "transaction_type": "交易類型",
+        "status": "狀態",
+        "description": "描述",
+        "expire_at": "過期時間",
+        "confirmed_at": "確認時間",
+        "cancelled_at": "取消時間",
+        "metadata": "元數據",
+        "usage_detail": {
+          "title": "點數使用詳情",
+          "description": "此交易消耗的點數發放詳情",
+          "empty": "無點數使用詳情",
+          "columns": {
+            "grant_id": "發放 ID",
+            "source": "點數來源",
+            "amount": "消耗數量",
+            "balance_after": "之後餘額（詳情）"
+          }
+        }
+      },
+      "modal": {
+        "title": "{userName} 的點數詳情",
+        "title_no_name": "使用者 {userId} 的點數詳情",
+        "tabs": {
+          "summary": "摘要",
+          "grants": "發放記錄",
+          "transactions": "交易記錄"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "{name} 的通知",
+        "modal_title_fallback": "使用者的通知",
+        "tabs": {
+          "system": "系統通知",
+          "personalized": "個人化通知"
+        },
+        "columns": {
+          "title": "標題",
+          "no_title": "無標題",
+          "content": "內容",
+          "no_content": "無內容",
+          "status": "狀態",
+          "time": "時間"
+        },
+        "status": {
+          "READ": "已讀",
+          "UNREAD": "未讀"
+        },
+        "error_loading": "載入通知失敗",
+        "no_messages": "無通知訊息"
+      },
+      "billing_history": {
+        "title": "帳單記錄 - {name}",
+        "description": "檢視 {name} 的訂閱和購買記錄。",
+        "close_button": "關閉",
+        "unknown_error": "未知錯誤",
+        "type_subscription": "訂閱",
+        "type_purchase": "購買",
+        "table": {
+          "header_type": "類型",
+          "header_plan": "計畫/項目",
+          "header_amount": "金額",
+          "header_status": "狀態",
+          "header_date": "日期",
+          "header_provider": "提供者",
+          "loading": "載入中...",
+          "error": "載入失敗：{message}",
+          "empty": "未找到帳單記錄"
+        },
+        "pagination": {
+          "total_records": "共 {count, plural, one {# 筆記錄} other {# 筆記錄}}",
+          "previous": "上一頁",
+          "next": "下一頁",
+          "page_info": "第 {page} 頁 / 共 {totalPages} 頁"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "credit": {
+    "title": "내 크레딧",
+    "loading": "로딩 중...",
+    "unavailable": "--",
+    "error": "크레딧 로딩 오류",
+    "refresh": "새로고침",
+    "total": "총 크레딧",
+    "grants": "크레딧 부여",
+    "viewDetails": "상세 보기"
+  }
+}

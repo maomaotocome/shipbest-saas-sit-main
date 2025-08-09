@@ -1,0 +1,19 @@
+{
+  "user": {
+    "menu": {
+      "home": "Главная",
+      "credits": "Кредиты",
+      "notifications": "Уведомления",
+      "invoice": "Счета",
+      "subscriptions": "Подписки",
+      "purchases": "Покупки",
+      "settings": "Настройки",
+      "teams": "Команды",
+      "affiliates": "Партнеры",
+      "library": "Библиотека",
+      "profile": "Профиль",
+      "account": "Аккаунт",
+      "billing": "Биллинг"
+    }
+  }
+}

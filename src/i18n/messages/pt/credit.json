@@ -1,0 +1,12 @@
+{
+  "credit": {
+    "title": "Meus Créditos",
+    "loading": "Carregando...",
+    "unavailable": "--",
+    "error": "Erro ao carregar créditos",
+    "refresh": "Atualizar",
+    "total": "Créditos Totais",
+    "grants": "Atribuições de Créditos",
+    "viewDetails": "Ver Detalhes"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "menu": {
+      "home": "首頁",
+      "users": "用戶",
+      "blog": "部落格",
+      "posts": "文章",
+      "tags": "標籤",
+      "categories": "分類",
+      "billing": "帳單",
+      "providers": "供應商",
+      "plans": "方案",
+      "subscriptions": "訂閱",
+      "purchases": "購買記錄",
+      "settings": "設定",
+      "oss": "物件儲存",
+      "notifications": "通知",
+      "affiliates": "聯盟行銷",
+      "invoice": "發票",
+      "general": "一般",
+      "content": "內容",
+      "explore": "探索管理"
+    }
+  }
+}

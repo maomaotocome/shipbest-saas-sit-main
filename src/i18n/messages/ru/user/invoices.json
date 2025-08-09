@@ -1,0 +1,22 @@
+{
+  "user": {
+    "invoices": {
+      "title": "Счета",
+      "number": "Номер счета",
+      "status": "Статус",
+      "issueDate": "Дата выставления",
+      "dueDate": "Срок платежа",
+      "total": "Общая сумма",
+      "paidAt": "Дата платежа",
+      "downloadPdf": "Скачать PDF",
+      "viewOnline": "Просмотреть онлайн",
+      "type": "Тип",
+      "typePurchase": "Покупка",
+      "typeSubscription": "Подписка",
+      "planName": "План",
+      "startDate": "Дата начала",
+      "billingPeriod": "Расчетный период",
+      "resetPeriod": "Период сброса"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "playground": {
+    "new": "Novo",
+    "history": "Histórico",
+    "prompt": {
+      "placeholder": "Como posso ajudá-lo hoje?"
+    },
+    "chat": {
+      "input": {
+        "placeholder": "Digite sua mensagem...",
+        "send": "Enviar",
+        "enterToSend": "Enter para enviar",
+        "shiftEnterForNewline": "Shift + Enter para nova linha"
+      },
+      "noMessages": "O que posso fazer por você hoje?"
+    },
+    "history": {
+      "title": "Histórico de conversas",
+      "searchPlaceholder": "Pesquisar no histórico de conversas...",
+      "loading": "Carregando..."
+    }
+  }
+}

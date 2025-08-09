@@ -1,0 +1,10 @@
+{
+  "user": {
+    "order": {
+      "initiatingPayment": "Inizializzazione del pagamento...",
+      "openingPayment": "Apertura del gateway di pagamento...",
+      "paymentFailed": "Pagamento fallito. Si prega di riprovare.",
+      "backToHome": "Torna alla home"
+    }
+  }
+}

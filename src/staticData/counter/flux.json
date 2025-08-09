@@ -1,0 +1,44 @@
+{
+    "en": {
+        "title": "Model Statistics",
+        "description": "Key metrics of FLUX.1 [dev]",
+        "items": [
+            {
+                "label": "Parameters",
+                "number": 12,
+                "more": true
+            },
+            {
+                "label": "Research Papers",
+                "number": 50,
+                "more": true
+            },
+            {
+                "label": "GitHub Stars",
+                "number": 1000,
+                "more": true
+            }
+        ]
+    },
+    "zh": {
+        "title": "模型统计",
+        "description": "FLUX.1 [dev]的关键指标",
+        "items": [
+            {
+                "label": "参数",
+                "number": 12,
+                "more": true
+            },
+            {
+                "label": "研究论文",
+                "number": 50,
+                "more": true
+            },
+            {
+                "label": "GitHub星标",
+                "number": 1000,
+                "more": true
+            }
+        ]
+    }
+}

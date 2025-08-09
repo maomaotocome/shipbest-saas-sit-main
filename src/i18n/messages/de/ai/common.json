@@ -1,0 +1,116 @@
+{
+  "ai": {
+    "common": {
+      "prompt": "Beschreiben Sie Ihre Vision",
+      "promptPlaceholder": "Geben Sie hier Ihre Beschreibung ein...",
+      "negativePrompt": "Negative Eingabeaufforderung",
+      "negativePromptPlaceholder": "Was Sie nicht im Ergebnis sehen möchten...",
+      "model": "Modell",
+      "models": "Modelle",
+      "multiSelect": "Mehrfachauswahl",
+      "numImages": "Anzahl Bilder",
+      "numVideos": "Anzahl Videos",
+      "aspectRatio": "Seitenverhältnis",
+      "image": "Bild",
+      "seed": "Samen",
+      "taskList": "Aufgabenliste",
+      "loadMore": "Mehr laden",
+      "loading": "Laden...",
+      "loadingMore": "Mehr laden...",
+      "errorLoading": "Fehler beim Laden der Aufgaben",
+      "selectModel": "Modell auswählen",
+      "selectModelTitle": "Modell auswählen",
+      "demoGallery": "Demo-Galerie",
+      "creditPreview": "Kredit-Vorschau",
+      "totalCredits": "Gesamtkredite",
+      "creditDetails": "Kredit-Details",
+      "quantity": "Menge",
+      "calculating": "Kredite berechnen...",
+      "fillParameters": "Parameter ausfüllen, um Kreditverbrauch anzuzeigen",
+      "calculationError": "Kreditberechnungsfehler",
+      "estimatedConsumption": "* Dies ist ein geschätzter Kreditverbrauch. Der tatsächliche Verbrauch kann aufgrund von Aufgabenfehlern mit teilweiser Kreditrückerstattung variieren.",
+      "viewDetails": "Details anzeigen",
+      "taskVisibility": "Aufgabensichtbarkeit",
+      "publicTask": "Öffentlich",
+      "privateTask": "Privat",
+      "publicTaskDescription": "Öffentliche Aufgaben sind für alle Benutzer sichtbar",
+      "privateTaskDescription": "Private Aufgaben sind nur für Sie sichtbar",
+      "privateTaskProfileLink": "Sie können diese Standardeinstellung in Ihrem Profil ändern",
+      "openProfileSettings": "Profil-Einstellungen öffnen",
+      "loginRequired": "Anmeldung erforderlich",
+      "premiumFeature": "Premium-Funktion",
+      "login": "Anmelden",
+      "getPermission": "Upgrade",
+      "advancedParameters": "Erweiterte Parameter",
+      "showAdvancedParameters": "Erweiterte Parameter anzeigen",
+      "hideAdvancedParameters": "Erweiterte Parameter ausblenden",
+      "slideToDo": {
+        "readyText": "Zum Senden der Aufgabe wischen",
+        "completedText": "Aufgabe gesendet",
+        "slidingAtEndingText": "Zum Bestätigen loslassen"
+      },
+      "tooltip": {
+        "id": "Aufgaben-ID",
+        "type": "Typ",
+        "status": "Status",
+        "createdAt": "Erstellt am",
+        "updatedAt": "Aktualisiert am",
+        "prompt": "Prompt",
+        "negativePrompt": "Negativer Prompt",
+        "models": "Modelle",
+        "numImages": "Anzahl der Bilder",
+        "aspectRatio": "Seitenverhältnis",
+        "images": "Eingabebilder"
+      },
+      "actions": {
+        "downloadOriginal": "Original herunterladen",
+        "recreateTask": "Aufgabe mit gleicher Konfiguration erstellen",
+        "recreateTaskDialogTitle": "Aufgabe mit gleicher Konfiguration erstellen"
+      },
+      "fileInfo": {
+        "dimensions": "Abmessungen",
+        "fileSize": "Dateigröße",
+        "resolution": "Auflösung",
+        "duration": "Dauer",
+        "seconds": "Sekunden"
+      },
+      "boolean": {
+        "enabled": "Aktiviert",
+        "disabled": "Deaktiviert",
+        "on": "Ein",
+        "off": "Aus"
+      },
+      "validation": {
+        "loadingUserInfo": "Benutzerinformationen werden geladen, bitte versuchen Sie es später erneut",
+        "userNotLoggedIn": "Bitte melden Sie sich an, um fortzufahren",
+        "creditCalculationFailed": "Kreditberechnung fehlgeschlagen, bitte überprüfen Sie, ob die Parameter vollständig sind",
+        "cannotGetUserCredits": "Benutzerkreditinformationen können nicht abgerufen werden, bitte versuchen Sie es später erneut",
+        "insufficientCredits": "Unzureichende Kredite! Benötigt {requiredCredits} Kredite, derzeit nur {availableCredits} Kredite verfügbar",
+        "taskExecutionFailed": "Aufgabenausführung fehlgeschlagen",
+        "creditCalculationError": "Kreditberechnung fehlgeschlagen"
+      },
+      "taskSubmittedSuccessfully": "Aufgabe erfolgreich übermittelt",
+      "pleaseUploadImageFirst": "Bitte laden Sie zuerst ein Bild hoch",
+      "pleaseCompleteRequiredField": "Bitte füllen Sie das erforderliche Feld aus: {fieldName}",
+      "upload": {
+        "imageUploadFailed": "Bildupload fehlgeschlagen, bitte versuchen Sie es erneut"
+      },
+      "aspectRatioSelector": {
+        "custom": "Benutzerdefiniert",
+        "customWidth": "Breite",
+        "customHeight": "Höhe",
+        "notSelected": "Nicht ausgewählt"
+      },
+      "imageComparison": {
+        "title": "Bildvergleich",
+        "instructions": "Ziehen Sie den Schieberegler oder bewegen Sie die Maus, um die Bilder zu vergleichen.",
+        "inputImage": "Eingabebild",
+        "generatedImage": "Generiertes Bild"
+      },
+      "imageActions": {
+        "preview": "Bild in der Vorschau anzeigen",
+        "compare": "Mit generiertem Bild vergleichen"
+      }
+    }
+  }
+}

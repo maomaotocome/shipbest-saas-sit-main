@@ -1,0 +1,13 @@
+{
+  "user": {
+    "profile": {
+      "privacy": {
+        "title": "Privacy Settings",
+        "publicDefault": "Make my tasks public by default",
+        "publicDefaultDescription": "When enabled, your AI-generated content will be public by default. You can always change this for individual tasks.",
+        "success": "Privacy settings updated successfully",
+        "openProfileInNewTab": "Open profile settings in new tab"
+      }
+    }
+  }
+}

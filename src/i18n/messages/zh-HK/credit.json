@@ -1,0 +1,12 @@
+{
+  "credit": {
+    "title": "我的積分",
+    "loading": "載入中...",
+    "unavailable": "--",
+    "error": "載入積分時出錯",
+    "refresh": "重新整理",
+    "total": "總積分",
+    "grants": "積分授予",
+    "viewDetails": "查看詳情"
+  }
+}

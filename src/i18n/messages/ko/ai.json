@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "로딩 중...",
+    "loadingMore": "더 로딩 중...",
+    "loadMore": "더 보기",
+    "errorLoading": "로딩 실패",
+    "pleaseLogin": "로그인해 주세요",
+    "loginToViewTasks": "작업을 보려면 로그인하세요",
+    "taskList": "작업 목록",
+    "demoGallery": "데모 갤러리",
+    "prompt": "프롬프트",
+    "promptPlaceholder": "프롬프트를 입력하세요",
+    "negativePrompt": "네거티브 프롬프트",
+    "negativePromptPlaceholder": "네거티브 프롬프트를 입력하세요",
+    "numImages": "생성 수",
+    "numVideos": "생성 수",
+    "seed": "랜덤 시드"
+  }
+}

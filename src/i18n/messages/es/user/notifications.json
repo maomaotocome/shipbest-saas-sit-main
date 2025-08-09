@@ -1,0 +1,27 @@
+{
+  "user": {
+    "notifications": {
+      "title": "Notificaciones",
+      "loading": "Cargando notificaciones...",
+      "noData": "No se encontraron notificaciones.",
+      "tabs": {
+        "personalized": "Personalizado",
+        "system": "Sistema"
+      },
+      "markAllAsRead": "Marcar todo como leído",
+      "markAsRead": "Marcar como leído",
+      "showMore": "Mostrar más",
+      "showLess": "Mostrar menos",
+      "status": {
+        "unread": "No leído",
+        "read": "Leído"
+      },
+      "columns": {
+        "title": "Título",
+        "content": "Contenido",
+        "status": "Estado",
+        "date": "Fecha"
+      }
+    }
+  }
+}

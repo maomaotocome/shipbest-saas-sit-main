@@ -1,0 +1,48 @@
+{
+  "explore": {
+    "title": "Entdecken",
+    "subtitle": "Entdecken Sie erstaunliche Kreationen unserer Community",
+    "filters": {
+      "type": "Typ",
+      "all": "Alle",
+      "images": "Bilder",
+      "videos": "Videos",
+      "featured": "Hervorgehoben",
+      "featuredOnly": "Nur Hervorgehobene",
+      "regular": "Normal",
+      "sortBy": "Sortieren nach",
+      "newest": "Neueste",
+      "reset": "Zurücksetzen"
+    },
+    "gallery": {
+      "viewDetails": "Details anzeigen",
+      "noItems": "Keine Elemente gefunden",
+      "noItemsDescription": "Versuchen Sie, Ihre Filter anzupassen oder schauen Sie später nach neuen Inhalten.",
+      "loadMore": "Mehr laden",
+      "loading": "Laden...",
+      "error": "Fehler beim Laden der Elemente"
+    },
+    "preview": {
+      "title": "Vorschau",
+      "imageAlt": "Vorschaubild",
+      "loading": "Laden...",
+      "videoNotSupported": "Ihr Browser unterstützt keine Videowiedergabe.",
+      "details": "Details",
+      "type": "Typ",
+      "dimensions": "Abmessungen",
+      "created": "Erstellt",
+      "featured": "Hervorgehoben",
+      "actions": "Aktionen",
+      "download": "Original herunterladen",
+      "recreate": "Nacherstellen",
+      "originalSettings": "Ursprüngliche Einstellungen",
+      "creatorInformation": "Ersteller-Informationen",
+      "fileInformation": "Datei-Informationen",
+      "share": "Teilen"
+    },
+    "stats": {
+      "totalItems": "Gesamtelemente",
+      "featuredItems": "Hervorgehobene Elemente"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "admin": {
+    "dashboard": {
+      "title": "管理者ダッシュボード",
+      "general": "一般",
+      "metadata": {
+        "title": "管理者ダッシュボード",
+        "description": "管理者ダッシュボード",
+        "keywords": "管理者ダッシュボード"
+      }
+    }
+  }
+}

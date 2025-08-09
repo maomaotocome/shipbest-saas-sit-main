@@ -1,0 +1,116 @@
+{
+  "ai": {
+    "common": {
+      "prompt": "描述你的想法",
+      "promptPlaceholder": "在此输入你的描述...",
+      "negativePrompt": "负面提示",
+      "negativePromptPlaceholder": "你不希望在结果中看到的内容...",
+      "model": "模型",
+      "models": "模型",
+      "multiSelect": "多选",
+      "numImages": "图片数量",
+      "numVideos": "视频数量",
+      "aspectRatio": "宽高比",
+      "image": "图片",
+      "seed": "随机种子",
+      "taskList": "任务列表",
+      "loadMore": "加载更多",
+      "loading": "加载中...",
+      "loadingMore": "加载更多中...",
+      "errorLoading": "加载任务出错",
+      "selectModel": "选择模型",
+      "selectModelTitle": "选择模型",
+      "demoGallery": "示例画廊",
+      "creditPreview": "积分预览",
+      "totalCredits": "总积分",
+      "creditDetails": "积分详情",
+      "quantity": "数量",
+      "calculating": "计算积分中...",
+      "fillParameters": "填写参数以查看积分消耗",
+      "calculationError": "积分计算错误",
+      "estimatedConsumption": "* 这是预估的积分消耗。由于任务失败可能会部分退还积分，实际消耗可能有所不同。",
+      "viewDetails": "查看详情",
+      "taskVisibility": "任务可见性",
+      "publicTask": "公开",
+      "privateTask": "私密",
+      "publicTaskDescription": "公开任务对所有用户可见",
+      "privateTaskDescription": "私密任务仅对你可见",
+      "privateTaskProfileLink": "你可以在个人资料中更改此默认设置",
+      "openProfileSettings": "打开个人资料设置",
+      "loginRequired": "需要登录",
+      "premiumFeature": "高级功能",
+      "login": "登录",
+      "getPermission": "升级",
+      "advancedParameters": "高级参数",
+      "showAdvancedParameters": "显示高级参数",
+      "hideAdvancedParameters": "隐藏高级参数",
+      "slideToDo": {
+        "readyText": "滑动提交任务",
+        "completedText": "任务已提交",
+        "slidingAtEndingText": "释放确认提交"
+      },
+      "tooltip": {
+        "id": "任务ID",
+        "type": "类型",
+        "status": "状态",
+        "createdAt": "创建时间",
+        "updatedAt": "更新时间",
+        "prompt": "提示词",
+        "negativePrompt": "反向词",
+        "models": "模型",
+        "numImages": "图片数量",
+        "aspectRatio": "宽高比",
+        "images": "输入图片"
+      },
+      "actions": {
+        "downloadOriginal": "下载原始文件",
+        "recreateTask": "使用相同配置创建任务",
+        "recreateTaskDialogTitle": "使用相同配置创建任务"
+      },
+      "fileInfo": {
+        "dimensions": "尺寸",
+        "fileSize": "文件大小",
+        "resolution": "分辨率",
+        "duration": "时长",
+        "seconds": "秒"
+      },
+      "boolean": {
+        "enabled": "启用",
+        "disabled": "禁用",
+        "on": "开启",
+        "off": "关闭"
+      },
+      "validation": {
+        "loadingUserInfo": "正在加载用户信息，请稍后重试",
+        "userNotLoggedIn": "请先登录以继续",
+        "creditCalculationFailed": "计算积分失败，请检查参数是否完整",
+        "cannotGetUserCredits": "无法获取用户积分信息，请稍后重试",
+        "insufficientCredits": "积分不足！需要 {requiredCredits} 积分，当前仅有 {availableCredits} 积分",
+        "taskExecutionFailed": "任务执行失败",
+        "creditCalculationError": "计算积分失败"
+      },
+      "taskSubmittedSuccessfully": "任务提交成功",
+      "pleaseUploadImageFirst": "请先上传图片",
+      "pleaseCompleteRequiredField": "请完成必填字段：{fieldName}",
+      "upload": {
+        "imageUploadFailed": "图片上传失败，请重试"
+      },
+      "aspectRatioSelector": {
+        "custom": "自定义",
+        "customWidth": "宽度",
+        "customHeight": "高度",
+        "notSelected": "未选择"
+      },
+      "imageComparison": {
+        "title": "图片比较",
+        "instructions": "拖动滑块或移动鼠标来比较图片。",
+        "inputImage": "输入图片",
+        "generatedImage": "生成的图片"
+      },
+      "imageActions": {
+        "preview": "预览图片",
+        "compare": "与生成的图片比较"
+      }
+    }
+  }
+}

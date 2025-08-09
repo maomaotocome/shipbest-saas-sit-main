@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "blog": {
+      "posts": {
+        "title": "Статьи блога",
+        "addPost": "Добавить статью",
+        "editPost": "Редактировать статью",
+        "createPost": "Создать статью",
+        "cancel": "Отмена",
+        "update": "Обновить",
+        "create": "Создать",
+        "search": "Поиск",
+        "searchTitlePlaceholder": "Поиск по названию...",
+        "searchAuthorPlaceholder": "Поиск по автору...",
+        "columns": {
+          "slug": "Слаг",
+          "titles": "Названия",
+          "category": "Категория",
+          "tags": "Теги",
+          "author": "Автор",
+          "status": "Статус"
+        },
+        "status": {
+          "published": "Опубликовано",
+          "draft": "Черновик"
+        },
+        "form": {
+          "author": "Автор",
+          "slug": "Слаг",
+          "coverImage": "URL обложки",
+          "category": "Категория",
+          "selectCategory": "Выберите категорию",
+          "tags": "Теги",
+          "title": "Название",
+          "content": "Содержание",
+          "metadata": "Метаданные",
+          "translateFrom": "Перевести с {locale}",
+          "selectedTags": "Выбранные теги",
+          "selectTags": "Выберите теги",
+          "slugRequired": "Слаг обязателен",
+          "titlePlaceholder": "Введите название",
+          "contentPlaceholder": "Введите содержание",
+          "saving": "Сохранение...",
+          "atLeastOneTranslation": "Пожалуйста, заполните название и содержание хотя бы на одном языке",
+          "slugEmptyError": "Пожалуйста, введите слаг"
+        },
+        "messages": {
+          "createSuccess": "Статья успешно создана",
+          "updateSuccess": "Статья успешно обновлена",
+          "deleteSuccess": "Статья успешно удалена",
+          "saveFailed": "Сохранение не удалось: {message}",
+          "deleteFailed": "Удаление не удалось: {message}",
+          "unknownError": "Произошла неизвестная ошибка при сохранении статьи",
+          "unknownDeleteError": "Произошла неизвестная ошибка при удалении статьи",
+          "noAuthorsFound": "Авторы блога не найдены, пожалуйста, сначала создайте автора блога"
+        }
+      },
+      "categories": {
+        "title": "Категории блога",
+        "addCategory": "Добавить категорию",
+        "editCategory": "Редактировать категорию",
+        "createCategory": "Создать категорию",
+        "cancel": "Отмена",
+        "update": "Обновить",
+        "create": "Создать",
+        "search": "Поиск",
+        "searchSlugPlaceholder": "Поиск по слагу...",
+        "searchNamePlaceholder": "Поиск по названию...",
+        "form": {
+          "slug": "Слаг",
+          "slugPlaceholder": "Введите слаг категории",
+          "name": "Название {locale}",
+          "namePlaceholder": "Введите название категории",
+          "translateFrom": "Перевести с {locale}"
+        },
+        "messages": {
+          "createSuccess": "Категория успешно создана",
+          "updateSuccess": "Категория успешно обновлена",
+          "deleteSuccess": "Категория успешно удалена",
+          "error": "Произошла ошибка"
+        },
+        "confirmDelete": {
+          "title": "Удалить категорию",
+          "description": "Вы уверены, что хотите удалить эту категорию? Это действие нельзя отменить."
+        },
+        "confirm": "Подтвердить",
+        "save": "Сохранить"
+      },
+      "tags": {
+        "title": "Теги блога",
+        "addTag": "Добавить тег",
+        "editTag": "Редактировать тег",
+        "createTag": "Создать тег",
+        "cancel": "Отмена",
+        "update": "Обновить",
+        "create": "Создать",
+        "search": "Поиск",
+        "searchSlugPlaceholder": "Поиск по слагу...",
+        "searchNamePlaceholder": "Поиск по названию...",
+        "form": {
+          "slug": "Слаг",
+          "name": "Название",
+          "nameWithLocale": "Название {locale}",
+          "translateFrom": "Перевести с {locale}"
+        },
+        "messages": {
+          "createSuccess": "Тег успешно создан",
+          "updateSuccess": "Тег успешно обновлён",
+          "deleteSuccess": "Тег успешно удалён",
+          "error": "Произошла ошибка"
+        },
+        "confirmDelete": {
+          "title": "Удалить тег",
+          "description": "Вы уверены, что хотите удалить этот тег? Это действие нельзя отменить."
+        },
+        "confirm": "Подтвердить",
+        "save": "Сохранить"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "Récupérer vos récompenses",
+      "claim_new_user": "Récupérer la récompense nouveau utilisateur",
+      "claim_daily": "Récupérer la récompense de connexion quotidienne",
+      "loading": "Traitement en cours...",
+      "success": "Récompense récupérée avec succès !",
+      "error": "Échec de la récupération de la récompense",
+      "already_received": "Vous avez déjà reçu cette récompense",
+      "verify_human": "Veuillez vérifier que vous êtes un humain",
+      "decline_today": "Pas aujourd'hui",
+      "decline_forever": "Ne plus afficher",
+      "later": "Plus tard",
+      "daily_login": "Récompense de connexion quotidienne du {date}",
+      "new_user": "Récompense nouveau utilisateur",
+      "invite": "Récompense d'invitation",
+      "credits": "Crédits",
+      "newUserDescription": "Bienvenue ! Récupérez votre récompense nouveau utilisateur pour commencer.",
+      "dailyLoginDescription": "Revenez chaque jour pour récupérer votre récompense de connexion !"
+    }
+  }
+}

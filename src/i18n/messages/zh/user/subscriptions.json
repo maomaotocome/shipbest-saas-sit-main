@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "订阅管理",
+      "status": "状态",
+      "startDate": "开始日期",
+      "price": "价格",
+      "cancelAt": "取消日期",
+      "cancelAtPeriodEnd": "在周期结束时取消",
+      "subscriptionPeriods": "订阅周期",
+      "periodNumber": "周期编号",
+      "endDate": "结束日期",
+      "planName": "计划名称",
+      "billingCycle": "计费周期",
+      "currentPeriodEndDate": "当前周期截止时间",
+      "viewPeriods": "查看周期",
+      "confirmCancelTitle": "确认取消订阅",
+      "confirmCancelDescription": "您确定要取消这个订阅吗？订阅将在当前计费周期结束时取消。",
+      "subscriptionDetails": "订阅详情",
+      "cancel": "取消",
+      "confirm": "确认",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "活跃",
+          "CANCELLED": "已取消",
+          "EXPIRED": "已过期",
+          "PRECANCEL": "预取消"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "已计划",
+          "ACTIVE": "活跃",
+          "COMPLETED": "已完成",
+          "CANCELLED": "已取消",
+          "FAILED": "失败"
+        }
+      }
+    }
+  }
+}

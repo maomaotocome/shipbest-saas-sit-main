@@ -1,0 +1,1113 @@
+{
+    "zh": [
+        {
+            "label": "文本模型",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "OpenAI 最先进的文本生成模型",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "Anthropic 的智能对话模型",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "Google 的多模态大模型",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "图像模型",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "OpenAI 的文本到图像生成模型",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "高质量的图像生成模型",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "开源的图像生成模型",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "视频模型",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "OpenAI 的文本到视频生成模型",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "视频生成和编辑模型",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "AI 视频生成平台",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "音频模型",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "OpenAI 的语音识别模型",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Meta 的语音生成模型",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "en": [
+        {
+            "label": "Text Models",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "The most advanced text generation model by OpenAI",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "The intelligent dialogue model by Anthropic",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "The multi-modal large model by Google",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "Image Models",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "OpenAI's text-to-image generation model",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "High-quality image generation model",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "Open-source image generation model",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "Video Models",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "OpenAI's text-to-video generation model",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "Video generation and editing model",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "AI video generation platform",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "Audio Models",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "OpenAI's speech recognition model",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Meta's speech generation model",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "zh-hk": [
+        {
+            "label": "文本模型",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "OpenAI 最先進的文本生成模型",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "Anthropic 的智能對話模型",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "Google 的多模態大模型",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "圖像模型",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "OpenAI 的文本到圖像生成模型",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "高質量的圖像生成模型",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "開源的圖像生成模型",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "視頻模型",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "OpenAI 的文本到視頻生成模型",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "視頻生成和編輯模型",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "AI 視頻生成平台",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "音頻模型",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "OpenAI 的語音識別模型",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Meta 的語音生成模型",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "fr": [
+        {
+            "label": "Modèles de Texte",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "Le modèle de génération de texte le plus avancé d'OpenAI",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "Le modèle de dialogue intelligent d'Anthropic",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "Le grand modèle multimodal de Google",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "Modèles d'Image",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "Modèle de génération texte-à-image d'OpenAI",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "Modèle de génération d'images de haute qualité",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "Modèle de génération d'images open source",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "Modèles Vidéo",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "Modèle de génération texte-à-vidéo d'OpenAI",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "Modèle de génération et d'édition vidéo",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "Plateforme de génération vidéo IA",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "Modèles Audio",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "Modèle de reconnaissance vocale d'OpenAI",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Modèle de génération vocale de Meta",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "de": [
+        {
+            "label": "Textmodelle",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "Das fortschrittlichste Textgenerierungsmodell von OpenAI",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "Das intelligente Dialogmodell von Anthropic",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "Das multimodale große Modell von Google",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "Bildmodelle",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "OpenAIs Text-zu-Bild-Generierungsmodell",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "Hochqualitatives Bildgenerierungsmodell",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "Open-Source-Bildgenerierungsmodell",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "Videomodelle",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "OpenAIs Text-zu-Video-Generierungsmodell",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "Video-Generierungs- und Bearbeitungsmodell",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "KI-Videogenerierungsplattform",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "Audiomodelle",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "OpenAIs Spracherkennungsmodell",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Metas Sprachgenerierungsmodell",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "it": [
+        {
+            "label": "Modelli di Testo",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "Il modello di generazione di testo più avanzato di OpenAI",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "Il modello di dialogo intelligente di Anthropic",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "Il grande modello multimodale di Google",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "Modelli di Immagine",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "Modello di generazione testo-immagine di OpenAI",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "Modello di generazione di immagini di alta qualità",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "Modello di generazione di immagini open source",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "Modelli Video",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "Modello di generazione testo-video di OpenAI",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "Modello di generazione e editing video",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "Piattaforma di generazione video AI",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "Modelli Audio",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "Modello di riconoscimento vocale di OpenAI",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Modello di generazione vocale di Meta",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "pt": [
+        {
+            "label": "Modelos de Texto",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "O modelo de geração de texto mais avançado da OpenAI",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "O modelo de diálogo inteligente da Anthropic",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "O grande modelo multimodal do Google",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "Modelos de Imagem",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "Modelo de geração texto-para-imagem da OpenAI",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "Modelo de geração de imagens de alta qualidade",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "Modelo de geração de imagens de código aberto",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "Modelos de Vídeo",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "Modelo de geração texto-para-vídeo da OpenAI",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "Modelo de geração e edição de vídeo",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "Plataforma de geração de vídeo AI",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "Modelos de Áudio",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "Modelo de reconhecimento de fala da OpenAI",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Modelo de geração de voz da Meta",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "ru": [
+        {
+            "label": "Текстовые Модели",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "Самая продвинутая модель генерации текста от OpenAI",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "Интеллектуальная диалоговая модель от Anthropic",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "Мультимодальная большая модель от Google",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "Модели Изображений",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "Модель генерации изображений из текста от OpenAI",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "Высококачественная модель генерации изображений",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "Модель генерации изображений с открытым исходным кодом",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "Видео Модели",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "Модель генерации видео из текста от OpenAI",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "Модель генерации и редактирования видео",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "Платформа генерации видео с ИИ",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "Аудио Модели",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "Модель распознавания речи от OpenAI",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Модель генерации речи от Meta",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "ja": [
+        {
+            "label": "テキストモデル",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "OpenAIの最も先進的なテキスト生成モデル",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "Anthropicのインテリジェント対話モデル",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "Googleのマルチモーダル大規模モデル",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "画像モデル",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "OpenAIのテキストから画像生成モデル",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "高品質な画像生成モデル",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "オープンソースの画像生成モデル",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "動画モデル",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "OpenAIのテキストから動画生成モデル",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "動画生成・編集モデル",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "AI動画生成プラットフォーム",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "オーディオモデル",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "OpenAIの音声認識モデル",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Metaの音声生成モデル",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "ko": [
+        {
+            "label": "텍스트 모델",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "OpenAI의 가장 고급 텍스트 생성 모델",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "Anthropic의 지능형 대화 모델",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "구글의 멀티모달 대형 모델",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "이미지 모델",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "OpenAI의 텍스트-이미지 생성 모델",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "고품질 이미지 생성 모델",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "오픈소스 이미지 생성 모델",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "비디오 모델",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "OpenAI의 텍스트-비디오 생성 모델",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "비디오 생성 및 편집 모델",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "AI 비디오 생성 플랫폼",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "오디오 모델",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "OpenAI의 음성 인식 모델",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Meta의 음성 생성 모델",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ],
+    "es": [
+        {
+            "label": "Modelos de Texto",
+            "items": [
+                {
+                    "title": "GPT-4",
+                    "description": "El modelo de generación de texto más avanzado de OpenAI",
+                    "href": "/models/gpt4"
+                },
+                {
+                    "title": "Claude",
+                    "description": "El modelo de diálogo inteligente de Anthropic",
+                    "href": "/models/claude"
+                },
+                {
+                    "title": "Gemini",
+                    "description": "El gran modelo multimodal de Google",
+                    "href": "/models/gemini"
+                }
+            ]
+        },
+        {
+            "label": "Modelos de Imagen",
+            "items": [
+                {
+                    "title": "DALL-E 3",
+                    "description": "Modelo de generación texto-a-imagen de OpenAI",
+                    "href": "/models/dalle"
+                },
+                {
+                    "title": "Midjourney",
+                    "description": "Modelo de generación de imágenes de alta calidad",
+                    "href": "/models/midjourney"
+                },
+                {
+                    "title": "Stable Diffusion",
+                    "description": "Modelo de generación de imágenes de código abierto",
+                    "href": "/models/sd"
+                },
+                {
+                    "title": "SDXL",
+                    "href": "/models/sdxl"
+                },
+                {
+                    "title": "ControlNet",
+                    "href": "/models/controlnet"
+                },
+                {
+                    "title": "LoRA",
+                    "href": "/models/lora"
+                }
+            ]
+        },
+        {
+            "label": "Modelos de Video",
+            "items": [
+                {
+                    "title": "Sora",
+                    "description": "Modelo de generación texto-a-video de OpenAI",
+                    "href": "/models/sora"
+                },
+                {
+                    "title": "Runway",
+                    "description": "Modelo de generación y edición de video",
+                    "href": "/models/runway"
+                },
+                {
+                    "title": "Pika",
+                    "description": "Plataforma de generación de video AI",
+                    "href": "/models/pika"
+                },
+                {
+                    "title": "AnimateDiff",
+                    "href": "/models/animatediff"
+                },
+                {
+                    "title": "VideoCrafter",
+                    "href": "/models/videocrafter"
+                }
+            ]
+        },
+        {
+            "label": "Modelos de Audio",
+            "items": [
+                {
+                    "title": "Whisper",
+                    "description": "Modelo de reconocimiento de voz de OpenAI",
+                    "href": "/models/whisper"
+                },
+                {
+                    "title": "VoiceBox",
+                    "description": "Modelo de generación de voz de Meta",
+                    "href": "/models/voicebox"
+                },
+                {
+                    "title": "MusicGen",
+                    "href": "/models/musicgen"
+                }
+            ]
+        }
+    ]
+}

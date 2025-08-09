@@ -1,0 +1,10 @@
+{
+  "user": {
+    "order": {
+      "initiatingPayment": "支払いを開始しています...",
+      "openingPayment": "決済ゲートウェイを開いています...",
+      "paymentFailed": "支払いに失敗しました。もう一度お試しください。",
+      "backToHome": "ホームに戻る"
+    }
+  }
+} 

@@ -1,0 +1,22 @@
+{
+  "user": {
+    "thanks": {
+      "title": "Vielen Dank für Ihren Kauf",
+      "loading": "Bestätige Ihren Bestellstatus...",
+      "success": {
+        "purchaseTitle": "Kauf erfolgreich!",
+        "purchaseMessage": "Sie haben {planName} erfolgreich gekauft",
+        "subscriptionTitle": "Abonnement erfolgreich!",
+        "subscriptionMessage": "Sie haben sich erfolgreich für {planName} angemeldet",
+        "button": "Bestellung anzeigen"
+      },
+      "error": {
+        "title": "Bestellverarbeitung",
+        "message": "Wir verarbeiten Ihre Bestellung, bitte versuchen Sie es später erneut",
+        "button": "Zurück zur Startseite"
+      },
+      "period": "Abonnementzeitraum",
+      "resetPeriod": "Zurücksetzungszeitraum"
+    }
+  }
+}

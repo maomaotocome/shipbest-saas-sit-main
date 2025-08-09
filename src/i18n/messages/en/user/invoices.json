@@ -1,0 +1,22 @@
+{
+  "user": {
+    "invoices": {
+      "title": "Invoices",
+      "number": "Invoice Number",
+      "status": "Status",
+      "issueDate": "Issue Date",
+      "dueDate": "Due Date",
+      "total": "Total Amount",
+      "paidAt": "Payment Date",
+      "downloadPdf": "Download PDF",
+      "viewOnline": "View Online",
+      "type": "Type",
+      "typePurchase": "Purchase",
+      "typeSubscription": "Subscription",
+      "planName": "Plan",
+      "startDate": "Start Date",
+      "billingPeriod": "Billing Period",
+      "resetPeriod": "Reset Period"
+    }
+  }
+}

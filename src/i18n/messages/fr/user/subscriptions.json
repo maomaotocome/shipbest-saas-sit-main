@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "Gestion des Abonnements",
+      "status": "Statut",
+      "startDate": "Date de Début",
+      "price": "Prix",
+      "cancelAt": "Annuler Le",
+      "cancelAtPeriodEnd": "Annuler à la fin de la période",
+      "subscriptionPeriods": "Périodes d'Abonnement",
+      "periodNumber": "Numéro de Période",
+      "endDate": "Date de Fin",
+      "planName": "Nom du Plan",
+      "billingCycle": "Cycle de Facturation",
+      "currentPeriodEndDate": "Date de Fin de la Période Actuelle",
+      "viewPeriods": "Voir les Périodes",
+      "confirmCancelTitle": "Confirmer l'Annulation de l'Abonnement",
+      "confirmCancelDescription": "Êtes-vous sûr de vouloir annuler cet abonnement ? L'abonnement sera annulé à la fin de la période de facturation en cours.",
+      "subscriptionDetails": "Détails de l'Abonnement",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "Actif",
+          "CANCELLED": "Annulé",
+          "EXPIRED": "Expiré",
+          "PRECANCEL": "Pré-annulation"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "Programmé",
+          "ACTIVE": "Actif",
+          "COMPLETED": "Terminé",
+          "CANCELLED": "Annulé",
+          "FAILED": "Échoué"
+        }
+      }
+    }
+  }
+}

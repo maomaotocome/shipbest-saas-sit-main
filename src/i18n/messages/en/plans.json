@@ -1,0 +1,24 @@
+{
+    "plans": {
+        "periodFormat": {
+            "day": "{value} Day",
+            "days": "{value} Days",
+            "week": "{value} Week",
+            "weeks": "{value} Weeks",
+            "month": "{value} Month",
+            "months": "{value} Months",
+            "year": "{value} Year",
+            "years": "{value} Years",
+            "oneTime": "One Time",
+            "lifetime": "Lifetime"
+        },
+        "periodType": {
+            "days": "Daily",
+            "weeks": "Weekly",
+            "months": "Monthly",
+            "years": "Yearly",
+            "oneTime": "One Time",
+            "lifetime": "Lifetime"
+        }
+    }
+}

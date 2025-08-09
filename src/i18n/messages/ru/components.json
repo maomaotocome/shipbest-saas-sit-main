@@ -1,0 +1,14 @@
+{
+  "components": {
+    "pagination": {
+      "previous": "Предыдущая",
+      "next": "Следующая",
+      "first": "Первая",
+      "last": "Последняя"
+    },
+    "datatable": {
+      "loading": "Загрузка...",
+      "actions": "Действия"
+    }
+  }
+}

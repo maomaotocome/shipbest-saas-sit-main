@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "首页",
+      "blog": "博客",
+      "pricing": "价格",
+      "playground": "工作室",
+      "products": "产品",
+      "models": "模型",
+      "explore": "探索",
+      "studio": "工作室"
+    },
+    "userMenu": {
+      "accountSettings": "账户设置",
+      "adminDashboard": "管理仪表盘",
+      "signOut": "登出",
+      "signIn": "登录",
+      "welcome": "欢迎!",
+      "signInToAccessAccount": "登录以访问您的帐户",
+      "signInWithGoogle": "使用 Google 登录",
+      "signInWithPassword": "使用密码登录",
+      "signUp": "注册",
+      "enableAwardNotifications": "奖项通知"
+    }
+  }
+}

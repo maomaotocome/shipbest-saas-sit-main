@@ -1,0 +1,57 @@
+{
+  "en": {
+    "title": "Text to Image",
+    "description": "Convert text descriptions into beautiful images",
+    "href": "/image/text-to-image"
+  },
+  "zh": {
+    "title": "文生图",
+    "description": "将文字描述转换为精美图片",
+    "href": "/image/text-to-image"
+  },
+  "zh-hk": {
+    "title": "文生圖",
+    "description": "將文字描述轉換為精美圖片",
+    "href": "/image/text-to-image"
+  },
+  "fr": {
+    "title": "Texte vers Image",
+    "description": "Convertir les descriptions textuelles en belles images",
+    "href": "/image/text-to-image"
+  },
+  "de": {
+    "title": "Text zu Bild",
+    "description": "Textbeschreibungen in schöne Bilder umwandeln",
+    "href": "/image/text-to-image"
+  },
+  "it": {
+    "title": "Testo a Immagine",
+    "description": "Convertire descrizioni testuali in bellissime immagini",
+    "href": "/image/text-to-image"
+  },
+  "pt": {
+    "title": "Texto para Imagem",
+    "description": "Converter descrições de texto em belas imagens",
+    "href": "/image/text-to-image"
+  },
+  "ru": {
+    "title": "Текст в Изображение",
+    "description": "Преобразование текстовых описаний в красивые изображения",
+    "href": "/image/text-to-image"
+  },
+  "ja": {
+    "title": "テキストから画像",
+    "description": "テキストの説明を美しい画像に変換",
+    "href": "/image/text-to-image"
+  },
+  "ko": {
+    "title": "텍스트를 이미지로",
+    "description": "텍스트 설명을 아름다운 이미지로 변환",
+    "href": "/image/text-to-image"
+  },
+  "es": {
+    "title": "Texto a Imagen",
+    "description": "Convertir descripciones de texto en hermosas imágenes",
+    "href": "/image/text-to-image"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "en": {
+    "title": "How to Use FLUX.1 Dev",
+    "description": "Learn how to get the best results from FLUX.1 Dev AI image generation",
+    "steps": [
+      {
+        "title": "Write Effective Prompts",
+        "description": "Create detailed, descriptive prompts for best results. Be specific about what you want to see, include details about style, lighting, and composition."
+      },
+      {
+        "title": "Choose the Right Settings", 
+        "description": "Select appropriate aspect ratio for your intended use, use 28-35 inference steps for balanced quality and speed, and generate multiple images to explore variations."
+      },
+      {
+        "title": "Refine Your Results",
+        "description": "Experiment with different prompt phrasings, adjust inference steps if quality isn't satisfactory, and try different aspect ratios for various compositions."
+      },
+      {
+        "title": "Best Practices",
+        "description": "Keep prompts focused but descriptive, use consistent terminology for similar styles, and consider the model's strengths in photorealism and detail."
+      }
+    ]
+  },
+  "zh": {
+    "title": "如何使用 FLUX.1 Dev", 
+    "description": "学习如何从FLUX.1 Dev AI图像生成中获得最佳效果",
+    "steps": [
+      {
+        "title": "编写有效的提示词",
+        "description": "创建详细、描述性的提示词以获得最佳效果。具体描述您想看到的内容，包含关于风格、光照和构图的细节。"
+      },
+      {
+        "title": "选择正确的设置",
+        "description": "为您的预期用途选择适当的宽高比，使用28-35个推理步数来平衡质量和速度，生成多张图像来探索变化。"
+      },
+      {
+        "title": "完善您的结果", 
+        "description": "尝试不同的提示词表述，如果质量不满意则调整推理步数，尝试不同的宽高比以获得各种构图。"
+      },
+      {
+        "title": "最佳实践",
+        "description": "保持提示词专注但具有描述性，对相似风格使用一致的术语，考虑模型在逼真度和细节方面的优势。"
+      }
+    ]
+  }
+}

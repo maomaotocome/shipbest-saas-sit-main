@@ -1,0 +1,48 @@
+model UserPaymentProviderCustomer {
+  id            String      @id @default(cuid())
+  billingUser   BillingUser @relation(fields: [billingUserId], references: [id])
+  billingUserId String
+
+  providerAccount   PaymentProviderAccount @relation(fields: [providerAccountId], references: [id])
+  providerAccountId String
+
+  providerCustomerId String
+  isDefault          Boolean  @default(false)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@unique([billingUserId, providerAccountId])
+  @@index([providerCustomerId])
+  @@index([billingUserId])
+  @@index([providerAccountId])
+  @@map("billing_user_provider_customers")
+}
+
+model PaymentProviderAccount {
+  id       String          @id @default(cuid())
+  provider PaymentProvider
+  name     String
+  code     String          @unique
+  isActive Boolean         @default(true)
+  priority Int             @default(0)
+  status   AccountStatus   @default(ACTIVE)
+
+  providerSecretKey String?
+
+  providerWebhookSecret String?
+  providerWebhookId     String?
+
+  subscriptions Subscription[]
+  purchases     Purchase[]
+  userCustomers UserPaymentProviderCustomer[]
+
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  WebhookEvent WebhookEvent[]
+  Invoice      Invoice[]
+
+  planPeriodConfigs PlanPeriodProviderConfig[]
+
+  @@index([provider])
+  @@map("billing_payment_provider_accounts")
+}

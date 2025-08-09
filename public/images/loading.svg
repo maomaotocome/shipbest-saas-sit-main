@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+    <defs>
+        <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#9932CC">
+                <animate attributeName="stop-color"
+                         values="#9932CC;#FF00FF;#8A2BE2;#4B0082;#9932CC"
+                         dur="3s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" stop-color="#4B0082">
+                <animate attributeName="stop-color"
+                         values="#4B0082;#8A2BE2;#FF00FF;#9932CC;#4B0082"
+                         dur="3s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+    </defs>
+
+    <style>
+        @keyframes grow-shrink-rotate {
+        0% {
+        stroke-dasharray: 0 628;
+        transform: rotate(0deg);
+        }
+        40% {
+        stroke-dasharray: 628 0;
+        transform: rotate(360deg);
+        }
+        60% {
+        stroke-dasharray: 628 0;
+        transform: rotate(540deg);
+        }
+        100% {
+        stroke-dasharray: 0 628;
+        transform: rotate(720deg);
+        }
+        }
+
+        @keyframes slow-rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+        }
+
+        .container {
+        transform-origin: 150px 150px;
+        animation: slow-rotate 5s linear infinite;
+        }
+
+        .arc {
+        fill: none;
+        stroke: url(#purpleGradient);
+        stroke-width: 70;
+        stroke-linecap: round;
+        transform-origin: 150px 150px;
+        animation: grow-shrink-rotate 3s ease-in-out infinite;
+        }
+    </style>
+
+    <!-- 旋转容器 -->
+    <g class="container">
+        <!-- 生长并旋转的圆弧 -->
+        <circle class="arc" cx="150" cy="150" r="100" />
+    </g>
+</svg>

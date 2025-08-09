@@ -1,0 +1,13 @@
+{
+  "user": {
+    "profile": {
+      "privacy": {
+        "title": "私隱設定",
+        "publicDefault": "預設公開我的任務",
+        "publicDefaultDescription": "啟用後，您的AI生成內容將預設為公開。您可以隨時為單個任務變更此設定。",
+        "success": "私隱設定更新成功",
+        "openProfileInNewTab": "在新分頁中開啟個人資料設定"
+      }
+    }
+  }
+}

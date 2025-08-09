@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "积分",
+      "availableCredits": "可用积分",
+      "availableAmount": "可用金额",
+      "pendingCredits": "待处理积分",
+      "creditGrants": "积分授予",
+      "transactions": "交易记录",
+      "amount": "金额",
+      "refundAmount": "退款金额",
+      "remainingAmount": "剩余金额",
+      "grantDate": "授予日期",
+      "validFrom": "生效日期",
+      "validUntil": "到期日期",
+      "source": "来源",
+      "actions": "操作",
+      "viewDetails": "查看详情",
+      "grantDetails": "授予详情",
+      "transactionDetails": "交易详情",
+      "date": "日期",
+      "type": "类型",
+      "status": "状态",
+      "description": "描述",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "订阅周期性",
+          "PLAN_INITIAL": "计划初始",
+          "ONE_TIME_PURCHASE": "一次性购买",
+          "PROMOTION": "促销活动",
+          "MANUAL": "手动",
+          "NEW_USER_AWARD": "新用户奖励",
+          "DAILY_LOGIN_AWARD": "每日登录奖励",
+          "INVITE_AWARD": "邀请奖励"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "待处理",
+          "CONFIRMED": "已确认",
+          "CANCELLED": "已取消",
+          "GRANTED": "已授予"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "扣减",
+          "REFUND": "退还",
+          "RESERVE": "预扣减",
+          "GRANT": "授予"
+        }
+      }
+    }
+  }
+}

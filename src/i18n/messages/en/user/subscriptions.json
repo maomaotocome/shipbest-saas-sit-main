@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "Subscriptions",
+      "status": "Status",
+      "startDate": "Start Date",
+      "price": "Price",
+      "cancelAt": "Cancel At",
+      "cancelAtPeriodEnd": "Cancel at period end",
+      "subscriptionPeriods": "Subscription Periods",
+      "periodNumber": "Period Number",
+      "endDate": "End Date",
+      "planName": "Plan Name",
+      "billingCycle": "Billing Cycle",
+      "currentPeriodEndDate": "Current Period End Date",
+      "viewPeriods": "View Periods",
+      "confirmCancelTitle": "Confirm Subscription Cancellation",
+      "confirmCancelDescription": "Are you sure you want to cancel this subscription? The subscription will be cancelled at the end of the current billing period.",
+      "subscriptionDetails": "Subscription Details",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "Active",
+          "CANCELLED": "Cancelled",
+          "EXPIRED": "Expired",
+          "PRECANCEL": "Pre-cancel"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "Scheduled",
+          "ACTIVE": "Active",
+          "COMPLETED": "Completed",
+          "CANCELLED": "Cancelled",
+          "FAILED": "Failed"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,343 @@
+{
+    "en": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "Welcome to Our Platform",
+                "description": "Discover amazing features and services designed to enhance your experience."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "Innovative Solutions",
+                "description": "We provide cutting-edge technology solutions for your business needs."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel3/1600/1600.webp",
+                "title": "Expert Support",
+                "description": "Our dedicated team is here to help you every step of the way."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel4/1600/1600.webp",
+                "title": "Global Reach",
+                "description": "Connect with users and partners from around the world."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel5/1600/1600.webp",
+                "title": "Secure & Reliable",
+                "description": "Your data is protected with our advanced security measures."
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "zh": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "欢迎使用我们的平台",
+                "description": "探索专为提升您的体验而设计的精彩功能和服务。"
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "创新解决方案",
+                "description": "我们为您的业务需求提供尖端技术解决方案。"
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "专业支持",
+                "description": "我们的专业团队随时为您提供帮助。"
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "全球覆盖",
+                "description": "与来自世界各地的用户和合作伙伴建立联系。"
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "安全可靠",
+                "description": "您的数据受到我们先进安全措施的保护。"
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "zh-hk": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "歡迎使用我們的平台",
+                "description": "探索專為提升您的體驗而設計的精彩功能和服務。"
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "創新解決方案",
+                "description": "我們為您的業務需求提供尖端技術解決方案。"
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "專業支援",
+                "description": "我們的專業團隊隨時為您提供幫助。"
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "全球覆蓋",
+                "description": "與來自世界各地的用戶和合作夥伴建立聯繫。"
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "安全可靠",
+                "description": "您的數據受到我們先進安全措施的保護。"
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "fr": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "Bienvenue sur notre plateforme",
+                "description": "Découvrez des fonctionnalités et services extraordinaires conçus pour améliorer votre expérience."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "Solutions innovantes",
+                "description": "Nous fournissons des solutions technologiques de pointe pour vos besoins professionnels."
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "Support expert",
+                "description": "Notre équipe dédiée est là pour vous aider à chaque étape."
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "Portée mondiale",
+                "description": "Connectez-vous avec des utilisateurs et partenaires du monde entier."
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "Sécurisé et fiable",
+                "description": "Vos données sont protégées par nos mesures de sécurité avancées."
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "de": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "Willkommen auf unserer Plattform",
+                "description": "Entdecken Sie erstaunliche Funktionen und Dienste, die Ihre Erfahrung verbessern."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "Innovative Lösungen",
+                "description": "Wir bieten modernste Technologielösungen für Ihre Geschäftsanforderungen."
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "Expertenunterstützung",
+                "description": "Unser engagiertes Team ist hier, um Ihnen bei jedem Schritt zu helfen."
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "Globale Reichweite",
+                "description": "Verbinden Sie sich mit Benutzern und Partnern aus der ganzen Welt."
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "Sicher und zuverlässig",
+                "description": "Ihre Daten sind durch unsere fortschrittlichen Sicherheitsmaßnahmen geschützt."
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "it": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "Benvenuti sulla nostra piattaforma",
+                "description": "Scopri funzionalità e servizi straordinari progettati per migliorare la tua esperienza."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "Soluzioni innovative",
+                "description": "Forniamo soluzioni tecnologiche all'avanguardia per le tue esigenze aziendali."
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "Supporto esperto",
+                "description": "Il nostro team dedicato è qui per aiutarti in ogni passo."
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "Portata globale",
+                "description": "Connettiti con utenti e partner da tutto il mondo."
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "Sicuro e affidabile",
+                "description": "I tuoi dati sono protetti dalle nostre misure di sicurezza avanzate."
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "pt": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "Bem-vindo à nossa plataforma",
+                "description": "Descubra recursos e serviços incríveis projetados para melhorar sua experiência."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "Soluções inovadoras",
+                "description": "Fornecemos soluções tecnológicas de ponta para suas necessidades comerciais."
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "Suporte especializado",
+                "description": "Nossa equipe dedicada está aqui para ajudá-lo em cada etapa."
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "Alcance global",
+                "description": "Conecte-se com usuários e parceiros de todo o mundo."
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "Seguro e confiável",
+                "description": "Seus dados são protegidos por nossas medidas de segurança avançadas."
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "ru": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "Добро пожаловать на нашу платформу",
+                "description": "Откройте для себя удивительные функции и сервисы, созданные для улучшения вашего опыта."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "Инновационные решения",
+                "description": "Мы предоставляем передовые технологические решения для ваших бизнес-потребностей."
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "Экспертная поддержка",
+                "description": "Наша преданная команда готова помочь вам на каждом этапе."
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "Глобальный охват",
+                "description": "Подключайтесь к пользователям и партнерам со всего мира."
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "Безопасно и надежно",
+                "description": "Ваши данные защищены нашими передовыми мерами безопасности."
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "ja": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "プラットフォームへようこそ",
+                "description": "あなたの体験を向上させるために設計された素晴らしい機能とサービスを発見してください。"
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "革新的なソリューション",
+                "description": "お客様のビジネスニーズに対応する最先端の技術ソリューションを提供します。"
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "専門サポート",
+                "description": "私たちの専任チームが、あらゆるステップでお客様をサポートします。"
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "グローバルリーチ",
+                "description": "世界中のユーザーやパートナーとつながりましょう。"
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "セキュアで信頼性の高い",
+                "description": "お客様のデータは、当社の高度なセキュリティ対策によって保護されています。"
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "ko": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "플랫폼에 오신 것을 환영합니다",
+                "description": "귀하의 경험을 향상시키기 위해 설계된 놀라운 기능과 서비스를 발견하세요."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "혁신적인 솔루션",
+                "description": "비즈니스 요구사항에 맞는 최첨단 기술 솔루션을 제공합니다."
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "전문가 지원",
+                "description": "저희 전담 팀이 모든 단계에서 도움을 드립니다."
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "글로벌 접근",
+                "description": "전 세계 사용자 및 파트너와 연결하세요."
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "안전하고 신뢰할 수 있는",
+                "description": "귀하의 데이터는 저희의 고급 보안 조치로 보호됩니다."
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    },
+    "es": {
+        "slides": [
+            {
+                "image": "https://picsum.photos/seed/carousel1/1600/1600.webp",
+                "title": "Bienvenido a nuestra plataforma",
+                "description": "Descubre características y servicios increíbles diseñados para mejorar tu experiencia."
+            },
+            {
+                "image": "https://picsum.photos/seed/carousel2/1600/1600.webp",
+                "title": "Soluciones innovadoras",
+                "description": "Proporcionamos soluciones tecnológicas de vanguardia para sus necesidades comerciales."
+            },
+            {
+                "image": "https://picsum.photos/seed/fgvsb/1600/1600.webp",
+                "title": "Soporte experto",
+                "description": "Nuestro equipo dedicado está aquí para ayudarte en cada paso."
+            },
+            {
+                "image": "https://picsum.photos/seed/wfergtw/1600/1600.webp",
+                "title": "Alcance global",
+                "description": "Conéctate con usuarios y socios de todo el mundo."
+            },
+            {
+                "image": "https://picsum.photos/seed/wvtertvwerv/1600/1600.webp",
+                "title": "Seguro y confiable",
+                "description": "Tus datos están protegidos con nuestras medidas de seguridad avanzadas."
+            }
+        ],
+        "autoPlay": true,
+        "interval": 5000
+    }
+}

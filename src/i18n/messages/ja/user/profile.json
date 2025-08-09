@@ -1,0 +1,13 @@
+{
+  "user": {
+    "profile": {
+      "privacy": {
+        "title": "プライバシー設定",
+        "publicDefault": "タスクをデフォルトで公開にする",
+        "publicDefaultDescription": "有効にすると、AI生成コンテンツがデフォルトで公開されます。個別のタスクでいつでも変更できます。",
+        "success": "プライバシー設定が正常に更新されました",
+        "openProfileInNewTab": "プロフィール設定を新しいタブで開く"
+      }
+    }
+  }
+}

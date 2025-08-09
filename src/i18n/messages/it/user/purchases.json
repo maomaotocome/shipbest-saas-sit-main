@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "Cronologia acquisti",
+      "planName": "Nome piano",
+      "billingCycle": "Ciclo di fatturazione",
+      "purchaseStatus": "Stato acquisto",
+      "invoiceStatus": "Stato fattura",
+      "amount": "Importo",
+      "purchaseDate": "Data acquisto",
+      "orderId": "ID ordine",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "Completato",
+          "REFUNDED": "Rimborsato"
+        },
+        "invoiceStatus": {
+          "DRAFT": "Bozza",
+          "OPEN": "Aperto",
+          "PAID": "Pagato",
+          "VOID": "Annullato",
+          "UNCOLLECTIBLE": "Inesigibile"
+        }
+      }
+    }
+  }
+}

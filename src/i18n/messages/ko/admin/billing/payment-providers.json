@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "billing": {
+      "payment-providers": {
+        "title": "결제 제공업체",
+        "addProvider": "제공업체 추가",
+        "editProvider": "제공업체 편집",
+        "columns": {
+          "name": "이름",
+          "code": "코드",
+          "provider": "제공업체",
+          "status": "상태",
+          "priority": "우선순위",
+          "dailyQuota": "일일 할당량",
+          "monthlyQuota": "월 할당량"
+        },
+        "form": {
+          "name": "이름",
+          "code": "코드",
+          "provider": "제공업체",
+          "status": "상태",
+          "priority": "우선순위",
+          "secretKey": "제공업체 비밀키",
+          "webhookSecret": "웹훅 비밀키"
+        },
+        "unlimited": "무제한",
+        "status": {
+          "ACTIVE": "활성",
+          "SUSPENDED": "일시정지",
+          "BLOCKED": "차단됨",
+          "QUOTA_EXCEEDED": "할당량 초과",
+          "MAINTENANCE": "점검"
+        },
+        "deleteConfirmation": {
+          "title": "제공업체 삭제",
+          "message": "이 결제 제공업체를 삭제하시겠습니까?",
+          "messageWithName": "결제 제공업체 '{name}'을(를) 삭제하시겠습니까?"
+        },
+        "cancel": "취소",
+        "delete": "삭제",
+        "deleting": "삭제 중...",
+        "saving": "저장 중...",
+        "update": "업데이트",
+        "create": "생성",
+        "createSuccess": "결제 제공업체가 성공적으로 생성되었습니다",
+        "createError": "결제 제공업체 생성에 실패했습니다",
+        "updateSuccess": "결제 제공업체가 성공적으로 업데이트되었습니다",
+        "updateError": "결제 제공업체 업데이트에 실패했습니다",
+        "deleteSuccess": "결제 제공업체가 성공적으로 삭제되었습니다",
+        "deleteError": "결제 제공업체 삭제에 실패했습니다",
+        "registerWebhook": "웹훅 등록",
+        "webhookRegistered": "웹훅이 성공적으로 등록되었습니다",
+        "webhookRegistrationFailed": "웹훅 등록에 실패했습니다",
+        "webhookRegistrationDescription": "이것은 결제 제공업체를 위한 웹훅 엔드포인트를 등록합니다. 웹훅 URL은 다음과 같습니다:",
+        "registering": "등록 중...",
+        "register": "등록"
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "Total",
+      "pending": "Pendente",
+      "uploading": "Carregando",
+      "success": "Sucesso",
+      "failed": "Falhado",
+      "startUpload": "Iniciar upload",
+      "cancelUpload": "Cancelar upload",
+      "clear": "Limpar",
+      "clearing": "Limpando..."
+    },
+    "fileLibrary": {
+      "title": "Selecionar arquivo",
+      "searchPlaceholder": "Pesquisar nome do arquivo...",
+      "tabs": {
+        "all": "Todos",
+        "image": "Imagens",
+        "video": "Vídeos",
+        "audio": "Áudio",
+        "document": "Documentos",
+        "other": "Outros"
+      },
+      "selectedCount": "{count} arquivos selecionados",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "fileSize": "{size}KB"
+    },
+    "replaceDialog": {
+      "title": "Substituir arquivo",
+      "description": "Deseja substituir o arquivo atual `{current}` pelo novo arquivo `{new}`?",
+      "cancel": "Cancelar",
+      "confirm": "Substituir",
+      "currentFile": "Arquivo atual",
+      "newFile": "Novo arquivo",
+      "size": "Tamanho: {size}KB",
+      "type": "Tipo: {type}"
+    },
+    "filePreview": {
+      "uploadFailed": "Upload falhado"
+    },
+    "fileActions": {
+      "delete": "Excluir",
+      "selectFromLibrary": "Selecionar da biblioteca",
+      "upload": "Carregar",
+      "deleting": "Excluindo..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "Carregar ou selecionar arquivo"
+    },
+    "addButton": {
+      "addFile": "Adicionar arquivo"
+    },
+    "messages": {
+      "singleFileOnly": "Apenas um arquivo pode ser selecionado",
+      "uploadComplete": "Todos os uploads concluídos",
+      "uploadFailed": "Alguns arquivos falharam no upload",
+      "fetchError": "Falha ao buscar lista de arquivos",
+      "dragSingleFile": "Apenas um arquivo pode ser arrastado",
+      "unsupportedType": "Tipo de arquivo não suportado",
+      "dropToReplace": "Solte para substituir arquivo",
+      "deleteFailed": "Falha ao excluir",
+      "deleteError": "Erro de exclusão",
+      "deleteSuccess": "Excluído com sucesso",
+      "fileSizeExceeded": "Tamanho do arquivo excedido",
+      "clearAllSuccess": "Todos os arquivos foram limpos com sucesso",
+      "clearAllFailed": "Falha ao limpar alguns arquivos"
+    }
+  }
+}

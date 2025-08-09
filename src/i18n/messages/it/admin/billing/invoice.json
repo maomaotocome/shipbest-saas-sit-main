@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "Gestione Fatture",
+          "filters": {
+            "emailLabel": "Email Cliente",
+            "emailPlaceholder": "Cerca per email...",
+            "dateRangeLabel": "Intervallo Date Emissione",
+            "searchButton": "Cerca"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "Numero Fattura",
+          "customerEmail": "Email Cliente",
+          "customerName": "Nome Cliente",
+          "amount": "Importo",
+          "status": "Stato",
+          "type": "Tipo",
+          "planName": "Nome Piano",
+          "periodNumber": "Periodo",
+          "issueDate": "Data Emissione",
+          "paidDate": "Data Pagamento",
+          "actions": "Azioni",
+          "dueDate": "Data Scadenza"
+        },
+        "status": {
+          "paid": "Pagato",
+          "open": "Aperto",
+          "void": "Annullato",
+          "uncollectible": "Non Riscuotibile",
+          "unknown": "Sconosciuto"
+        },
+        "types": {
+          "subscription": "Abbonamento",
+          "purchase": "Acquisto",
+          "unknown": "Non applicabile"
+        },
+        "downloadPdf": "Scarica PDF",
+        "viewOnline": "Visualizza Online"
+      }
+    }
+  }
+}

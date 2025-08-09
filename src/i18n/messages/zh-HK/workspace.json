@@ -1,0 +1,21 @@
+{
+  "workspace": {
+    "sidebar": {
+      "themeToggler": {
+        "title": "切換主題"
+      },
+      "home": "首頁",
+      "logout": "登出",
+      "pin": "固定側邊欄",
+      "unpin": "取消固定側邊欄",
+      "userAvatar": "用戶頭像"
+    },
+    "area": {
+      "goBack": "返回"
+    },
+    "projects": {
+      "fetchError": "獲取專案失敗",
+      "noItemsFound": "未找到項目"
+    }
+  }
+}

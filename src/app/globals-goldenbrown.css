@@ -1,0 +1,772 @@
+@import "tailwindcss";
+
+@plugin 'tailwindcss-animate';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --animate-marquee: marquee 15s linear infinite;
+  --animate-shine: shine var(--duration, 6s) linear infinite;
+
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+
+  /* Loader gradient colors */
+  --loader-gradient-start: hsl(175 80% 45%);
+  --loader-gradient-middle: hsl(175 80% 50%);
+  --loader-gradient-end: hsl(170 75% 55%);
+
+  /* Hero background overlay colors - using more saturated brown colors */
+  --hero-overlay-light: hsl(0 0 0 / 0.01);
+  --hero-overlay-dark: hsl(0 0% 0% / 0.3);
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@layer base {
+  :root {
+    --background: 30 25% 95%;
+    --foreground: 30 25% 25%;
+    --card: 35 20% 97%;
+    --card-foreground: 30 25% 25%;
+    --popover: 35 20% 97%;
+    --popover-foreground: 30 25% 25%;
+    --primary: 30 80% 45%;
+    --primary-foreground: 30 20% 97%;
+    --secondary: 30 25% 90%;
+    --secondary-foreground: 30 25% 25%;
+    --muted: 30 25% 90%;
+    --muted-foreground: 30 20% 45%;
+    --accent: 30 25% 90%;
+    --accent-foreground: 30 25% 25%;
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 30 20% 97%;
+    --border: 30 25% 85%;
+    --input: 30 25% 85%;
+    --ring: 30 80% 45%;
+    --radius: 0.5rem;
+    --chart-1: 30 80% 45%;
+    --chart-2: 35 75% 50%;
+    --chart-3: 40 70% 55%;
+    --chart-4: 45 65% 45%;
+    --chart-5: 50 60% 40%;
+    /* home hero background */
+    --home-hero-background: 30 25% 10%;
+    --home-hero-background-gradient: linear-gradient(to bottom, hsl(30 25% 10%), hsl(30 25% 8%));
+    /* message bubble color */
+    --message-user-bg: 30 80% 45%;
+    --message-user-text: 30 20% 97%;
+    --message-assistant-bg: 30 25% 90%;
+    --message-assistant-text: 30 25% 25%;
+    /* artifact card color */
+    --artifact-bg: 35 20% 95%;
+    --artifact-hover: 35 20% 90%;
+    --artifact-selected: 35 20% 85%;
+    --artifact-text: 30 25% 25%;
+    --artifact-text-secondary: 30 20% 45%;
+    /* artifact tag color */
+    --artifact-tag-subtle: 30 25% 90%;
+    --artifact-tag-bg: 30 25% 25%;
+    --artifact-tag-text: 30 20% 97%;
+    /* Sidebar colors */
+    --sidebar-bg: 30 20% 97%;
+    --sidebar-hover: 30 25% 90%;
+    --sidebar-active: 30 80% 45%;
+    --sidebar-active-text: 30 20% 97%;
+    --sidebar-text: 30 25% 25%;
+    --sidebar-text-muted: 30 20% 45%;
+    --sidebar-border: 30 25% 85%;
+    --sidebar-controls-bg: 30 25% 90%;
+    --sidebar-controls-hover: 30 25% 85%;
+    --sidebar-controls-text: 30 25% 25%;
+    --sidebar-controls-text-muted: 30 20% 45%;
+    --sidebar-footer-hover: 30 25% 90%;
+    --sidebar-footer-text: 30 25% 25%;
+    --sidebar-footer-text-muted: 30 20% 45%;
+    --sidebar-logout: 0 60% 50%;
+    --sidebar-logout-hover: 0 60% 45%;
+    --sidebar-logout-text: 30 20% 97%;
+    /* Mobile menu button colors */
+    --sidebar-mobile-button-hover: 30 25% 90%;
+    --sidebar-mobile-close-button-hover: 30 25% 90%;
+    /* Workspace colors */
+    --workspace-header-bg: 30 20% 97%;
+    --workspace-header-border: 30 25% 85%;
+    --workspace-header-text: 30 25% 25%;
+    --workspace-header-text-muted: 30 20% 45%;
+    --workspace-back-button-hover: 30 25% 90%;
+    --workspace-back-button-text: 30 20% 45%;
+    --workspace-content-bg: 30 25% 95%;
+    --workspace-container-bg: 30 25% 95%;
+    /* Theme toggler colors */
+    --theme-toggler-bg: 30 25% 90%;
+    --theme-toggler-hover: 30 25% 85%;
+    --theme-toggler-text: 30 25% 25%;
+    --theme-toggler-text-muted: 30 20% 45%;
+    --theme-toggler-thumb: 30 80% 45%;
+    --theme-toggler-thumb-text: 30 20% 97%;
+    /* Testimonial section colors */
+    --testimonial-bg: 30 25% 95%;
+    --testimonial-bg-opacity: 0.5;
+    --testimonial-card-bg: 30 20% 97%;
+    --testimonial-card-bg-opacity: 0.6;
+    --testimonial-card-hover-opacity: 0.8;
+    /* Features section colors */
+    --features-bg: 30 25% 95%;
+    --features-bg-opacity: 0.5;
+    --feature-card-bg: 30 20% 97%;
+    --feature-card-bg-opacity: 0.4;
+    --feature-card-hover-opacity: 0.6;
+    /* Footer colors */
+    --footer-bg: 30 25% 10%;
+    --footer-text: 30 80% 90%;
+    --footer-text-muted: 30 80% 70% / 0.6;
+    --footer-text-hover: 30 80% 90% / 0.9;
+    --footer-divider: 30 25% 20%;
+    --footer-social-hover: 30 80% 90% / 0.8;
+    --pricing-card-bg: #f5e3d7;
+    --pricing-card-bg-dark: #2c1c10;
+    --toggle-bg: #f3d7c3;
+    --toggle-bg-dark: hsl(30 25% 15%);
+    --toggle-bg-hover: #e5c3b0;
+    --toggle-bg-hover-dark: hsl(30 25% 20%);
+    /* Step design colors */
+    --step-design-bg-from: 30 25% 95%;
+    --step-design-bg-to: 30 25% 90%;
+    --step-design-text-label: 30 25% 25%;
+    --step-design-text-number: 30 25% 25%;
+    --step-design-text-label-inactive: 30 25% 25% / 60%;
+    --step-design-text-number-inactive: 30 25% 25% / 60%;
+    /* Background decoration colors */
+    --decoration-blur: 80px;
+    --decoration-opacity: 0.4;
+    --decoration-gradient-1: 30 80% 60%;
+    --decoration-gradient-2: 35 75% 65%;
+    --decoration-gradient-3: 40 70% 70%;
+    --decoration-gradient-4: 25 75% 55%;
+    --decoration-gradient-5: 30 70% 50%;
+  }
+
+  .dark {
+    --background: 30 25% 12%;
+    --foreground: 30 20% 90%;
+    --card: 35 20% 15%;
+    --card-foreground: 30 20% 90%;
+    --popover: 35 20% 15%;
+    --popover-foreground: 30 20% 90%;
+    --primary: 30 80% 55%;
+    --primary-foreground: 30 25% 15%;
+    --secondary: 30 25% 20%;
+    --secondary-foreground: 30 20% 90%;
+    --muted: 30 25% 20%;
+    --muted-foreground: 30 15% 65%;
+    --accent: 30 25% 20%;
+    --accent-foreground: 30 20% 90%;
+    --destructive: 0 50% 35%;
+    --destructive-foreground: 30 20% 90%;
+    --border: 30 25% 20%;
+    --input: 30 25% 20%;
+    --ring: 30 80% 55%;
+    --chart-1: 30 80% 55%;
+    --chart-2: 35 75% 60%;
+    --chart-3: 40 70% 65%;
+    --chart-4: 45 65% 50%;
+    --chart-5: 50 60% 45%;
+    /* home hero background */
+    --home-hero-background: 30 25% 10%;
+    --home-hero-background-gradient: linear-gradient(to bottom, hsl(30 25% 10%), hsl(30 25% 8%));
+    /* message bubble color */
+    --message-user-bg: 30 80% 55%;
+    --message-user-text: 30 25% 15%;
+    --message-assistant-bg: 30 25% 20%;
+    --message-assistant-text: 30 20% 90%;
+    /* artifact card color */
+    --artifact-bg: 35 20% 12%;
+    --artifact-hover: 35 20% 15%;
+    --artifact-selected: 35 20% 18%;
+    --artifact-text: 30 20% 90%;
+    --artifact-text-secondary: 30 15% 65%;
+    /* artifact tag color */
+    --artifact-tag-subtle: 30 25% 20%;
+    --artifact-tag-bg: 30 20% 90%;
+    --artifact-tag-text: 30 25% 12%;
+    /* Sidebar colors */
+    --sidebar-bg: 30 25% 15%;
+    --sidebar-hover: 30 25% 20%;
+    --sidebar-active: 30 80% 55%;
+    --sidebar-active-text: 30 25% 15%;
+    --sidebar-text: 30 20% 90%;
+    --sidebar-text-muted: 30 15% 65%;
+    --sidebar-border: 30 25% 20%;
+    --sidebar-controls-bg: 30 25% 20%;
+    --sidebar-controls-hover: 30 25% 25%;
+    --sidebar-controls-text: 30 20% 90%;
+    --sidebar-controls-text-muted: 30 15% 65%;
+    --sidebar-footer-hover: 30 25% 20%;
+    --sidebar-footer-text: 30 20% 90%;
+    --sidebar-footer-text-muted: 30 15% 65%;
+    --sidebar-logout: 0 50% 35%;
+    --sidebar-logout-hover: 0 50% 30%;
+    --sidebar-logout-text: 30 20% 90%;
+    /* Mobile menu button colors */
+    --sidebar-mobile-button-hover: 30 25% 20%;
+    --sidebar-mobile-close-button-hover: 30 25% 20%;
+    /* Workspace colors */
+    --workspace-header-bg: 30 25% 15%;
+    --workspace-header-border: 30 25% 20%;
+    --workspace-header-text: 30 20% 90%;
+    --workspace-header-text-muted: 30 15% 65%;
+    --workspace-back-button-hover: 30 25% 20%;
+    --workspace-back-button-text: 30 15% 65%;
+    --workspace-content-bg: 30 25% 12%;
+    --workspace-container-bg: 30 25% 12%;
+    /* Theme toggler colors */
+    --theme-toggler-bg: 30 25% 20%;
+    --theme-toggler-hover: 30 25% 25%;
+    --theme-toggler-text: 30 20% 90%;
+    --theme-toggler-text-muted: 30 15% 65%;
+    --theme-toggler-thumb: 30 80% 55%;
+    --theme-toggler-thumb-text: 30 25% 15%;
+    /* Testimonial section colors */
+    --testimonial-bg: 30 25% 12%;
+    --testimonial-card-bg: 30 20% 15%;
+    --testimonial-card-bg-opacity: 0.3;
+    --testimonial-card-hover-opacity: 0.5;
+    --testimonial-gradient-start-opacity: 0.5;
+    --testimonial-gradient-middle-opacity: 0.3;
+    --testimonial-gradient-end-opacity: 0;
+    /* Features section colors */
+    --features-bg: 30 25% 12%;
+    --feature-card-bg: 30 20% 15%;
+    --feature-card-bg-opacity: 0.1;
+    --feature-card-hover-opacity: 0.2;
+    /* Footer colors */
+    --footer-bg: 30 25% 5%;
+    --footer-text: 30 80% 90%;
+    --footer-text-muted: 30 80% 70% / 0.6;
+    --footer-text-hover: 30 80% 90% / 0.9;
+    --footer-divider: 30 25% 15%;
+    --footer-social-hover: 30 80% 90% / 0.8;
+    --pricing-card-bg: #2c1c10;
+    --pricing-card-bg-dark: #1c1008;
+    --toggle-bg: hsl(30 25% 15%);
+    --toggle-bg-dark: hsl(30 25% 20%);
+    --toggle-bg-hover: hsl(30 25% 20%);
+    --toggle-bg-hover-dark: hsl(30 25% 25%);
+    /* Step design colors */
+    --step-design-bg-from: 30 25% 12%;
+    --step-design-bg-to: 30 25% 15%;
+    --step-design-text-label: 30 20% 90%;
+    --step-design-text-number: 30 20% 90%;
+    --step-design-text-label-inactive: 30 20% 90% / 60%;
+    --step-design-text-number-inactive: 30 20% 90% / 60%;
+
+    /* Background decoration colors */
+    --decoration-blur: 80px;
+    --decoration-opacity: 0.4;
+    --decoration-gradient-1: 30 80% 60%;
+    --decoration-gradient-2: 35 75% 65%;
+    --decoration-gradient-3: 40 70% 70%;
+    --decoration-gradient-4: 25 75% 55%;
+    --decoration-gradient-5: 30 70% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-[hsl(var(--border))] outline-[hsl(var(--ring))]/50;
+    font-family: var(--font-lexend);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.5);
+    border-radius: 5px;
+    transition: background 0.2s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.7);
+  }
+
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--muted-foreground) / 0.5) hsl(var(--muted));
+  }
+}
+
+/* Code block styles */
+pre {
+  background-color: transparent !important;
+  line-height: 1.3 !important;
+  margin: 0.5em 0 !important;
+  padding: 0.5em 0 !important;
+}
+
+code {
+  background-color: transparent !important;
+  text-shadow: none !important;
+  line-height: 1.3 !important;
+  padding: 0 !important;
+}
+
+pre code {
+  background-color: transparent !important;
+  text-shadow: none !important;
+  line-height: 1.3 !important;
+  padding: 0 !important;
+}
+
+/* Make prose content have tighter line heights for code */
+.prose pre {
+  margin: 0.5em 0 !important;
+  padding: 0.5em 0 !important;
+}
+
+.prose code {
+  font-size: 0.875em !important;
+  padding: 0 !important;
+}
+
+/* Special class for transparent backgrounds */
+.transparent-bg {
+  background-color: transparent !important;
+}
+
+/* Special class for dark code mode */
+.dark-code {
+  color: #ccc !important;
+  background-color: transparent !important;
+}
+
+.dark-code code {
+  color: #ccc !important;
+  background-color: transparent !important;
+}
+
+/* Ensure all tokens have transparent backgrounds */
+.token {
+  text-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Support for dark Prism theme */
+.prism-dark-theme .token {
+  color-scheme: dark;
+}
+
+/* Apply dark theme properly */
+.prism-dark-theme pre {
+  color: #ccc !important;
+  background-color: transparent !important;
+}
+
+.prism-dark-theme pre code {
+  color: #ccc !important;
+  background-color: transparent !important;
+}
+
+.prism-dark-theme .token.comment,
+.prism-dark-theme .token.prolog,
+.prism-dark-theme .token.doctype,
+.prism-dark-theme .token.cdata {
+  color: #999 !important;
+}
+
+.prism-dark-theme .token.punctuation {
+  color: #ccc !important;
+}
+
+.prism-dark-theme .token.property,
+.prism-dark-theme .token.tag,
+.prism-dark-theme .token.boolean,
+.prism-dark-theme .token.number,
+.prism-dark-theme .token.constant,
+.prism-dark-theme .token.symbol {
+  color: #f8c555 !important;
+}
+
+.prism-dark-theme .token.selector,
+.prism-dark-theme .token.attr-name,
+.prism-dark-theme .token.string,
+.prism-dark-theme .token.char,
+.prism-dark-theme .token.builtin {
+  color: #7ec699 !important;
+}
+
+.prism-dark-theme .token.operator,
+.prism-dark-theme .token.entity,
+.prism-dark-theme .token.url,
+.prism-dark-theme .language-css .token.string,
+.prism-dark-theme .style .token.string {
+  color: #67cdcc !important;
+  background: transparent !important;
+}
+
+.prism-dark-theme .token.atrule,
+.prism-dark-theme .token.attr-value,
+.prism-dark-theme .token.keyword {
+  color: #cc99cd !important;
+}
+
+.prism-dark-theme .token.function {
+  color: #6196cc !important;
+}
+
+.prism-dark-theme .token.regex,
+.prism-dark-theme .token.important,
+.prism-dark-theme .token.variable {
+  color: #f08d49 !important;
+}
+
+/* Prism.js theme colors */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  @apply text-gray-500 dark:text-gray-400;
+}
+
+.token.punctuation {
+  @apply text-gray-700 dark:text-gray-300;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  @apply text-red-600 dark:text-red-400;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  @apply text-green-600 dark:text-green-400;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  @apply text-yellow-600 dark:text-yellow-300;
+  background: transparent !important;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  @apply text-purple-600 dark:text-purple-400;
+}
+
+.token.function,
+.token.class-name {
+  @apply text-blue-600 dark:text-blue-400;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  @apply text-orange-600 dark:text-orange-400;
+}
+
+.line-numbers .line-numbers-rows {
+  @apply border-r-gray-300 dark:border-r-gray-600;
+}
+
+.line-numbers-rows > span:before {
+  @apply text-gray-500 dark:text-gray-400;
+}
+
+.code-highlight {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+.code-line {
+  @apply block;
+}
+
+/* Global input box styles */
+.playground-input-container {
+  @apply flex items-start gap-4 rounded-xl bg-gray-950 p-4 text-white shadow-[0_0_15px_rgba(0,0,0,0.4)] dark:bg-gray-100 dark:text-black dark:shadow-[0_0_24px_rgba(255,255,255,0.4)];
+}
+
+.playground-input-textarea {
+  @apply min-h-36 flex-1 resize-none rounded-lg bg-transparent p-3 placeholder:text-white/50 focus:outline-hidden dark:placeholder:text-black/50;
+}
+
+.playground-submit-button {
+  @apply rounded-full bg-white p-2 text-black transition-colors hover:bg-gray-200 disabled:opacity-50 dark:bg-black dark:text-white dark:hover:bg-gray-800;
+}
+
+/* Special class for tight line spacing in code */
+.compact-code {
+  line-height: 1.2 !important;
+  letter-spacing: -0.01em !important;
+}
+
+pre.compact-code {
+  margin: 0.5em 0 !important;
+  padding: 0.25em 0 !important;
+}
+
+code.compact-code {
+  padding: 0 !important;
+}
+
+/* Prism.js token styles should have no text shadow */
+.token {
+  text-shadow: none !important;
+}
+
+/* Additional overrides for specific token types */
+.token.keyword,
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted,
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted,
+.token.regex,
+.token.important,
+.token.variable,
+.token.function,
+.token.class-name,
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata,
+.token.punctuation,
+.token.atrule,
+.token.attr-value {
+  background: transparent !important;
+}
+
+/* Prevent Prism from applying any backgrounds when highlighting */
+code[class*="language-"],
+pre[class*="language-"] {
+  background: transparent !important;
+  text-shadow: none !important;
+}
+
+/* Ensure all colored spans inside code blocks have transparent backgrounds */
+code[class*="language-"] span,
+pre[class*="language-"] span {
+  background: transparent !important;
+}
+
+/* Consistent code styling across both message area and artifact panel */
+.prose pre,
+.prose pre code,
+.artifact-code {
+  font-size: 0.875em !important;
+  line-height: 1.4 !important;
+  letter-spacing: -0.01em !important;
+  font-family: var(
+    --font-mono,
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    monospace
+  ) !important;
+  tab-size: 2 !important;
+}
+
+/* Consistent code block margins and padding */
+.prose pre,
+pre.artifact-code {
+  margin: 0.5em 0 !important;
+  padding: 0.5em 0 !important;
+}
+
+/* Consistent token styling across both message area and artifact panel */
+.prose .token,
+.artifact-code .token {
+  font-family: inherit !important;
+  background: transparent !important;
+  text-shadow: none !important;
+}
+
+/* Specific operator styling to prevent backgrounds */
+.token.operator {
+  background: transparent !important;
+  background-color: transparent !important;
+  display: inline !important;
+  padding: 0 !important;
+}
+
+/* Hide video controls */
+video::-webkit-media-controls {
+  display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+video::-webkit-media-controls-panel {
+  display: none !important;
+}
+video::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+}
+video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+video::-webkit-media-controls-timeline {
+  display: none !important;
+}
+video::-webkit-media-controls-current-time-display {
+  display: none !important;
+}
+video::-webkit-media-controls-time-remaining-display {
+  display: none !important;
+}
+video::-webkit-media-controls-mute-button {
+  display: none !important;
+}
+video::-webkit-media-controls-volume-slider {
+  display: none !important;
+}
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
+:root {
+  --sidebar: hsl(30 20% 97%);
+  --sidebar-foreground: hsl(30 25% 25%);
+  --sidebar-primary: hsl(30 80% 45%);
+  --sidebar-primary-foreground: hsl(30 20% 97%);
+  --sidebar-accent: hsl(30 25% 90%);
+  --sidebar-accent-foreground: hsl(30 25% 25%);
+  --sidebar-border: hsl(30 25% 85%);
+  --sidebar-ring: hsl(30 80% 45%);
+}
+
+.dark {
+  --sidebar: hsl(30 25% 15%);
+  --sidebar-foreground: hsl(30 20% 90%);
+  --sidebar-primary: hsl(30 80% 55%);
+  --sidebar-primary-foreground: hsl(30 25% 15%);
+  --sidebar-accent: hsl(30 25% 20%);
+  --sidebar-accent-foreground: hsl(30 20% 90%);
+  --sidebar-border: hsl(30 25% 20%);
+  --sidebar-ring: hsl(30 80% 55%);
+}
+
+@theme inline {
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

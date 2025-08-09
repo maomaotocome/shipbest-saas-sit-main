@@ -1,0 +1,13 @@
+{
+  "user": {
+    "dashboard": {
+      "title": "Painel de Controle",
+      "general": "Geral",
+      "metadata": {
+        "title": "Painel de Controle",
+        "description": "Painel de Controle",
+        "keywords": "Painel de Controle"
+      }
+    }
+  }
+}

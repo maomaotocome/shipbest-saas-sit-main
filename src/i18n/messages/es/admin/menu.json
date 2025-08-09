@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "menu": {
+      "home": "Inicio",
+      "users": "Usuarios",
+      "blog": "Blog",
+      "posts": "Entradas",
+      "tags": "Etiquetas",
+      "categories": "Categorías",
+      "billing": "Facturación",
+      "providers": "Proveedores",
+      "plans": "Planes",
+      "subscriptions": "Suscripciones",
+      "purchases": "Compras",
+      "settings": "Configuración",
+      "oss": "Almacenamiento de Objetos",
+      "notifications": "Notificaciones",
+      "affiliates": "Afiliados",
+      "invoice": "Factura",
+      "general": "General",
+      "content": "Contenido",
+      "explore": "Gestión de Exploración"
+    }
+  }
+}

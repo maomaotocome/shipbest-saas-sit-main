@@ -1,0 +1,55 @@
+model Task {
+    id       String @id @default(uuid())
+    taskType String
+
+    userId String?
+    user   User?   @relation(fields: [userId], references: [id])
+
+    status   TaskStatus @default(PENDING)
+    isPublic Boolean    @default(false)
+
+    credits       Int?
+    actualCredits Int?
+
+    metadata      Json?
+    systemRequest Json?
+    request       Json?
+    response      Json?
+    info          Json?
+
+    subTasks     SubTask[]
+    exploreItems ExploreItem[]
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@index([userId])
+    @@map("task_tasks")
+}
+
+model SubTask {
+    id            String     @id @default(uuid())
+    taskId        String
+    task          Task       @relation(fields: [taskId], references: [id])
+    status        TaskStatus @default(PENDING)
+    credits       Int?
+    systemRequest Json?
+    request       Json?
+    response      Json?
+    exploreItems  ExploreItem[]
+    createdAt     DateTime   @default(now())
+    updatedAt     DateTime   @updatedAt
+
+    @@index([taskId])
+    @@map("task_sub_tasks")
+}
+
+enum TaskStatus {
+    PENDING
+    PROCESSING
+    COMPLETED
+    FAILED
+    CANCELLED
+    ABORTED
+    PARTIALLY_COMPLETED
+}

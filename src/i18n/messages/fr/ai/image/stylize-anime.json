@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "image": {
+      "stylize-anime": {
+        "hero": {
+          "title": "Styliser en anime",
+          "description": "Transformez vos photos en style anime."
+        }
+      }
+    }
+  }
+}

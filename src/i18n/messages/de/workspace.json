@@ -1,0 +1,21 @@
+{
+  "workspace": {
+    "sidebar": {
+      "themeToggler": {
+        "title": "Theme umschalten"
+      },
+      "home": "Startseite",
+      "logout": "Abmelden",
+      "pin": "Seitenleiste anheften",
+      "unpin": "Seitenleiste lösen",
+      "userAvatar": "Benutzer-Avatar"
+    },
+    "area": {
+      "goBack": "Zurück"
+    },
+    "projects": {
+      "fetchError": "Fehler beim Laden der Projekte",
+      "noItemsFound": "Keine Elemente gefunden"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "credit": {
+    "title": "我的积分",
+    "loading": "加载中...",
+    "unavailable": "不可用",
+    "error": "加载积分时出错",
+    "refresh": "刷新",
+    "total": "总积分",
+    "grants": "积分授予",
+    "viewDetails": "查看详情"
+  }
+}

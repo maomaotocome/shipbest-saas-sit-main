@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "menu": {
+      "home": "Home",
+      "users": "Users",
+      "blog": "Blog",
+      "posts": "Posts",
+      "tags": "Tags",
+      "categories": "Categories",
+      "billing": "Billing",
+      "providers": "Providers",
+      "plans": "Plans",
+      "subscriptions": "Subscriptions",
+      "purchases": "Purchases",
+      "settings": "Settings",
+      "oss": "OSS",
+      "notifications": "Notifications",
+      "affiliates": "Affiliates",
+      "invoice": "Invoice",
+      "general": "General",
+      "content": "Content",
+      "explore": "Explore Management"
+    }
+  }
+}

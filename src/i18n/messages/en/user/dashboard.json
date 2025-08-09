@@ -1,0 +1,13 @@
+{
+  "user": {
+    "dashboard": {
+      "title": "Dashboard",
+      "general": "General",
+      "metadata": {
+        "title": "Dashboard",
+        "description": "Dashboard",
+        "keywords": "Dashboard"
+      }
+    }
+  }
+}

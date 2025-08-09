@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "方案",
+        "general": "基本資訊",
+        "translations": "翻譯",
+        "features": "功能",
+        "periods": "週期",
+        "editPlan": "編輯方案",
+        "createNewPlan": "建立新方案",
+        "saveError": "儲存方案失敗",
+        "updateSuccess": "方案更新成功",
+        "createSuccess": "方案建立成功",
+        "syncSuccess": "方案同步成功",
+        "saving": "儲存中...",
+        "update": "更新",
+        "create": "建立",
+        "cancel": "取消",
+        "createError": "建立方案失敗",
+        "updateError": "更新方案失敗",
+        "syncError": "同步方案失敗",
+        "generalTab": {
+          "code": "代碼",
+          "codePlaceholder": "例如：BASIC、PRO、ENTERPRISE",
+          "status": "狀態",
+          "statusPlaceholder": "選擇狀態",
+          "billingScheme": "計費方案",
+          "billingSchemePlaceholder": "選擇計費方案",
+          "isPopular": "是否熱門",
+          "sortOrder": "排序順序",
+          "validFrom": "有效期限開始",
+          "validUntil": "有效期限結束（選填）",
+          "PlanStatus": {
+            "active": "啟用",
+            "deprecated": "已棄用",
+            "archived": "已封存"
+          },
+          "BillingScheme": {
+            "creditBased": "基於點數",
+            "timeBased": "基於時間",
+            "hybrid": "混合"
+          }
+        },
+        "featuresTab": {
+          "feature": "功能",
+          "included": "包含",
+          "primary": "主要",
+          "limit": "限制",
+          "limitPlaceholder": "留空表示無限制",
+          "notApplicable": "不適用",
+          "noAvailableFeatures": "無可用功能",
+          "referenced": "已引用"
+        },
+        "periodsTab": {
+          "noPeriods": "無計費週期。請至少新增一個週期。",
+          "actions": "操作",
+          "period": "週期",
+          "resetPeriodType": "重設週期類型",
+          "resetPeriodValue": "重設週期值",
+          "price": "價格",
+          "selectPeriodType": "選擇週期類型",
+          "periodType": "週期類型",
+          "periodValue": "週期值",
+          "addPeriod": "新增週期",
+          "code": "代碼",
+          "credits": "點數"
+        },
+        "translationsTab": {
+          "noTranslations": "無翻譯。請至少新增一種翻譯。",
+          "selectLanguage": "選擇語言",
+          "addTranslation": "新增翻譯",
+          "language": "語言",
+          "name": "名稱",
+          "subtitle": "副標題",
+          "description": "描述",
+          "actions": "操作",
+          "planName": "方案名稱",
+          "planSubtitle": "方案副標題",
+          "planDescription": "方案描述"
+        }
+      }
+    }
+  }
+}

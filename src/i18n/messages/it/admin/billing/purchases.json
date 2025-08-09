@@ -1,0 +1,40 @@
+{
+  "admin": {
+    "billing": {
+      "purchases": {
+        "title": "Purchases",
+        "loading": "Loading purchases...",
+        "user": "User",
+        "plan": "Plan",
+        "date": "Date",
+        "status": "Status",
+        "actions": "Actions",
+        "refund": "Refund",
+        "confirmRefund": "Are you sure you want to refund this purchase?",
+        "allStatus": "All Statuses",
+        "period": "Period",
+        "resetPeriod": "Reset Period",
+        "periodTypes": {
+          "day": "Day",
+          "days": "Days",
+          "week": "Week",
+          "weeks": "Weeks",
+          "month": "Month",
+          "months": "Months",
+          "year": "Year",
+          "years": "Years",
+          "oneTime": "One Time",
+          "lifetime": "Lifetime"
+        },
+        "statuses": {
+          "completed": "Completed",
+          "refunded": "Refunded",
+          "pending": "Pending",
+          "failed": "Failed"
+        },
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      }
+    }
+  }
+} 

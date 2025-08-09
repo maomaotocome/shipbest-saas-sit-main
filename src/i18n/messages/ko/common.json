@@ -1,0 +1,16 @@
+{
+  "common": {
+    "logo": "로고",
+    "copySuccess": "링크가 클립보드에 복사되었습니다",
+    "copyError": "링크 복사에 실패했습니다",
+    "errors": {
+      "videoPlaybackFailed": "비디오 재생에 실패했습니다",
+      "imageLoadFailed": "이미지 로드에 실패했습니다",
+      "videoLoadFailed": "비디오 로드에 실패했습니다"
+    },
+    "navigation": {
+      "closeMenu": "메뉴 닫기",
+      "openMenu": "메뉴 열기"
+    }
+  }
+}

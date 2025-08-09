@@ -1,0 +1,200 @@
+{
+  "en": {
+    "image-to-image": {
+      "title": "Image to Image",
+      "description": "Generate an image from an image"
+    },
+    "text-to-image": {
+      "title": "Text to Image",
+      "description": "Generate an image from a text"
+    },
+    "image-to-video": {
+      "title": "Image to Video",
+      "description": "Generate a video from an image"
+    },
+    "text-to-video": {
+      "title": "Text to Video",
+      "description": "Generate a video from a text"
+    }
+  },
+  "zh": {
+    "image-to-image": {
+      "title": "图片到图片",
+      "description": "从图片生成图片"
+    },
+    "text-to-image": {
+      "title": "文本到图片",
+      "description": "从文本生成图片"
+    },
+    "image-to-video": {
+      "title": "图片到视频",
+      "description": "从图片生成视频"
+    },
+    "text-to-video": {
+      "title": "文本到视频",
+      "description": "从文本生成视频"
+    }
+  },
+  "fr": {
+    "image-to-image": {
+      "title": "Image vers Image",
+      "description": "Générer une image à partir d'une image"
+    },
+    "text-to-image": {
+      "title": "Texte vers Image",
+      "description": "Générer une image à partir d'un texte"
+    },
+    "image-to-video": {
+      "title": "Image vers Vidéo",
+      "description": "Générer une vidéo à partir d'une image"
+    },
+    "text-to-video": {
+      "title": "Texte vers Vidéo",
+      "description": "Générer une vidéo à partir d'un texte"
+    }
+  },
+  "de": {
+    "image-to-image": {
+      "title": "Bild zu Bild",
+      "description": "Ein Bild aus einem Bild generieren"
+    },
+    "text-to-image": {
+      "title": "Text zu Bild",
+      "description": "Ein Bild aus einem Text generieren"
+    },
+    "image-to-video": {
+      "title": "Bild zu Video",
+      "description": "Ein Video aus einem Bild generieren"
+    },
+    "text-to-video": {
+      "title": "Text zu Video",
+      "description": "Ein Video aus einem Text generieren"
+    }
+  },
+  "it": {
+    "image-to-image": {
+      "title": "Immagine a Immagine",
+      "description": "Genera un'immagine da un'immagine"
+    },
+    "text-to-image": {
+      "title": "Testo a Immagine",
+      "description": "Genera un'immagine da un testo"
+    },
+    "image-to-video": {
+      "title": "Immagine a Video",
+      "description": "Genera un video da un'immagine"
+    },
+    "text-to-video": {
+      "title": "Testo a Video",
+      "description": "Genera un video da un testo"
+    }
+  },
+  "pt": {
+    "image-to-image": {
+      "title": "Imagem para Imagem",
+      "description": "Gerar uma imagem a partir de uma imagem"
+    },
+    "text-to-image": {
+      "title": "Texto para Imagem",
+      "description": "Gerar uma imagem a partir de um texto"
+    },
+    "image-to-video": {
+      "title": "Imagem para Vídeo",
+      "description": "Gerar um vídeo a partir de uma imagem"
+    },
+    "text-to-video": {
+      "title": "Texto para Vídeo",
+      "description": "Gerar um vídeo a partir de um texto"
+    }
+  },
+  "ru": {
+    "image-to-image": {
+      "title": "Изображение в изображение",
+      "description": "Создать изображение из изображения"
+    },
+    "text-to-image": {
+      "title": "Текст в изображение",
+      "description": "Создать изображение из текста"
+    },
+    "image-to-video": {
+      "title": "Изображение в видео",
+      "description": "Создать видео из изображения"
+    },
+    "text-to-video": {
+      "title": "Текст в видео",
+      "description": "Создать видео из текста"
+    }
+  },
+  "zh-hk": {
+    "image-to-image": {
+      "title": "圖片到圖片",
+      "description": "從圖片生成圖片"
+    },
+    "text-to-image": {
+      "title": "文字到圖片",
+      "description": "從文字生成圖片"
+    },
+    "image-to-video": {
+      "title": "圖片到影片",
+      "description": "從圖片生成影片"
+    },
+    "text-to-video": {
+      "title": "文字到影片",
+      "description": "從文字生成影片"
+    }
+  },
+  "ja": {
+    "image-to-image": {
+      "title": "画像から画像",
+      "description": "画像から画像を生成"
+    },
+    "text-to-image": {
+      "title": "テキストから画像",
+      "description": "テキストから画像を生成"
+    },
+    "image-to-video": {
+      "title": "画像から動画",
+      "description": "画像から動画を生成"
+    },
+    "text-to-video": {
+      "title": "テキストから動画",
+      "description": "テキストから動画を生成"
+    }
+  },
+  "ko": {
+    "image-to-image": {
+      "title": "이미지에서 이미지",
+      "description": "이미지에서 이미지 생성"
+    },
+    "text-to-image": {
+      "title": "텍스트에서 이미지",
+      "description": "텍스트에서 이미지 생성"
+    },
+    "image-to-video": {
+      "title": "이미지에서 비디오",
+      "description": "이미지에서 비디오 생성"
+    },
+    "text-to-video": {
+      "title": "텍스트에서 비디오",
+      "description": "텍스트에서 비디오 생성"
+    }
+  },
+  "es": {
+    "image-to-image": {
+      "title": "Imagen a Imagen",
+      "description": "Generar una imagen a partir de una imagen"
+    },
+    "text-to-image": {
+      "title": "Texto a Imagen",
+      "description": "Generar una imagen a partir de un texto"
+    },
+    "image-to-video": {
+      "title": "Imagen a Video",
+      "description": "Generar un video a partir de una imagen"
+    },
+    "text-to-video": {
+      "title": "Texto a Video",
+      "description": "Generar un video a partir de un texto"
+    }
+  }
+}

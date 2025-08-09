@@ -1,0 +1,38 @@
+{
+  "admin": {
+    "billing": {
+      "subscriptions": {
+        "title": "サブスクリプション",
+        "columns": {
+          "billingUser": "ユーザー",
+          "status": "ステータス",
+          "currentPrice": "価格",
+          "startDate": "開始日",
+          "endDate": "終了日",
+          "currentPeriodEnd": "期間終了",
+          "cancelAtPeriodEnd": "期間終了時にキャンセル",
+          "planName": "プラン",
+          "billingPeriod": "請求期間",
+          "resetPeriod": "リセット期間"
+        },
+        "statusEmuns": {
+          "ACTIVE": "有効",
+          "CANCELLED": "キャンセル済み",
+          "EXPIRED": "期限切れ",
+          "PRECANCEL": "事前キャンセル"
+        },
+        "cancelSubscription": "キャンセル",
+        "periodDetails": "期間詳細",
+        "periodNumber": "期間番号",
+        "startDate": "開始日",
+        "endDate": "終了日",
+        "status": "ステータス",
+        "refundPeriod": "返金期間",
+        "confirmCancelTitle": "サブスクリプションのキャンセル確認",
+        "confirmCancelDescription": "{email} ({plan}) のサブスクリプションをキャンセルしてもよろしいですか？サブスクリプションは現在の請求期間の終了時にキャンセルされます。",
+        "cancel": "キャンセル",
+        "confirm": "確認"
+      }
+    }
+  }
+}

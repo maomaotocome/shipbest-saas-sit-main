@@ -1,0 +1,23 @@
+{
+  "playground": {
+    "new": "新建",
+    "history": "历史",
+    "prompt": {
+      "placeholder": "今天有什么可以帮到你的吗？"
+    },
+    "chat": {
+      "input": {
+        "placeholder": "请输入您的消息...",
+        "send": "发送",
+        "enterToSend": "按回车发送",
+        "shiftEnterForNewline": "按Shift+回车换行"
+      },
+      "noMessages": "今天有什么可以帮到你的吗？"
+    },
+    "history": {
+      "title": "历史对话",
+      "searchPlaceholder": "搜索历史对话...",
+      "loading": "加载中..."
+    }
+  }
+}

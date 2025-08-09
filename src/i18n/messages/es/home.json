@@ -1,0 +1,15 @@
+{
+  "home": {
+    "hero": {
+      "title": "example AI",
+      "description": "example AI te ofrece una selección de potentes herramientas de IA. Explora, crea y evoluciona con aplicaciones de IA de vanguardia.",
+      "getStarted": "Comienza",
+      "learnMore": "Más información"
+    },
+    "metadata": {
+      "title": "example AI",
+      "description": "example AI te ofrece una selección de potentes herramientas de IA. Explora, crea y evoluciona con aplicaciones de IA de vanguardia.",
+      "keywords": "IA, herramientas, creatividad, innovación, example"
+    }
+  }
+}

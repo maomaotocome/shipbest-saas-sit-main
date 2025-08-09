@@ -1,0 +1,16 @@
+{
+  "common": {
+    "logo": "ロゴ",
+    "copySuccess": "リンクをクリップボードにコピーしました",
+    "copyError": "リンクのコピーに失敗しました",
+    "errors": {
+      "videoPlaybackFailed": "動画の再生に失敗しました",
+      "imageLoadFailed": "画像の読み込みに失敗しました",
+      "videoLoadFailed": "動画の読み込みに失敗しました"
+    },
+    "navigation": {
+      "closeMenu": "メニューを閉じる",
+      "openMenu": "メニューを開く"
+    }
+  }
+}

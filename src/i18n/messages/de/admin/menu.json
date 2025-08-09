@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "menu": {
+      "home": "Startseite",
+      "users": "Benutzer",
+      "blog": "Blog",
+      "posts": "Beiträge",
+      "tags": "Tags",
+      "categories": "Kategorien",
+      "billing": "Abrechnung",
+      "providers": "Anbieter",
+      "plans": "Pläne",
+      "subscriptions": "Abonnements",
+      "purchases": "Käufe",
+      "settings": "Einstellungen",
+      "oss": "Objektspeicher",
+      "notifications": "Benachrichtigungen",
+      "affiliates": "Partner",
+      "invoice": "Rechnung",
+      "general": "Allgemein",
+      "content": "Inhalt",
+      "explore": "Explorer-Verwaltung"
+    }
+  }
+}

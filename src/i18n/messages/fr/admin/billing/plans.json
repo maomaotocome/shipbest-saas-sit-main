@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "Plans",
+        "general": "Général",
+        "translations": "Traductions",
+        "features": "Fonctionnalités",
+        "periods": "Périodes",
+        "editPlan": "Modifier le Plan",
+        "createNewPlan": "Créer un Nouveau Plan",
+        "saveError": "Échec de la sauvegarde du plan",
+        "updateSuccess": "Plan mis à jour avec succès",
+        "createSuccess": "Plan créé avec succès",
+        "syncSuccess": "Plan synchronisé avec succès",
+        "saving": "Enregistrement...",
+        "update": "Mettre à jour",
+        "create": "Créer",
+        "cancel": "Annuler",
+        "createError": "Échec de la création du plan",
+        "updateError": "Échec de la mise à jour du plan",
+        "syncError": "Échec de la synchronisation du plan",
+        "generalTab": {
+          "code": "Code",
+          "codePlaceholder": "ex. BASIC, PRO, ENTERPRISE",
+          "status": "Statut",
+          "statusPlaceholder": "Sélectionner le statut",
+          "billingScheme": "Schéma de Facturation",
+          "billingSchemePlaceholder": "Sélectionner le schéma de facturation",
+          "isPopular": "Est Populaire",
+          "sortOrder": "Ordre de Tri",
+          "validFrom": "Valide à partir du",
+          "validUntil": "Valide jusqu'au (optionnel)",
+          "PlanStatus": {
+            "active": "Actif",
+            "deprecated": "Obsolète",
+            "archived": "Archivé"
+          },
+          "BillingScheme": {
+            "creditBased": "Basé sur les Crédits",
+            "timeBased": "Basé sur le Temps",
+            "hybrid": "Hybride"
+          }
+        },
+        "featuresTab": {
+          "feature": "Fonctionnalité",
+          "included": "Inclus",
+          "primary": "Principal",
+          "limit": "Limite",
+          "limitPlaceholder": "Laisser vide pour aucune limite",
+          "notApplicable": "Non Applicable",
+          "noAvailableFeatures": "Aucune fonctionnalité disponible",
+          "referenced": "Référencé"
+        },
+        "periodsTab": {
+          "noPeriods": "Aucune période de facturation. Veuillez ajouter au moins une période.",
+          "actions": "Actions",
+          "period": "Période",
+          "resetPeriodType": "Type de Période de Réinitialisation",
+          "resetPeriodValue": "Valeur de la Période de Réinitialisation",
+          "price": "Prix",
+          "selectPeriodType": "Sélectionner le type de période",
+          "periodType": "Type de Période",
+          "periodValue": "Valeur de la Période",
+          "addPeriod": "Ajouter une Période",
+          "code": "Code",
+          "credits": "Crédits"
+        },
+        "translationsTab": {
+          "noTranslations": "Aucune traduction. Veuillez ajouter au moins une traduction.",
+          "selectLanguage": "Sélectionner la langue",
+          "addTranslation": "Ajouter une Traduction",
+          "language": "Langue",
+          "name": "Nom",
+          "subtitle": "Sous-titre",
+          "description": "Description",
+          "actions": "Actions",
+          "planName": "Nom du plan",
+          "planSubtitle": "Sous-titre du plan",
+          "planDescription": "Description du plan"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "admin": {
+    "billing": {
+      "subscriptions": {
+        "title": "訂閱",
+        "columns": {
+          "billingUser": "用戶",
+          "status": "狀態",
+          "currentPrice": "價格",
+          "startDate": "開始日期",
+          "endDate": "結束日期",
+          "currentPeriodEnd": "週期結束",
+          "cancelAtPeriodEnd": "在週期結束時取消",
+          "planName": "方案",
+          "billingPeriod": "計費週期",
+          "resetPeriod": "重置週期"
+        },
+        "statusEmuns": {
+          "ACTIVE": "有效",
+          "CANCELLED": "已取消",
+          "EXPIRED": "已過期",
+          "PRECANCEL": "預取消"
+        },
+        "cancelSubscription": "取消",
+        "periodDetails": "週期詳情",
+        "periodNumber": "週期編號",
+        "startDate": "開始日期",
+        "endDate": "結束日期",
+        "status": "狀態",
+        "refundPeriod": "退款週期",
+        "confirmCancelTitle": "確認取消訂閱",
+        "confirmCancelDescription": "您確定要取消 {email} ({plan}) 的訂閱嗎？訂閱將在當前計費週期結束時取消。",
+        "cancel": "取消",
+        "confirm": "確認"
+      }
+    }
+  }
+}

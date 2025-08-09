@@ -1,0 +1,31 @@
+{
+  "pricing": {
+    "title": "價格",
+    "sectionTitle": "價格",
+    "sectionDescription": "選擇適合您的計劃。沒有隱藏費用，沒有意外。",
+    "description": "選擇適合您的計劃。沒有隱藏費用，沒有意外。",
+    "price": "價格",
+    "popular": "熱門",
+    "purchase": "購買",
+    "subscribe": "訂閱",
+    "processing": "處理中...",
+    "orderFailed": "訂單失敗",
+    "period": {
+      "oneDay": "一天",
+      "days": "{value}天",
+      "oneWeek": "一週",
+      "weeks": "{value}週",
+      "oneMonth": "一個月",
+      "months": "{value}個月",
+      "oneYear": "一年",
+      "years": "{value}年",
+      "oneTime": "一次性",
+      "lifetime": "終身"
+    },
+    "dialog": {
+      "title": "價格方案",
+      "description": "選擇適合您的計劃。沒有隱藏費用，沒有意外。",
+      "loading": "正在載入價格資料..."
+    }
+  }
+}

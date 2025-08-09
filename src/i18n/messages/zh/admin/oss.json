@@ -1,0 +1,43 @@
+{
+    "admin": {
+        "oss": {
+            "buckets": {
+                "title": "OSS 存储桶",
+                "addBucket": "添加存储桶",
+                "editBucket": "编辑存储桶",
+                "createBucket": "创建存储桶",
+                "name": "名称",
+                "provider": "提供商",
+                "bucketName": "存储桶名称",
+                "region": "区域",
+                "endpoint": "端点",
+                "publicUrl": "公共URL",
+                "accessKey": "访问密钥",
+                "secretKey": "密钥",
+                "maxSize": "最大大小（字节）",
+                "pathPrefix": "路径前缀",
+                "publicAccess": "公共访问",
+                "cancel": "取消",
+                "update": "更新",
+                "create": "创建",
+                "columns": {
+                    "name": "名称",
+                    "provider": "提供商",
+                    "bucket": "存储桶",
+                    "region": "区域",
+                    "access": "访问",
+                    "status": "状态",
+                    "objects": "对象"
+                },
+                "status": {
+                    "public": "公开",
+                    "private": "私有",
+                    "active": "活跃"
+                }
+            },
+            "objects": {
+
+            }
+        }
+    }
+}

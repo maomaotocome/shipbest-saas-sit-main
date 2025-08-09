@@ -1,0 +1,34 @@
+{
+  "blog": {
+    "title": "Blog",
+    "description": "Lee nuestros últimos artículos y mantente actualizado con las últimas noticias y consejos.",
+    "tags": "Etiquetas",
+    "categories": "Categorías",
+    "latest": {
+      "title": "Últimas Publicaciones",
+      "description": "Descubre nuestros artículos y conocimientos más recientes"
+    },
+    "metadata": {
+      "all": {
+        "title": "Blog",
+        "description": "Lee nuestros últimos artículos y mantente actualizado con las últimas noticias y consejos.",
+        "keywords": "blog, artículos, noticias, consejos"
+      },
+      "category": {
+        "title": "Categoría: {category}",
+        "description": "Explora todos los artículos en la categoría {category}",
+        "keywords": "blog, categoría, {category}, artículos"
+      },
+      "tag": {
+        "title": "Etiqueta: {tag}",
+        "description": "Explora todos los artículos etiquetados con {tag}",
+        "keywords": "blog, etiqueta, {tag}, artículos"
+      },
+      "post": {
+        "title": "{title}",
+        "description": "{description}",
+        "keywords": "{keywords}"
+      }
+    }
+  }
+}

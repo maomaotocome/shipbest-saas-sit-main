@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "Главная",
+      "blog": "Блог",
+      "pricing": "Цены",
+      "playground": "Песочница",
+      "products": "Продукты",
+      "models": "Модели",
+      "explore": "Исследовать",
+      "studio": "Студия"
+    },
+    "userMenu": {
+      "accountSettings": "Настройки аккаунта",
+      "adminDashboard": "Панель администратора",
+      "signOut": "Выйти",
+      "signIn": "Войти",
+      "welcome": "Добро пожаловать!",
+      "signInToAccessAccount": "Войдите для доступа к своему аккаунту",
+      "signInWithGoogle": "Войти через Google",
+      "signInWithPassword": "Войти с паролем",
+      "signUp": "Регистрация",
+      "enableAwardNotifications": "Уведомления о наградах"
+    }
+  }
+}

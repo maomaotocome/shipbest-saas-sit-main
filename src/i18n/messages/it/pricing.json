@@ -1,0 +1,31 @@
+{
+  "pricing": {
+    "title": "Prezzi",
+    "sectionTitle": "Prezzi",
+    "sectionDescription": "Scegli il piano giusto per te. Nessuna tariffa nascosta, nessuna sorpresa.",
+    "description": "Scegli il piano giusto per te. Nessuna tariffa nascosta, nessuna sorpresa.",
+    "price": "Prezzo",
+    "popular": "Popolare",
+    "purchase": "Acquista",
+    "subscribe": "Abbonati",
+    "processing": "Elaborazione in corso...",
+    "orderFailed": "Ordine fallito",
+    "period": {
+      "oneDay": "Un giorno",
+      "days": "{value} giorni",
+      "oneWeek": "Una settimana",
+      "weeks": "{value} settimane",
+      "oneMonth": "Un mese",
+      "months": "{value} mesi",
+      "oneYear": "Un anno",
+      "years": "{value} anni",
+      "oneTime": "Una tantum",
+      "lifetime": "A vita"
+    },
+    "dialog": {
+      "title": "Piani Tariffari",
+      "description": "Scegli il piano giusto per te. Nessuna tariffa nascosta, nessuna sorpresa.",
+      "loading": "Caricamento dati tariffari..."
+    }
+  }
+}

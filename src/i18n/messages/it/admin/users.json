@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "Gestione Utenti",
+      "search": "Cerca",
+      "form": {
+        "name": "Nome",
+        "email": "Email"
+      },
+      "searchNamePlaceholder": "Cerca per nome...",
+      "searchEmailPlaceholder": "Cerca per email...",
+      "columns": {
+        "name": "Nome",
+        "email": "Email",
+        "role": "Ruolo",
+        "verified": "Verificato",
+        "not_available": "Non disponibile",
+        "actions": "Azioni",
+        "view_notifications": "Visualizza Notifiche",
+        "view_credits": "Visualizza Crediti",
+        "view_billing_history": "Visualizza Cronologia Fatturazione"
+      },
+      "verification": {
+        "yes": "Sì",
+        "no": "No"
+      },
+      "roles": {
+        "ADMIN": "Amministratore",
+        "USER": "Utente Regolare"
+      },
+      "role_change": {
+        "error_self": "Non puoi modificare il tuo ruolo",
+        "success": "Ruolo aggiornato a {role}",
+        "confirm_to_admin": {
+          "title": "Promuovere ad Amministratore?",
+          "message": "Attenzione: ciò garantirà privilegi amministrativi completi a questo utente. Questa azione deve essere eseguita con cautela.",
+          "cancel": "Annulla",
+          "confirm": "Sì, Concedi Accesso Amministratore"
+        },
+        "confirm_to_user": {
+          "title": "Retrocedere a Utente Regolare?",
+          "message": "Ciò rimuoverà tutti i privilegi amministrativi da questo utente.",
+          "cancel": "Annulla",
+          "confirm": "Sì, Rimuovi Accesso Amministratore"
+        }
+      },
+      "common": {
+        "created_at": "Creato il",
+        "source": "Fonte",
+        "validity": "Validità",
+        "permanent": "Permanente",
+        "transaction_time": "Ora Transazione",
+        "transaction_type": "Tipo Transazione",
+        "amount_consumed": "Importo Consumato",
+        "status": "Stato",
+        "description": "Descrizione",
+        "no_description": "Nessuna Descrizione",
+        "loading": "Caricamento...",
+        "error": "Errore",
+        "no_data": "Nessun Dato",
+        "actions": "Azioni",
+        "transaction_id": "ID Transazione",
+        "clear": "Pulisci"
+      },
+      "sources": {
+        "PURCHASE": "Acquisto",
+        "ONE_TIME_PURCHASE": "Acquisto Una Tantum",
+        "SYSTEM_GRANT": "Concessione Sistema",
+        "SUBSCRIPTION_PERIODIC": "Concessione Periodica Abbonamento",
+        "ADMIN_GRANT": "Concessione Amministratore",
+        "PROMOTION": "Promozione",
+        "REFUND": "Rimborso",
+        "OTHER": "Altro"
+      },
+      "transaction_types": {
+        "DEDUCT": "Detrazione",
+        "GRANT": "Concessione",
+        "REFUND": "Rimborso",
+        "ADJUSTMENT": "Regolazione"
+      },
+      "transaction_statuses": {
+        "PENDING": "In attesa",
+        "CONFIRMED": "Confermato",
+        "CANCELLED": "Annullato",
+        "GRANTED": "Concesso"
+      },
+      "summary": {
+        "stats_title": "Statistiche Crediti",
+        "stats": {
+          "total": "Crediti Totali",
+          "available": "Crediti Disponibili",
+          "reserved": "Crediti Riservati",
+          "used": "Crediti Utilizzati",
+          "expiring": "Crediti in Scadenza (entro 30 giorni)"
+        },
+        "expiring_alert": {
+          "title": "Crediti in Scadenza a Breve",
+          "description": "{count, plural, one {# credito} other {# crediti}} scadranno entro 30 giorni"
+        },
+        "recent_grants": {
+          "title": "Concessioni di Credito Recenti (Max 5)",
+          "columns": {
+            "amount": "Importo"
+          },
+          "empty": "Nessun record di concessione recente"
+        },
+        "recent_transactions": {
+          "title": "Record di Consumo Recenti (Max 5)",
+          "empty": "Nessun record di consumo recente",
+          "disclaimer": "Nota: i record di consumo recenti mostrati qui potrebbero includere altri utenti. Il filtraggio preciso richiede l'ottimizzazione del backend."
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "Fonte Credito",
+          "total": "Crediti Totali",
+          "remaining_total": "Rimanente/Totale",
+          "used": "Crediti Utilizzati"
+        },
+        "actions": {
+          "view_usage_detail": "Dettagli Utilizzo"
+        },
+        "filters": {
+          "source_label": "Fonte Credito",
+          "all_sources": "Tutte le Fonti",
+          "valid_only_label": "Mostra Solo Validi"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "Visualizza Dettagli"
+        },
+        "filters": {
+          "date_range_label": "Intervallo Date",
+          "all_types": "Tutti i Tipi",
+          "all_statuses": "Tutti gli Stati"
+        }
+      },
+      "grant_detail": {
+        "back_button": "Torna all'Elenco Concessioni Crediti",
+        "error_load": "Impossibile caricare i dettagli della concessione di credito.",
+        "title": "Dettagli Concessione Credito (ID: {shortId}...)",
+        "source": "Fonte",
+        "created_at": "Acquisito il",
+        "total_credits": "Crediti Totali",
+        "remaining_credits": "Crediti Rimanenti",
+        "available_credits": "Crediti Disponibili",
+        "reserved_credits": "Crediti Riservati",
+        "used_credits": "Crediti Utilizzati",
+        "validity": "Validità",
+        "usage": {
+          "title": "Record di Utilizzo",
+          "description": "Tutti i record di utilizzo per questa concessione di credito",
+          "empty": "Questa concessione di credito non è stata ancora utilizzata",
+          "columns": {
+            "transaction_time": "Ora Transazione",
+            "transaction_id": "ID Transazione",
+            "transaction_type": "Tipo Transazione",
+            "amount_used": "Importo Utilizzato",
+            "balance_after": "Saldo Dopo",
+            "transaction_description": "Descrizione Transazione"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "Torna all'Elenco Transazioni",
+        "error_load": "Impossibile caricare i dettagli della transazione.",
+        "title": "Dettagli Transazione",
+        "id": "ID Transazione",
+        "transaction_time": "Ora Transazione",
+        "total_consumed": "Crediti Totali Consumati",
+        "transaction_type": "Tipo Transazione",
+        "status": "Stato",
+        "description": "Descrizione",
+        "expire_at": "Ora Scadenza",
+        "confirmed_at": "Ora Conferma",
+        "cancelled_at": "Ora Annullamento",
+        "metadata": "Metadati",
+        "usage_detail": {
+          "title": "Dettagli Utilizzo Credito",
+          "description": "Dettagli delle concessioni di credito consumate da questa transazione",
+          "empty": "Nessun dettaglio di utilizzo del credito",
+          "columns": {
+            "grant_id": "ID Concessione",
+            "source": "Fonte Credito",
+            "amount": "Importo Consumato",
+            "balance_after": "Saldo Dopo (Dettaglio)"
+          }
+        }
+      },
+      "modal": {
+        "title": "Dettagli Crediti di {userName}",
+        "title_no_name": "Dettagli Crediti per Utente {userId}",
+        "tabs": {
+          "summary": "Riepilogo",
+          "grants": "Concessioni",
+          "transactions": "Transazioni"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "Notifiche di {name}",
+        "modal_title_fallback": "Notifiche Utente",
+        "tabs": {
+          "system": "Notifiche di Sistema",
+          "personalized": "Notifiche Personalizzate"
+        },
+        "columns": {
+          "title": "Titolo",
+          "no_title": "Nessun Titolo",
+          "content": "Contenuto",
+          "no_content": "Nessun Contenuto",
+          "status": "Stato",
+          "time": "Ora"
+        },
+        "status": {
+          "READ": "Letto",
+          "UNREAD": "Non Letto"
+        },
+        "error_loading": "Caricamento notifiche fallito",
+        "no_messages": "Nessun messaggio di notifica"
+      },
+      "billing_history": {
+        "title": "Cronologia Fatturazione - {name}",
+        "description": "Visualizza la cronologia degli abbonamenti e degli acquisti per {name}.",
+        "close_button": "Chiudi",
+        "unknown_error": "Errore sconosciuto",
+        "type_subscription": "Abbonamento",
+        "type_purchase": "Acquisto",
+        "table": {
+          "header_type": "Tipo",
+          "header_plan": "Piano/Articolo",
+          "header_amount": "Importo",
+          "header_status": "Stato",
+          "header_date": "Data",
+          "header_provider": "Fornitore",
+          "loading": "Caricamento...",
+          "error": "Caricamento fallito: {message}",
+          "empty": "Nessuna cronologia di fatturazione trovata"
+        },
+        "pagination": {
+          "total_records": "Totale {count, plural, one {# record} other {# record}}",
+          "previous": "Precedente",
+          "next": "Successivo",
+          "page_info": "Pagina {page} di {totalPages}"
+        }
+      }
+    }
+  }
+}

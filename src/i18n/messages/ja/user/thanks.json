@@ -1,0 +1,22 @@
+{
+  "user": {
+    "thanks": {
+      "title": "ご購入ありがとうございます",
+      "loading": "注文状況を確認中...",
+      "success": {
+        "purchaseTitle": "購入完了！",
+        "purchaseMessage": "{planName}の購入が完了しました",
+        "subscriptionTitle": "サブスクリプション完了！",
+        "subscriptionMessage": "{planName}のサブスクリプションが完了しました",
+        "button": "注文を確認"
+      },
+      "error": {
+        "title": "注文処理中",
+        "message": "注文を処理中です。しばらくお待ちください",
+        "button": "ホームに戻る"
+      },
+      "period": "サブスクリプション期間",
+      "resetPeriod": "期間をリセット"
+    }
+  }
+}

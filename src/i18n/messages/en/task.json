@@ -1,0 +1,72 @@
+{
+  "task": {
+    "preview": {
+      "taskInformation": "Task Information",
+      "metadata": "Metadata",
+      "parameters": "Parameters",
+      "fileInformation": "File Information",
+      "labels": {
+        "id": "ID",
+        "type": "Type",
+        "status": "Status",
+        "created": "Created"
+      }
+    },
+    "metadata": {
+      "true": "Yes",
+      "false": "No",
+      "labels": {
+        "templateType": "Template Type",
+        "modelCategory": "Model Category",
+        "model": "Model",
+        "models": "Models",
+        "isPublic": "Public"
+      }
+    },
+    "templateType": {
+      "stylized-anime-image": "Stylized Anime Image",
+      "realistic-image": "Realistic Image",
+      "stylized-image": "Stylized Image"
+    },
+    "modelCategory": {
+      "text-to-image": "Text to Image",
+      "image-to-image": "Image to Image",
+      "text-to-video": "Text to Video",
+      "image-to-video": "Image to Video",
+      "text-to-music": "Text to Music"
+    },
+    "tooltip": {
+      "id": "Task ID",
+      "type": "Type",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "prompt": "Prompt",
+      "negativePrompt": "Negative Prompt",
+      "models": "Models",
+      "images": "Images",
+      "subTasks": "Subtasks",
+      "subTaskId": "Subtask ID",
+      "subTaskStatus": "Subtask Status"
+    },
+    "taskType": {
+      "model-direct-invocation": "Model Direct Invocation",
+      "template": "Template",
+      "other": "Other"
+    },
+    "status": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "completed": "Completed",
+      "failed": "Failed",
+      "cancelled": "Cancelled",
+      "aborted": "Aborted",
+      "partially_completed": "Partially Completed"
+    },
+    "recall": {
+      "tooltip": "Recall Task"
+    },
+    "public": "Public",
+    "private": "Private"
+  }
+}

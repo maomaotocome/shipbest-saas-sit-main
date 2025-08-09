@@ -1,0 +1,32 @@
+{
+  "footer": {
+    "links": {
+      "videoTools": {
+        "title": "影片工具",
+        "aiVideoGenerator": "AI影片生成器",
+        "imageToVideo": "圖片轉影片",
+        "videoToVideo": "影片轉影片",
+        "consistentCharacter": "一致角色影片",
+        "videoEnhancer": "AI影片增強器"
+      },
+      "videoModels": {
+        "title": "影片模型",
+        "klingAi": "Kling AI",
+        "runway": "Runway",
+        "viduAi": "Vidu AI",
+        "lumaAi": "Luma AI",
+        "pixverseAi": "PixVerse AI"
+      },
+      "company": {
+        "title": "公司",
+        "aboutUs": "關於我們",
+        "contactUs": "聯絡我們",
+        "pricing": "價格",
+        "community": "社區",
+        "resources": "資源",
+        "termsAndConditions": "條款和條件",
+        "privacyPolicy": "私隱政策"
+      }
+    }
+  }
+}

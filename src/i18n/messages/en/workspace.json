@@ -1,0 +1,21 @@
+{
+  "workspace": {
+    "sidebar": {
+      "themeToggler": {
+        "title": "Toggle theme"
+      },
+      "home": "Home",
+      "logout": "Logout",
+      "pin": "Pin sidebar",
+      "unpin": "Unpin sidebar",
+      "userAvatar": "User avatar"
+    },
+    "area": {
+      "goBack": "Go back"
+    },
+    "projects": {
+      "fetchError": "Failed to fetch projects",
+      "noItemsFound": "No items found"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "구독 관리",
+      "status": "상태",
+      "startDate": "시작 날짜",
+      "price": "가격",
+      "cancelAt": "취소 날짜",
+      "cancelAtPeriodEnd": "기간 종료 시 취소",
+      "subscriptionPeriods": "구독 기간",
+      "periodNumber": "기간 번호",
+      "endDate": "종료 날짜",
+      "planName": "플랜 이름",
+      "billingCycle": "결제 주기",
+      "currentPeriodEndDate": "현재 기간 종료일",
+      "viewPeriods": "기간 보기",
+      "confirmCancelTitle": "구독 취소 확인",
+      "confirmCancelDescription": "이 구독을 취소하시겠습니까? 구독은 현재 결제 기간이 종료될 때 취소됩니다.",
+      "subscriptionDetails": "구독 상세정보",
+      "cancel": "취소",
+      "confirm": "확인",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "활성",
+          "CANCELLED": "취소됨",
+          "EXPIRED": "만료됨",
+          "PRECANCEL": "취소 예정"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "예약됨",
+          "ACTIVE": "활성",
+          "COMPLETED": "완료됨",
+          "CANCELLED": "취소됨",
+          "FAILED": "실패"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pricing": {
+    "title": "Preise",
+    "sectionTitle": "Preise",
+    "sectionDescription": "Wählen Sie den Plan, der zu Ihnen passt. Keine versteckten Gebühren, keine Überraschungen.",
+    "description": "Wählen Sie den Plan, der zu Ihnen passt. Keine versteckten Gebühren, keine Überraschungen.",
+    "price": "Preis",
+    "popular": "Beliebt",
+    "purchase": "Kaufen",
+    "subscribe": "Abonnieren",
+    "processing": "Wird verarbeitet...",
+    "orderFailed": "Bestellung fehlgeschlagen",
+    "period": {
+      "oneDay": "Ein Tag",
+      "days": "{value} Tage",
+      "oneWeek": "Eine Woche",
+      "weeks": "{value} Wochen",
+      "oneMonth": "Ein Monat",
+      "months": "{value} Monate",
+      "oneYear": "Ein Jahr",
+      "years": "{value} Jahre",
+      "oneTime": "Einmalig",
+      "lifetime": "Lebenslang"
+    },
+    "dialog": {
+      "title": "Preispläne",
+      "description": "Wählen Sie den Plan, der zu Ihnen passt. Keine versteckten Gebühren, keine Überraschungen.",
+      "loading": "Preisdaten werden geladen..."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+enum PeriodType {
+  ONE_TIME
+  LIFETIME
+  DAYS
+  MONTHS
+  YEARS
+  WEEKS
+}
+
+enum Currency {
+  CNY
+  USD
+  EUR
+  GBP
+}
+
+enum PlanStatus {
+  ACTIVE // Active
+  DEPRECATED // Deprecated but still allowed for existing users
+  ARCHIVED // Archived, completely stopped for use
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  CANCELLED
+  EXPIRED
+  PRECANCEL
+}
+
+enum PaymentProvider {
+  STRIPE
+  LEMON_SQUEEZY
+  PADDLE
+}
+
+enum PurchaseStatus {
+  COMPLETED
+  REFUNDED
+}
+
+enum CreditSource {
+  SUBSCRIPTION_PERIODIC
+  PLAN_INITIAL
+  ONE_TIME_PURCHASE
+  PROMOTION
+  MANUAL
+  NEW_USER_AWARD
+  DAILY_LOGIN_AWARD
+  INVITE_AWARD
+}
+
+enum AccountStatus {
+  ACTIVE
+  SUSPENDED
+  BLOCKED
+  QUOTA_EXCEEDED
+  MAINTENANCE
+}
+
+enum CreditTransactionStatus {
+  PENDING // Pre-deduction status
+  CONFIRMED // Confirmed deduction
+  CANCELLED // Cancelled pre-deduction
+  GRANTED // Granted
+}
+
+enum CreditTransactionType {
+  DEDUCT // Direct deduction
+  REFUND // Refund
+  RESERVE // Pre-deduction
+  GRANT // Grant
+}
+
+enum BillingScheme {
+  TIME_BASED // Time-based
+  CREDIT_BASED // Credit-based
+  HYBRID // Hybrid mode
+}
+
+enum SubscriptionPeriodStatus {
+  SCHEDULED // Scheduled
+  ACTIVE // Currently active period
+  COMPLETED // Completed
+  CANCELLED // Cancelled
+  FAILED // Failed (e.g., payment failed)
+}
+
+enum RenewalStatus {
+  NOT_INITIATED // Renewal not initiated
+  SUCCESS // Renewal successful
+  FAILED // Renewal failed
+}
+
+// Feature limit reset behavior
+enum ResetBehavior {
+  RESET // Complete reset, unused quota not retained
+  ROLLOVER // Rollover, unused quota retained
+  NONE // No reset, cumulative calculation
+}

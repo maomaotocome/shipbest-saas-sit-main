@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "Планы",
+        "general": "Общее",
+        "translations": "Переводы",
+        "features": "Функции",
+        "periods": "Периоды",
+        "editPlan": "Редактировать план",
+        "createNewPlan": "Создать новый план",
+        "saveError": "Не удалось сохранить план",
+        "updateSuccess": "План успешно обновлён",
+        "createSuccess": "План успешно создан",
+        "syncSuccess": "План успешно синхронизирован",
+        "saving": "Сохранение...",
+        "update": "Обновить",
+        "create": "Создать",
+        "cancel": "Отмена",
+        "createError": "Не удалось создать план",
+        "updateError": "Не удалось обновить план",
+        "syncError": "Не удалось синхронизировать планы",
+        "syncToProvider": "Синхронизировать с провайдером",
+        "syncPlansDialogTitle": "Синхронизировать планы с платёжным провайдером",
+        "selectProvider": "Выберите провайдера",
+        "selectProviderPlaceholder": "Выберите провайдера",
+        "selectProviderError": "Пожалуйста, выберите платёжного провайдера",
+        "syncing": "Синхронизация...",
+        "confirmSync": "Подтвердить синхронизацию",
+        "manageFeatures": "Управление функциями",
+        "addPlan": "Добавить план",
+        "addFeature": "Добавить функцию",
+        "noFeaturesDefined": "Функции не определены",
+        "noPeriodsDefined": "Периоды не определены",
+        "noTranslations": "Нет переводов",
+        "allocationsByPeriod": "Распределения по периодам:",
+        "limitLabel": "Лимит",
+        "notIncluded": "Не включено",
+        "unlimited": "Без ограничений",
+        "resetEvery": "Сброс каждые",
+        "headers": {
+          "code": "Код",
+          "name": "Название",
+          "status": "Статус",
+          "billingScheme": "Схема оплаты",
+          "features": "Функции",
+          "periods": "Периоды",
+          "validFrom": "Действителен с",
+          "validUntil": "Действителен до"
+        },
+        "generalTab": {
+          "code": "Код",
+          "codePlaceholder": "например, BASIC, PRO, ENTERPRISE",
+          "status": "Статус",
+          "statusPlaceholder": "Выберите статус",
+          "billingScheme": "Схема оплаты",
+          "billingSchemePlaceholder": "Выберите схему оплаты",
+          "isPopular": "Популярный",
+          "sortOrder": "Порядок сортировки",
+          "validFrom": "Действителен с",
+          "validUntil": "Действителен до (опционально)",
+          "PlanStatus": {
+            "active": "Активен",
+            "deprecated": "Устарел",
+            "archived": "Архивирован"
+          },
+          "BillingScheme": {
+            "creditBased": "На основе кредитов",
+            "creditbased": "На основе кредитов",
+            "timeBased": "На основе времени",
+            "timebased": "На основе времени",
+            "hybrid": "Гибридная"
+          }
+        },
+        "featuresTab": {
+          "feature": "Функция",
+          "included": "Включено",
+          "primary": "Основная",
+          "limit": "Лимит",
+          "limitPlaceholder": "Оставьте пустым для отсутствия лимита",
+          "notApplicable": "Не применимо",
+          "noAvailableFeatures": "Нет доступных функций",
+          "referenced": "Используется"
+        },
+        "periodsTab": {
+          "noPeriods": "Нет периодов оплаты. Пожалуйста, добавьте хотя бы один период.",
+          "actions": "Действия",
+          "period": "Период",
+          "resetPeriodType": "Тип периода сброса",
+          "resetPeriodValue": "Значение периода сброса",
+          "price": "Цена",
+          "selectPeriodType": "Выберите тип периода",
+          "periodType": "Тип периода",
+          "periodValue": "Значение периода",
+          "addPeriod": "Добавить период",
+          "code": "Код",
+          "credits": "Кредиты"
+        },
+        "translationsTab": {
+          "noTranslations": "Нет переводов. Пожалуйста, добавьте хотя бы один перевод.",
+          "selectLanguage": "Выберите язык",
+          "addTranslation": "Добавить перевод",
+          "language": "Язык",
+          "name": "Название",
+          "subtitle": "Подзаголовок",
+          "description": "Описание",
+          "actions": "Действия",
+          "planName": "Название плана",
+          "planSubtitle": "Подзаголовок плана",
+          "planDescription": "Описание плана"
+        }
+      }
+    }
+  }
+}

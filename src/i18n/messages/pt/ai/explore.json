@@ -1,0 +1,48 @@
+{
+  "explore": {
+    "title": "Explorar",
+    "subtitle": "Descubra criações incríveis da nossa comunidade",
+    "filters": {
+      "type": "Tipo",
+      "all": "Todos",
+      "images": "Imagens",
+      "videos": "Vídeos",
+      "featured": "Em destaque",
+      "featuredOnly": "Apenas em destaque",
+      "regular": "Regular",
+      "sortBy": "Ordenar por",
+      "newest": "Mais recentes",
+      "reset": "Redefinir"
+    },
+    "gallery": {
+      "viewDetails": "Ver detalhes",
+      "noItems": "Nenhum item encontrado",
+      "noItemsDescription": "Tente ajustar seus filtros ou volte mais tarde para novo conteúdo.",
+      "loadMore": "Carregar mais",
+      "loading": "Carregando...",
+      "error": "Falha ao carregar itens"
+    },
+    "preview": {
+      "title": "Visualização",
+      "imageAlt": "Imagem de visualização",
+      "loading": "Carregando...",
+      "videoNotSupported": "Seu navegador não suporta reprodução de vídeo.",
+      "details": "Detalhes",
+      "type": "Tipo",
+      "dimensions": "Dimensões",
+      "created": "Criado",
+      "featured": "Em destaque",
+      "actions": "Ações",
+      "download": "Baixar original",
+      "recreate": "Recriar",
+      "originalSettings": "Configurações originais",
+      "creatorInformation": "Informações do Criador",
+      "fileInformation": "Informações do Arquivo",
+      "share": "Compartilhar"
+    },
+    "stats": {
+      "totalItems": "Total de itens",
+      "featuredItems": "Itens em destaque"
+    }
+  }
+}

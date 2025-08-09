@@ -1,0 +1,22 @@
+{
+  "user": {
+    "invoices": {
+      "title": "請求書",
+      "number": "請求書番号",
+      "status": "ステータス",
+      "issueDate": "発行日",
+      "dueDate": "支払期限",
+      "total": "合計金額",
+      "paidAt": "支払日",
+      "downloadPdf": "PDFをダウンロード",
+      "viewOnline": "オンラインで表示",
+      "type": "種類",
+      "typePurchase": "購入",
+      "typeSubscription": "サブスクリプション",
+      "planName": "プラン",
+      "startDate": "開始日",
+      "billingPeriod": "請求期間",
+      "resetPeriod": "リセット期間"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "notifications": {
+      "title": "通知管理",
+      "create": "新規通知",
+      "edit": "編集通知",
+      "search": "検索",
+      "searchTitlePlaceholder": "通知のタイトルを検索",
+      "columns": {
+        "title": "タイトル",
+        "priority": "優先度",
+        "targetUsers": "対象ユーザー",
+        "scheduledAt": "スケジュール時間",
+        "expiresAt": "有効期限",
+        "createdAt": "作成日時",
+        "actions": "操作",
+        "readStatus": "読み取りステータス",
+        "system": "システム",
+        "userTypes": {
+          "all": "すべて",
+          "newUsers": "新規ユーザー",
+          "existingUsers": "既存ユーザー"
+        },
+        "scheduledStatus": {
+          "immediate": "即座"
+        },
+        "expiryStatus": {
+          "never": "期限なし"
+        }
+      },
+      "form": {
+        "title": "タイトル",
+        "content": "内容",
+        "titlePlaceholder": "タイトルを入力してください",
+        "contentPlaceholder": "内容を入力してください",
+        "cancel": "キャンセル",
+        "save": "保存",
+        "saving": "保存中..."
+      },
+      "send": {
+        "title": "通知を送信",
+        "allUsers": "すべてのユーザー",
+        "specificUsers": "指定されたユーザー",
+        "searchPlaceholder": "ユーザーを検索...",
+        "noUsersFound": "ユーザーが見つかりません",
+        "searchToFindUsers": "入力したキーワードでユーザーを検索",
+        "selectedUsers": "選択されたユーザー: {count}",
+        "unknownUser": "不明なユーザー",
+        "submit": "送信"
+      },
+      "modal": {
+        "editTitle": "通知を編集",
+        "createTitle": "通知を作成",
+        "basicSettings": "基本設定",
+        "notificationType": "通知タイプ",
+        "priority": "優先度",
+        "priorityHelp": "数字が小さいほど優先度が高い (0-100)",
+        "scheduledTime": "スケジュール時間",
+        "scheduledTimeHelp": "設定しない場合、通知は即座に送信されます",
+        "expiryTime": "有効期限",
+        "expiryTimeHelp": "設定しない場合、通知は期限切れになりません",
+        "targetUsers": "対象ユーザーグループ",
+        "targetUsersHelp": {
+          "all": "通知はすべてのユーザーに送信されます",
+          "new": "通知は後で登録する新規ユーザーにのみ送信されます",
+          "existing": "通知はしばらく使用している既存ユーザーにのみ送信されます"
+        },
+        "systemNoticeHelp": "システム通知はすべての適格ユーザーに送信されます。ユーザーがアクセスしたときにアソシエーション記録が作成されます。アナウンス、重要な更新、その他の広く伝達する必要がある情報に適しています。",
+        "personalizedNoticeHelp": "パーソナライズされた通知は、選択した特定のユーザーにのみ送信されます。リマインダー、挨拶、その他の特定のユーザー向けのパーソナライズされた情報に適しています。",
+        "selectRecipients": "受信者を選択",
+        "searchUserPlaceholder": "ユーザー名またはメールで検索...",
+        "search": "検索",
+        "selectedUsers": "選択された {count} ユーザー",
+        "clearSelection": "選択をクリア",
+        "selectAll": "すべて選択",
+        "usersFound": "{total} ユーザーが見つかりました",
+        "loadingError": "ユーザーの読み込みエラー",
+        "noMatchingUsers": "一致するユーザーが見つかりません",
+        "pleaseSearchUsers": "ユーザーを検索するキーワードを入力してください",
+        "clearSearch": "検索をクリア",
+        "unknownUser": "不明なユーザー",
+        "notificationContent": "通知内容",
+        "selectLanguage": "言語を選択",
+        "title": "タイトル",
+        "titlePlaceholder": "{locale} タイトルを入力",
+        "content": "内容",
+        "contentPlaceholder": "{locale} 内容を入力",
+        "cancel": "キャンセル",
+        "saveNotification": "通知を保存",
+        "errors": {
+          "fetchUsersFailed": "ユーザーの取得に失敗しました",
+          "personalizedNoUser": "パーソナライズされた通知には少なくとも1人のユーザーを選択する必要があります",
+          "needTitleContent": "少なくとも1つの言語でタイトルと内容が必要です",
+          "updateFailed": "通知の更新に失敗しました: {message}",
+          "createFailed": "通知の作成に失敗しました: {message}",
+          "unknownError": "不明なエラーが発生しました。後でもう一度お試しください"
+        },
+        "success": {
+          "updated": "通知が正常に更新されました",
+          "created": "通知が正常に作成されました"
+        },
+        "userGroup": {
+          "all": "すべてのユーザー",
+          "new": "新規ユーザー",
+          "existing": "既存ユーザー"
+        },
+        "notificationTypes": {
+          "personalized": "パーソナライズされた通知",
+          "system": "システム通知"
+        },
+        "removeUser": "ユーザー {name} を削除"
+      }
+    }
+  }
+}

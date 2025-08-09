@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "blog": {
+      "posts": {
+        "title": "Blog-Beiträge",
+        "addPost": "Beitrag hinzufügen",
+        "editPost": "Beitrag bearbeiten",
+        "createPost": "Beitrag erstellen",
+        "cancel": "Abbrechen",
+        "update": "Aktualisieren",
+        "create": "Erstellen",
+        "search": "Suchen",
+        "searchTitlePlaceholder": "Nach Titel suchen...",
+        "searchAuthorPlaceholder": "Nach Autor suchen...",
+        "columns": {
+          "slug": "Slug",
+          "titles": "Titel",
+          "category": "Kategorie",
+          "tags": "Tags",
+          "author": "Autor",
+          "status": "Status"
+        },
+        "status": {
+          "published": "Veröffentlicht",
+          "draft": "Entwurf"
+        },
+        "form": {
+          "author": "Autor",
+          "slug": "Slug",
+          "coverImage": "Titelbild-URL",
+          "category": "Kategorie",
+          "selectCategory": "Kategorie auswählen",
+          "tags": "Tags",
+          "title": "Titel",
+          "content": "Inhalt",
+          "metadata": "Metadaten",
+          "translateFrom": "Übersetzen von {locale}",
+          "selectedTags": "Ausgewählte Tags",
+          "selectTags": "Tags auswählen",
+          "slugRequired": "Slug ist erforderlich",
+          "titlePlaceholder": "Titel eingeben",
+          "contentPlaceholder": "Inhalt eingeben",
+          "saving": "Speichern...",
+          "atLeastOneTranslation": "Bitte füllen Sie mindestens Titel und Inhalt einer Sprache aus",
+          "slugEmptyError": "Bitte geben Sie einen Slug ein"
+        },
+        "messages": {
+          "createSuccess": "Beitrag erfolgreich erstellt",
+          "updateSuccess": "Beitrag erfolgreich aktualisiert",
+          "deleteSuccess": "Beitrag erfolgreich gelöscht",
+          "saveFailed": "Speichern fehlgeschlagen: {message}",
+          "deleteFailed": "Löschen fehlgeschlagen: {message}",
+          "unknownError": "Ein unbekannter Fehler beim Speichern des Beitrags ist aufgetreten",
+          "unknownDeleteError": "Ein unbekannter Fehler beim Löschen des Beitrags ist aufgetreten",
+          "noAuthorsFound": "Keine Blog-Autoren gefunden, bitte erstellen Sie zuerst einen Blog-Autor"
+        }
+      },
+      "categories": {
+        "title": "Blog-Kategorien",
+        "addCategory": "Kategorie hinzufügen",
+        "editCategory": "Kategorie bearbeiten",
+        "createCategory": "Kategorie erstellen",
+        "cancel": "Abbrechen",
+        "update": "Aktualisieren",
+        "create": "Erstellen",
+        "search": "Suchen",
+        "searchSlugPlaceholder": "Nach Slug suchen...",
+        "searchNamePlaceholder": "Nach Namen suchen...",
+        "form": {
+          "slug": "Slug",
+          "slugPlaceholder": "Kategorie-Slug eingeben",
+          "name": "{locale} Name",
+          "namePlaceholder": "Kategorienamen eingeben",
+          "translateFrom": "Übersetzen von {locale}"
+        },
+        "messages": {
+          "createSuccess": "Kategorie erfolgreich erstellt",
+          "updateSuccess": "Kategorie erfolgreich aktualisiert",
+          "deleteSuccess": "Kategorie erfolgreich gelöscht",
+          "error": "Ein Fehler ist aufgetreten"
+        },
+        "confirmDelete": {
+          "title": "Kategorie löschen",
+          "description": "Sind Sie sicher, dass Sie diese Kategorie löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+        },
+        "confirm": "Bestätigen",
+        "save": "Speichern"
+      },
+      "tags": {
+        "title": "Blog-Tags",
+        "addTag": "Tag hinzufügen",
+        "editTag": "Tag bearbeiten",
+        "createTag": "Tag erstellen",
+        "cancel": "Abbrechen",
+        "update": "Aktualisieren",
+        "create": "Erstellen",
+        "search": "Suchen",
+        "searchSlugPlaceholder": "Nach Slug suchen...",
+        "searchNamePlaceholder": "Nach Namen suchen...",
+        "form": {
+          "slug": "Slug",
+          "name": "Name",
+          "nameWithLocale": "{locale} Name",
+          "translateFrom": "Übersetzen von {locale}"
+        },
+        "messages": {
+          "createSuccess": "Tag erfolgreich erstellt",
+          "updateSuccess": "Tag erfolgreich aktualisiert",
+          "deleteSuccess": "Tag erfolgreich gelöscht",
+          "error": "Ein Fehler ist aufgetreten"
+        },
+        "confirmDelete": {
+          "title": "Tag löschen",
+          "description": "Sind Sie sicher, dass Sie diesen Tag löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+        },
+        "confirm": "Bestätigen",
+        "save": "Speichern"
+      }
+    }
+  }
+}

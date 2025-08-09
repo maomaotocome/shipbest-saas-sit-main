@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "image": {
+      "image-to-image": {
+        "hero": {
+          "title": "Trasforma le tue Immagini con l'IA",
+          "description": "Modifica e migliora le tue immagini con trasformazioni alimentate dall'IA. Carica un'immagine e descrivi le modifiche che vuoi apportare."
+        }
+      }
+    }
+  }
+}

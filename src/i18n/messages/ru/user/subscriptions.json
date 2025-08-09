@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "Подписки",
+      "status": "Статус",
+      "startDate": "Дата начала",
+      "price": "Цена",
+      "cancelAt": "Отменить в",
+      "cancelAtPeriodEnd": "Отменить в конце периода",
+      "subscriptionPeriods": "Периоды подписки",
+      "periodNumber": "Номер периода",
+      "endDate": "Дата окончания",
+      "planName": "Название плана",
+      "billingCycle": "Цикл биллинга",
+      "currentPeriodEndDate": "Дата окончания текущего периода",
+      "viewPeriods": "Просмотреть периоды",
+      "confirmCancelTitle": "Подтвердить отмену подписки",
+      "confirmCancelDescription": "Вы уверены, что хотите отменить эту подписку? Подписка будет отменена в конце текущего расчетного периода.",
+      "subscriptionDetails": "Детали подписки",
+      "cancel": "Отмена",
+      "confirm": "Подтвердить",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "Активна",
+          "CANCELLED": "Отменена",
+          "EXPIRED": "Истекла",
+          "PRECANCEL": "Предварительная отмена"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "Запланирован",
+          "ACTIVE": "Активен",
+          "COMPLETED": "Завершен",
+          "CANCELLED": "Отменен",
+          "FAILED": "Неудачно"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "Purchase History",
+      "planName": "Plan Name",
+      "billingCycle": "Billing Cycle",
+      "purchaseStatus": "Purchase Status",
+      "invoiceStatus": "Invoice Status",
+      "amount": "Amount",
+      "purchaseDate": "Purchase Date",
+      "orderId": "Order ID",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "Completed",
+          "REFUNDED": "Refunded"
+        },
+        "invoiceStatus": {
+          "DRAFT": "Draft",
+          "OPEN": "Open",
+          "PAID": "Paid",
+          "VOID": "Void",
+          "UNCOLLECTIBLE": "Uncollectible"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "Accueil",
+      "blog": "Blog",
+      "pricing": "Tarifs",
+      "playground": "Terrain de Jeu",
+      "products": "Produits",
+      "models": "Modèles",
+      "explore": "Explorer",
+      "studio": "Studio"
+    },
+    "userMenu": {
+      "accountSettings": "Paramètres du Compte",
+      "adminDashboard": "Tableau de Bord Admin",
+      "signOut": "Se Déconnecter",
+      "signIn": "Se Connecter",
+      "welcome": "Bienvenue !",
+      "signInToAccessAccount": "Connectez-vous pour accéder à votre compte",
+      "signInWithGoogle": "Se connecter avec Google",
+      "signInWithPassword": "Se connecter avec Mot de Passe",
+      "signUp": "S'inscrire",
+      "enableAwardNotifications": "Notification de Récompense"
+    }
+  }
+}

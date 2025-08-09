@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "Claim Your Rewards",
+      "claim_new_user": "Claim New User Award",
+      "claim_daily": "Claim Daily Login Award",
+      "loading": "Processing...",
+      "success": "Reward claimed successfully!",
+      "error": "Failed to claim reward",
+      "already_received": "You have already received this reward",
+      "verify_human": "Please verify you are human",
+      "decline_today": "Not Today",
+      "decline_forever": "Never Show Again",
+      "later": "Later",
+      "daily_login": "Daily Login Award on {date}",
+      "new_user": "New User Award",
+      "invite": "Invite Award",
+      "credits": "Credits",
+      "newUserDescription": "Welcome! Claim your new user reward to get started.",
+      "dailyLoginDescription": "Come back daily to claim your login reward!"
+    }
+  }
+}

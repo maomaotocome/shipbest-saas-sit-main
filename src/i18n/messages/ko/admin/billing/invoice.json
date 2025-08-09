@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "청구서 관리",
+          "filters": {
+            "emailLabel": "고객 이메일",
+            "emailPlaceholder": "이메일로 검색...",
+            "dateRangeLabel": "발행일 범위",
+            "searchButton": "검색"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "청구서 번호",
+          "customerEmail": "고객 이메일",
+          "customerName": "고객명",
+          "amount": "금액",
+          "status": "상태",
+          "type": "유형",
+          "planName": "플랜명",
+          "periodNumber": "기간",
+          "issueDate": "발행일",
+          "paidDate": "결제일",
+          "actions": "작업",
+          "dueDate": "만기일"
+        },
+        "status": {
+          "paid": "결제완료",
+          "open": "미결제",
+          "void": "무효",
+          "uncollectible": "회수불가",
+          "unknown": "알 수 없음"
+        },
+        "types": {
+          "subscription": "구독",
+          "purchase": "구매",
+          "unknown": "해당 없음"
+        },
+        "downloadPdf": "PDF 다운로드",
+        "viewOnline": "온라인 보기"
+      }
+    }
+  }
+}

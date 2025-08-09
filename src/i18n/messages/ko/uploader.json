@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "전체",
+      "pending": "대기 중",
+      "uploading": "업로드 중",
+      "success": "성공",
+      "failed": "실패",
+      "startUpload": "업로드 시작",
+      "cancelUpload": "업로드 취소",
+      "clear": "지우기",
+      "clearing": "지우는 중..."
+    },
+    "fileLibrary": {
+      "title": "파일 선택",
+      "searchPlaceholder": "파일명 검색...",
+      "tabs": {
+        "all": "전체",
+        "image": "이미지",
+        "video": "비디오",
+        "audio": "오디오",
+        "document": "문서",
+        "other": "기타"
+      },
+      "selectedCount": "{count}개 파일 선택됨",
+      "confirm": "확인",
+      "cancel": "취소",
+      "fileSize": "{size}KB"
+    },
+    "replaceDialog": {
+      "title": "파일 교체",
+      "description": "현재 파일 `{current}`을 새 파일 `{new}`로 교체하시겠습니까?",
+      "cancel": "취소",
+      "confirm": "교체",
+      "currentFile": "현재 파일",
+      "newFile": "새 파일",
+      "size": "크기: {size}KB",
+      "type": "유형: {type}"
+    },
+    "filePreview": {
+      "uploadFailed": "업로드 실패"
+    },
+    "fileActions": {
+      "delete": "삭제",
+      "selectFromLibrary": "라이브러리에서 선택",
+      "upload": "업로드",
+      "deleting": "삭제 중..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "파일 업로드 또는 선택"
+    },
+    "addButton": {
+      "addFile": "파일 추가"
+    },
+    "messages": {
+      "singleFileOnly": "하나의 파일만 선택할 수 있습니다",
+      "uploadComplete": "모든 업로드가 완료되었습니다",
+      "uploadFailed": "일부 파일 업로드에 실패했습니다",
+      "fetchError": "파일 목록을 가져오는데 실패했습니다",
+      "dragSingleFile": "하나의 파일만 드래그할 수 있습니다",
+      "unsupportedType": "지원되지 않는 파일 유형",
+      "dropToReplace": "파일을 교체하려면 여기에 드롭하세요",
+      "deleteFailed": "삭제 실패",
+      "deleteError": "삭제 오류",
+      "deleteSuccess": "삭제 성공",
+      "fileSizeExceeded": "파일 크기 초과",
+      "clearAllSuccess": "모든 파일이 성공적으로 지워졌습니다",
+      "clearAllFailed": "일부 파일 지우기에 실패했습니다"
+    }
+  }
+}

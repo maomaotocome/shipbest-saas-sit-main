@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "领取奖励",
+      "claim_new_user": "领取新用户奖励",
+      "claim_daily": "领取每日登录奖励",
+      "loading": "处理中...",
+      "success": "奖励领取成功！",
+      "error": "领取奖励失败",
+      "already_received": "您已领取过此奖励",
+      "verify_human": "请验证您是真人",
+      "decline_today": "今天不要",
+      "decline_forever": "不再显示",
+      "later": "稍后",
+      "daily_login": "{date}的每日登录奖励",
+      "new_user": "新用户奖励",
+      "invite": "邀请奖励",
+      "credits": "积分",
+      "newUserDescription": "欢迎！领取您的新用户奖励开始使用吧。",
+      "dailyLoginDescription": "每天回来领取登录奖励！"
+    }
+  }
+}

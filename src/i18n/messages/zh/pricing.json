@@ -1,0 +1,31 @@
+{
+  "pricing": {
+    "title": "价格",
+    "sectionTitle": "价格",
+    "sectionDescription": "选择适合您的计划。没有隐藏费用，没有意外。",
+    "description": "选择适合您的计划。没有隐藏费用，没有意外。",
+    "price": "价格",
+    "popular": "热门",
+    "purchase": "购买",
+    "subscribe": "订阅",
+    "processing": "处理中...",
+    "orderFailed": "订单失败",
+    "period": {
+      "oneDay": "一天",
+      "days": "{value}天",
+      "oneWeek": "一周",
+      "weeks": "{value}周",
+      "oneMonth": "一个月",
+      "months": "{value}个月",
+      "oneYear": "一年",
+      "years": "{value}年",
+      "oneTime": "一次性",
+      "lifetime": "终身"
+    },
+    "dialog": {
+      "title": "价格方案",
+      "description": "选择适合您的计划。没有隐藏费用，没有意外。",
+      "loading": "正在加载价格数据..."
+    }
+  }
+}

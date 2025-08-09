@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "Crediti",
+      "availableCredits": "Crediti Disponibili",
+      "availableAmount": "Importo Disponibile",
+      "pendingCredits": "Crediti in Attesa",
+      "creditGrants": "Assegnazioni di Crediti",
+      "transactions": "Transazioni",
+      "amount": "Importo",
+      "refundAmount": "Importo Rimborso",
+      "remainingAmount": "Rimanente",
+      "grantDate": "Data di concessione",
+      "validFrom": "Valido Dal",
+      "validUntil": "Valido Fino Al",
+      "source": "Fonte",
+      "actions": "Azioni",
+      "viewDetails": "Visualizza Dettagli",
+      "grantDetails": "Dettagli Assegnazione",
+      "transactionDetails": "Dettagli Transazione",
+      "date": "Data",
+      "type": "Tipo",
+      "status": "Stato",
+      "description": "Descrizione",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "Abbonamento Periodico",
+          "PLAN_INITIAL": "Piano Iniziale",
+          "ONE_TIME_PURCHASE": "Acquisto Singolo",
+          "PROMOTION": "Promozione",
+          "MANUAL": "Manuale",
+          "NEW_USER_AWARD": "Premio Nuovo Utente",
+          "DAILY_LOGIN_AWARD": "Premio Accesso Giornaliero",
+          "INVITE_AWARD": "Premio Invito"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "In Attesa",
+          "CONFIRMED": "Confermato",
+          "CANCELLED": "Annullato",
+          "GRANTED": "Concesso"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "Detrarre",
+          "REFUND": "Rimborso",
+          "RESERVE": "Riservare",
+          "GRANT": "Concedere"
+        }
+      }
+    }
+  }
+}

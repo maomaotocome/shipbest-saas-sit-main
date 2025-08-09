@@ -1,0 +1,61 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Version (Default) -->
+  <defs>
+    <style>
+      .dark-mode { display: block; }
+      .light-mode { display: none; }
+      @media (prefers-color-scheme: light) {
+        .dark-mode { display: none; }
+        .light-mode { display: block; }
+      }
+    </style>
+  </defs>
+
+  <!-- Dark Mode Version -->
+  <g class="dark-mode">
+    
+    <!-- Document Stack -->
+    <rect x="80" y="110" width="240" height="160" rx="5" fill="#2D2D3F" stroke="#8A7CB4" stroke-width="1.5"/>
+    <rect x="90" y="100" width="240" height="160" rx="5" fill="#3A3A50" stroke="#A094C6" stroke-width="1.5"/>
+    <rect x="100" y="90" width="240" height="160" rx="5" fill="#484860" stroke="#B6A9DB" stroke-width="1.5"/>
+    
+    <!-- Text Lines -->
+    <rect x="130" y="120" width="180" height="8" rx="4" fill="#6B5B95" opacity="0.8"/>
+    <rect x="130" y="140" width="160" height="8" rx="4" fill="#6B5B95" opacity="0.7"/>
+    <rect x="130" y="160" width="140" height="8" rx="4" fill="#6B5B95" opacity="0.6"/>
+    <rect x="130" y="180" width="170" height="8" rx="4" fill="#6B5B95" opacity="0.7"/>
+    <rect x="130" y="200" width="150" height="8" rx="4" fill="#6B5B95" opacity="0.8"/>
+    
+    <!-- Signature Line -->
+    <line x1="130" y1="230" x2="270" y2="230" stroke="#B6A9DB" stroke-width="2"/>
+    <path d="M140,230 C155,220 165,240 180,230" stroke="#8A7CB4" stroke-width="2" fill="none"/>
+    
+    <!-- Checkmark -->
+    <circle cx="300" cy="120" r="20" fill="#2D2D3F" stroke="#8A7CB4" stroke-width="1.5"/>
+    <path d="M290,120 L298,128 L310,112" stroke="#B6A9DB" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Light Mode Version -->
+  <g class="light-mode">
+    
+    <!-- Document Stack -->
+    <rect x="80" y="110" width="240" height="160" rx="5" fill="#FFFFFF" stroke="#8A7CB4" stroke-width="1.5"/>
+    <rect x="90" y="100" width="240" height="160" rx="5" fill="#F0F0FA" stroke="#A094C6" stroke-width="1.5"/>
+    <rect x="100" y="90" width="240" height="160" rx="5" fill="#E0E0F5" stroke="#B6A9DB" stroke-width="1.5"/>
+    
+    <!-- Text Lines -->
+    <rect x="130" y="120" width="180" height="8" rx="4" fill="#8A7CB4" opacity="0.8"/>
+    <rect x="130" y="140" width="160" height="8" rx="4" fill="#8A7CB4" opacity="0.7"/>
+    <rect x="130" y="160" width="140" height="8" rx="4" fill="#8A7CB4" opacity="0.6"/>
+    <rect x="130" y="180" width="170" height="8" rx="4" fill="#8A7CB4" opacity="0.7"/>
+    <rect x="130" y="200" width="150" height="8" rx="4" fill="#8A7CB4" opacity="0.8"/>
+    
+    <!-- Signature Line -->
+    <line x1="130" y1="230" x2="270" y2="230" stroke="#6B5B95" stroke-width="2"/>
+    <path d="M140,230 C155,220 165,240 180,230" stroke="#8A7CB4" stroke-width="2" fill="none"/>
+    
+    <!-- Checkmark -->
+    <circle cx="300" cy="120" r="20" fill="#F0F0FA" stroke="#8A7CB4" stroke-width="1.5"/>
+    <path d="M290,120 L298,128 L310,112" stroke="#6B5B95" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

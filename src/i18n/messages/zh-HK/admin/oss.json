@@ -1,0 +1,41 @@
+{
+  "admin": {
+    "oss": {
+      "buckets": {
+        "title": "OSS 儲存桶",
+        "addBucket": "新增儲存桶",
+        "editBucket": "編輯儲存桶",
+        "createBucket": "建立儲存桶",
+        "name": "名稱",
+        "provider": "供應商",
+        "bucketName": "儲存桶名稱",
+        "region": "區域",
+        "endpoint": "端點",
+        "publicUrl": "公開URL",
+        "accessKey": "存取金鑰",
+        "secretKey": "密鑰",
+        "maxSize": "最大大小（位元組）",
+        "pathPrefix": "路徑前綴",
+        "publicAccess": "公開存取",
+        "cancel": "取消",
+        "update": "更新",
+        "create": "建立",
+        "columns": {
+          "name": "名稱",
+          "provider": "供應商",
+          "bucket": "儲存桶",
+          "region": "區域",
+          "access": "存取",
+          "status": "狀態",
+          "objects": "物件"
+        },
+        "status": {
+          "public": "公開",
+          "private": "私有",
+          "active": "活躍"
+        }
+      },
+      "objects": {}
+    }
+  }
+}

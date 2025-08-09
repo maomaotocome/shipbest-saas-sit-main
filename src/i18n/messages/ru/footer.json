@@ -1,0 +1,32 @@
+{
+  "footer": {
+    "links": {
+      "videoTools": {
+        "title": "Видео инструменты",
+        "aiVideoGenerator": "ИИ генератор видео",
+        "imageToVideo": "Изображение в видео",
+        "videoToVideo": "Видео в видео",
+        "consistentCharacter": "Видео с последовательным персонажем",
+        "videoEnhancer": "ИИ улучшитель видео"
+      },
+      "videoModels": {
+        "title": "Видео модели",
+        "klingAi": "Kling AI",
+        "runway": "Runway",
+        "viduAi": "Vidu AI",
+        "lumaAi": "Luma AI",
+        "pixverseAi": "PixVerse AI"
+      },
+      "company": {
+        "title": "Компания",
+        "aboutUs": "О нас",
+        "contactUs": "Свяжитесь с нами",
+        "pricing": "Цены",
+        "community": "Сообщество",
+        "resources": "Ресурсы",
+        "termsAndConditions": "Условия использования",
+        "privacyPolicy": "Политика конфиденциальности"
+      }
+    }
+  }
+}

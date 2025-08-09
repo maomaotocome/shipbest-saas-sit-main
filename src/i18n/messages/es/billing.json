@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "Reclamar tus recompensas",
+      "claim_new_user": "Reclamar recompensa de nuevo usuario",
+      "claim_daily": "Reclamar recompensa de inicio de sesión diario",
+      "loading": "Procesando...",
+      "success": "¡Recompensa reclamada con éxito!",
+      "error": "Error al reclamar la recompensa",
+      "already_received": "Ya has recibido esta recompensa",
+      "verify_human": "Por favor, verifica que eres humano",
+      "decline_today": "Hoy no",
+      "decline_forever": "No mostrar nunca más",
+      "later": "Más tarde",
+      "daily_login": "Recompensa de inicio de sesión diario del {date}",
+      "new_user": "Recompensa de nuevo usuario",
+      "invite": "Recompensa por invitación",
+      "credits": "Créditos",
+      "newUserDescription": "¡Bienvenido! Reclama tu recompensa de nuevo usuario para comenzar.",
+      "dailyLoginDescription": "¡Vuelve cada día para reclamar tu recompensa de inicio de sesión!"
+    }
+  }
+}

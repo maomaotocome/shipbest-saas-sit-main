@@ -1,0 +1,32 @@
+{
+  "footer": {
+    "links": {
+      "videoTools": {
+        "title": "비디오 도구",
+        "aiVideoGenerator": "AI 비디오 생성기",
+        "imageToVideo": "이미지에서 비디오",
+        "videoToVideo": "비디오에서 비디오",
+        "consistentCharacter": "일관된 캐릭터 비디오",
+        "videoEnhancer": "AI 비디오 향상기"
+      },
+      "videoModels": {
+        "title": "비디오 모델",
+        "klingAi": "Kling AI",
+        "runway": "Runway",
+        "viduAi": "Vidu AI",
+        "lumaAi": "Luma AI",
+        "pixverseAi": "PixVerse AI"
+      },
+      "company": {
+        "title": "회사",
+        "aboutUs": "회사 소개",
+        "contactUs": "문의하기",
+        "pricing": "가격",
+        "community": "커뮤니티",
+        "resources": "리소스",
+        "termsAndConditions": "이용약관",
+        "privacyPolicy": "개인정보 처리방침"
+      }
+    }
+  }
+}

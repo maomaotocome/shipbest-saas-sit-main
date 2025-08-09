@@ -1,0 +1,46 @@
+{
+  "en": {
+    "items": [
+      {
+        "url": "https://picsum.photos/seed/demo1/800/600",
+        "type": "image",
+        "title": "Demo Image 1",
+        "desc": "High-quality image generated from text"
+      },
+      {
+        "url": "https://picsum.photos/seed/demo2/800/600",
+        "type": "image",
+        "title": "Demo Image 2",
+        "desc": "AI-generated artwork"
+      },
+      {
+        "url": "https://picsum.photos/seed/demo3/800/600",
+        "type": "image",
+        "title": "Demo Image 3",
+        "desc": "AI image generation technology showcase"
+      }
+    ]
+  },
+  "zh": {
+    "items": [
+      {
+        "url": "https://picsum.photos/seed/demo1/800/600",
+        "type": "image",
+        "title": "示例图片 1",
+        "desc": "使用文本生成的高质量图片示例"
+      },
+      {
+        "url": "https://picsum.photos/seed/demo2/800/600",
+        "type": "image",
+        "title": "示例图片 2",
+        "desc": "AI 生成的艺术作品"
+      },
+      {
+        "url": "https://picsum.photos/seed/demo3/800/600",
+        "type": "image",
+        "title": "示例图片 3",
+        "desc": "AI 图像生成技术展示"
+      }
+    ]
+  }
+}

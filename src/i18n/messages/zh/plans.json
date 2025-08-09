@@ -1,0 +1,24 @@
+{
+    "plans": {
+        "periodFormat": {
+            "day": "{value} 天",
+            "days": "{value} 天",
+            "week": "{value} 周",
+            "weeks": "{value} 周",
+            "month": "{value} 月",
+            "months": "{value} 月",
+            "year": "{value} 年",
+            "years": "{value} 年",
+            "oneTime": "一次性",
+            "lifetime": "终身"
+        },
+        "periodType": {
+            "days": "按日计费",
+            "weeks": "按周计费",
+            "months": "按月计费",
+            "years": "按年计费",
+            "oneTime": "一次性",
+            "lifetime": "终身"
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+  "en": {
+    "title": "FLUX.1 Dev",
+    "description": "A 12 billion parameter flow transformer that generates high-quality images from text. Perfect for developers and researchers exploring advanced AI image generation.",
+    "tryNowButton": "Try {modelName} Now",
+    "viewDocumentationButton": "View Documentation",
+    "tryItOutTitle": "Try It Out",
+    "tryItOutDescription": "Generate high-quality images from text using FLUX.1 Dev"
+  },
+  "zh": {
+    "title": "FLUX.1 Dev",
+    "description": "一个120亿参数的流式变压器，从文本生成高质量图像。非常适合探索先进AI图像生成技术的开发者和研究人员。",
+    "tryNowButton": "立即试用 {modelName}",
+    "viewDocumentationButton": "查看文档",
+    "tryItOutTitle": "立即试用",
+    "tryItOutDescription": "使用 FLUX.1 Dev 从文本生成高质量图像"
+  },
+  "zh-hk": {
+    "title": "FLUX.1 Dev",
+    "description": "一個120億參數的流式變壓器，從文本生成高質量的圖像。非常適合探索先進AI圖像生成技術的開發者和研究人員。",
+    "tryNowButton": "立即試用 {modelName}",
+    "viewDocumentationButton": "查看文件",
+    "tryItOutTitle": "立即試用",
+    "tryItOutDescription": "使用 FLUX.1 Dev 從文本生成高質量圖像"
+  },
+  "fr": {
+    "title": "FLUX.1 Dev",
+    "description": "Un transformateur de flux de 12 milliards de paramètres qui génère des images de haute qualité à partir de texte. Parfait pour les développeurs et chercheurs explorant la génération d'images IA avancée.",
+    "tryNowButton": "Essayer {modelName} maintenant",
+    "viewDocumentationButton": "Voir la documentation",
+    "tryItOutTitle": "Essayer maintenant",
+    "tryItOutDescription": "Générer des images de haute qualité à partir de texte avec FLUX.1 Dev"
+  },
+  "de": {
+    "title": "FLUX.1 Dev",
+    "description": "Ein Flusstransformator mit 12 Milliarden Parametern, der hochwertige Bilder aus Text generiert. Perfekt für Entwickler und Forscher, die fortgeschrittene KI-Bildgenerierung erkunden.",
+    "tryNowButton": "{modelName} jetzt ausprobieren",
+    "viewDocumentationButton": "Dokumentation anzeigen",
+    "tryItOutTitle": "Jetzt ausprobieren",
+    "tryItOutDescription": "Hochwertige Bilder aus Text mit FLUX.1 Dev generieren"
+  },
+  "it": {
+    "title": "FLUX.1 Dev",
+    "description": "Un trasformatore di flusso da 12 miliardi di parametri che genera immagini di alta qualità dal testo. Perfetto per sviluppatori e ricercatori che esplorano la generazione avanzata di immagini IA.",
+    "tryNowButton": "Prova {modelName} ora",
+    "viewDocumentationButton": "Visualizza documentazione",
+    "tryItOutTitle": "Prova ora",
+    "tryItOutDescription": "Genera immagini di alta qualità dal testo usando FLUX.1 Dev"
+  },
+  "pt": {
+    "title": "FLUX.1 Dev",
+    "description": "Um transformador de fluxo de 12 bilhões de parâmetros que gera imagens de alta qualidade a partir de texto. Perfeito para desenvolvedores e pesquisadores explorando geração avançada de imagens IA.",
+    "tryNowButton": "Experimente {modelName} agora",
+    "viewDocumentationButton": "Ver documentação",
+    "tryItOutTitle": "Experimente agora",
+    "tryItOutDescription": "Gere imagens de alta qualidade a partir de texto usando FLUX.1 Dev"
+  },
+  "ru": {
+    "title": "FLUX.1 Dev",
+    "description": "Трансформер потока с 12 миллиардами параметров, который генерирует высококачественные изображения из текста. Идеально подходит для разработчиков и исследователей, изучающих продвинутую генерацию изображений ИИ.",
+    "tryNowButton": "Попробовать {modelName} сейчас",
+    "viewDocumentationButton": "Посмотреть документацию",
+    "tryItOutTitle": "Попробовать сейчас",
+    "tryItOutDescription": "Генерируйте высококачественные изображения из текста с помощью FLUX.1 Dev"
+  },
+  "ja": {
+    "title": "FLUX.1 Dev",
+    "description": "テキストから高品質な画像を生成する120億パラメータのフロートランスフォーマー。高度なAI画像生成を探求する開発者や研究者に最適です。",
+    "tryNowButton": "{modelName} を今すぐ試す",
+    "viewDocumentationButton": "ドキュメントを見る",
+    "tryItOutTitle": "今すぐ試す",
+    "tryItOutDescription": "FLUX.1 Dev を使用してテキストから高品質な画像を生成"
+  },
+  "ko": {
+    "title": "FLUX.1 Dev",
+    "description": "텍스트에서 고품질 이미지를 생성하는 120억 개의 매개변수를 가진 흐름 변환기. 고급 AI 이미지 생성을 탐구하는 개발자와 연구자에게 완벽합니다.",
+    "tryNowButton": "{modelName} 지금 시도",
+    "viewDocumentationButton": "문서 보기",
+    "tryItOutTitle": "지금 시도",
+    "tryItOutDescription": "FLUX.1 Dev를 사용하여 텍스트에서 고품질 이미지 생성"
+  },
+  "es": {
+    "title": "FLUX.1 Dev",
+    "description": "Un transformador de flujo de 12 mil millones de parámetros que genera imágenes de alta calidad a partir de texto. Perfecto para desarrolladores e investigadores que exploran la generación avanzada de imágenes IA.",
+    "tryNowButton": "Prueba {modelName} ahora",
+    "viewDocumentationButton": "Ver documentación",
+    "tryItOutTitle": "Prueba ahora",
+    "tryItOutDescription": "Genera imágenes de alta calidad a partir de texto usando FLUX.1 Dev"
+  }
+}

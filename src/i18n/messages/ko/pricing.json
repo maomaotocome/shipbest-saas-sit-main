@@ -1,0 +1,31 @@
+{
+  "pricing": {
+    "title": "요금",
+    "sectionTitle": "요금",
+    "sectionDescription": "당신에게 맞는 플랜을 선택하세요. 숨겨진 요금이나 예상치 못한 비용은 없습니다.",
+    "description": "당신에게 맞는 플랜을 선택하세요. 숨겨진 요금이나 예상치 못한 비용은 없습니다.",
+    "price": "가격",
+    "popular": "인기",
+    "purchase": "구매",
+    "subscribe": "구독",
+    "processing": "처리 중...",
+    "orderFailed": "주문 실패",
+    "period": {
+      "oneDay": "1일",
+      "days": "{value}일",
+      "oneWeek": "1주",
+      "weeks": "{value}주",
+      "oneMonth": "1개월",
+      "months": "{value}개월",
+      "oneYear": "1년",
+      "years": "{value}년",
+      "oneTime": "일회성",
+      "lifetime": "평생"
+    },
+    "dialog": {
+      "title": "요금 플랜",
+      "description": "당신에게 맞는 플랜을 선택하세요. 숨겨진 요금이나 예상치 못한 비용은 없습니다.",
+      "loading": "요금 데이터 로딩 중..."
+    }
+  }
+}

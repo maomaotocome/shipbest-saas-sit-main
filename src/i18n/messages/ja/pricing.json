@@ -1,0 +1,31 @@
+{
+  "pricing": {
+    "title": "料金",
+    "sectionTitle": "料金",
+    "sectionDescription": "あなたに合ったプランを選んでください。隠れた料金や予期せぬ費用はありません。",
+    "description": "あなたに合ったプランを選んでください。隠れた料金や予期せぬ費用はありません。",
+    "price": "価格",
+    "popular": "人気",
+    "purchase": "購入",
+    "subscribe": "購読",
+    "processing": "処理中...",
+    "orderFailed": "注文に失敗しました",
+    "period": {
+      "oneDay": "1日",
+      "days": "{value}日",
+      "oneWeek": "1週間",
+      "weeks": "{value}週間",
+      "oneMonth": "1ヶ月",
+      "months": "{value}ヶ月",
+      "oneYear": "1年",
+      "years": "{value}年",
+      "oneTime": "一回限り",
+      "lifetime": "永久"
+    },
+    "dialog": {
+      "title": "料金プラン",
+      "description": "あなたに合ったプランを選んでください。隠れた料金や予期せぬ費用はありません。",
+      "loading": "料金データを読み込み中..."
+    }
+  }
+}

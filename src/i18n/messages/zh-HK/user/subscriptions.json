@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "訂閱管理",
+      "status": "狀態",
+      "startDate": "開始日期",
+      "price": "價格",
+      "cancelAt": "取消日期",
+      "cancelAtPeriodEnd": "在週期結束時取消",
+      "subscriptionPeriods": "訂閱週期",
+      "periodNumber": "週期編號",
+      "endDate": "結束日期",
+      "planName": "計劃名稱",
+      "billingCycle": "計費週期",
+      "currentPeriodEndDate": "當前週期截止時間",
+      "viewPeriods": "查看週期",
+      "confirmCancelTitle": "確認取消訂閱",
+      "confirmCancelDescription": "您確定要取消這個訂閱嗎？訂閱將在當前計費週期結束時取消。",
+      "subscriptionDetails": "訂閱詳情",
+      "cancel": "取消",
+      "confirm": "確認",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "活躍",
+          "CANCELLED": "已取消",
+          "EXPIRED": "已過期",
+          "PRECANCEL": "預取消"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "已計劃",
+          "ACTIVE": "活躍",
+          "COMPLETED": "已完成",
+          "CANCELLED": "已取消",
+          "FAILED": "失敗"
+        }
+      }
+    }
+  }
+}

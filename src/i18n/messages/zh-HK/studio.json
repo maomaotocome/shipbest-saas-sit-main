@@ -1,0 +1,25 @@
+{
+  "studio": {
+    "menu": {
+      "home": "首頁",
+      "text-to-image": "文字轉圖像",
+      "image-to-image": "圖像轉圖像",
+      "image-to-video": "圖像轉影片",
+      "stylize-anime": "動漫風格化",
+      "image": "圖像",
+      "video": "影片"
+    },
+    "home": {
+      "title": "AI 工作室",
+      "description": "使用 AI 工具創造令人驚艷的內容。從各種 AI 模型中選擇來生成圖像、視頻等。"
+    },
+    "dashboard": {
+      "title": "工作室",
+      "metadata": {
+        "title": "AI 工作室",
+        "description": "AI 工作室 - 使用 AI 創建精彩內容",
+        "keywords": "AI 工作室, 文字轉圖像, 圖像轉影片, AI 生成"
+      }
+    }
+  }
+}

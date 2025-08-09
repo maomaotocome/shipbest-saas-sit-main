@@ -1,0 +1,48 @@
+{
+  "explore": {
+    "title": "探索",
+    "subtitle": "發現來自我們社群的精彩創作",
+    "filters": {
+      "type": "類型",
+      "all": "全部",
+      "images": "圖片",
+      "videos": "影片",
+      "featured": "精選",
+      "featuredOnly": "僅精選",
+      "regular": "普通",
+      "sortBy": "排序",
+      "newest": "最新",
+      "reset": "重設"
+    },
+    "gallery": {
+      "viewDetails": "檢視詳情",
+      "noItems": "未找到內容",
+      "noItemsDescription": "請嘗試調整篩選條件或稍後查看新內容。",
+      "loadMore": "載入更多",
+      "loading": "載入中...",
+      "error": "載入失敗"
+    },
+    "preview": {
+      "title": "預覽",
+      "imageAlt": "預覽圖片",
+      "loading": "載入中...",
+      "videoNotSupported": "您的瀏覽器不支援影片播放。",
+      "details": "詳情",
+      "type": "類型",
+      "dimensions": "尺寸",
+      "created": "建立時間",
+      "featured": "精選",
+      "actions": "操作",
+      "download": "下載原圖",
+      "recreate": "重新建立",
+      "originalSettings": "原始設定",
+      "creatorInformation": "創作者資訊",
+      "fileInformation": "檔案資訊",
+      "share": "分享"
+    },
+    "stats": {
+      "totalItems": "總項目數",
+      "featuredItems": "精選項目數"
+    }
+  }
+}

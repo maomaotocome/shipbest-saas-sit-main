@@ -1,0 +1,13 @@
+{
+  "admin": {
+    "dashboard": {
+      "title": "관리자 대시보드",
+      "general": "일반",
+      "metadata": {
+        "title": "관리자 대시보드",
+        "description": "관리자 대시보드",
+        "keywords": "관리자 대시보드"
+      }
+    }
+  }
+}

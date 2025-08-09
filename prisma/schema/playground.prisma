@@ -1,0 +1,89 @@
+model PlayGroundUser {
+  id          String       @id @default(uuid())
+  userId      String       @unique
+  user        User         @relation(fields: [userId], references: [id])
+  documents   Document[]
+  suggestions Suggestion[]
+  chats       Chat[]
+
+  @@index([userId])
+  @@map("playground_users")
+}
+
+model Document {
+  id               String
+  createdAt        DateTime
+  title            String
+  content          String?
+  kind             String         @default("text")
+  playGroundUserId String
+  playGroundUser   PlayGroundUser @relation(fields: [playGroundUserId], references: [id])
+
+  suggestions Suggestion[]
+
+  @@id([id, createdAt])
+  @@index([playGroundUserId])
+  @@map("playground_documents")
+}
+
+model Suggestion {
+  id                String         @id @default(uuid())
+  documentId        String
+  documentCreatedAt DateTime
+  document          Document       @relation(fields: [documentId, documentCreatedAt], references: [id, createdAt])
+  originalText      String
+  suggestedText     String
+  description       String?
+  isResolved        Boolean        @default(false)
+  playGroundUserId  String
+  playGroundUser    PlayGroundUser @relation(fields: [playGroundUserId], references: [id])
+  createdAt         DateTime       @default(now())
+
+  @@index([documentId, documentCreatedAt])
+  @@index([playGroundUserId])
+  @@map("playground_suggestions")
+}
+
+model Chat {
+  id               String         @id @default(uuid())
+  playGroundUserId String
+  playGroundUser   PlayGroundUser @relation(fields: [playGroundUserId], references: [id])
+  title            String
+  visibility       String         @default("private")
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  messages Message[]
+  votes    Vote[]
+
+  @@index([playGroundUserId])
+  @@map("playground_chats")
+}
+
+model Message {
+  id          String   @id @default(uuid())
+  chatId      String
+  chat        Chat     @relation(fields: [chatId], references: [id])
+  role        String
+  parts       Json
+  attachments Json
+  createdAt   DateTime @default(now())
+
+  votes Vote[]
+
+  @@index([chatId])
+  @@map("playground_messages")
+}
+
+model Vote {
+  chatId    String
+  messageId String
+  chat      Chat    @relation(fields: [chatId], references: [id])
+  message   Message @relation(fields: [messageId], references: [id])
+  isUpvoted Boolean
+
+  @@id([chatId, messageId])
+  @@index([chatId])
+  @@index([messageId])
+  @@map("playground_votes")
+}

@@ -1,0 +1,66 @@
+enum WebhookEventStatus {
+  PENDING // Pending
+  PROCESSING // Processing
+  COMPLETED // Completed
+  FAILED // Failed
+  IGNORED // Ignored
+}
+
+model WebhookEvent {
+  id       String          @id @default(cuid())
+  provider PaymentProvider
+
+  eventType String // Event type, such as subscription.created
+  eventId   String // Payment platform event ID
+
+  // Processing status
+  status      WebhookEventStatus @default(PENDING)
+  processedAt DateTime?
+  error       String? // Error information
+  attempts    Int                @default(0) // Processing attempts
+
+  // Event data
+  payload   Json // Original event data
+  signature String? // Signature
+
+  // Associated payment platform account
+  providerAccountId String?
+  providerAccount   PaymentProviderAccount? @relation(fields: [providerAccountId], references: [id])
+
+  // Associated subscription or purchase record
+  subscriptionId String?
+  subscription   Subscription? @relation(fields: [subscriptionId], references: [id])
+
+  purchaseId String?
+  purchase   Purchase? @relation(fields: [purchaseId], references: [id])
+
+  logs WebhookEventLog[]
+
+  // Timestamp
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([provider, eventId]) // Ensure the same event on the same platform is not processed twice
+  @@index([provider, status]) // For querying pending events
+  @@index([provider, eventType, status])
+  @@index([subscriptionId])
+  @@index([purchaseId])
+  @@index([providerAccountId])
+  @@map("billing_webhook_events")
+}
+
+model WebhookEventLog {
+  id        String       @id @default(cuid())
+  webhookId String
+  webhook   WebhookEvent @relation(fields: [webhookId], references: [id])
+
+  status   WebhookEventStatus
+  message  String? // Processing information
+  error    String? // Error information
+  metadata Json? // Metadata from the processing
+
+  createdAt DateTime @default(now())
+
+  @@index([webhookId])
+  @@map("billing_webhook_event_logs")
+}

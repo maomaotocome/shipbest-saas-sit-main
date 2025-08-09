@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "領取獎勵",
+      "claim_new_user": "領取新用戶獎勵",
+      "claim_daily": "領取每日登入獎勵",
+      "loading": "處理中...",
+      "success": "獎勵領取成功！",
+      "error": "領取獎勵失敗",
+      "already_received": "您已領取過此獎勵",
+      "verify_human": "請驗證您是真人",
+      "decline_today": "今天不要",
+      "decline_forever": "不再顯示",
+      "later": "稍後",
+      "daily_login": "{date}的每日登入獎勵",
+      "new_user": "新用戶獎勵",
+      "invite": "邀請獎勵",
+      "credits": "積分",
+      "newUserDescription": "歡迎！領取您的新用戶獎勵開始使用吧。",
+      "dailyLoginDescription": "每天回來領取登入獎勵！"
+    }
+  }
+}

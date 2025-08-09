@@ -1,0 +1,40 @@
+{
+  "admin": {
+    "billing": {
+      "purchases": {
+        "title": "Покупки",
+        "loading": "Загрузка покупок...",
+        "user": "Пользователь",
+        "plan": "План",
+        "date": "Дата",
+        "status": "Статус",
+        "actions": "Действия",
+        "refund": "Возврат",
+        "confirmRefund": "Вы уверены, что хотите вернуть деньги за эту покупку?",
+        "allStatus": "Все статусы",
+        "period": "Период",
+        "resetPeriod": "Период сброса",
+        "periodTypes": {
+          "day": "День",
+          "days": "Дни",
+          "week": "Неделя",
+          "weeks": "Недели",
+          "month": "Месяц",
+          "months": "Месяцы",
+          "year": "Год",
+          "years": "Годы",
+          "oneTime": "Одноразово",
+          "lifetime": "Пожизненно"
+        },
+        "statuses": {
+          "completed": "Завершено",
+          "refunded": "Возвращено",
+          "pending": "В ожидании",
+          "failed": "Неудачно"
+        },
+        "cancel": "Отмена",
+        "confirm": "Подтвердить"
+      }
+    }
+  }
+}

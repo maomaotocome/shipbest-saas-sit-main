@@ -1,0 +1,13 @@
+{
+  "admin": {
+    "dashboard": {
+      "title": "Tableau de Bord Administrateur",
+      "general": "Général",
+      "metadata": {
+        "title": "Tableau de Bord Administrateur",
+        "description": "Tableau de Bord Administrateur",
+        "keywords": "Tableau de Bord Administrateur"
+      }
+    }
+  }
+}

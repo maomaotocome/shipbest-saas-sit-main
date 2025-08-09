@@ -1,0 +1,122 @@
+{
+  "admin": {
+    "explore": {
+      "title": "探索管理",
+      "tabs": {
+        "items": "探索项目",
+        "addFromTasks": "从任务添加"
+      },
+      "stats": {
+        "total": "总计",
+        "pending": "待审核",
+        "approved": "已批准",
+        "rejected": "已拒绝",
+        "hidden": "已隐藏",
+        "visible": "可见",
+        "featured": "精选"
+      },
+      "items": {
+        "title": "探索项目",
+        "filters": {
+          "title": "筛选条件",
+          "status": "状态",
+          "type": "类型",
+          "visibility": "可见性",
+          "featured": "精选",
+          "allStatuses": "所有状态",
+          "allTypes": "所有类型",
+          "allVisibility": "所有可见性",
+          "allFeatured": "所有精选",
+          "reset": "重置"
+        },
+        "status": {
+          "pending": "待审核",
+          "approved": "已批准",
+          "rejected": "已拒绝",
+          "hidden": "已隐藏"
+        },
+        "type": {
+          "image": "图片",
+          "video": "视频"
+        },
+        "visibility": {
+          "visible": "可见",
+          "hidden": "隐藏"
+        },
+        "featured": {
+          "yes": "是",
+          "no": "否"
+        },
+        "table": {
+          "preview": "预览",
+          "info": "信息",
+          "status": "状态",
+          "visibility": "可见性",
+          "featured": "精选",
+          "createdAt": "创建时间",
+          "actions": "操作"
+        },
+        "actions": {
+          "approve": "批准",
+          "reject": "拒绝",
+          "hide": "隐藏",
+          "delete": "删除",
+          "updateSuccess": "更新成功",
+          "deleteSuccess": "删除成功"
+        },
+        "deleteDialog": {
+          "title": "确认删除",
+          "description": "确定要删除这个探索项目吗？此操作无法撤销。",
+          "cancel": "取消",
+          "confirm": "删除"
+        },
+        "selectedCount": "已选择 {count} 项",
+        "batchActions": "批量操作",
+        "batchApprove": "批量批准",
+        "batchReject": "批量拒绝",
+        "batchHide": "批量隐藏",
+        "batchUpdateSuccess": "批量更新成功",
+        "noData": "暂无数据",
+        "retry": "重试",
+        "pagination": {
+          "previous": "上一页",
+          "next": "下一页",
+          "page": "第 {page} 页"
+        }
+      },
+      "tasks": {
+        "filters": {
+          "title": "筛选公开任务",
+          "taskType": "任务类型",
+          "search": "搜索",
+          "searchPlaceholder": "搜索任务ID或类型...",
+          "searchButton": "搜索",
+          "allTaskTypes": "所有类型",
+          "reset": "重置"
+        },
+        "taskType": {
+          "textToImage": "文本到图片",
+          "imageToImage": "图片到图片",
+          "textToVideo": "文本到视频",
+          "imageToVideo": "图片到视频"
+        },
+        "table": {
+          "taskId": "任务ID",
+          "taskType": "任务类型",
+          "subTasks": "子任务",
+          "completed": "已完成",
+          "availableMedia": "可用媒体",
+          "mediaItems": "媒体项目",
+          "alreadyAdded": "已添加",
+          "createdAt": "创建时间",
+          "actions": "操作",
+          "addToExplore": "添加到探索"
+        },
+        "addSuccess": "成功添加到探索",
+        "noMediaFound": "未找到可用的媒体对象",
+        "selectMediaItems": "选择媒体项目",
+        "addThisItem": "添加此项目"
+      }
+    }
+  }
+}

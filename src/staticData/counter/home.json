@@ -1,0 +1,233 @@
+{
+    "en" : {
+        "title": "Counter",
+        "description": "Counter",
+        "items": [
+            {
+                "label": "Users",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "Apps",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "Devices",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "zh" : {
+        "title": "计数器",
+        "description": "计数器",
+        "items": [
+            {
+                "label": "用户",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "应用",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "设备",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "zh-hk" : {
+        "title": "計數器",
+        "description": "計數器",
+        "items": [
+            {
+                "label": "用戶",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "應用",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "設備",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "fr" : {
+        "title": "Compteur",
+        "description": "Compteur",
+        "items": [
+            {
+                "label": "Utilisateurs",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "Applications",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "Appareils",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "de" : {
+        "title": "Zähler",
+        "description": "Zähler",
+        "items": [
+            {
+                "label": "Benutzer",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "Anwendungen",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "Geräte",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "it" : {
+        "title": "Contatore",
+        "description": "Contatore",
+        "items": [
+            {
+                "label": "Utenti",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "Applicazioni",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "Dispositivi",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "pt" : {
+        "title": "Contador",
+        "description": "Contador",
+        "items": [
+            {
+                "label": "Usuários",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "Aplicativos",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "Dispositivos",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "ru" : {
+        "title": "Счетчик",
+        "description": "Счетчик",
+        "items": [
+            {
+                "label": "Пользователи",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "Приложения",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "Устройства",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "ja" : {
+        "title": "カウンター",
+        "description": "カウンター",
+        "items": [
+            {
+                "label": "ユーザー",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "アプリ",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "デバイス",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "ko" : {
+        "title": "카운터",
+        "description": "카운터",
+        "items": [
+            {
+                "label": "사용자",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "앱",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "기기",
+                "number": 100,
+                "more": true
+            }
+        ]
+    },
+    "es" : {
+        "title": "Contador",
+        "description": "Contador",
+        "items": [
+            {
+                "label": "Usuarios",
+                "number": 10000,
+                "more": true
+            },
+            {
+                "label": "Aplicaciones",
+                "number": 1000,
+                "more": true
+            },
+            {
+                "label": "Dispositivos",
+                "number": 100,
+                "more": true
+            }
+        ]
+    }
+}

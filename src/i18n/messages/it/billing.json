@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "Riscuoti i tuoi premi",
+      "claim_new_user": "Riscuoti il premio nuovo utente",
+      "claim_daily": "Riscuoti il premio accesso giornaliero",
+      "loading": "Elaborazione in corso...",
+      "success": "Premio riscosso con successo!",
+      "error": "Errore durante il riscatto del premio",
+      "already_received": "Hai già ricevuto questo premio",
+      "verify_human": "Verifica di essere umano",
+      "decline_today": "Non oggi",
+      "decline_forever": "Non mostrare più",
+      "later": "Più tardi",
+      "daily_login": "Premio accesso giornaliero del {date}",
+      "new_user": "Premio nuovo utente",
+      "invite": "Premio invito",
+      "credits": "Crediti",
+      "newUserDescription": "Benvenuto! Riscuoti il tuo premio nuovo utente per iniziare.",
+      "dailyLoginDescription": "Torna ogni giorno per riscuotere il tuo premio di accesso!"
+    }
+  }
+}

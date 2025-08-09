@@ -1,0 +1,1 @@
+export { default } from "@/components/pages/ai/audio/text-to-music";

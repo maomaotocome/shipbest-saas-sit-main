@@ -1,0 +1,13 @@
+{
+  "user": {
+    "dashboard": {
+      "title": "仪表板",
+      "general": "常规",
+      "metadata": {
+        "title": "仪表板",
+        "description": "仪表板",
+        "keywords": "仪表板"
+      }
+    }
+  }
+}

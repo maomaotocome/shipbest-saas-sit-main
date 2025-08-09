@@ -1,0 +1,10 @@
+{
+  "user": {
+    "order": {
+      "initiatingPayment": "正在初始化支付...",
+      "openingPayment": "正在打開支付網關...",
+      "paymentFailed": "支付失敗，請重試",
+      "backToHome": "返回首頁"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "购买记录",
+      "planName": "计划名称",
+      "billingCycle": "计费周期",
+      "purchaseStatus": "购买状态",
+      "invoiceStatus": "发票状态",
+      "amount": "金额",
+      "purchaseDate": "购买日期",
+      "orderId": "订单号",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "已完成",
+          "REFUNDED": "已退款"
+        },
+        "invoiceStatus": {
+          "DRAFT": "草稿",
+          "OPEN": "待付款",
+          "PAID": "已付款",
+          "VOID": "已作废",
+          "UNCOLLECTIBLE": "无法收取"
+        }
+      }
+    }
+  }
+}

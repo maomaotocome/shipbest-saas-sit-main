@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "billing": {
+      "payment-providers": {
+        "title": "Fournisseurs de Paiement",
+        "addProvider": "Ajouter un Fournisseur",
+        "editProvider": "Modifier le Fournisseur",
+        "columns": {
+          "name": "Nom",
+          "code": "Code",
+          "provider": "Fournisseur",
+          "status": "Statut",
+          "priority": "Priorité",
+          "dailyQuota": "Quota Quotidien",
+          "monthlyQuota": "Quota Mensuel"
+        },
+        "form": {
+          "name": "Nom",
+          "code": "Code",
+          "provider": "Fournisseur",
+          "status": "Statut",
+          "priority": "Priorité",
+          "secretKey": "Clé Secrète du Fournisseur",
+          "webhookSecret": "Secret du Webhook"
+        },
+        "unlimited": "Illimité",
+        "status": {
+          "ACTIVE": "Actif",
+          "SUSPENDED": "Suspendu",
+          "BLOCKED": "Bloqué",
+          "QUOTA_EXCEEDED": "Quota Dépassé",
+          "MAINTENANCE": "Maintenance"
+        },
+        "deleteConfirmation": {
+          "title": "Supprimer le Fournisseur",
+          "message": "Êtes-vous sûr de vouloir supprimer ce fournisseur de paiement ?",
+          "messageWithName": "Êtes-vous sûr de vouloir supprimer le fournisseur de paiement '{name}' ?"
+        },
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "deleting": "Suppression...",
+        "saving": "Sauvegarde...",
+        "update": "Mettre à jour",
+        "create": "Créer",
+        "createSuccess": "Fournisseur de paiement créé avec succès",
+        "createError": "Échec de la création du fournisseur de paiement",
+        "updateSuccess": "Fournisseur de paiement mis à jour avec succès",
+        "updateError": "Échec de la mise à jour du fournisseur de paiement",
+        "deleteSuccess": "Fournisseur de paiement supprimé avec succès",
+        "deleteError": "Échec de la suppression du fournisseur de paiement",
+        "registerWebhook": "Enregistrer le Webhook",
+        "webhookRegistered": "Webhook enregistré avec succès",
+        "webhookRegistrationFailed": "Échec de l'enregistrement du webhook",
+        "webhookRegistrationDescription": "Cela enregistrera un endpoint webhook pour le fournisseur de paiement. L'URL du webhook sera :",
+        "registering": "Enregistrement...",
+        "register": "Enregistrer"
+      }
+    }
+  }
+}

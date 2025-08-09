@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "Total",
+      "pending": "En attente",
+      "uploading": "Téléchargement",
+      "success": "Succès",
+      "failed": "Échec",
+      "startUpload": "Démarrer le téléchargement",
+      "cancelUpload": "Annuler le téléchargement",
+      "clear": "Effacer",
+      "clearing": "Effacement..."
+    },
+    "fileLibrary": {
+      "title": "Sélectionner un fichier",
+      "searchPlaceholder": "Rechercher un nom de fichier...",
+      "tabs": {
+        "all": "Tous",
+        "image": "Images",
+        "video": "Vidéos",
+        "audio": "Audio",
+        "document": "Documents",
+        "other": "Autres"
+      },
+      "selectedCount": "{count} fichiers sélectionnés",
+      "confirm": "Confirmer",
+      "cancel": "Annuler",
+      "fileSize": "{size}KB"
+    },
+    "replaceDialog": {
+      "title": "Remplacer le fichier",
+      "description": "Voulez-vous remplacer le fichier actuel `{current}` par le nouveau fichier `{new}` ?",
+      "cancel": "Annuler",
+      "confirm": "Remplacer",
+      "currentFile": "Fichier actuel",
+      "newFile": "Nouveau fichier",
+      "size": "Taille : {size}KB",
+      "type": "Type : {type}"
+    },
+    "filePreview": {
+      "uploadFailed": "Téléchargement échoué"
+    },
+    "fileActions": {
+      "delete": "Supprimer",
+      "selectFromLibrary": "Sélectionner depuis la bibliothèque",
+      "upload": "Télécharger",
+      "deleting": "Suppression..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "Télécharger ou sélectionner un fichier"
+    },
+    "addButton": {
+      "addFile": "Ajouter un fichier"
+    },
+    "messages": {
+      "singleFileOnly": "Un seul fichier peut être sélectionné",
+      "uploadComplete": "Tous les téléchargements terminés",
+      "uploadFailed": "Certains fichiers n'ont pas pu être téléchargés",
+      "fetchError": "Échec de la récupération de la liste des fichiers",
+      "dragSingleFile": "Un seul fichier peut être glissé",
+      "unsupportedType": "Type de fichier non pris en charge",
+      "dropToReplace": "Déposer pour remplacer le fichier",
+      "deleteFailed": "Échec de la suppression",
+      "deleteError": "Erreur de suppression",
+      "deleteSuccess": "Suppression réussie",
+      "fileSizeExceeded": "Taille de fichier dépassée",
+      "clearAllSuccess": "Tous les fichiers ont été effacés avec succès",
+      "clearAllFailed": "Échec de l'effacement de certains fichiers"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "发票管理",
+          "filters": {
+            "emailLabel": "客户邮箱",
+            "emailPlaceholder": "搜索邮箱...",
+            "dateRangeLabel": "开具日期范围",
+            "searchButton": "搜索"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "发票编号",
+          "customerEmail": "客户邮箱",
+          "customerName": "客户名称",
+          "amount": "金额",
+          "status": "状态",
+          "type": "类型",
+          "planName": "方案名称",
+          "periodNumber": "周期",
+          "issueDate": "开具日期",
+          "paidDate": "支付日期",
+          "actions": "操作",
+          "dueDate": "到期日期"
+        },
+        "status": {
+          "paid": "已支付",
+          "open": "未支付",
+          "void": "已作废",
+          "uncollectible": "无法收款",
+          "unknown": "未知"
+        },
+        "types": {
+          "subscription": "订阅",
+          "purchase": "购买",
+          "unknown": "未知"
+        },
+        "downloadPdf": "下载PDF",
+        "viewOnline": "在线查看"
+      }
+    }
+  }
+}

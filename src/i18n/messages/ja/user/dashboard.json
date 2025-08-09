@@ -1,0 +1,13 @@
+{
+  "user": {
+    "dashboard": {
+      "title": "ダッシュボード",
+      "general": "一般",
+      "metadata": {
+        "title": "ダッシュボード",
+        "description": "ダッシュボード",
+        "keywords": "ダッシュボード"
+      }
+    }
+  }
+}

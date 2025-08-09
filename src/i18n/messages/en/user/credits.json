@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "Credits",
+      "availableCredits": "Available Credits",
+      "availableAmount": "Available Amount",
+      "pendingCredits": "Pending Credits",
+      "creditGrants": "Credit Grants",
+      "transactions": "Transactions",
+      "amount": "Amount",
+      "refundAmount": "Refund Amount",
+      "remainingAmount": "Remaining",
+      "grantDate": "Grant Date",
+      "validFrom": "Valid From",
+      "validUntil": "Valid Until",
+      "source": "Source",
+      "actions": "Actions",
+      "viewDetails": "View Details",
+      "grantDetails": "Grant Details",
+      "transactionDetails": "Transaction Details",
+      "date": "Date",
+      "type": "Type",
+      "status": "Status",
+      "description": "Description",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "Subscription Periodic",
+          "PLAN_INITIAL": "Plan Initial",
+          "ONE_TIME_PURCHASE": "One-time Purchase",
+          "PROMOTION": "Promotion",
+          "MANUAL": "Manual",
+          "NEW_USER_AWARD": "New User Award",
+          "DAILY_LOGIN_AWARD": "Daily Login Award",
+          "INVITE_AWARD": "Invite Award"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "Pending",
+          "CONFIRMED": "Confirmed",
+          "CANCELLED": "Cancelled",
+          "GRANTED": "Granted"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "Deduct",
+          "REFUND": "Refund",
+          "RESERVE": "Reserve",
+          "GRANT": "Grant"
+        }
+      }
+    }
+  }
+}

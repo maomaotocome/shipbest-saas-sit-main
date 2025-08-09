@@ -1,0 +1,34 @@
+{
+  "blog": {
+    "title": "部落格",
+    "description": "閱讀我們的最新文章，並保持最新新聞和提示。",
+    "tags": "標籤",
+    "categories": "分類",
+    "latest": {
+      "title": "最新文章",
+      "description": "探索我們最新的文章和見解"
+    },
+    "metadata": {
+      "all": {
+        "title": "部落格",
+        "description": "閱讀我們的最新文章，並保持最新新聞和提示。",
+        "keywords": "部落格, 文章, 新聞, 提示"
+      },
+      "category": {
+        "title": "分類: {category}",
+        "description": "瀏覽 {category} 分類下的所有文章",
+        "keywords": "部落格, 分類, {category}, 文章"
+      },
+      "tag": {
+        "title": "標籤: {tag}",
+        "description": "瀏覽帶有 {tag} 標籤的所有文章",
+        "keywords": "部落格, 標籤, {tag}, 文章"
+      },
+      "post": {
+        "title": "{title}",
+        "description": "{description}",
+        "keywords": "{keywords}"
+      }
+    }
+  }
+}

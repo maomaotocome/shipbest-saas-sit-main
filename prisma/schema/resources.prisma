@@ -1,0 +1,7 @@
+model Resource {
+    id        String   @id @default(uuid())
+    data      Json
+    createdAt DateTime @default(now())
+
+    @@map("resources")
+}

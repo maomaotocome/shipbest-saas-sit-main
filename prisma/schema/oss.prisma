@@ -1,0 +1,94 @@
+enum OssProvider {
+  S3 // Amazon S3
+  R2 // Cloudflare R2
+}
+
+enum BucketStatus {
+  ACTIVE // Active
+  SUSPENDED // Suspended
+  MAINTENANCE // Maintenance
+}
+
+enum OssObjectStatus {
+  UPLOADING // Uploading
+  PROCESSING // Processing
+  ACTIVE // Active
+  EXPIRED // Expired
+  DELETED // Deleted
+}
+
+model OssBucket {
+  id        String      @id @default(cuid())
+  name      String // Bucket Name
+  provider  OssProvider // Storage Provider
+  region    String? // Region
+  bucket    String // Bucket Name
+  endpoint  String? // Endpoint
+  publicUrl String? // Public Access URL
+  isPublic  Boolean     @default(false) // Whether to allow public access
+
+  // Access Credentials
+  accessKey String? // Access Key ID
+  secretKey String? // Secret Key
+  token     String? // Temporary Token
+
+  // Limits
+  maxSize      Int? // Max File Size (bytes)
+  allowedTypes String[] // Allowed File Types
+  pathPrefix   String? // Path Prefix
+
+  // Status
+  isActive Boolean      @default(true)
+  status   BucketStatus @default(ACTIVE)
+
+  // Associated Storage Content
+  objects OssObject[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("oss_buckets")
+}
+
+model OssObject {
+  id       String    @id @default(cuid())
+  bucketId String
+  bucket   OssBucket @relation(fields: [bucketId], references: [id])
+
+  userId String?
+  user   User?   @relation(fields: [userId], references: [id])
+
+  // File Information
+  originName String // Original File Name
+  key        String // File Path in Bucket
+  size       Int // File Size (bytes)
+  type       String // File Type (MIME type)
+  extension  String? // File Extension
+  hash       String? // File Hash
+  uploaded   Boolean @default(false) // Upload Status
+
+  // Metadata
+  metadata Json? // Custom Metadata
+  tags     String[] // Tags
+
+  // Access Control
+  isPublic  Boolean   @default(false)
+  expireAt  DateTime? // Expiration Time
+  publicUrl String? // Public Access URL
+
+  // Usage Statistics
+  downloadCount Int       @default(0)
+  lastAccessed  DateTime?
+
+  // Processing Information
+  status      OssObjectStatus @default(ACTIVE)
+  processedAt DateTime? // Processing Completion Time
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId, hash])
+  @@index([userId])
+  @@index([bucketId])
+  @@map("oss_object")
+}

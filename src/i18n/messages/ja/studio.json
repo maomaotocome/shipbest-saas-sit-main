@@ -1,0 +1,25 @@
+{
+  "studio": {
+    "menu": {
+      "home": "ホーム",
+      "text-to-image": "テキストから画像",
+      "image-to-image": "画像から画像",
+      "image-to-video": "画像から動画",
+      "stylize-anime": "アニメ風に変換",
+      "image": "画像",
+      "video": "動画"
+    },
+    "home": {
+      "title": "AI Studio",
+      "description": "AIツールで素晴らしいコンテンツを作成しましょう。さまざまなAIモデルから選択して、画像、動画などを生成できます。"
+    },
+    "dashboard": {
+      "title": "スタジオ",
+      "metadata": {
+        "title": "AI スタジオ",
+        "description": "AI スタジオ - AIで素晴らしいコンテンツを作成",
+        "keywords": "AI スタジオ, テキストから画像, 画像から動画, AI生成"
+      }
+    }
+  }
+}

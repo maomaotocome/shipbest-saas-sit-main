@@ -1,0 +1,12 @@
+{
+  "credit": {
+    "title": "My Credits",
+    "loading": "Loading...",
+    "unavailable": "--",
+    "error": "Error loading credits",
+    "refresh": "Refresh",
+    "total": "Total Credits",
+    "grants": "Credit Grants",
+    "viewDetails": "View Details"
+  }
+}

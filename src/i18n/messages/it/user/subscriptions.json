@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "Gestione Abbonamenti",
+      "status": "Stato",
+      "startDate": "Data di Inizio",
+      "price": "Prezzo",
+      "cancelAt": "Annulla Il",
+      "cancelAtPeriodEnd": "Annulla alla fine del periodo",
+      "subscriptionPeriods": "Periodi di Abbonamento",
+      "periodNumber": "Numero Periodo",
+      "endDate": "Data di Fine",
+      "planName": "Nome del Piano",
+      "billingCycle": "Ciclo di Fatturazione",
+      "currentPeriodEndDate": "Data Fine Periodo Corrente",
+      "viewPeriods": "Visualizza Periodi",
+      "confirmCancelTitle": "Conferma Annullamento Abbonamento",
+      "confirmCancelDescription": "Sei sicuro di voler annullare questo abbonamento? L'abbonamento verrà annullato alla fine del periodo di fatturazione corrente.",
+      "subscriptionDetails": "Dettagli Abbonamento",
+      "cancel": "Annulla",
+      "confirm": "Conferma",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "Attivo",
+          "CANCELLED": "Annullato",
+          "EXPIRED": "Scaduto",
+          "PRECANCEL": "Pre-annullamento"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "Programmato",
+          "ACTIVE": "Attivo",
+          "COMPLETED": "Completato",
+          "CANCELLED": "Annullato",
+          "FAILED": "Fallito"
+        }
+      }
+    }
+  }
+}

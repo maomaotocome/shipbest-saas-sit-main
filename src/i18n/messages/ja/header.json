@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "ホーム",
+      "blog": "ブログ",
+      "pricing": "料金",
+      "playground": "スタジオ",
+      "products": "製品",
+      "models": "モデル",
+      "explore": "探索",
+      "studio": "スタジオ"
+    },
+    "userMenu": {
+      "accountSettings": "アカウント設定",
+      "adminDashboard": "管理ダッシュボード",
+      "signOut": "ログアウト",
+      "signIn": "ログイン",
+      "welcome": "ようこそ！",
+      "signInToAccessAccount": "アカウントにアクセスするにはログインしてください",
+      "signInWithGoogle": "Googleでログイン",
+      "signInWithPassword": "パスワードでログイン",
+      "signUp": "新規登録",
+      "enableAwardNotifications": "アワード通知"
+    }
+  }
+}

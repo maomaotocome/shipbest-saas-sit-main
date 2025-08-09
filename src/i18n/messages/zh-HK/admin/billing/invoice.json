@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "發票管理",
+          "filters": {
+            "emailLabel": "客戶郵箱",
+            "emailPlaceholder": "搜索郵箱...",
+            "dateRangeLabel": "開具日期範圍",
+            "searchButton": "搜索"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "發票編號",
+          "customerEmail": "客戶郵箱",
+          "customerName": "客戶名稱",
+          "amount": "金額",
+          "status": "狀態",
+          "type": "類型",
+          "planName": "方案名稱",
+          "periodNumber": "週期",
+          "issueDate": "開具日期",
+          "paidDate": "支付日期",
+          "actions": "操作",
+          "dueDate": "到期日期"
+        },
+        "status": {
+          "paid": "已支付",
+          "open": "未支付",
+          "void": "已作廢",
+          "uncollectible": "無法收款",
+          "unknown": "未知"
+        },
+        "types": {
+          "subscription": "訂閱",
+          "purchase": "購買",
+          "unknown": "不適用"
+        },
+        "downloadPdf": "下載PDF",
+        "viewOnline": "在線查看"
+      }
+    }
+  }
+}

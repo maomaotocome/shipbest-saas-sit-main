@@ -1,0 +1,22 @@
+{
+  "user": {
+    "thanks": {
+      "title": "Grazie per il tuo acquisto",
+      "loading": "Conferma dello stato del tuo ordine...",
+      "success": {
+        "purchaseTitle": "Acquisto riuscito!",
+        "purchaseMessage": "Hai acquistato con successo {planName}",
+        "subscriptionTitle": "Abbonamento riuscito!",
+        "subscriptionMessage": "Ti sei abbonato con successo a {planName}",
+        "button": "Visualizza ordine"
+      },
+      "error": {
+        "title": "Elaborazione ordine",
+        "message": "Stiamo elaborando il tuo ordine, riprova più tardi",
+        "button": "Torna alla home"
+      },
+      "period": "Periodo di abbonamento",
+      "resetPeriod": "Periodo di reset"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "admin": {
+    "oss": {
+      "buckets": {
+        "title": "OSS ストレージバケット",
+        "addBucket": "ストレージバケットを追加",
+        "editBucket": "ストレージバケットを編集",
+        "createBucket": "ストレージバケットを作成",
+        "name": "名前",
+        "provider": "プロバイダー",
+        "bucketName": "ストレージバケット名称",
+        "region": "区域",
+        "endpoint": "エンドポイント",
+        "publicUrl": "公共URL",
+        "accessKey": "アクセスキー",
+        "secretKey": "シークレットキー",
+        "maxSize": "最大大小（字节）",
+        "pathPrefix": "パスプレフィックス",
+        "publicAccess": "公共アクセス",
+        "cancel": "キャンセル",
+        "update": "更新",
+        "create": "作成",
+        "columns": {
+          "name": "名前",
+          "provider": "プロバイダー",
+          "bucket": "ストレージバケット",
+          "region": "区域",
+          "access": "アクセス",
+          "status": "ステータス",
+          "objects": "オブジェクト"
+        },
+        "status": {
+          "public": "公開",
+          "private": "非公開",
+          "active": "アクティブ"
+        }
+      },
+      "objects": {}
+    }
+  }
+}

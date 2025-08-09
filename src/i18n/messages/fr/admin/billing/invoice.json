@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "Gestion des Factures",
+          "filters": {
+            "emailLabel": "Email du Client",
+            "emailPlaceholder": "Rechercher par email...",
+            "dateRangeLabel": "Plage de Dates d'Émission",
+            "searchButton": "Rechercher"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "Numéro de Facture",
+          "customerEmail": "Email du Client",
+          "customerName": "Nom du Client",
+          "amount": "Montant",
+          "status": "Statut",
+          "type": "Type",
+          "planName": "Nom du Plan",
+          "periodNumber": "Période",
+          "issueDate": "Date d'Émission",
+          "paidDate": "Date de Paiement",
+          "actions": "Actions",
+          "dueDate": "Date d'Échéance"
+        },
+        "status": {
+          "paid": "Payé",
+          "open": "Ouvert",
+          "void": "Annulé",
+          "uncollectible": "Irrecouvrable",
+          "unknown": "Inconnu"
+        },
+        "types": {
+          "subscription": "Abonnement",
+          "purchase": "Achat",
+          "unknown": "Non applicable"
+        },
+        "downloadPdf": "Télécharger PDF",
+        "viewOnline": "Voir en Ligne"
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "Users Management",
+      "search": "Search",
+      "form": {
+        "name": "Name",
+        "email": "Email"
+      },
+      "searchNamePlaceholder": "Search by name...",
+      "searchEmailPlaceholder": "Search by email...",
+      "columns": {
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "verified": "Verified",
+        "not_available": "N/A",
+        "actions": "Actions",
+        "view_notifications": "View Notifications",
+        "view_credits": "View Credits",
+        "view_billing_history": "View Billing History"
+      },
+      "verification": {
+        "yes": "Yes",
+        "no": "No"
+      },
+      "roles": {
+        "ADMIN": "Administrator",
+        "USER": "Regular User"
+      },
+      "role_change": {
+        "error_self": "You cannot modify your own role",
+        "success": "Role updated to {role}",
+        "confirm_to_admin": {
+          "title": "Promote to Admin?",
+          "message": "Warning: This will grant full administrative privileges to this user. This action should be taken with caution.",
+          "cancel": "Cancel",
+          "confirm": "Yes, Grant Admin Access"
+        },
+        "confirm_to_user": {
+          "title": "Demote to Regular User?",
+          "message": "This will remove all administrative privileges from this user.",
+          "cancel": "Cancel",
+          "confirm": "Yes, Remove Admin Access"
+        }
+      },
+      "common": {
+        "created_at": "Created At",
+        "source": "Source",
+        "validity": "Validity",
+        "permanent": "Permanent",
+        "transaction_time": "Transaction Time",
+        "transaction_type": "Transaction Type",
+        "amount_consumed": "Amount Consumed",
+        "status": "Status",
+        "description": "Description",
+        "no_description": "No Description",
+        "loading": "Loading...",
+        "error": "Error",
+        "no_data": "No Data",
+        "actions": "Actions",
+        "transaction_id": "Transaction ID",
+        "clear": "Clear"
+      },
+      "sources": {
+        "PURCHASE": "Purchase",
+        "ONE_TIME_PURCHASE": "One-Time Purchase",
+        "SYSTEM_GRANT": "System Grant",
+        "SUBSCRIPTION_PERIODIC": "Subscription Periodic",
+        "ADMIN_GRANT": "Admin Grant",
+        "PROMOTION": "Promotion",
+        "REFUND": "Refund",
+        "OTHER": "Other"
+      },
+      "transaction_types": {
+        "DEDUCT": "Deduct",
+        "GRANT": "Grant",
+        "REFUND": "Refund",
+        "ADJUSTMENT": "Adjustment"
+      },
+      "transaction_statuses": {
+        "PENDING": "Pending",
+        "CONFIRMED": "Confirmed",
+        "CANCELLED": "Cancelled",
+        "GRANTED": "Granted"
+      },
+      "summary": {
+        "stats_title": "Credit Statistics",
+        "stats": {
+          "total": "Total Credits",
+          "available": "Available Credits",
+          "reserved": "Reserved Credits",
+          "used": "Used Credits",
+          "expiring": "Expiring Credits (within 30 days)"
+        },
+        "expiring_alert": {
+          "title": "Credits Expiring Soon",
+          "description": "{count, plural, one {# credit} other {# credits}} will expire within 30 days"
+        },
+        "recent_grants": {
+          "title": "Recently Acquired Credit Grants (Max 5)",
+          "columns": {
+            "amount": "Amount"
+          },
+          "empty": "No recent grant records"
+        },
+        "recent_transactions": {
+          "title": "Recent Consumption Records (Max 5)",
+          "empty": "No recent consumption records",
+          "disclaimer": "Note: Recent consumption records shown here may include other users. Precise filtering requires backend optimization."
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "Credit Source",
+          "total": "Total Credits",
+          "remaining_total": "Remaining/Total",
+          "used": "Used Credits"
+        },
+        "actions": {
+          "view_usage_detail": "Usage Details"
+        },
+        "filters": {
+          "source_label": "Credit Source",
+          "all_sources": "All Sources",
+          "valid_only_label": "Show Valid Only"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "View Details"
+        },
+        "filters": {
+          "date_range_label": "Date Range",
+          "all_types": "All Types",
+          "all_statuses": "All Statuses"
+        }
+      },
+      "grant_detail": {
+        "back_button": "Back to Credit Grants List",
+        "error_load": "Could not load credit grant details.",
+        "title": "Credit Grant Details (ID: {shortId}...)",
+        "source": "Source",
+        "created_at": "Acquired At",
+        "total_credits": "Total Credits",
+        "remaining_credits": "Remaining Credits",
+        "available_credits": "Available Credits",
+        "reserved_credits": "Reserved Credits",
+        "used_credits": "Used Credits",
+        "validity": "Validity",
+        "usage": {
+          "title": "Usage Records",
+          "description": "All usage records for this credit grant",
+          "empty": "This credit grant has not been used yet",
+          "columns": {
+            "transaction_time": "Transaction Time",
+            "transaction_id": "Transaction ID",
+            "transaction_type": "Transaction Type",
+            "amount_used": "Amount Used",
+            "balance_after": "Balance After",
+            "transaction_description": "Transaction Description"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "Back to Transactions List",
+        "error_load": "Could not load transaction details.",
+        "title": "Transaction Details",
+        "id": "Transaction ID",
+        "transaction_time": "Transaction Time",
+        "total_consumed": "Total Credits Consumed",
+        "transaction_type": "Transaction Type",
+        "status": "Status",
+        "description": "Description",
+        "expire_at": "Expiration Time",
+        "confirmed_at": "Confirmation Time",
+        "cancelled_at": "Cancellation Time",
+        "metadata": "Metadata",
+        "usage_detail": {
+          "title": "Credit Usage Details",
+          "description": "Details of credit grants consumed by this transaction",
+          "empty": "No credit usage details",
+          "columns": {
+            "grant_id": "Grant ID",
+            "source": "Credit Source",
+            "amount": "Amount Consumed",
+            "balance_after": "Balance After (Detail)"
+          }
+        }
+      },
+      "modal": {
+        "title": "{userName}'s Credit Details",
+        "title_no_name": "Credit Details for User {userId}",
+        "tabs": {
+          "summary": "Summary",
+          "grants": "Grants",
+          "transactions": "Transactions"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "{name}'s Notifications",
+        "modal_title_fallback": "User's Notifications",
+        "tabs": {
+          "system": "System Notifications",
+          "personalized": "Personalized Notifications"
+        },
+        "columns": {
+          "title": "Title",
+          "no_title": "No Title",
+          "content": "Content",
+          "no_content": "No Content",
+          "status": "Status",
+          "time": "Time"
+        },
+        "status": {
+          "READ": "Read",
+          "UNREAD": "Unread"
+        },
+        "error_loading": "Failed to load notifications",
+        "no_messages": "No notification messages"
+      },
+      "billing_history": {
+        "title": "Billing History - {name}",
+        "description": "View subscription and purchase history for {name}.",
+        "close_button": "Close",
+        "unknown_error": "Unknown error",
+        "type_subscription": "Subscription",
+        "type_purchase": "Purchase",
+        "table": {
+          "header_type": "Type",
+          "header_plan": "Plan/Item",
+          "header_amount": "Amount",
+          "header_status": "Status",
+          "header_date": "Date",
+          "header_provider": "Provider",
+          "loading": "Loading...",
+          "error": "Failed to load: {message}",
+          "empty": "No billing history found"
+        },
+        "pagination": {
+          "total_records": "Total {count, plural, one {# record} other {# records}}",
+          "previous": "Previous",
+          "next": "Next",
+          "page_info": "Page {page} of {totalPages}"
+        }
+      }
+    }
+  }
+}

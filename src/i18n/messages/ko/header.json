@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "홈",
+      "blog": "블로그",
+      "pricing": "가격",
+      "playground": "플레이그라운드",
+      "products": "제품",
+      "models": "모델",
+      "explore": "탐색",
+      "studio": "스튜디오"
+    },
+    "userMenu": {
+      "accountSettings": "계정 설정",
+      "adminDashboard": "관리자 대시보드",
+      "signOut": "로그아웃",
+      "signIn": "로그인",
+      "welcome": "환영합니다!",
+      "signInToAccessAccount": "계정에 액세스하려면 로그인하세요",
+      "signInWithGoogle": "Google로 로그인",
+      "signInWithPassword": "비밀번호로 로그인",
+      "signUp": "회원가입",
+      "enableAwardNotifications": "상 알림"
+    }
+  }
+}

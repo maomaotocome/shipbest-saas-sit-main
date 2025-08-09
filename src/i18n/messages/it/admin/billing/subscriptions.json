@@ -1,0 +1,38 @@
+{
+  "admin": {
+    "billing": {
+      "subscriptions": {
+        "title": "Abbonamenti",
+        "columns": {
+          "billingUser": "Utente",
+          "status": "Stato",
+          "currentPrice": "Prezzo",
+          "startDate": "Data di inizio",
+          "endDate": "Data di fine",
+          "currentPeriodEnd": "Fine periodo",
+          "cancelAtPeriodEnd": "Annulla alla fine del periodo",
+          "planName": "Piano",
+          "billingPeriod": "Periodo di fatturazione",
+          "resetPeriod": "Periodo di reset"
+        },
+        "statusEmuns": {
+          "ACTIVE": "Attivo",
+          "CANCELLED": "Annullato",
+          "EXPIRED": "Scaduto",
+          "PRECANCEL": "Pre-annullato"
+        },
+        "cancelSubscription": "Annulla",
+        "periodDetails": "Dettagli periodo",
+        "periodNumber": "Numero periodo",
+        "startDate": "Data di inizio",
+        "endDate": "Data di fine",
+        "status": "Stato",
+        "refundPeriod": "Periodo di rimborso",
+        "confirmCancelTitle": "Conferma annullamento abbonamento",
+        "confirmCancelDescription": "Sei sicuro di voler annullare l'abbonamento per {email} ({plan})? L'abbonamento verrà annullato alla fine del periodo di fatturazione corrente.",
+        "cancel": "Annulla",
+        "confirm": "Conferma"
+      }
+    }
+  }
+}

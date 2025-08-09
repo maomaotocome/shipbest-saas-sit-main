@@ -1,0 +1,21 @@
+{
+  "workspace": {
+    "sidebar": {
+      "themeToggler": {
+        "title": "テーマ切り替え"
+      },
+      "home": "ホーム",
+      "logout": "ログアウト",
+      "pin": "サイドバーを固定",
+      "unpin": "サイドバーの固定を解除",
+      "userAvatar": "ユーザーアバター"
+    },
+    "area": {
+      "goBack": "戻る"
+    },
+    "projects": {
+      "fetchError": "プロジェクトの取得に失敗しました",
+      "noItemsFound": "項目が見つかりません"
+    }
+  }
+}

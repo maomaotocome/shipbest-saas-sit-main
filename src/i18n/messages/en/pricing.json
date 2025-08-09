@@ -1,0 +1,31 @@
+{
+  "pricing": {
+    "title": "Pricing",
+    "sectionTitle": "Pricing",
+    "sectionDescription": "Choose the plan that's right for you. No hidden fees, no surprises.",
+    "description": "Choose the plan that's right for you. No hidden fees, no surprises.",
+    "price": "Price",
+    "popular": "Popular",
+    "purchase": "Purchase",
+    "subscribe": "Subscribe",
+    "processing": "Processing...",
+    "orderFailed": "Order failed",
+    "period": {
+      "oneDay": "One Day",
+      "days": "{value} Days",
+      "oneWeek": "One Week",
+      "weeks": "{value} Weeks",
+      "oneMonth": "One Month",
+      "months": "{value} Months",
+      "oneYear": "One Year",
+      "years": "{value} Years",
+      "oneTime": "One Time",
+      "lifetime": "Lifetime"
+    },
+    "dialog": {
+      "title": "Pricing Plans",
+      "description": "Choose the plan that's right for you. No hidden fees, no surprises.",
+      "loading": "Loading pricing data..."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "user": {
+    "profile": {
+      "privacy": {
+        "title": "Configurações de privacidade",
+        "publicDefault": "Tornar minhas tarefas públicas por padrão",
+        "publicDefaultDescription": "Quando habilitado, seu conteúdo gerado por IA será público por padrão. Você sempre pode alterar isso para tarefas individuais.",
+        "success": "Configurações de privacidade atualizadas com sucesso",
+        "openProfileInNewTab": "Abrir configurações de perfil em nova aba"
+      }
+    }
+  }
+}

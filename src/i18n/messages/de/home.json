@@ -1,0 +1,15 @@
+{
+  "home": {
+    "hero": {
+      "title": "example AI",
+      "description": "example AI bietet Ihnen eine ausgewählte Sammlung von leistungsstarken AI-Tools. Entdecken, erstellen und innovieren mit modernen AI-Anwendungen.",
+      "getStarted": "Los geht's",
+      "learnMore": "Mehr erfahren"
+    },
+    "metadata": {
+      "title": "example AI",
+      "description": "example AI bietet Ihnen eine ausgewählte Sammlung von leistungsstarken AI-Tools. Entdecken, erstellen und innovieren mit modernen AI-Anwendungen.",
+      "keywords": "AI, Tools, Kreativität, Innovation, example"
+    }
+  }
+}

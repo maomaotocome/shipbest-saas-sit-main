@@ -1,0 +1,14 @@
+{
+  "components": {
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "first": "First",
+      "last": "Last"
+    },
+    "datatable": {
+      "loading": "Loading...",
+      "actions": "Actions"
+    }
+  }
+}

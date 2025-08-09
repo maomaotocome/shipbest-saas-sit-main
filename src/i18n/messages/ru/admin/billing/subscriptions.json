@@ -1,0 +1,38 @@
+{
+  "admin": {
+    "billing": {
+      "subscriptions": {
+        "title": "Подписки",
+        "columns": {
+          "billingUser": "Пользователь",
+          "status": "Статус",
+          "currentPrice": "Цена",
+          "startDate": "Дата начала",
+          "endDate": "Дата окончания",
+          "currentPeriodEnd": "Конец периода",
+          "cancelAtPeriodEnd": "Отменить в конце периода",
+          "planName": "План",
+          "billingPeriod": "Период оплаты",
+          "resetPeriod": "Период сброса"
+        },
+        "statusEmuns": {
+          "ACTIVE": "Активна",
+          "CANCELLED": "Отменена",
+          "EXPIRED": "Истекла",
+          "PRECANCEL": "Предварительно отменена"
+        },
+        "cancelSubscription": "Отменить",
+        "periodDetails": "Детали периода",
+        "periodNumber": "Номер периода",
+        "startDate": "Дата начала",
+        "endDate": "Дата окончания",
+        "status": "Статус",
+        "refundPeriod": "Период возврата",
+        "confirmCancelTitle": "Подтвердить отмену подписки",
+        "confirmCancelDescription": "Вы уверены, что хотите отменить подписку для {email} ({plan})? Подписка будет отменена в конце текущего периода оплаты.",
+        "cancel": "Отмена",
+        "confirm": "Подтвердить"
+      }
+    }
+  }
+}

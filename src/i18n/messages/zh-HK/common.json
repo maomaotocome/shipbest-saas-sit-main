@@ -1,0 +1,16 @@
+{
+  "common": {
+    "logo": "標誌",
+    "copySuccess": "連結已複製到剪贴簿",
+    "copyError": "複製連結失敗",
+    "errors": {
+      "videoPlaybackFailed": "影片播放失敗",
+      "imageLoadFailed": "圖片載入失敗",
+      "videoLoadFailed": "影片載入失敗"
+    },
+    "navigation": {
+      "closeMenu": "關閉選單",
+      "openMenu": "開啟選單"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "user": {
+    "menu": {
+      "home": "홈",
+      "credits": "크레딧",
+      "notifications": "알림",
+      "invoice": "청구서",
+      "subscriptions": "구독",
+      "purchases": "구매 내역",
+      "settings": "설정",
+      "teams": "팀",
+      "affiliates": "제휴",
+      "library": "라이브러리",
+      "profile": "프로필",
+      "account": "계정",
+      "billing": "결제"
+    }
+  }
+}

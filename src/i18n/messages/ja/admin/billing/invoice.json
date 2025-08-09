@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "請求書管理",
+          "filters": {
+            "emailLabel": "顧客メール",
+            "emailPlaceholder": "メールで検索...",
+            "dateRangeLabel": "発行日範囲",
+            "searchButton": "検索"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "請求書番号",
+          "customerEmail": "顧客メール",
+          "customerName": "顧客名",
+          "amount": "金額",
+          "status": "ステータス",
+          "type": "タイプ",
+          "planName": "プラン名",
+          "periodNumber": "期間",
+          "issueDate": "発行日",
+          "paidDate": "支払日",
+          "actions": "アクション",
+          "dueDate": "支払期限"
+        },
+        "status": {
+          "paid": "支払済み",
+          "open": "未払い",
+          "void": "無効",
+          "uncollectible": "回収不能",
+          "unknown": "不明"
+        },
+        "types": {
+          "subscription": "サブスクリプション",
+          "purchase": "購入",
+          "unknown": "該当なし"
+        },
+        "downloadPdf": "PDFをダウンロード",
+        "viewOnline": "オンラインで表示"
+      }
+    }
+  }
+}

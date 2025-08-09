@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "menu": {
+      "home": "首页",
+      "users": "用户",
+      "blog": "博客",
+      "posts": "文章",
+      "tags": "标签",
+      "categories": "分类",
+      "billing": "账单",
+      "providers": "支付提供商",
+      "plans": "计划",
+      "subscriptions": "订阅",
+      "purchases": "购买",
+      "settings": "设置",
+      "oss": "对象存储",
+      "notifications": "通知",
+      "affiliates": "推广联盟",
+      "invoice": "发票",
+      "general": "常规",
+      "content": "内容",
+      "explore": "探索管理"
+    }
+  }
+}

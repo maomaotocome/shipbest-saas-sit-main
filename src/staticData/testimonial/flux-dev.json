@@ -1,0 +1,56 @@
+{
+  "en": {
+    "title": "What Creators Say About FLUX.1 Dev",
+    "description": "Real experiences from artists, developers, and creators using FLUX.1 Dev",
+    "items": [
+      {
+        "name": "Sarah Chen",
+        "role": "Digital Artist",
+        "company": "Independent Studio",
+        "avatar": "/images/testimonials/home/avatar.svg",
+        "content": "FLUX.1 Dev has revolutionized my creative process. The level of detail and prompt adherence is incredible. I can bring my most complex ideas to life with stunning accuracy."
+      },
+      {
+        "name": "Marcus Rodriguez", 
+        "role": "AI Researcher",
+        "company": "Tech Innovations Lab",
+        "avatar": "/images/testimonials/home/avatar.svg",
+        "content": "As a researcher, I'm impressed by FLUX.1 Dev's technical capabilities. The transformer architecture delivers consistent, high-quality results that exceed other models in our benchmarks."
+      },
+      {
+        "name": "Emma Thompson",
+        "role": "Content Creator",
+        "company": "Creative Agency", 
+        "avatar": "/images/testimonials/home/avatar.svg",
+        "content": "The speed and quality balance is perfect for our workflow. FLUX.1 Dev generates professional-grade images quickly, helping us meet tight deadlines without compromising on quality."
+      }
+    ]
+  },
+  "zh": {
+    "title": "创作者对 FLUX.1 Dev 的评价",
+    "description": "使用FLUX.1 Dev的艺术家、开发者和创作者的真实体验",
+    "items": [
+      {
+        "name": "陈莎拉",
+        "role": "数字艺术家",
+        "company": "独立工作室",
+        "avatar": "/images/testimonials/home/avatar.svg",
+        "content": "FLUX.1 Dev彻底改变了我的创作流程。细节水平和提示词遵循度令人难以置信。我可以以惊人的准确度将最复杂的想法变为现实。"
+      },
+      {
+        "name": "马库斯·罗德里格斯",
+        "role": "AI研究员", 
+        "company": "技术创新实验室",
+        "avatar": "/images/testimonials/home/avatar.svg",
+        "content": "作为研究员，我对FLUX.1 Dev的技术能力印象深刻。变压器架构提供一致的高质量结果，在我们的基准测试中超越了其他模型。"
+      },
+      {
+        "name": "艾玛·汤普森",
+        "role": "内容创作者",
+        "company": "创意机构",
+        "avatar": "/images/testimonials/home/avatar.svg", 
+        "content": "速度和质量的平衡对我们的工作流程来说是完美的。FLUX.1 Dev快速生成专业级图像，帮助我们在不妥协质量的情况下满足紧迫的截止日期。"
+      }
+    ]
+  }
+}

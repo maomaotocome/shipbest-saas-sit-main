@@ -1,0 +1,596 @@
+{
+  "en": {
+    "title": "What Our Users Say",
+    "description": "Join thousands of satisfied customers who trust example.ai",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai has transformed our business operations. The AI-powered automation has saved us countless hours and significantly reduced errors.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "The real-time analytics and insights have been game-changing for our decision-making process. Highly recommended!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Product Manager, GrowthLabs",
+        "content": "The integration was seamless, and the support team is exceptional. They've helped us every step of the way.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Operations Director, ScaleUp",
+        "content": "The security features give us peace of mind, and the performance is outstanding. A must-have for modern businesses.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "Data Scientist, DataFlow",
+        "content": "The AI models are incredibly accurate and the training process is straightforward. It's revolutionized our data analysis workflow.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "Marketing Director, BrandBoost",
+        "content": "The marketing automation features have increased our campaign efficiency by 200%. The ROI is impressive!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "HR Manager, TalentHub",
+        "content": "The recruitment automation has streamlined our hiring process. We're now able to focus on what matters most - finding the right talent.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "The customer service automation has reduced response times by 80%. Our customers are happier than ever!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "zh": {
+    "title": "用户评价",
+    "description": "加入数千名信任example.ai的满意客户",
+    "items": [
+      {
+        "name": "张明",
+        "role": "首席执行官, 科技创新",
+        "content": "example.ai彻底改变了我们的业务运营。AI驱动的自动化为我们节省了大量时间，显著减少了错误。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "李华",
+        "role": "技术总监, 创新科技",
+        "content": "实时分析和洞察对我们的决策过程产生了革命性的影响。强烈推荐！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "王芳",
+        "role": "产品经理, 成长实验室",
+        "content": "集成过程非常顺利，支持团队非常出色。他们在每一步都给予了我们帮助。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "刘强",
+        "role": "运营总监, 规模增长",
+        "content": "安全功能让我们安心，性能表现出色。现代企业的必备工具。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "陈静",
+        "role": "数据科学家, 数据流",
+        "content": "AI模型非常准确，训练过程简单直接。它彻底改变了我们的数据分析工作流程。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "赵阳",
+        "role": "营销总监, 品牌提升",
+        "content": "营销自动化功能使我们的活动效率提高了200%。投资回报率令人印象深刻！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "周婷",
+        "role": "人力资源经理, 人才中心",
+        "content": "招聘自动化简化了我们的招聘流程。现在我们可以专注于最重要的事情 - 找到合适的人才。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "吴峰",
+        "role": "客户成功经理, 服务专家",
+        "content": "客户服务自动化将响应时间减少了80%。我们的客户比以往任何时候都更满意！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "zh-hk": {
+    "title": "用戶評價",
+    "description": "加入數千名信任example.ai的滿意客戶",
+    "items": [
+      {
+        "name": "張明",
+        "role": "首席執行官, 科技創新",
+        "content": "example.ai徹底改變了我們的業務運營。AI驅動的自動化為我們節省了大量時間，顯著減少了錯誤。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "李華",
+        "role": "技術總監, 創新科技",
+        "content": "實時分析和洞察對我們的決策過程產生了革命性的影響。強烈推薦！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "王芳",
+        "role": "產品經理, 成長實驗室",
+        "content": "集成過程非常順利，支持團隊非常出色。他們在每一步都給予了我們幫助。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "劉強",
+        "role": "運營總監, 規模增長",
+        "content": "安全功能讓我們安心，性能表現出色。現代企業的必備工具。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "陳靜",
+        "role": "數據科學家, 數據流",
+        "content": "AI模型非常準確，訓練過程簡單直接。它徹底改變了我們的數據分析工作流程。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "趙陽",
+        "role": "營銷總監, 品牌提升",
+        "content": "營銷自動化功能使我們的活動效率提高了200%。投資回報率令人印象深刻！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "周婷",
+        "role": "人力資源經理, 人才中心",
+        "content": "招聘自動化簡化了我們的招聘流程。現在我們可以專注於最重要的事情 - 找到合適的人才。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "吳峰",
+        "role": "客戶成功經理, 服務專家",
+        "content": "客戶服務自動化將響應時間減少了80%。我們的客戶比以往任何時候都更滿意！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "fr": {
+    "title": "Ce que disent nos utilisateurs",
+    "description": "Rejoignez des milliers de clients satisfaits qui font confiance à example.ai",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai a transformé nos opérations commerciales. L'automatisation alimentée par l'IA nous a fait gagner d'innombrables heures et a considérablement réduit les erreurs.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "Les analyses et informations en temps réel ont changé la donne pour notre processus de prise de décision. Hautement recommandé !",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Chef de produit, GrowthLabs",
+        "content": "L'intégration a été transparente et l'équipe de support est exceptionnelle. Ils nous ont aidés à chaque étape.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Directeur des opérations, ScaleUp",
+        "content": "Les fonctionnalités de sécurité nous rassurent et les performances sont exceptionnelles. Indispensable pour les entreprises modernes.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "Data Scientist, DataFlow",
+        "content": "Les modèles d'IA sont incroyablement précis et le processus de formation est simple. Il a révolutionné notre workflow d'analyse de données.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "Directeur marketing, BrandBoost",
+        "content": "Les fonctionnalités d'automatisation marketing ont augmenté l'efficacité de nos campagnes de 200 %. Le retour sur investissement est impressionnant !",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "Responsable RH, TalentHub",
+        "content": "L'automatisation du recrutement a rationalisé notre processus d'embauche. Nous pouvons désormais nous concentrer sur ce qui compte le plus : trouver les bons talents.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "L'automatisation du service client a réduit les temps de réponse de 80 %. Nos clients sont plus heureux que jamais !",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "de": {
+    "title": "Was unsere Nutzer sagen",
+    "description": "Schließen Sie sich Tausenden zufriedener Kunden an, die example.ai vertrauen",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai hat unsere Geschäftsprozesse transformiert. Die KI-gestützte Automatisierung hat uns unzählige Stunden gespart und Fehler erheblich reduziert.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "Die Echtzeitanalysen und Erkenntnisse waren bahnbrechend für unseren Entscheidungsprozess. Sehr empfehlenswert!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Produktmanagerin, GrowthLabs",
+        "content": "Die Integration verlief nahtlos und das Support-Team ist außergewöhnlich. Sie haben uns bei jedem Schritt geholfen.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Operations Director, ScaleUp",
+        "content": "Die Sicherheitsfunktionen geben uns ein gutes Gefühl und die Leistung ist herausragend. Ein Muss für moderne Unternehmen.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "Data Scientist, DataFlow",
+        "content": "Die KI-Modelle sind unglaublich genau und der Trainingsprozess ist unkompliziert. Es hat unseren Datenanalyse-Workflow revolutioniert.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "Marketing Director, BrandBoost",
+        "content": "Die Marketing-Automatisierungsfunktionen haben die Effizienz unserer Kampagnen um 200 % erhöht. Der ROI ist beeindruckend!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "HR-Managerin, TalentHub",
+        "content": "Die Recruiting-Automatisierung hat unseren Einstellungsprozess optimiert. Jetzt können wir uns auf das Wesentliche konzentrieren – die richtigen Talente zu finden.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "Die Kundenservice-Automatisierung hat die Antwortzeiten um 80 % reduziert. Unsere Kunden sind zufriedener denn je!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "it": {
+    "title": "Cosa dicono i nostri utenti",
+    "description": "Unisciti a migliaia di clienti soddisfatti che si affidano a example.ai",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai ha trasformato le nostre operazioni aziendali. L'automazione basata sull'IA ci ha fatto risparmiare innumerevoli ore e ha ridotto significativamente gli errori.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "Le analisi e le intuizioni in tempo reale sono state rivoluzionarie per il nostro processo decisionale. Altamente raccomandato!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Product Manager, GrowthLabs",
+        "content": "L'integrazione è stata fluida e il team di supporto è eccezionale. Ci hanno aiutato in ogni fase.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Operations Director, ScaleUp",
+        "content": "Le funzionalità di sicurezza ci danno tranquillità e le prestazioni sono eccezionali. Un must per le aziende moderne.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "Data Scientist, DataFlow",
+        "content": "I modelli di IA sono incredibilmente accurati e il processo di training è semplice. Ha rivoluzionato il nostro flusso di lavoro di analisi dei dati.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "Marketing Director, BrandBoost",
+        "content": "Le funzionalità di automazione del marketing hanno aumentato l'efficienza delle nostre campagne del 200%. Il ROI è impressionante!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "HR Manager, TalentHub",
+        "content": "L'automazione del reclutamento ha semplificato il nostro processo di assunzione. Ora possiamo concentrarci su ciò che conta di più - trovare i talenti giusti.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "L'automazione del servizio clienti ha ridotto i tempi di risposta dell'80%. I nostri clienti sono più felici che mai!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "pt": {
+    "title": "O que nossos usuários dizem",
+    "description": "Junte-se a milhares de clientes satisfeitos que confiam na example.ai",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai transformou nossas operações comerciais. A automação alimentada por IA nos economizou inúmeras horas e reduziu significativamente os erros.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "As análises e insights em tempo real mudaram o jogo para nosso processo de tomada de decisão. Altamente recomendado!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Product Manager, GrowthLabs",
+        "content": "A integração foi perfeita e a equipe de suporte é excepcional. Eles nos ajudaram em cada etapa.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Operations Director, ScaleUp",
+        "content": "Os recursos de segurança nos dão tranquilidade e o desempenho é excelente. Indispensável para empresas modernas.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "Data Scientist, DataFlow",
+        "content": "Os modelos de IA são incrivelmente precisos e o processo de treinamento é simples. Revolucionou nosso fluxo de trabalho de análise de dados.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "Marketing Director, BrandBoost",
+        "content": "Os recursos de automação de marketing aumentaram a eficiência de nossas campanhas em 200%. O ROI é impressionante!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "HR Manager, TalentHub",
+        "content": "A automação de recrutamento simplificou nosso processo de contratação. Agora podemos nos concentrar no que mais importa - encontrar os talentos certos.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "A automação do atendimento ao cliente reduziu os tempos de resposta em 80%. Nossos clientes estão mais felizes do que nunca!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "ru": {
+    "title": "Что говорят наши пользователи",
+    "description": "Присоединяйтесь к тысячам довольных клиентов, которые доверяют example.ai",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai преобразовал наши бизнес-процессы. Автоматизация на основе ИИ сэкономила нам бесчисленные часы и значительно сократила количество ошибок.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "Аналитика и идеи в реальном времени изменили наш процесс принятия решений. Настоятельно рекомендуется!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Product Manager, GrowthLabs",
+        "content": "Интеграция прошла без проблем, а команда поддержки превосходна. Они помогали нам на каждом шагу.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Operations Director, ScaleUp",
+        "content": "Функции безопасности дают нам душевное спокойствие, а производительность отличная. Обязательно для современных компаний.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "Data Scientist, DataFlow",
+        "content": "Модели ИИ невероятно точны, а процесс обучения прост. Это революционизировало наш рабочий процесс анализа данных.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "Marketing Director, BrandBoost",
+        "content": "Функции автоматизации маркетинга увеличили эффективность наших кампаний на 200%. Рентабельность инвестиций впечатляет!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "HR Manager, TalentHub",
+        "content": "Автоматизация найма упростила наш процесс найма. Теперь мы можем сосредоточиться на самом важном - поиске подходящих талантов.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "Автоматизация обслуживания клиентов сократила время отклика на 80%. Наши клиенты довольны как никогда!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "ja": {
+    "title": "ユーザーの声",
+    "description": "example.ai を信頼する数千人の満足した顧客に参加しましょう",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai は私たちのビジネス運営を変革しました。AI を活用した自動化により、多くの時間を節約し、エラーを大幅に減らすことができました。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "リアルタイム分析とインサイトは、意思決定プロセスに大きな変化をもたらしました。強くお勧めします！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "プロダクトマネージャー, GrowthLabs",
+        "content": "統合はシームレスで、サポートチームは素晴らしいです。彼らはすべてのステップで私たちをサポートしてくれました。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "オペレーションディレクター, ScaleUp",
+        "content": "セキュリティ機能により安心でき、パフォーマンスは抜群です。現代のビジネスには必須です。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "データサイエンティスト, DataFlow",
+        "content": "AI モデルは非常に正確で、トレーニングプロセスは簡単です。データ分析ワークフローを革命的に変えました。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "マーケティングディレクター, BrandBoost",
+        "content": "マーケティングオートメーション機能により、キャンペーン効率が 200% 向上しました。ROI は印象的です！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "人事マネージャー, TalentHub",
+        "content": "採用自動化により、採用プロセスが合理化されました。最も重要な適切な人材を探すことに集中できます。",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "カスタマーサービスの自動化により、応答時間が 80% 短縮されました。顧客はこれまで以上に満足しています！",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "ko": {
+    "title": "사용자들의 이야기",
+    "description": "example.ai를 신뢰하는 수천 명의 만족한 고객에 합류하세요",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai는 우리의 비즈니스 운영을 혁신했습니다. AI 기반 자동화로 수많은 시간을 절약하고 오류를 크게 줄였습니다.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "실시간 분석과 인사이트는 우리의 의사결정 프로세스를 획기적으로 변화시켰습니다. 강력 추천합니다!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Product Manager, GrowthLabs",
+        "content": "통합 과정이 원활했고 지원팀이 탁월했습니다. 모든 단계에서 도움을 주었습니다.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Operations Director, ScaleUp",
+        "content": "보안 기능은 우리에게 안심을 주고 성능은 뛰어납니다. 현대 비즈니스에 필수입니다.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "Data Scientist, DataFlow",
+        "content": "AI 모델은 매우 정확하며 교육 과정이 간단합니다. 데이터 분석 워크플로를 혁신했습니다.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "Marketing Director, BrandBoost",
+        "content": "마케팅 자동화 기능으로 캠페인 효율성이 200% 향상되었습니다. ROI가 인상적입니다!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "HR Manager, TalentHub",
+        "content": "채용 자동화로 채용 프로세스가 간소화되었습니다. 이제 가장 중요한 적합한 인재 찾기에 집중할 수 있습니다.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "고객 서비스 자동화로 응답 시간이 80% 단축되었습니다. 고객 만족도가 그 어느 때보다 높아졌습니다!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  },
+  "es": {
+    "title": "Lo que dicen nuestros usuarios",
+    "description": "Únase a miles de clientes satisfechos que confían en example.ai",
+    "items": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO, TechStart",
+        "content": "example.ai ha transformado nuestras operaciones comerciales. La automatización impulsada por IA nos ha ahorrado innumerables horas y ha reducido significativamente los errores.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO, InnovateCorp",
+        "content": "Los análisis e información en tiempo real han cambiado las reglas del juego para nuestro proceso de toma de decisiones. ¡Altamente recomendado!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Emma Davis",
+        "role": "Product Manager, GrowthLabs",
+        "content": "La integración fue perfecta y el equipo de soporte es excepcional. ¡Nos ayudaron en cada paso del camino!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "David Wilson",
+        "role": "Director de Operaciones, ScaleUp",
+        "content": "Las funciones de seguridad nos dan tranquilidad y el rendimiento es excepcional. Imprescindible para empresas modernas.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Lisa Anderson",
+        "role": "Científica de Datos, DataFlow",
+        "content": "Los modelos de IA son increíblemente precisos y el proceso de entrenamiento es sencillo. Ha revolucionado nuestro flujo de trabajo de análisis de datos.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "James Brown",
+        "role": "Director de Marketing, BrandBoost",
+        "content": "Las funciones de automatización de marketing han aumentado la eficiencia de nuestras campañas en un 200 %. ¡El ROI es impresionante!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Sophie Chen",
+        "role": "Gerente de RR. HH., TalentHub",
+        "content": "La automatización del reclutamiento ha simplificado nuestro proceso de contratación. Ahora podemos centrarnos en lo que más importa: encontrar el talento adecuado.",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Customer Success, ServicePro",
+        "content": "La automatización del servicio al cliente ha reducido los tiempos de respuesta en un 80 %. ¡Nuestros clientes están más felices que nunca!",
+        "avatar": "/images/testimonials/home/avatar.svg"
+      }
+    ]
+  }
+}

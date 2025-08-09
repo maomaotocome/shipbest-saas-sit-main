@@ -1,0 +1,71 @@
+enum InvoiceStatus {
+  DRAFT // Draft
+  OPEN // Open
+  PAID // Paid
+  VOID // Void
+  UNCOLLECTIBLE // Uncollectible
+  REFUNDED // Refunded
+  PARTIALLY_REFUNDED // Partially refunded
+}
+
+model Invoice {
+  id            String      @id @default(cuid())
+  billingUserId String
+  billingUser   BillingUser @relation(fields: [billingUserId], references: [id])
+
+  // Basic information
+  number        String        @unique // Invoice number
+  status        InvoiceStatus // Invoice status
+  currency      String // Currency type
+  billingScheme BillingScheme @default(CREDIT_BASED)
+
+  // Amount information
+  subtotal        Int // Subtotal amount
+  tax             Int // Tax amount
+  discount        Int? // Discount amount
+  total           Int // Total amount
+  amountDue       Int // Amount due
+  amountPaid      Int? // Amount paid
+  amountRemaining Int? // Amount remaining
+  amountRefunded  Int? // Amount refunded
+
+  providerAccountId String
+  providerAccount   PaymentProviderAccount @relation(fields: [providerAccountId], references: [id])
+
+  // Payment platform invoice ID
+  providerInvoiceId String? @unique
+
+  // Invoice file
+  invoiceUrl    String? // Invoice download link
+  invoicePdfUrl String? // PDF download link
+  invoiceNumber String? // Official invoice number
+
+  // Customer information
+  customerName   String? // Customer name
+  customerEmail  String? // Customer email
+  billingAddress Json? // Billing address
+
+  // Time information
+  issueDate  DateTime // Issue date
+  dueDate    DateTime // Due date
+  paidAt     DateTime? // Payment time
+  refundedAt DateTime? // Refund time
+
+  // Description information
+  description   String? // Description
+  customerNotes String? // Customer notes
+  metadata      Json? // Metadata
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  purchase           Purchase?           @relation()
+  affiliateOrder     AffiliateOrder?     @relation()
+  subscriptionPeriod SubscriptionPeriod? @relation()
+
+  @@index([billingUserId])
+  @@index([providerAccountId])
+  @@index([billingUserId, status])
+  @@index([status])
+  @@map("billing_invoices")
+}

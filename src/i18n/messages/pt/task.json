@@ -1,0 +1,72 @@
+{
+  "task": {
+    "preview": {
+      "taskInformation": "Informações da Tarefa",
+      "metadata": "Metadados",
+      "parameters": "Parâmetros",
+      "fileInformation": "Informações do Arquivo",
+      "labels": {
+        "id": "ID",
+        "type": "Tipo",
+        "status": "Status",
+        "created": "Criado"
+      }
+    },
+    "tooltip": {
+      "id": "ID da Tarefa",
+      "type": "Tipo",
+      "status": "Status",
+      "createdAt": "Criado em",
+      "updatedAt": "Atualizado em",
+      "prompt": "Prompt",
+      "negativePrompt": "Prompt Negativo",
+      "models": "Modelos",
+      "images": "Imagens",
+      "subTasks": "Subtarefas",
+      "subTaskId": "ID da Subtarefa",
+      "subTaskStatus": "Status da Subtarefa"
+    },
+    "taskType": {
+      "model-direct-invocation": "Invocação Direta do Modelo",
+      "template": "Modelo",
+      "other": "Outro"
+    },
+    "status": {
+      "pending": "Pendente",
+      "processing": "Processando",
+      "completed": "Concluído",
+      "failed": "Falhou",
+      "cancelled": "Cancelado",
+      "aborted": "Abortado",
+      "partially_completed": "Parcialmente concluído"
+    },
+    "metadata": {
+      "true": "Sim",
+      "false": "Não",
+      "labels": {
+        "templateType": "Tipo de Modelo",
+        "modelCategory": "Categoria do Modelo",
+        "model": "Modelo",
+        "models": "Modelos",
+        "isPublic": "Público"
+      }
+    },
+    "templateType": {
+      "stylized-anime-image": "Imagem de Anime Estilizada",
+      "realistic-image": "Imagem Realista",
+      "stylized-image": "Imagem Estilizada"
+    },
+    "modelCategory": {
+      "text-to-image": "Texto para Imagem",
+      "image-to-image": "Imagem para Imagem",
+      "text-to-video": "Texto para Vídeo",
+      "image-to-video": "Imagem para Vídeo",
+      "text-to-music": "Texto para Música"
+    },
+    "recall": {
+      "tooltip": "Chamar Tarefa Novamente"
+    },
+    "public": "Público",
+    "private": "Privado"
+  }
+}

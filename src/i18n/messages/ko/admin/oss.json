@@ -1,0 +1,41 @@
+{
+  "admin": {
+    "oss": {
+      "buckets": {
+        "title": "OSS 버킷",
+        "addBucket": "버킷 추가",
+        "editBucket": "버킷 편집",
+        "createBucket": "버킷 생성",
+        "name": "이름",
+        "provider": "공급업체",
+        "bucketName": "버킷 이름",
+        "region": "지역",
+        "endpoint": "엔드포인트",
+        "publicUrl": "공개 URL",
+        "accessKey": "액세스 키",
+        "secretKey": "시크릿 키",
+        "maxSize": "최대 크기 (바이트)",
+        "pathPrefix": "경로 접두사",
+        "publicAccess": "공개 액세스",
+        "cancel": "취소",
+        "update": "업데이트",
+        "create": "생성",
+        "columns": {
+          "name": "이름",
+          "provider": "공급업체",
+          "bucket": "버킷",
+          "region": "지역",
+          "access": "액세스",
+          "status": "상태",
+          "objects": "객체"
+        },
+        "status": {
+          "public": "공개",
+          "private": "비공개",
+          "active": "활성"
+        }
+      },
+      "objects": {}
+    }
+  }
+}

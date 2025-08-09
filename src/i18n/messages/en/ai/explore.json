@@ -1,0 +1,60 @@
+{
+  "explore": {
+    "title": "Explore",
+    "subtitle": "Discover amazing creations from our community",
+    "filters": {
+      "type": "Type",
+      "all": "All",
+      "images": "Images",
+      "videos": "Videos",
+      "featured": "Featured",
+      "featuredOnly": "Featured Only",
+      "regular": "Regular",
+      "sortBy": "Sort by",
+      "newest": "Newest",
+      "reset": "Reset"
+    },
+    "gallery": {
+      "viewDetails": "View Details",
+      "noItems": "No items found",
+      "noItemsDescription": "Try adjusting your filters or check back later for new content.",
+      "loadMore": "Load More",
+      "loading": "Loading...",
+      "error": "Failed to load items"
+    },
+    "preview": {
+      "title": "Preview",
+      "imageAlt": "Preview image",
+      "loading": "Loading...",
+      "videoNotSupported": "Your browser does not support video playback.",
+      "details": "Details",
+      "type": "Type",
+      "dimensions": "Dimensions",
+      "created": "Created",
+      "featured": "Featured",
+      "actions": "Actions",
+      "download": "Download Original",
+      "recreate": "Recreate",
+      "originalSettings": "Original Settings",
+      "viewFullPage": "View Full Page",
+      "creatorInformation": "Creator Information",
+      "fileInformation": "File Information",
+      "share": "Share"
+    },
+    "stats": {
+      "totalItems": "Total Items",
+      "featuredItems": "Featured Items"
+    },
+    "backToExplore": "Back to Explore",
+    "download": "Download",
+    "details": {
+      "title": "Details",
+      "taskType": "Task Type",
+      "createdAt": "Created",
+      "dimensions": "Dimensions",
+      "taskId": "Task ID",
+      "subTaskId": "Sub-Task ID",
+      "originalRequest": "Original Request"
+    }
+  }
+}

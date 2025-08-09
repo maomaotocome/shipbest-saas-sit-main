@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "notifications": {
+      "title": "Gerenciamento de notificações",
+      "create": "Criar notificação",
+      "edit": "Editar notificação",
+      "search": "Pesquisar",
+      "searchTitlePlaceholder": "Digite o título da notificação para pesquisar",
+      "columns": {
+        "title": "Título",
+        "priority": "Prioridade",
+        "targetUsers": "Usuários alvo",
+        "scheduledAt": "Horário agendado",
+        "expiresAt": "Horário de expiração",
+        "createdAt": "Criado em",
+        "readStatus": "Status de leitura",
+        "system": "Sistema",
+        "userTypes": {
+          "all": "Todos",
+          "newUsers": "Novos usuários",
+          "existingUsers": "Usuários existentes"
+        },
+        "scheduledStatus": {
+          "immediate": "Imediato"
+        },
+        "expiryStatus": {
+          "never": "Nunca expira"
+        },
+        "actions": "Ações"
+      },
+      "form": {
+        "title": "Título",
+        "content": "Conteúdo",
+        "titlePlaceholder": "Digite o título",
+        "contentPlaceholder": "Digite o conteúdo",
+        "cancel": "Cancelar",
+        "save": "Salvar",
+        "saving": "Salvando..."
+      },
+      "send": {
+        "title": "Enviar notificação",
+        "allUsers": "Todos os usuários",
+        "specificUsers": "Usuários específicos",
+        "searchPlaceholder": "Pesquisar usuários...",
+        "noUsersFound": "Nenhum usuário encontrado",
+        "searchToFindUsers": "Digite para pesquisar usuários",
+        "selectedUsers": "Usuários selecionados: {count}",
+        "unknownUser": "Usuário desconhecido",
+        "submit": "Enviar"
+      },
+      "modal": {
+        "editTitle": "Editar notificação",
+        "createTitle": "Criar notificação",
+        "basicSettings": "Configurações básicas",
+        "notificationType": "Tipo de notificação",
+        "priority": "Prioridade",
+        "priorityHelp": "Número menor significa prioridade mais alta (0-100)",
+        "scheduledTime": "Horário agendado",
+        "scheduledTimeHelp": "Se não definido, a notificação será enviada imediatamente",
+        "expiryTime": "Horário de expiração",
+        "expiryTimeHelp": "Se não definido, a notificação nunca expirará",
+        "targetUsers": "Grupo de usuários alvo",
+        "targetUsersHelp": {
+          "all": "A notificação será enviada para todos os usuários",
+          "new": "A notificação será enviada apenas para novos usuários que se registrarem posteriormente",
+          "existing": "A notificação será enviada apenas para usuários existentes que usam há algum tempo"
+        },
+        "systemNoticeHelp": "Notificações do sistema serão enviadas para todos os usuários qualificados. Registros de associação são criados quando os usuários acessam. Adequado para anúncios, atualizações importantes e outras informações que precisam ser amplamente comunicadas.",
+        "personalizedNoticeHelp": "Notificações personalizadas são enviadas apenas para usuários específicos que você seleciona. Adequado para lembretes, saudações e outras informações personalizadas para usuários específicos.",
+        "selectRecipients": "Selecionar destinatários",
+        "searchUserPlaceholder": "Pesquisar por nome de usuário ou email...",
+        "search": "Pesquisar",
+        "selectedUsers": "{count} usuários selecionados",
+        "clearSelection": "Limpar seleção",
+        "selectAll": "Selecionar todos",
+        "usersFound": "Encontrados {total} usuários",
+        "loadingError": "Erro ao carregar usuários",
+        "noMatchingUsers": "Nenhum usuário correspondente encontrado",
+        "pleaseSearchUsers": "Digite palavras-chave para pesquisar usuários",
+        "clearSearch": "Limpar pesquisa",
+        "unknownUser": "Usuário desconhecido",
+        "notificationContent": "Conteúdo da notificação",
+        "selectLanguage": "Selecionar idioma",
+        "title": "Título",
+        "titlePlaceholder": "Digite o título {locale}",
+        "content": "Conteúdo",
+        "contentPlaceholder": "Digite o conteúdo {locale}",
+        "cancel": "Cancelar",
+        "saveNotification": "Salvar notificação",
+        "errors": {
+          "fetchUsersFailed": "Falha ao buscar usuários",
+          "personalizedNoUser": "Você deve selecionar pelo menos um usuário para notificações personalizadas",
+          "needTitleContent": "Pelo menos um idioma precisa de título e conteúdo",
+          "updateFailed": "Falha ao atualizar notificação: {message}",
+          "createFailed": "Falha ao criar notificação: {message}",
+          "unknownError": "Ocorreu um erro desconhecido, tente novamente mais tarde"
+        },
+        "success": {
+          "updated": "Notificação atualizada com sucesso",
+          "created": "Notificação criada com sucesso"
+        },
+        "userGroup": {
+          "all": "Todos os usuários",
+          "new": "Novos usuários",
+          "existing": "Usuários existentes"
+        },
+        "notificationTypes": {
+          "personalized": "Notificação personalizada",
+          "system": "Notificação do sistema"
+        },
+        "removeUser": "Remover usuário {name}"
+      }
+    }
+  }
+}

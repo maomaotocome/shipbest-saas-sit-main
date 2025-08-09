@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "image": {
+      "text-to-image": {
+        "hero": {
+          "title": "Transform Your Words into Art",
+          "description": "Create stunning AI-generated images from text descriptions. Simply describe your vision, and watch it come to life."
+        }
+      }
+    }
+  }
+}

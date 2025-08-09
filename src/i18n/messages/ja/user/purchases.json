@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "購入履歴",
+      "planName": "プラン名",
+      "billingCycle": "請求サイクル",
+      "purchaseStatus": "購入ステータス",
+      "invoiceStatus": "請求書ステータス",
+      "amount": "金額",
+      "purchaseDate": "購入日",
+      "orderId": "注文ID",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "完了",
+          "REFUNDED": "返金済み"
+        },
+        "invoiceStatus": {
+          "DRAFT": "下書き",
+          "OPEN": "未払い",
+          "PAID": "支払済み",
+          "VOID": "無効",
+          "UNCOLLECTIBLE": "回収不能"
+        }
+      }
+    }
+  }
+}

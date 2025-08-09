@@ -1,0 +1,40 @@
+{
+  "admin": {
+    "billing": {
+      "purchases": {
+        "title": "購買記錄",
+        "loading": "載入購買記錄中...",
+        "user": "用戶",
+        "plan": "方案",
+        "date": "日期",
+        "status": "狀態",
+        "actions": "操作",
+        "refund": "退款",
+        "confirmRefund": "您確定要為此購買退款嗎？",
+        "allStatus": "所有狀態",
+        "period": "週期",
+        "resetPeriod": "重置週期",
+        "periodTypes": {
+          "day": "天",
+          "days": "天",
+          "week": "週",
+          "weeks": "週",
+          "month": "月",
+          "months": "月",
+          "year": "年",
+          "years": "年",
+          "oneTime": "一次性",
+          "lifetime": "終身"
+        },
+        "statuses": {
+          "completed": "已完成",
+          "refunded": "已退款",
+          "pending": "待處理",
+          "failed": "失敗"
+        },
+        "cancel": "取消",
+        "confirm": "確認"
+      }
+    }
+  }
+}

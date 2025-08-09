@@ -1,0 +1,82 @@
+{
+  "en": {
+    "items": [
+      {
+        "url": "https://i.dreamega.io/1.webm",
+        "type": "video",
+        "title": "Demo Video 1",
+        "desc": "High-quality video generated from text"
+      },
+      {
+        "url": "https://i.dreamega.io/2.webm",
+        "type": "video",
+        "title": "Demo Video 2",
+        "desc": "AI-generated dynamic scene"
+      },
+      {
+        "url": "https://i.dreamega.io/3.webm",
+        "type": "video",
+        "title": "Demo Video 3",
+        "desc": "AI video generation technology showcase"
+      },
+      {
+        "url": "https://i.dreamega.io/4.webm",
+        "type": "video",
+        "title": "Demo Video 4",
+        "desc": "AI video generation technology showcase"
+      },
+      {
+        "url": "https://i.dreamega.io/5.webm",
+        "type": "video",
+        "title": "Demo Video 5",
+        "desc": "AI video generation technology showcase"
+      },
+      {
+        "url": "https://i.dreamega.io/6.webm",
+        "type": "video",
+        "title": "Demo Video 6",
+        "desc": "AI video generation technology showcase"
+      }
+    ]
+  },
+  "zh": {
+    "items": [
+      {
+        "url": "https://i.dreamega.io/1.webm",
+        "type": "video",
+        "title": "示例视频 1",
+        "desc": "使用文本生成的高质量视频示例"
+      },
+      {
+        "url": "https://i.dreamega.io/2.webm",
+        "type": "video",
+        "title": "示例视频 2",
+        "desc": "AI 生成的动态场景"
+      },
+      {
+        "url": "https://i.dreamega.io/3.webm",
+        "type": "video",
+        "title": "示例视频 3",
+        "desc": "AI 视频生成技术展示"
+      },
+      {
+        "url": "https://i.dreamega.io/4.webm",
+        "type": "video",
+        "title": "示例视频 4",
+        "desc": "AI 视频生成技术展示"
+      },
+      {
+        "url": "https://i.dreamega.io/5.webm",
+        "type": "video",
+        "title": "示例视频 5",
+        "desc": "AI 视频生成技术展示"
+      },
+      {
+        "url": "https://i.dreamega.io/6.webm",
+        "type": "video",
+        "title": "示例视频 6",
+        "desc": "AI 视频生成技术展示"
+      }
+    ]
+  }
+}

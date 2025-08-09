@@ -1,0 +1,19 @@
+{
+  "user": {
+    "menu": {
+      "home": "Inicio",
+      "credits": "Créditos",
+      "notifications": "Notificaciones",
+      "invoice": "Factura",
+      "subscriptions": "Suscripciones",
+      "purchases": "Compras",
+      "settings": "Configuración",
+      "teams": "Equipos",
+      "affiliates": "Afiliados",
+      "library": "Biblioteca",
+      "profile": "Perfil",
+      "account": "Cuenta",
+      "billing": "Facturación"
+    }
+  }
+}

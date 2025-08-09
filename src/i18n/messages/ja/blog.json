@@ -1,0 +1,34 @@
+{
+  "blog": {
+    "title": "ブログ",
+    "description": "最新の記事を読んで、最新のニュースやヒントを入手しましょう。",
+    "tags": "タグ",
+    "categories": "カテゴリー",
+    "latest": {
+      "title": "最新の投稿",
+      "description": "最新の記事とインサイトを発見する"
+    },
+    "metadata": {
+      "all": {
+        "title": "ブログ",
+        "description": "最新の記事を読んで、最新のニュースやヒントを入手しましょう。",
+        "keywords": "ブログ, 記事, ニュース, ヒント"
+      },
+      "category": {
+        "title": "カテゴリー: {category}",
+        "description": "{category}カテゴリーのすべての記事を閲覧",
+        "keywords": "ブログ, カテゴリー, {category}, 記事"
+      },
+      "tag": {
+        "title": "タグ: {tag}",
+        "description": "{tag}タグの付いたすべての記事を閲覧",
+        "keywords": "ブログ, タグ, {tag}, 記事"
+      },
+      "post": {
+        "title": "{title}",
+        "description": "{description}",
+        "keywords": "{keywords}"
+      }
+    }
+  }
+}

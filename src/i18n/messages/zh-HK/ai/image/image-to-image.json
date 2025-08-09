@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "image": {
+      "image-to-image": {
+        "hero": {
+          "title": "用 AI 改造您的圖像",
+          "description": "使用 AI 驅動的轉換編輯和增強您的圖像。上傳圖像並描述您想要的更改。"
+        }
+      }
+    }
+  }
+}

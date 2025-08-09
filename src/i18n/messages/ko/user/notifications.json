@@ -1,0 +1,27 @@
+{
+  "user": {
+    "notifications": {
+      "title": "알림",
+      "loading": "알림을 로딩 중...",
+      "noData": "알림이 없습니다.",
+      "tabs": {
+        "personalized": "개인화",
+        "system": "시스템"
+      },
+      "markAllAsRead": "모두 읽음으로 표시",
+      "markAsRead": "읽음으로 표시",
+      "showMore": "더 보기",
+      "showLess": "접기",
+      "status": {
+        "unread": "안 읽음",
+        "read": "읽음"
+      },
+      "columns": {
+        "title": "제목",
+        "content": "내용",
+        "status": "상태",
+        "date": "날짜"
+      }
+    }
+  }
+}

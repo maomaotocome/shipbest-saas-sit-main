@@ -1,0 +1,32 @@
+{
+  "footer": {
+    "links": {
+      "videoTools": {
+        "title": "Ferramentas de Vídeo",
+        "aiVideoGenerator": "Gerador de Vídeo IA",
+        "imageToVideo": "Imagem para Vídeo",
+        "videoToVideo": "Vídeo para Vídeo",
+        "consistentCharacter": "Vídeo de Personagem Consistente",
+        "videoEnhancer": "Melhorador de Vídeo IA"
+      },
+      "videoModels": {
+        "title": "Modelos de Vídeo",
+        "klingAi": "Kling AI",
+        "runway": "Runway",
+        "viduAi": "Vidu AI",
+        "lumaAi": "Luma AI",
+        "pixverseAi": "PixVerse AI"
+      },
+      "company": {
+        "title": "Empresa",
+        "aboutUs": "Sobre Nós",
+        "contactUs": "Contate-nos",
+        "pricing": "Preços",
+        "community": "Comunidade",
+        "resources": "Recursos",
+        "termsAndConditions": "Termos e Condições",
+        "privacyPolicy": "Política de Privacidade"
+      }
+    }
+  }
+}

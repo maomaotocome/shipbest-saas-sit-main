@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "menu": {
+      "home": "ホーム",
+      "users": "ユーザー",
+      "blog": "ブログ",
+      "posts": "投稿",
+      "tags": "タグ",
+      "categories": "カテゴリ",
+      "billing": "請求",
+      "providers": "プロバイダー",
+      "plans": "プラン",
+      "subscriptions": "サブスクリプション",
+      "purchases": "購入履歴",
+      "settings": "設定",
+      "oss": "オブジェクトストレージ",
+      "notifications": "通知",
+      "affiliates": "アフィリエイト",
+      "invoice": "請求書",
+      "general": "一般",
+      "content": "コンテンツ",
+      "explore": "探索管理"
+    }
+  }
+}

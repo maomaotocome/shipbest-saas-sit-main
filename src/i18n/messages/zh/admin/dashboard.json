@@ -1,0 +1,13 @@
+{
+  "admin": {
+    "dashboard": {
+      "title": "管理仪表板",
+      "general": "常规",
+      "metadata": {
+        "title": "管理仪表板",
+        "description": "管理仪表板",
+        "keywords": "管理仪表板"
+      }
+    }
+  }
+}

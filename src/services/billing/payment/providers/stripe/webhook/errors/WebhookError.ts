@@ -1,0 +1,18 @@
+export class WebhookError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "WebhookError";
+  }
+}
+
+export enum WebhookErrorCode {
+  PROVIDER_NOT_FOUND = "PROVIDER_NOT_FOUND",
+  DUPLICATE_EVENT = "DUPLICATE_EVENT",
+  INVALID_SIGNATURE = "INVALID_SIGNATURE",
+  MISSING_CONFIG = "MISSING_CONFIG",
+  INITIALIZATION_FAILED = "INITIALIZATION_FAILED",
+  PROCESSING_FAILED = "PROCESSING_FAILED",
+  METADATA_MISSING = "METADATA_MISSING",
+  INVALID_REQUEST = "INVALID_REQUEST",
+  STRIPE_API_ERROR = "STRIPE_API_ERROR",
+}

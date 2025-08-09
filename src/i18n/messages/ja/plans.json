@@ -1,0 +1,24 @@
+{
+  "plans": {
+    "periodFormat": {
+      "day": "{value}日",
+      "days": "{value}日",
+      "week": "{value}週間",
+      "weeks": "{value}週間",
+      "month": "{value}ヶ月",
+      "months": "{value}ヶ月",
+      "year": "{value}年",
+      "years": "{value}年",
+      "oneTime": "一回限り",
+      "lifetime": "永久"
+    },
+    "periodType": {
+      "days": "日払い",
+      "weeks": "週払い",
+      "months": "月払い",
+      "years": "年払い",
+      "oneTime": "一回限り",
+      "lifetime": "永久"
+    }
+  }
+}

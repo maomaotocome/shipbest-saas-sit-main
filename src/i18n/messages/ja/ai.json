@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "loadingMore": "もっと読み込む...",
+    "loadMore": "もっと読み込む",
+    "errorLoading": "読み込みに失敗しました",
+    "pleaseLogin": "ログインしてください",
+    "loginToViewTasks": "タスクを表示するにはログインしてください",
+    "taskList": "タスクリスト",
+    "demoGallery": "デモギャラリー",
+    "prompt": "プロンプト",
+    "promptPlaceholder": "プロンプトを入力してください",
+    "negativePrompt": "ネガティブプロンプト",
+    "negativePromptPlaceholder": "ネガティブプロンプトを入力してください",
+    "numImages": "生成数",
+    "numVideos": "生成数",
+    "seed": "ランダムシード"
+  }
+}

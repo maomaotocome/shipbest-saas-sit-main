@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "billing": {
+      "payment-providers": {
+        "title": "Provedores de Pagamento",
+        "addProvider": "Adicionar Provedor",
+        "editProvider": "Editar Provedor",
+        "columns": {
+          "name": "Nome",
+          "code": "Código",
+          "provider": "Provedor",
+          "status": "Status",
+          "priority": "Prioridade",
+          "dailyQuota": "Cota Diária",
+          "monthlyQuota": "Cota Mensal"
+        },
+        "form": {
+          "name": "Nome",
+          "code": "Código",
+          "provider": "Provedor",
+          "status": "Status",
+          "priority": "Prioridade",
+          "secretKey": "Chave Secreta do Provedor",
+          "webhookSecret": "Segredo do Webhook"
+        },
+        "unlimited": "Ilimitado",
+        "status": {
+          "ACTIVE": "Ativo",
+          "SUSPENDED": "Suspenso",
+          "BLOCKED": "Bloqueado",
+          "QUOTA_EXCEEDED": "Cota Excedida",
+          "MAINTENANCE": "Manutenção"
+        },
+        "deleteConfirmation": {
+          "title": "Excluir Provedor",
+          "message": "Tem certeza de que deseja excluir este provedor de pagamento?",
+          "messageWithName": "Tem certeza de que deseja excluir o provedor de pagamento '{name}'?"
+        },
+        "cancel": "Cancelar",
+        "delete": "Excluir",
+        "deleting": "Excluindo...",
+        "saving": "Salvando...",
+        "update": "Atualizar",
+        "create": "Criar",
+        "createSuccess": "Provedor de pagamento criado com sucesso",
+        "createError": "Falha ao criar o provedor de pagamento",
+        "updateSuccess": "Provedor de pagamento atualizado com sucesso",
+        "updateError": "Falha ao atualizar o provedor de pagamento",
+        "deleteSuccess": "Provedor de pagamento excluído com sucesso",
+        "deleteError": "Falha ao excluir o provedor de pagamento",
+        "registerWebhook": "Registrar Webhook",
+        "webhookRegistered": "Webhook registrado com sucesso",
+        "webhookRegistrationFailed": "Falha ao registrar o webhook",
+        "webhookRegistrationDescription": "Isso registrará um endpoint webhook para o provedor de pagamento. A URL do webhook será:",
+        "registering": "Registrando...",
+        "register": "Registrar"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "user": {
+    "dashboard": {
+      "title": "Tableau de Bord",
+      "general": "Général",
+      "metadata": {
+        "title": "Tableau de Bord",
+        "description": "Tableau de Bord",
+        "keywords": "Tableau de Bord"
+      }
+    }
+  }
+}

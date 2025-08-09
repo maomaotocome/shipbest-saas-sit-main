@@ -1,0 +1,12 @@
+{
+  "credit": {
+    "title": "マイクレジット",
+    "loading": "読み込み中...",
+    "unavailable": "--",
+    "error": "クレジットの読み込みエラー",
+    "refresh": "更新",
+    "total": "総クレジット",
+    "grants": "クレジット付与",
+    "viewDetails": "詳細を見る"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "Gestión de Suscripciones",
+      "status": "Estado",
+      "startDate": "Fecha de Inicio",
+      "price": "Precio",
+      "cancelAt": "Cancelar En",
+      "cancelAtPeriodEnd": "Cancelar al final del período",
+      "subscriptionPeriods": "Períodos de Suscripción",
+      "periodNumber": "Número de Período",
+      "endDate": "Fecha de Fin",
+      "planName": "Nombre del Plan",
+      "billingCycle": "Ciclo de Facturación",
+      "currentPeriodEndDate": "Fecha de Fin del Período Actual",
+      "viewPeriods": "Ver Períodos",
+      "confirmCancelTitle": "Confirmar Cancelación de Suscripción",
+      "confirmCancelDescription": "¿Está seguro de que desea cancelar esta suscripción? La suscripción se cancelará al final del período de facturación actual.",
+      "subscriptionDetails": "Detalles de la Suscripción",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "Activo",
+          "CANCELLED": "Cancelado",
+          "EXPIRED": "Expirado",
+          "PRECANCEL": "Pre-cancelación"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "Programado",
+          "ACTIVE": "Activo",
+          "COMPLETED": "Completado",
+          "CANCELLED": "Cancelado",
+          "FAILED": "Fallido"
+        }
+      }
+    }
+  }
+}

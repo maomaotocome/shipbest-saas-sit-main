@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "Total",
+      "pending": "Pendiente",
+      "uploading": "Subiendo",
+      "success": "Éxito",
+      "failed": "Fallido",
+      "startUpload": "Iniciar subida",
+      "cancelUpload": "Cancelar subida",
+      "clear": "Limpiar",
+      "clearing": "Limpiando..."
+    },
+    "fileLibrary": {
+      "title": "Seleccionar archivo",
+      "searchPlaceholder": "Buscar nombre de archivo...",
+      "tabs": {
+        "all": "Todos",
+        "image": "Imágenes",
+        "video": "Videos",
+        "audio": "Audio",
+        "document": "Documentos",
+        "other": "Otros"
+      },
+      "selectedCount": "{count} archivos seleccionados",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "fileSize": "{size}KB"
+    },
+    "replaceDialog": {
+      "title": "Reemplazar archivo",
+      "description": "¿Desea reemplazar el archivo actual `{current}` con el nuevo archivo `{new}`?",
+      "cancel": "Cancelar",
+      "confirm": "Reemplazar",
+      "currentFile": "Archivo actual",
+      "newFile": "Nuevo archivo",
+      "size": "Tamaño: {size}KB",
+      "type": "Tipo: {type}"
+    },
+    "filePreview": {
+      "uploadFailed": "Subida fallida"
+    },
+    "fileActions": {
+      "delete": "Eliminar",
+      "selectFromLibrary": "Seleccionar de la biblioteca",
+      "upload": "Subir",
+      "deleting": "Eliminando..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "Subir o seleccionar archivo"
+    },
+    "addButton": {
+      "addFile": "Añadir archivo"
+    },
+    "messages": {
+      "singleFileOnly": "Solo se puede seleccionar un archivo",
+      "uploadComplete": "Todas las subidas completadas",
+      "uploadFailed": "Algunos archivos no se pudieron subir",
+      "fetchError": "Error al obtener la lista de archivos",
+      "dragSingleFile": "Solo se puede arrastrar un archivo",
+      "unsupportedType": "Tipo de archivo no soportado",
+      "dropToReplace": "Soltar para reemplazar archivo",
+      "deleteFailed": "Error al eliminar",
+      "deleteError": "Error de eliminación",
+      "deleteSuccess": "Eliminado con éxito",
+      "fileSizeExceeded": "Tamaño de archivo excedido",
+      "clearAllSuccess": "Todos los archivos eliminados con éxito",
+      "clearAllFailed": "Error al eliminar algunos archivos"
+    }
+  }
+}

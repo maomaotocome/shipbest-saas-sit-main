@@ -1,0 +1,19 @@
+{
+  "user": {
+    "menu": {
+      "home": "Startseite",
+      "credits": "Guthaben",
+      "notifications": "Benachrichtigungen",
+      "invoice": "Rechnung",
+      "subscriptions": "Abonnements",
+      "purchases": "Käufe",
+      "settings": "Einstellungen",
+      "teams": "Teams",
+      "affiliates": "Partner",
+      "library": "Bibliothek",
+      "profile": "Profil",
+      "account": "Konto",
+      "billing": "Abrechnung"
+    }
+  }
+}

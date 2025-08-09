@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "Кредиты",
+      "availableCredits": "Доступные кредиты",
+      "availableAmount": "Доступная сумма",
+      "pendingCredits": "Ожидающие кредиты",
+      "creditGrants": "Гранты кредитов",
+      "transactions": "Транзакции",
+      "amount": "Сумма",
+      "refundAmount": "Сумма возврата",
+      "remainingAmount": "Остаток",
+      "grantDate": "Дата предоставления",
+      "validFrom": "Действует с",
+      "validUntil": "Действует до",
+      "source": "Источник",
+      "actions": "Действия",
+      "viewDetails": "Просмотреть детали",
+      "grantDetails": "Детали гранта",
+      "transactionDetails": "Детали транзакции",
+      "date": "Дата",
+      "type": "Тип",
+      "status": "Статус",
+      "description": "Описание",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "Периодическая подписка",
+          "PLAN_INITIAL": "Начальный план",
+          "ONE_TIME_PURCHASE": "Единоразовая покупка",
+          "PROMOTION": "Акция",
+          "MANUAL": "Вручную",
+          "NEW_USER_AWARD": "Награда нового пользователя",
+          "DAILY_LOGIN_AWARD": "Награда за ежедневный вход",
+          "INVITE_AWARD": "Награда за приглашение"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "Ожидает",
+          "CONFIRMED": "Подтверждено",
+          "CANCELLED": "Отменено",
+          "GRANTED": "Предоставлено"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "Списание",
+          "REFUND": "Возврат",
+          "RESERVE": "Резерв",
+          "GRANT": "Грант"
+        }
+      }
+    }
+  }
+}

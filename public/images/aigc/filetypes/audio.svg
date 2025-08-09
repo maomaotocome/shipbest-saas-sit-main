@@ -1,0 +1,21 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="8" fill="#1E293B"/>
+  <rect x="1" y="1" width="46" height="46" rx="7" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Audio waveform -->
+  <path d="M12 24V20" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M16 24V16" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 24V18" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M24 24V12" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 24V16" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 24V20" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  <path d="M36 24V22" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Audio waves symbol -->
+  <path d="M12 32C12 32 15 30 18 32C21 34 27 30 30 32C33 34 36 32 36 32" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M12 36C12 36 15 34 18 36C21 38 27 34 30 36C33 38 36 36 36 36" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- File type indicator -->
+  <circle cx="40" cy="8" r="6" fill="#F59E0B"/>
+  <text x="40" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#1E293B">♪</text>
+</svg>

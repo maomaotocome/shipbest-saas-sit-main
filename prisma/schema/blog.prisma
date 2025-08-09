@@ -1,0 +1,113 @@
+model BlogAuthor {
+  id     String  @id @default(cuid())
+  name   String
+  slug   String  @unique
+  bio    String?
+  image  String?
+  userId String? @unique
+
+  posts BlogPost[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("blog_authors")
+}
+
+model BlogPost {
+  id            String                @id @default(cuid())
+  slug          String                @unique
+  authorId      String
+  author        BlogAuthor            @relation(fields: [authorId], references: [id])
+  publishedAt   DateTime?
+  translations  BlogPostTranslation[]
+  tags          BlogTagsOnPosts[]
+  category      BlogCategory?         @relation(fields: [categoryId], references: [id])
+  categoryId    String?
+  coverImageUrl String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([authorId])
+  @@index([categoryId])
+  @@index([publishedAt])
+  @@map("blog_posts")
+}
+
+model BlogPostTranslation {
+  id       String   @id @default(cuid())
+  postId   String
+  post     BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+  locale   String
+  title    String
+  metadata String?
+  content  String   @db.Text
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([postId, locale])
+  @@index([postId])
+  @@map("blog_post_translations")
+}
+
+model BlogTag {
+  id           String               @id @default(cuid())
+  slug         String               @unique
+  posts        BlogTagsOnPosts[]
+  translations BlogTagTranslation[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("blog_tags")
+}
+
+model BlogTagTranslation {
+  id     String  @id @default(cuid())
+  tagId  String
+  tag    BlogTag @relation(fields: [tagId], references: [id], onDelete: Cascade)
+  locale String
+  name   String
+
+  @@unique([tagId, locale])
+  @@index([tagId])
+  @@map("blog_tag_translations")
+}
+
+model BlogTagsOnPosts {
+  postId String
+  post   BlogPost @relation(fields: [postId], references: [id])
+  tagId  String
+  tag    BlogTag  @relation(fields: [tagId], references: [id])
+
+  @@id([postId, tagId])
+  @@index([postId])
+  @@index([tagId])
+  @@map("blog_tags_on_posts")
+}
+
+model BlogCategory {
+  id           String                    @id @default(cuid())
+  slug         String                    @unique
+  posts        BlogPost[]
+  translations BlogCategoryTranslation[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("blog_categories")
+}
+
+model BlogCategoryTranslation {
+  id         String       @id @default(cuid())
+  categoryId String
+  category   BlogCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  locale     String
+  name       String
+
+  @@unique([categoryId, locale])
+  @@index([categoryId])
+  @@map("blog_category_translations")
+}

@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "Kaufhistorie",
+      "planName": "Plan Name",
+      "billingCycle": "Abrechnungszyklus",
+      "purchaseStatus": "Kaufstatus",
+      "invoiceStatus": "Rechnungsstatus",
+      "amount": "Betrag",
+      "purchaseDate": "Kaufdatum",
+      "orderId": "Bestellnummer",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "Abgeschlossen",
+          "REFUNDED": "Erstattet"
+        },
+        "invoiceStatus": {
+          "DRAFT": "Entwurf",
+          "OPEN": "Offen",
+          "PAID": "Bezahlt",
+          "VOID": "Ungültig",
+          "UNCOLLECTIBLE": "Uneinbringlich"
+        }
+      }
+    }
+  }
+}

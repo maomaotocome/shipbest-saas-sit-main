@@ -1,0 +1,38 @@
+{
+  "admin": {
+    "billing": {
+      "subscriptions": {
+        "title": "订阅",
+        "columns": {
+          "billingUser": "用户",
+          "status": "状态",
+          "currentPrice": "价格",
+          "startDate": "开始日期",
+          "endDate": "结束日期",
+          "currentPeriodEnd": "周期结束",
+          "cancelAtPeriodEnd": "在周期结束时取消",
+          "planName": "方案",
+          "billingPeriod": "计费周期",
+          "resetPeriod": "重置周期"
+        },
+        "statusEmuns": {
+          "ACTIVE": "有效",
+          "CANCELLED": "已取消",
+          "EXPIRED": "已过期",
+          "PRECANCEL": "预取消"
+        },
+        "cancelSubscription": "取消",
+        "periodDetails": "周期详情",
+        "periodNumber": "周期编号",
+        "startDate": "开始日期",
+        "endDate": "结束日期",
+        "status": "状态",
+        "refundPeriod": "退款周期",
+        "confirmCancelTitle": "确认取消订阅",
+        "confirmCancelDescription": "您确定要取消 {email} ({plan}) 的订阅吗？订阅将在当前计费周期结束时取消。",
+        "cancel": "取消",
+        "confirm": "确认"
+      }
+    }
+  }
+}

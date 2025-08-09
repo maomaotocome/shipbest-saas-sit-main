@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "audio": {
+      "text-to-music": {
+        "hero": {
+          "title": "Criar música com IA",
+          "description": "Gere música de alta qualidade com letras a partir de prompts de texto. Descreva o estilo, humor e tema que deseja para sua música."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "blog": {
+      "posts": {
+        "title": "博客文章",
+        "addPost": "添加文章",
+        "editPost": "编辑文章",
+        "createPost": "创建文章",
+        "cancel": "取消",
+        "update": "更新",
+        "create": "创建",
+        "search": "搜索",
+        "searchTitlePlaceholder": "搜索标题...",
+        "searchAuthorPlaceholder": "搜索作者...",
+        "columns": {
+          "slug": "别名",
+          "titles": "标题",
+          "category": "分类",
+          "tags": "标签",
+          "author": "作者",
+          "status": "状态"
+        },
+        "status": {
+          "published": "已发布",
+          "draft": "草稿"
+        },
+        "form": {
+          "author": "作者",
+          "slug": "别名",
+          "coverImage": "封面图片链接",
+          "category": "分类",
+          "selectCategory": "选择分类",
+          "tags": "标签",
+          "title": "标题",
+          "content": "内容",
+          "metadata": "元数据",
+          "translateFrom": "从 {locale} 翻译",
+          "selectedTags": "已选标签",
+          "selectTags": "选择标签",
+          "slugRequired": "文章别名不能为空",
+          "titlePlaceholder": "请输入标题",
+          "contentPlaceholder": "请输入内容",
+          "saving": "保存中...",
+          "atLeastOneTranslation": "请至少填写一种语言的标题和内容",
+          "slugEmptyError": "请填写文章别名"
+        },
+        "messages": {
+          "createSuccess": "文章创建成功",
+          "updateSuccess": "文章更新成功",
+          "deleteSuccess": "文章删除成功",
+          "saveFailed": "保存失败: {message}",
+          "deleteFailed": "删除失败: {message}",
+          "unknownError": "保存文章时发生未知错误",
+          "unknownDeleteError": "删除文章时发生未知错误",
+          "noAuthorsFound": "没有找到可用的博客作者，请先创建一个博客作者"
+        }
+      },
+      "categories": {
+        "title": "博客分类",
+        "addCategory": "添加分类",
+        "editCategory": "编辑分类",
+        "createCategory": "创建分类",
+        "cancel": "取消",
+        "update": "更新",
+        "create": "创建",
+        "search": "搜索",
+        "searchSlugPlaceholder": "搜索别名...",
+        "searchNamePlaceholder": "搜索名称...",
+        "form": {
+          "slug": "别名",
+          "slugPlaceholder": "输入分类别名",
+          "name": "{locale} 名称",
+          "namePlaceholder": "输入分类名称",
+          "translateFrom": "从 {locale} 翻译"
+        },
+        "messages": {
+          "createSuccess": "分类创建成功",
+          "updateSuccess": "分类更新成功",
+          "deleteSuccess": "分类删除成功",
+          "error": "发生错误"
+        },
+        "confirmDelete": {
+          "title": "删除分类",
+          "description": "确定要删除这个分类吗？此操作无法撤消。"
+        },
+        "confirm": "确认",
+        "save": "保存"
+      },
+      "tags": {
+        "title": "博客标签",
+        "addTag": "添加标签",
+        "editTag": "编辑标签",
+        "createTag": "创建标签",
+        "cancel": "取消",
+        "update": "更新",
+        "create": "创建",
+        "search": "搜索",
+        "searchSlugPlaceholder": "搜索别名...",
+        "searchNamePlaceholder": "搜索名称...",
+        "form": {
+          "slug": "别名",
+          "name": "名称",
+          "nameWithLocale": "{locale} 名称",
+          "translateFrom": "从 {locale} 翻译"
+        },
+        "messages": {
+          "createSuccess": "标签创建成功",
+          "updateSuccess": "标签更新成功",
+          "deleteSuccess": "标签删除成功",
+          "error": "发生错误"
+        },
+        "confirmDelete": {
+          "title": "删除标签",
+          "description": "确定要删除这个标签吗？此操作无法撤消。"
+        },
+        "confirm": "确认",
+        "save": "保存"
+      }
+    }
+  }
+}

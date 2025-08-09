@@ -1,0 +1,23 @@
+{
+  "playground": {
+    "new": "Nuovo",
+    "history": "Cronologia",
+    "prompt": {
+      "placeholder": "Come posso aiutarti oggi?"
+    },
+    "chat": {
+      "input": {
+        "placeholder": "Scrivi il tuo messaggio...",
+        "send": "Invia",
+        "enterToSend": "Invio per inviare",
+        "shiftEnterForNewline": "Shift + Invio per nuova riga"
+      },
+      "noMessages": "Cosa posso fare per te oggi?"
+    },
+    "history": {
+      "title": "Cronologia conversazioni",
+      "searchPlaceholder": "Cerca nella cronologia conversazioni...",
+      "loading": "Caricamento..."
+    }
+  }
+}

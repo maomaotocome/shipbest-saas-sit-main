@@ -1,0 +1,16 @@
+{
+  "common": {
+    "logo": "Логотип",
+    "copySuccess": "Ссылка скопирована в буфер обмена",
+    "copyError": "Ошибка копирования ссылки",
+    "errors": {
+      "videoPlaybackFailed": "Ошибка воспроизведения видео",
+      "imageLoadFailed": "Ошибка загрузки изображения",
+      "videoLoadFailed": "Ошибка загрузки видео"
+    },
+    "navigation": {
+      "closeMenu": "Закрыть меню",
+      "openMenu": "Открыть меню"
+    }
+  }
+}

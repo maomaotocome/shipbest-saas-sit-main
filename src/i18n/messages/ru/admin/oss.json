@@ -1,0 +1,43 @@
+{
+    "admin": {
+        "oss": {
+            "buckets": {
+                "title": "OSS Хранилища",
+                "addBucket": "Добавить хранилище",
+                "editBucket": "Редактировать хранилище",
+                "createBucket": "Создать хранилище",
+                "name": "Название",
+                "provider": "Провайдер",
+                "bucketName": "Имя хранилища",
+                "region": "Регион",
+                "endpoint": "Конечная точка",
+                "publicUrl": "Публичный URL",
+                "accessKey": "Ключ доступа",
+                "secretKey": "Секретный ключ",
+                "maxSize": "Макс. размер (байты)",
+                "pathPrefix": "Префикс пути",
+                "publicAccess": "Публичный доступ",
+                "cancel": "Отмена",
+                "update": "Обновить",
+                "create": "Создать",
+                "columns": {
+                    "name": "Название",
+                    "provider": "Провайдер",
+                    "bucket": "Хранилище",
+                    "region": "Регион",
+                    "access": "Доступ",
+                    "status": "Статус",
+                    "objects": "Объекты"
+                },
+                "status": {
+                    "public": "Публичный",
+                    "private": "Приватный",
+                    "active": "АКТИВЕН"
+                }
+            },
+            "objects": {
+
+            }
+        }
+    }
+}

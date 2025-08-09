@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "Управление пользователями",
+      "search": "Поиск",
+      "form": {
+        "name": "Имя",
+        "email": "Email"
+      },
+      "searchNamePlaceholder": "Поиск по имени...",
+      "searchEmailPlaceholder": "Поиск по email...",
+      "columns": {
+        "name": "Имя",
+        "email": "Email",
+        "role": "Роль",
+        "verified": "Подтверждён",
+        "not_available": "Н/Д",
+        "actions": "Действия",
+        "view_notifications": "Просмотр уведомлений",
+        "view_credits": "Просмотр кредитов",
+        "view_billing_history": "Просмотр истории платежей"
+      },
+      "verification": {
+        "yes": "Да",
+        "no": "Нет"
+      },
+      "roles": {
+        "ADMIN": "Администратор",
+        "USER": "Обычный пользователь"
+      },
+      "role_change": {
+        "error_self": "Вы не можете изменить свою собственную роль",
+        "success": "Роль обновлена на {role}",
+        "confirm_to_admin": {
+          "title": "Повысить до администратора?",
+          "message": "Внимание: Это предоставит полные административные привилегии этому пользователю. К этому действию следует подходить с осторожностью.",
+          "cancel": "Отмена",
+          "confirm": "Да, предоставить доступ администратора"
+        },
+        "confirm_to_user": {
+          "title": "Понизить до обычного пользователя?",
+          "message": "Это удалит все административные привилегии у этого пользователя.",
+          "cancel": "Отмена",
+          "confirm": "Да, удалить доступ администратора"
+        }
+      },
+      "common": {
+        "created_at": "Создано",
+        "source": "Источник",
+        "validity": "Действительность",
+        "permanent": "Постоянно",
+        "transaction_time": "Время транзакции",
+        "transaction_type": "Тип транзакции",
+        "amount_consumed": "Потрачено",
+        "status": "Статус",
+        "description": "Описание",
+        "no_description": "Без описания",
+        "loading": "Загрузка...",
+        "error": "Ошибка",
+        "no_data": "Нет данных",
+        "actions": "Действия",
+        "transaction_id": "ID транзакции",
+        "clear": "Очистить"
+      },
+      "sources": {
+        "PURCHASE": "Покупка",
+        "ONE_TIME_PURCHASE": "Разовая покупка",
+        "SYSTEM_GRANT": "Системное предоставление",
+        "SUBSCRIPTION_PERIODIC": "Периодическая подписка",
+        "ADMIN_GRANT": "Административное предоставление",
+        "PROMOTION": "Акция",
+        "REFUND": "Возврат",
+        "OTHER": "Другое"
+      },
+      "transaction_types": {
+        "DEDUCT": "Списание",
+        "GRANT": "Предоставление",
+        "REFUND": "Возврат",
+        "ADJUSTMENT": "Корректировка"
+      },
+      "transaction_statuses": {
+        "PENDING": "В ожидании",
+        "CONFIRMED": "Подтверждено",
+        "CANCELLED": "Отменено",
+        "GRANTED": "Предоставлено"
+      },
+      "summary": {
+        "stats_title": "Статистика кредитов",
+        "stats": {
+          "total": "Всего кредитов",
+          "available": "Доступные кредиты",
+          "reserved": "Зарезервированные кредиты",
+          "used": "Использованные кредиты",
+          "expiring": "Истекающие кредиты (в течение 30 дней)"
+        },
+        "expiring_alert": {
+          "title": "Кредиты скоро истекут",
+          "description": "{count, plural, one {# кредит} few {# кредита} other {# кредитов}} истечёт в течение 30 дней"
+        },
+        "recent_grants": {
+          "title": "Недавно полученные кредиты (макс. 5)",
+          "columns": {
+            "amount": "Количество"
+          },
+          "empty": "Нет недавних записей о предоставлении"
+        },
+        "recent_transactions": {
+          "title": "Недавние записи потребления (макс. 5)",
+          "empty": "Нет недавних записей потребления",
+          "disclaimer": "Примечание: Показанные здесь недавние записи потребления могут включать других пользователей. Точная фильтрация требует оптимизации бэкенда."
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "Источник кредитов",
+          "total": "Всего кредитов",
+          "remaining_total": "Остаток/Всего",
+          "used": "Использовано кредитов"
+        },
+        "actions": {
+          "view_usage_detail": "Детали использования"
+        },
+        "filters": {
+          "source_label": "Источник кредитов",
+          "all_sources": "Все источники",
+          "valid_only_label": "Показать только действительные"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "Просмотр деталей"
+        },
+        "filters": {
+          "date_range_label": "Диапазон дат",
+          "all_types": "Все типы",
+          "all_statuses": "Все статусы"
+        }
+      },
+      "grant_detail": {
+        "back_button": "Назад к списку кредитов",
+        "error_load": "Не удалось загрузить детали предоставления кредитов.",
+        "title": "Детали предоставления кредитов (ID: {shortId}...)",
+        "source": "Источник",
+        "created_at": "Получено",
+        "total_credits": "Всего кредитов",
+        "remaining_credits": "Остаток кредитов",
+        "available_credits": "Доступные кредиты",
+        "reserved_credits": "Зарезервированные кредиты",
+        "used_credits": "Использованные кредиты",
+        "validity": "Действительность",
+        "usage": {
+          "title": "Записи использования",
+          "description": "Все записи использования для этого предоставления кредитов",
+          "empty": "Это предоставление кредитов ещё не использовалось",
+          "columns": {
+            "transaction_time": "Время транзакции",
+            "transaction_id": "ID транзакции",
+            "transaction_type": "Тип транзакции",
+            "amount_used": "Использовано",
+            "balance_after": "Остаток после",
+            "transaction_description": "Описание транзакции"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "Назад к списку транзакций",
+        "error_load": "Не удалось загрузить детали транзакции.",
+        "title": "Детали транзакции",
+        "id": "ID транзакции",
+        "transaction_time": "Время транзакции",
+        "total_consumed": "Всего потрачено кредитов",
+        "transaction_type": "Тип транзакции",
+        "status": "Статус",
+        "description": "Описание",
+        "expire_at": "Время истечения",
+        "confirmed_at": "Время подтверждения",
+        "cancelled_at": "Время отмены",
+        "metadata": "Метаданные",
+        "usage_detail": {
+          "title": "Детали использования кредитов",
+          "description": "Детали предоставлений кредитов, потрачённых в этой транзакции",
+          "empty": "Нет деталей использования кредитов",
+          "columns": {
+            "grant_id": "ID предоставления",
+            "source": "Источник кредитов",
+            "amount": "Потрачено",
+            "balance_after": "Остаток после (детали)"
+          }
+        }
+      },
+      "modal": {
+        "title": "Детали кредитов {userName}",
+        "title_no_name": "Детали кредитов пользователя {userId}",
+        "tabs": {
+          "summary": "Сводка",
+          "grants": "Предоставления",
+          "transactions": "Транзакции"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "Уведомления {name}",
+        "modal_title_fallback": "Уведомления пользователя",
+        "tabs": {
+          "system": "Системные уведомления",
+          "personalized": "Персонализированные уведомления"
+        },
+        "columns": {
+          "title": "Название",
+          "no_title": "Без названия",
+          "content": "Содержание",
+          "no_content": "Без содержания",
+          "status": "Статус",
+          "time": "Время"
+        },
+        "status": {
+          "READ": "Прочитано",
+          "UNREAD": "Не прочитано"
+        },
+        "error_loading": "Не удалось загрузить уведомления",
+        "no_messages": "Нет уведомлений"
+      },
+      "billing_history": {
+        "title": "История платежей - {name}",
+        "description": "Просмотр истории подписок и покупок для {name}.",
+        "close_button": "Закрыть",
+        "unknown_error": "Неизвестная ошибка",
+        "type_subscription": "Подписка",
+        "type_purchase": "Покупка",
+        "table": {
+          "header_type": "Тип",
+          "header_plan": "План/Товар",
+          "header_amount": "Сумма",
+          "header_status": "Статус",
+          "header_date": "Дата",
+          "header_provider": "Провайдер",
+          "loading": "Загрузка...",
+          "error": "Не удалось загрузить: {message}",
+          "empty": "История платежей не найдена"
+        },
+        "pagination": {
+          "total_records": "Всего {count, plural, one {# запись} few {# записи} other {# записей}}",
+          "previous": "Предыдущая",
+          "next": "Следующая",
+          "page_info": "Страница {page} из {totalPages}"
+        }
+      }
+    }
+  }
+}

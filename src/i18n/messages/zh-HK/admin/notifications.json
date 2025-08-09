@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "notifications": {
+      "title": "通知管理",
+      "create": "創建通知",
+      "edit": "編輯通知",
+      "search": "搜尋",
+      "searchTitlePlaceholder": "輸入通知標題進行搜尋",
+      "columns": {
+        "title": "標題",
+        "priority": "優先級",
+        "targetUsers": "目標用戶",
+        "scheduledAt": "預定時間",
+        "expiresAt": "過期時間",
+        "createdAt": "創建時間",
+        "readStatus": "閱讀狀態",
+        "system": "系統",
+        "userTypes": {
+          "all": "所有用戶",
+          "newUsers": "新用戶",
+          "existingUsers": "現有用戶"
+        },
+        "scheduledStatus": {
+          "immediate": "立即"
+        },
+        "expiryStatus": {
+          "never": "永不過期"
+        },
+        "actions": "操作"
+      },
+      "form": {
+        "title": "標題",
+        "content": "內容",
+        "titlePlaceholder": "輸入標題",
+        "contentPlaceholder": "輸入內容",
+        "cancel": "取消",
+        "save": "保存",
+        "saving": "保存中..."
+      },
+      "send": {
+        "title": "發送通知",
+        "allUsers": "所有用戶",
+        "specificUsers": "特定用戶",
+        "searchPlaceholder": "搜尋用戶...",
+        "noUsersFound": "未找到用戶",
+        "searchToFindUsers": "輸入以搜尋用戶",
+        "selectedUsers": "已選擇用戶：{count}",
+        "unknownUser": "未知用戶",
+        "submit": "發送"
+      },
+      "modal": {
+        "editTitle": "編輯通知",
+        "createTitle": "創建通知",
+        "basicSettings": "基本設置",
+        "notificationType": "通知類型",
+        "priority": "優先級",
+        "priorityHelp": "數字越小優先級越高（0-100）",
+        "scheduledTime": "預定時間",
+        "scheduledTimeHelp": "如果未設置，通知將立即發送",
+        "expiryTime": "過期時間",
+        "expiryTimeHelp": "如果未設置，通知將永不過期",
+        "targetUsers": "目標用戶群組",
+        "targetUsersHelp": {
+          "all": "通知將發送給所有用戶",
+          "new": "通知只會發送給之後註冊的新用戶",
+          "existing": "通知只會發送給已經使用一段時間的現有用戶"
+        },
+        "systemNoticeHelp": "系統通知將發送給所有符合條件的用戶。當用戶訪問時會創建關聯記錄。適用於公告、重要更新和其他需要廣泛傳達的信息。",
+        "personalizedNoticeHelp": "個性化通知只會發送給您選擇的特定用戶。適用於提醒、問候和其他針對特定用戶的個性化信息。",
+        "selectRecipients": "選擇收件人",
+        "searchUserPlaceholder": "按用戶名或電子郵件搜尋...",
+        "search": "搜尋",
+        "selectedUsers": "已選擇 {count} 個用戶",
+        "clearSelection": "清除選擇",
+        "selectAll": "全選",
+        "usersFound": "找到 {total} 個用戶",
+        "loadingError": "載入用戶時出錯",
+        "noMatchingUsers": "未找到匹配的用戶",
+        "pleaseSearchUsers": "請輸入關鍵字來搜尋用戶",
+        "clearSearch": "清除搜尋",
+        "unknownUser": "未知用戶",
+        "notificationContent": "通知內容",
+        "selectLanguage": "選擇語言",
+        "title": "標題",
+        "titlePlaceholder": "輸入{locale}標題",
+        "content": "內容",
+        "contentPlaceholder": "輸入{locale}內容",
+        "cancel": "取消",
+        "saveNotification": "保存通知",
+        "errors": {
+          "fetchUsersFailed": "無法獲取用戶",
+          "personalizedNoUser": "個性化通知必須至少選擇一個用戶",
+          "needTitleContent": "至少需要一種語言的標題和內容",
+          "updateFailed": "無法更新通知：{message}",
+          "createFailed": "無法創建通知：{message}",
+          "unknownError": "發生未知錯誤，請稍後再試"
+        },
+        "success": {
+          "updated": "通知更新成功",
+          "created": "通知創建成功"
+        },
+        "userGroup": {
+          "all": "所有用戶",
+          "new": "新用戶",
+          "existing": "現有用戶"
+        },
+        "notificationTypes": {
+          "personalized": "個性化通知",
+          "system": "系統通知"
+        },
+        "removeUser": "移除用戶 {name}"
+      }
+    }
+  }
+}

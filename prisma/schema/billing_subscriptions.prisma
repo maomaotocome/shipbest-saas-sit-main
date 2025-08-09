@@ -1,0 +1,75 @@
+model Subscription {
+  id            String        @id @default(cuid())
+  orderId       String?       @unique
+  billingScheme BillingScheme @default(CREDIT_BASED)
+
+  billingUserId String
+  billingUser   BillingUser @relation(fields: [billingUserId], references: [id])
+
+  info Json?
+
+  status   SubscriptionStatus
+  provider PaymentProvider
+
+  currentPrice Int
+  currency     String @default("usd")
+
+  providerAccountId      String
+  providerAccount        PaymentProviderAccount @relation(fields: [providerAccountId], references: [id])
+  providerSubscriptionId String
+
+  startDate DateTime  @default(now())
+  endDate   DateTime?
+
+  canceledAt DateTime?
+  cancelAt   DateTime?
+
+  cancelAtPeriodEnd Boolean @default(false)
+
+  periods      SubscriptionPeriod[]
+  WebhookEvent WebhookEvent[]
+
+  teamId String?
+  team   Team?   @relation(fields: [teamId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  planPeriodId String?
+  planPeriod   PlanPeriod? @relation(fields: [planPeriodId], references: [id])
+
+  @@unique([providerAccountId, providerSubscriptionId])
+  @@index([billingUserId, status])
+  @@index([billingUserId])
+  @@index([providerAccountId])
+  @@index([planPeriodId])
+  @@index([teamId])
+  @@map("billing_subscriptions")
+}
+
+model SubscriptionPeriod {
+  id String @id @default(cuid())
+
+  status SubscriptionPeriodStatus @default(ACTIVE)
+
+  subscriptionId String
+  subscription   Subscription @relation(fields: [subscriptionId], references: [id])
+
+  // Period information
+  periodNumber Int // Which period (starting from 1)
+  startDate    DateTime // Period start time
+  endDate      DateTime // Period end time
+
+  invoiceId String?  @unique
+  invoice   Invoice? @relation(fields: [invoiceId], references: [id])
+
+  creditGrants CreditGrant[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([subscriptionId, periodNumber])
+  @@index([subscriptionId])
+  @@index([invoiceId])
+  @@map("billing_subscription_periods")
+}

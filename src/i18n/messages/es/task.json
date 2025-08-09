@@ -1,0 +1,72 @@
+{
+  "task": {
+    "preview": {
+      "taskInformation": "Información de la Tarea",
+      "metadata": "Metadatos",
+      "parameters": "Parámetros",
+      "fileInformation": "Información del Archivo",
+      "labels": {
+        "id": "ID",
+        "type": "Tipo",
+        "status": "Estado",
+        "created": "Creado"
+      }
+    },
+    "tooltip": {
+      "id": "ID de la Tarea",
+      "type": "Tipo",
+      "status": "Estado",
+      "createdAt": "Creado el",
+      "updatedAt": "Actualizado el",
+      "prompt": "Prompt",
+      "negativePrompt": "Prompt Negativo",
+      "models": "Modelos",
+      "images": "Imágenes",
+      "subTasks": "Subtareas",
+      "subTaskId": "ID de Subtarea",
+      "subTaskStatus": "Estado de Subtarea"
+    },
+    "taskType": {
+      "model-direct-invocation": "Invocación Directa del Modelo",
+      "template": "Plantilla",
+      "other": "Otro"
+    },
+    "status": {
+      "pending": "Pendiente",
+      "processing": "Procesando",
+      "completed": "Completado",
+      "failed": "Fallido",
+      "cancelled": "Cancelado",
+      "aborted": "Abortado",
+      "partially_completed": "Parcialmente Completado"
+    },
+    "metadata": {
+      "true": "Sí",
+      "false": "No",
+      "labels": {
+        "templateType": "Tipo de Plantilla",
+        "modelCategory": "Categoría del Modelo",
+        "model": "Modelo",
+        "models": "Modelos",
+        "isPublic": "Público"
+      }
+    },
+    "templateType": {
+      "stylized-anime-image": "Imagen de Anime Estilizada",
+      "realistic-image": "Imagen Realista",
+      "stylized-image": "Imagen Estilizada"
+    },
+    "modelCategory": {
+      "text-to-image": "Texto a Imagen",
+      "image-to-image": "Imagen a Imagen",
+      "text-to-video": "Texto a Video",
+      "image-to-video": "Imagen a Video",
+      "text-to-music": "Texto a Música"
+    },
+    "recall": {
+      "tooltip": "Recordar Tarea"
+    },
+    "public": "Público",
+    "private": "Privado"
+  }
+}

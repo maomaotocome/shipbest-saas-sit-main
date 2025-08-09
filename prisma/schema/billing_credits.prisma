@@ -1,0 +1,79 @@
+model CreditGrant {
+  id            String      @id @default(cuid())
+  billingUserId String
+  billingUser   BillingUser @relation(fields: [billingUserId], references: [id])
+
+  subscriptionPeriodId String?
+  subscriptionPeriod   SubscriptionPeriod? @relation(fields: [subscriptionPeriodId], references: [id])
+
+  purchaseId String?
+  purchase   Purchase? @relation(fields: [purchaseId], references: [id])
+
+  amount          Int
+  // remainingAmount = amount - usedAmount
+  remainingAmount Int
+  // availableAmount = remainingAmount - reservedAmount
+  availableAmount Int @default(0)
+  // reservedAmount = remainingAmount - availableAmount
+  reservedAmount  Int @default(0)
+  // usedAmount = amount - remainingAmount
+  usedAmount      Int @default(0)
+
+  source CreditSource
+
+  metadata Json?
+
+  validFrom  DateTime
+  validUntil DateTime?
+
+  transactionDetails CreditTransactionDetail[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([billingUserId])
+  @@index([subscriptionPeriodId])
+  @@index([purchaseId])
+  @@index([billingUserId, source, validFrom, validUntil])
+  @@map("billing_credit_grants")
+}
+
+model CreditTransaction {
+  id           String  @id @default(cuid())
+  description  String?
+  metadata     Json?
+  totalAmount  Int
+  refundAmount Int? // The amount of credits refunded
+
+  type        CreditTransactionType   @default(RESERVE) // Transaction type
+  status      CreditTransactionStatus @default(PENDING) // Transaction status
+  expireAt    DateTime?
+  confirmedAt DateTime?
+  cancelledAt DateTime?
+
+  details CreditTransactionDetail[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("billing_credit_transactions")
+}
+
+model CreditTransactionDetail {
+  id String @id @default(cuid())
+
+  transactionId String
+  transaction   CreditTransaction @relation(fields: [transactionId], references: [id])
+
+  grantId String
+  grant   CreditGrant @relation(fields: [grantId], references: [id])
+
+  amount       Int
+  balanceAfter Int
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([transactionId])
+  @@index([grantId])
+  @@map("billing_credit_transaction_details")
+}

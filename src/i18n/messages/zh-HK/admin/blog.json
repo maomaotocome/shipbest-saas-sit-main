@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "blog": {
+      "posts": {
+        "title": "博客文章",
+        "addPost": "新增文章",
+        "editPost": "編輯文章",
+        "createPost": "創建文章",
+        "cancel": "取消",
+        "update": "更新",
+        "create": "創建",
+        "search": "搜索",
+        "searchTitlePlaceholder": "按標題搜索...",
+        "searchAuthorPlaceholder": "按作者搜索...",
+        "columns": {
+          "slug": "別名",
+          "titles": "標題",
+          "category": "分類",
+          "tags": "標籤",
+          "author": "作者",
+          "status": "狀態"
+        },
+        "status": {
+          "published": "已發布",
+          "draft": "草稿"
+        },
+        "form": {
+          "author": "作者",
+          "slug": "別名",
+          "coverImage": "封面圖片URL",
+          "category": "分類",
+          "selectCategory": "選擇分類",
+          "tags": "標籤",
+          "title": "標題",
+          "content": "內容",
+          "metadata": "元數據",
+          "translateFrom": "從 {locale} 翻譯",
+          "selectedTags": "已選擇標籤",
+          "selectTags": "選擇標籤",
+          "slugRequired": "文章別名不能為空",
+          "titlePlaceholder": "請輸入標題",
+          "contentPlaceholder": "請輸入內容",
+          "saving": "儲存中...",
+          "atLeastOneTranslation": "請至少填寫一種語言的標題和內容",
+          "slugEmptyError": "請填寫文章別名"
+        },
+        "messages": {
+          "createSuccess": "文章創建成功",
+          "updateSuccess": "文章更新成功",
+          "deleteSuccess": "文章刪除成功",
+          "saveFailed": "儲存失敗: {message}",
+          "deleteFailed": "刪除失敗: {message}",
+          "unknownError": "儲存文章時發生未知錯誤",
+          "unknownDeleteError": "刪除文章時發生未知錯誤",
+          "noAuthorsFound": "沒有找到可用的博客作者，請先創建一個博客作者"
+        }
+      },
+      "categories": {
+        "title": "博客分類",
+        "addCategory": "新增分類",
+        "editCategory": "編輯分類",
+        "createCategory": "創建分類",
+        "cancel": "取消",
+        "update": "更新",
+        "create": "創建",
+        "search": "搜索",
+        "searchSlugPlaceholder": "按別名搜索...",
+        "searchNamePlaceholder": "按名稱搜索...",
+        "form": {
+          "slug": "別名",
+          "slugPlaceholder": "輸入分類別名",
+          "name": "{locale} 名稱",
+          "namePlaceholder": "輸入分類名稱",
+          "translateFrom": "從 {locale} 翻譯"
+        },
+        "messages": {
+          "createSuccess": "分類創建成功",
+          "updateSuccess": "分類更新成功",
+          "deleteSuccess": "分類刪除成功",
+          "error": "發生錯誤"
+        },
+        "confirmDelete": {
+          "title": "刪除分類",
+          "description": "您確定要刪除此分類嗎？此操作無法撤銷。"
+        },
+        "confirm": "確認",
+        "save": "保存"
+      },
+      "tags": {
+        "title": "博客標籤",
+        "addTag": "新增標籤",
+        "editTag": "編輯標籤",
+        "createTag": "創建標籤",
+        "cancel": "取消",
+        "update": "更新",
+        "create": "創建",
+        "search": "搜索",
+        "searchSlugPlaceholder": "按別名搜索...",
+        "searchNamePlaceholder": "按名稱搜索...",
+        "form": {
+          "slug": "別名",
+          "name": "名稱",
+          "nameWithLocale": "{locale} 名稱",
+          "translateFrom": "從 {locale} 翻譯"
+        },
+        "messages": {
+          "createSuccess": "標籤創建成功",
+          "updateSuccess": "標籤更新成功",
+          "deleteSuccess": "標籤刪除成功",
+          "error": "發生錯誤"
+        },
+        "confirmDelete": {
+          "title": "刪除標籤",
+          "description": "您確定要刪除此標籤嗎？此操作無法撤銷。"
+        },
+        "confirm": "確認",
+        "save": "保存"
+      }
+    }
+  }
+}

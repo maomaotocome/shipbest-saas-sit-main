@@ -1,0 +1,354 @@
+{
+  "en": [
+    {
+      "label": "Image",
+      "items": [
+        {
+          "title": "Text to Image",
+          "description": "Convert text descriptions into beautiful images",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "Image to Image",
+          "description": "Generate new images based on reference images",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "Video",
+      "items": [
+        {
+          "title": "Text to Video",
+          "description": "Convert text descriptions into video content",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "Image to Video",
+          "description": "Convert images into dynamic videos",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "zh": [
+    {
+      "label": "图片类",
+      "items": [
+        {
+          "title": "文生图",
+          "description": "将文字描述转换为精美图片",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "图生图",
+          "description": "基于参考图片生成新的图片",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "视频类",
+      "items": [
+        {
+          "title": "文生视频",
+          "description": "将文字描述转换为视频内容",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "图生视频",
+          "description": "将图片转换为动态视频",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "zh-hk": [
+    {
+      "label": "圖片類",
+      "items": [
+        {
+          "title": "文生圖",
+          "description": "將文字描述轉換為精美圖片",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "圖生圖",
+          "description": "基於參考圖片生成新的圖片",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "視頻類",
+      "items": [
+        {
+          "title": "文生視頻",
+          "description": "將文字描述轉換為視頻內容",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "圖生視頻",
+          "description": "將圖片轉換為動態視頻",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "fr": [
+    {
+      "label": "Image",
+      "items": [
+        {
+          "title": "Texte vers Image",
+          "description": "Convertir les descriptions textuelles en belles images",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "Image vers Image",
+          "description": "Générer de nouvelles images basées sur des images de référence",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "Vidéo",
+      "items": [
+        {
+          "title": "Texte vers Vidéo",
+          "description": "Convertir les descriptions textuelles en contenu vidéo",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "Image vers Vidéo",
+          "description": "Convertir les images en vidéos dynamiques",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "de": [
+    {
+      "label": "Bild",
+      "items": [
+        {
+          "title": "Text zu Bild",
+          "description": "Textbeschreibungen in schöne Bilder umwandeln",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "Bild zu Bild",
+          "description": "Neue Bilder basierend auf Referenzbildern generieren",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "Video",
+      "items": [
+        {
+          "title": "Text zu Video",
+          "description": "Textbeschreibungen in Videoinhalte umwandeln",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "Bild zu Video",
+          "description": "Bilder in dynamische Videos umwandeln",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "it": [
+    {
+      "label": "Immagine",
+      "items": [
+        {
+          "title": "Testo a Immagine",
+          "description": "Convertire descrizioni testuali in bellissime immagini",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "Immagine a Immagine",
+          "description": "Generare nuove immagini basate su immagini di riferimento",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "Video",
+      "items": [
+        {
+          "title": "Testo a Video",
+          "description": "Convertire descrizioni testuali in contenuti video",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "Immagine a Video",
+          "description": "Convertire immagini in video dinamici",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "pt": [
+    {
+      "label": "Imagem",
+      "items": [
+        {
+          "title": "Texto para Imagem",
+          "description": "Converter descrições de texto em belas imagens",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "Imagem para Imagem",
+          "description": "Gerar novas imagens baseadas em imagens de referência",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "Vídeo",
+      "items": [
+        {
+          "title": "Texto para Vídeo",
+          "description": "Converter descrições de texto em conteúdo de vídeo",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "Imagem para Vídeo",
+          "description": "Converter imagens em vídeos dinâmicos",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "ru": [
+    {
+      "label": "Изображение",
+      "items": [
+        {
+          "title": "Текст в Изображение",
+          "description": "Преобразование текстовых описаний в красивые изображения",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "Изображение в Изображение",
+          "description": "Генерация новых изображений на основе эталонных изображений",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "Видео",
+      "items": [
+        {
+          "title": "Текст в Видео",
+          "description": "Преобразование текстовых описаний в видеоконтент",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "Изображение в Видео",
+          "description": "Преобразование изображений в динамические видео",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "ja": [
+    {
+      "label": "画像",
+      "items": [
+        {
+          "title": "テキストから画像",
+          "description": "テキストの説明を美しい画像に変換",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "画像から画像",
+          "description": "参照画像に基づいて新しい画像を生成",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "動画",
+      "items": [
+        {
+          "title": "テキストから動画",
+          "description": "テキストの説明を動画コンテンツに変換",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "画像から動画",
+          "description": "画像をダイナミックな動画に変換",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "ko": [
+    {
+      "label": "이미지",
+      "items": [
+        {
+          "title": "텍스트를 이미지로",
+          "description": "텍스트 설명을 아름다운 이미지로 변환",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "이미지를 이미지로",
+          "description": "참조 이미지를 기반으로 새로운 이미지 생성",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "비디오",
+      "items": [
+        {
+          "title": "텍스트를 비디오로",
+          "description": "텍스트 설명을 비디오 콘텐츠로 변환",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "이미지를 비디오로",
+          "description": "이미지를 동적 비디오로 변환",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ],
+  "es": [
+    {
+      "label": "Imagen",
+      "items": [
+        {
+          "title": "Texto a Imagen",
+          "description": "Convertir descripciones de texto en hermosas imágenes",
+          "href": "/image/text-to-image"
+        },
+        {
+          "title": "Imagen a Imagen",
+          "description": "Generar nuevas imágenes basadas en imágenes de referencia",
+          "href": "/image/image-to-image"
+        }
+      ]
+    },
+    {
+      "label": "Video",
+      "items": [
+        {
+          "title": "Texto a Video",
+          "description": "Convertir descripciones de texto en contenido de video",
+          "href": "/video/text-to-video"
+        },
+        {
+          "title": "Imagen a Video",
+          "description": "Convertir imágenes en videos dinámicos",
+          "href": "/video/image-to-video"
+        }
+      ]
+    }
+  ]
+}

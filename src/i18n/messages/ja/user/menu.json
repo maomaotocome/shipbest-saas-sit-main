@@ -1,0 +1,19 @@
+{
+  "user": {
+    "menu": {
+      "home": "ホーム",
+      "credits": "クレジット",
+      "notifications": "通知",
+      "invoice": "請求書",
+      "subscriptions": "サブスクリプション",
+      "purchases": "購入履歴",
+      "settings": "設定",
+      "teams": "チーム",
+      "affiliates": "アフィリエイト",
+      "library": "ライブラリ",
+      "profile": "プロフィール",
+      "account": "アカウント",
+      "billing": "請求"
+    }
+  }
+}

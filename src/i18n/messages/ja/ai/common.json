@@ -1,0 +1,116 @@
+{
+  "ai": {
+    "common": {
+      "prompt": "あなたのビジョンを説明してください",
+      "promptPlaceholder": "ここに説明を入力してください...",
+      "negativePrompt": "ネガティブプロンプト",
+      "negativePromptPlaceholder": "結果に表示したくないもの...",
+      "model": "モデル",
+      "models": "モデル",
+      "multiSelect": "複数選択",
+      "numImages": "画像数",
+      "numVideos": "動画数",
+      "aspectRatio": "アスペクト比",
+      "image": "画像",
+      "seed": "シード",
+      "taskList": "タスクリスト",
+      "loadMore": "さらに読み込む",
+      "loading": "読み込み中...",
+      "loadingMore": "さらに読み込み中...",
+      "errorLoading": "タスクの読み込みエラー",
+      "selectModel": "モデルを選択",
+      "selectModelTitle": "モデルを選択",
+      "demoGallery": "デモギャラリー",
+      "creditPreview": "クレジットプレビュー",
+      "totalCredits": "総クレジット",
+      "creditDetails": "クレジット詳細",
+      "quantity": "数量",
+      "calculating": "クレジット計算中...",
+      "fillParameters": "パラメータを入力してクレジット消費を確認",
+      "calculationError": "クレジット計算エラー",
+      "estimatedConsumption": "* これは推定クレジット消費です。タスクの失敗による部分的なクレジット返金により、実際の消費は異なる場合があります。",
+      "viewDetails": "詳細を表示",
+      "taskVisibility": "タスクの可視性",
+      "publicTask": "公開",
+      "privateTask": "非公開",
+      "publicTaskDescription": "公開タスクはすべてのユーザーに表示されます",
+      "privateTaskDescription": "非公開タスクはあなたにのみ表示されます",
+      "privateTaskProfileLink": "プロフィールでこのデフォルト設定を変更できます",
+      "openProfileSettings": "プロフィール設定を開く",
+      "loginRequired": "ログインが必要",
+      "premiumFeature": "プレミアム機能",
+      "login": "ログイン",
+      "getPermission": "アップグレード",
+      "advancedParameters": "高度なパラメータ",
+      "showAdvancedParameters": "高度なパラメータを表示",
+      "hideAdvancedParameters": "高度なパラメータを非表示",
+      "slideToDo": {
+        "readyText": "タスクを送信するにはスライド",
+        "completedText": "タスク送信完了",
+        "slidingAtEndingText": "送信を確認するにはリリース"
+      },
+      "tooltip": {
+        "id": "タスクID",
+        "type": "タイプ",
+        "status": "ステータス",
+        "createdAt": "作成日時",
+        "updatedAt": "更新日時",
+        "prompt": "プロンプト",
+        "negativePrompt": "ネガティブプロンプト",
+        "models": "モデル",
+        "numImages": "画像数",
+        "aspectRatio": "アスペクト比",
+        "images": "入力画像"
+      },
+      "actions": {
+        "downloadOriginal": "オリジナルをダウンロード",
+        "recreateTask": "同じ設定でタスクを作成",
+        "recreateTaskDialogTitle": "同じ設定でタスクを作成"
+      },
+      "fileInfo": {
+        "dimensions": "寸法",
+        "fileSize": "ファイルサイズ",
+        "resolution": "解像度",
+        "duration": "再生時間",
+        "seconds": "秒"
+      },
+      "boolean": {
+        "enabled": "有効",
+        "disabled": "無効",
+        "on": "オン",
+        "off": "オフ"
+      },
+      "validation": {
+        "loadingUserInfo": "ユーザー情報を読み込み中です。後でもう一度お試しください",
+        "userNotLoggedIn": "続行するにはログインしてください",
+        "creditCalculationFailed": "クレジット計算に失敗しました。パラメータが完全かどうか確認してください",
+        "cannotGetUserCredits": "ユーザークレジット情報を取得できません。後でもう一度お試しください",
+        "insufficientCredits": "クレジットが不足しています！{requiredCredits}クレジットが必要ですが、現在{availableCredits}クレジットしかありません",
+        "taskExecutionFailed": "タスクの実行に失敗しました",
+        "creditCalculationError": "クレジット計算に失敗しました"
+      },
+      "taskSubmittedSuccessfully": "タスクが正常に送信されました",
+      "pleaseUploadImageFirst": "まず画像をアップロードしてください",
+      "pleaseCompleteRequiredField": "必須フィールドを入力してください：{fieldName}",
+      "upload": {
+        "imageUploadFailed": "画像のアップロードに失敗しました。もう一度お試しください"
+      },
+      "aspectRatioSelector": {
+        "custom": "カスタム",
+        "customWidth": "幅",
+        "customHeight": "高さ",
+        "notSelected": "未選択"
+      },
+      "imageComparison": {
+        "title": "画像比較",
+        "instructions": "スライダーをドラッグするか、マウスを動かして画像を比較してください。",
+        "inputImage": "入力画像",
+        "generatedImage": "生成画像"
+      },
+      "imageActions": {
+        "preview": "画像をプレビュー",
+        "compare": "生成画像と比較"
+      }
+    }
+  }
+}

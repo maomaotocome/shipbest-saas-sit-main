@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "Gestão de Assinaturas",
+      "status": "Status",
+      "startDate": "Data de Início",
+      "price": "Preço",
+      "cancelAt": "Cancelar Em",
+      "cancelAtPeriodEnd": "Cancelar no final do período",
+      "subscriptionPeriods": "Períodos de Assinatura",
+      "periodNumber": "Número do Período",
+      "endDate": "Data de Fim",
+      "planName": "Nome do Plano",
+      "billingCycle": "Ciclo de Cobrança",
+      "currentPeriodEndDate": "Data de Fim do Período Atual",
+      "viewPeriods": "Ver Períodos",
+      "confirmCancelTitle": "Confirmar Cancelamento da Assinatura",
+      "confirmCancelDescription": "Tem certeza que deseja cancelar esta assinatura? A assinatura será cancelada no final do período de cobrança atual.",
+      "subscriptionDetails": "Detalhes da Assinatura",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "Ativo",
+          "CANCELLED": "Cancelado",
+          "EXPIRED": "Expirado",
+          "PRECANCEL": "Pré-cancelamento"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "Agendado",
+          "ACTIVE": "Ativo",
+          "COMPLETED": "Completado",
+          "CANCELLED": "Cancelado",
+          "FAILED": "Falhado"
+        }
+      }
+    }
+  }
+}

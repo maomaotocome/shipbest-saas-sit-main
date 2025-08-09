@@ -1,0 +1,288 @@
+{
+    "en": {
+        "title": "Powerful Features",
+        "description": "Discover what makes example.ai the perfect solution for your business",
+        "items": [
+            {
+                "title": "AI-Powered Automation",
+                "description": "Automate complex tasks and workflows with our advanced AI algorithms, saving time and reducing errors.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Real-time Analytics",
+                "description": "Get instant insights into your business performance with our comprehensive analytics dashboard.",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "Secure Integration",
+                "description": "Seamlessly integrate with your existing systems while maintaining enterprise-grade security.",
+                "icon": "Shield"
+            },
+            {
+                "title": "24/7 Support",
+                "description": "Access round-the-clock expert support to ensure your business runs smoothly.",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "zh": {
+        "title": "强大功能",
+        "description": "探索example.ai如何成为您企业的完美解决方案",
+        "items": [
+            {
+                "title": "AI驱动自动化",
+                "description": "通过我们先进的AI算法自动化复杂任务和工作流程，节省时间并减少错误。",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "实时分析",
+                "description": "通过我们全面的分析仪表板，即时洞察您的业务表现。",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "安全集成",
+                "description": "在保持企业级安全性的同时，无缝集成到您现有的系统中。",
+                "icon": "Shield"
+            },
+            {
+                "title": "全天候支持",
+                "description": "获取全天候专家支持，确保您的业务顺利运行。",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "zh-hk": {
+        "title": "強大功能",
+        "description": "探索example.ai如何成為您企業的完美解決方案",
+        "items": [
+            {
+                "title": "AI驅動自動化",
+                "description": "通過我們先進的AI算法自動化複雜任務和工作流程，節省時間並減少錯誤。",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "實時分析",
+                "description": "通過我們全面的分析儀表板，即時洞察您的業務表現。",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "安全集成",
+                "description": "在保持企業級安全性的同時，無縫集成到您現有的系統中。",
+                "icon": "Shield"
+            },
+            {
+                "title": "全天候支援",
+                "description": "獲取全天候專家支援，確保您的業務順利營運。",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "fr": {
+        "title": "Fonctionnalités Puissantes",
+        "description": "Découvrez ce qui fait de example.ai la solution parfaite pour votre entreprise",
+        "items": [
+            {
+                "title": "Automatisation Alimentée par l'IA",
+                "description": "Automatisez des tâches et des flux de travail complexes avec nos algorithmes IA avancés, économisant du temps et réduisant les erreurs.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Analyses en Temps Réel",
+                "description": "Obtenez des insights instantanés sur les performances de votre entreprise avec notre tableau de bord d'analyse complet.",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "Intégration Sécurisée",
+                "description": "Intégrez-vous sans problème avec vos systèmes existants tout en maintenant une sécurité de niveau entreprise.",
+                "icon": "Shield"
+            },
+            {
+                "title": "Support 24/7",
+                "description": "Accédez à un support d'expert 24h/24 pour assurer le bon fonctionnement de votre entreprise.",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "de": {
+        "title": "Leistungsstarke Funktionen",
+        "description": "Entdecken Sie, was example.ai zur perfekten Lösung für Ihr Unternehmen macht",
+        "items": [
+            {
+                "title": "KI-gestützte Automatisierung",
+                "description": "Automatisieren Sie komplexe Aufgaben und Workflows mit unseren fortschrittlichen KI-Algorithmen, sparen Sie Zeit und reduzieren Sie Fehler.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Echtzeit-Analysen",
+                "description": "Erhalten Sie sofortige Einblicke in Ihre Unternehmensleistung mit unserem umfassenden Analytics-Dashboard.",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "Sichere Integration",
+                "description": "Integrieren Sie nahtlos in Ihre bestehenden Systeme bei gleichzeitiger Aufrechterhaltung der Unternehmenssicherheit.",
+                "icon": "Shield"
+            },
+            {
+                "title": "24/7 Support",
+                "description": "Zugang zu rund um die Uhr verfügbarem Experten-Support, um sicherzustellen, dass Ihr Unternehmen reibungslos läuft.",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "it": {
+        "title": "Funzionalità Potenti",
+        "description": "Scopri cosa rende example.ai la soluzione perfetta per la tua azienda",
+        "items": [
+            {
+                "title": "Automazione Alimentata dall'IA",
+                "description": "Automatizza compiti complessi e flussi di lavoro con i nostri algoritmi IA avanzati, risparmiando tempo e riducendo gli errori.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Analisi in Tempo Reale",
+                "description": "Ottieni insights istantanei sulle prestazioni della tua azienda con la nostra dashboard di analisi completa.",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "Integrazione Sicura",
+                "description": "Integrasi senza problemi con i tuoi sistemi esistenti mantenendo la sicurezza di livello aziendale.",
+                "icon": "Shield"
+            },
+            {
+                "title": "Supporto 24/7",
+                "description": "Accedi al supporto esperto 24 ore su 24 per assicurarti che la tua azienda funzioni senza intoppi.",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "pt": {
+        "title": "Recursos Poderosos",
+        "description": "Descubra o que faz do example.ai a solução perfeita para seu negócio",
+        "items": [
+            {
+                "title": "Automação Alimentada por IA",
+                "description": "Automatize tarefas complexas e fluxos de trabalho com nossos algoritmos de IA avançados, economizando tempo e reduzindo erros.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Análises em Tempo Real",
+                "description": "Obtenha insights instantâneos sobre o desempenho do seu negócio com nosso dashboard de análise abrangente.",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "Integração Segura",
+                "description": "Integre-se perfeitamente com seus sistemas existentes mantendo segurança de nível empresarial.",
+                "icon": "Shield"
+            },
+            {
+                "title": "Suporte 24/7",
+                "description": "Acesse suporte especializado 24 horas por dia para garantir que seu negócio funcione sem problemas.",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "ru": {
+        "title": "Мощные Функции",
+        "description": "Узнайте, что делает example.ai идеальным решением для вашего бизнеса",
+        "items": [
+            {
+                "title": "Автоматизация на базе ИИ",
+                "description": "Автоматизируйте сложные задачи и рабочие процессы с помощью наших передовых алгоритмов ИИ, экономя время и сокращая ошибки.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Аналитика в реальном времени",
+                "description": "Получайте мгновенные сведения о производительности вашего бизнеса с помощью нашей комплексной панели аналитики.",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "Безопасная интеграция",
+                "description": "Бесшовно интегрируйтесь с вашими существующими системами, сохраняя корпоративную безопасность.",
+                "icon": "Shield"
+            },
+            {
+                "title": "Поддержка 24/7",
+                "description": "Получите доступ к круглосуточной экспертной поддержке, чтобы обеспечить бесперебойную работу вашего бизнеса.",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "ja": {
+        "title": "強力な機能",
+        "description": "example.aiがあなたのビジネスにとって完璧なソリューションである理由を発見してください",
+        "items": [
+            {
+                "title": "AI駆動の自動化",
+                "description": "高度なAIアルゴリズムで複雑なタスクとワークフローを自動化し、時間を節約してエラーを削減します。",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "リアルタイム分析",
+                "description": "包括的な分析ダッシュボードでビジネスパフォーマンスの即座の洞察を得ることができます。",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "セキュアな統合",
+                "description": "エンタープライズグレードのセキュリティを維持しながら、既存のシステムとシームレスに統合します。",
+                "icon": "Shield"
+            },
+            {
+                "title": "24時間サポート",
+                "description": "ビジネスがスムーズに運営されるよう、24時間体制の専門サポートにアクセスできます。",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "ko": {
+        "title": "강력한 기능",
+        "description": "example.ai가 귀하의 비즈니스를 위한 완벽한 솔루션인 이유를 발견하세요",
+        "items": [
+            {
+                "title": "AI 기반 자동화",
+                "description": "고급 AI 알고리즘으로 복잡한 작업과 워크플로우를 자동화하여 시간을 절약하고 오류를 줄입니다.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "실시간 분석",
+                "description": "포괄적인 분석 대시보드로 비즈니스 성과에 대한 즉각적인 통찰력을 얻으세요.",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "보안 통합",
+                "description": "엔터프라이즈급 보안을 유지하면서 기존 시스템과 원활하게 통합합니다.",
+                "icon": "Shield"
+            },
+            {
+                "title": "24시간 지원",
+                "description": "비즈니스가 원활하게 운영되도록 24시간 전문가 지원에 액세스하세요.",
+                "icon": "LifeRing"
+            }
+        ]
+    },
+    "es": {
+        "title": "Características Poderosas",
+        "description": "Descubre qué hace de example.ai la solución perfecta para tu negocio",
+        "items": [
+            {
+                "title": "Automatización Impulsada por IA",
+                "description": "Automatiza tareas complejas y flujos de trabajo con nuestros algoritmos de IA avanzados, ahorrando tiempo y reduciendo errores.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Análisis en Tiempo Real",
+                "description": "Obtén insights instantáneos sobre el rendimiento de tu negocio con nuestro panel de análisis integral.",
+                "icon": "ChartBar"
+            },
+            {
+                "title": "Integración Segura",
+                "description": "Integra perfectamente con tus sistemas existentes mientras mantienes seguridad de nivel empresarial.",
+                "icon": "Shield"
+            },
+            {
+                "title": "Soporte 24/7",
+                "description": "Accede a soporte experto las 24 horas del día para asegurar que tu negocio funcione sin problemas.",
+                "icon": "LifeRing"
+            }
+        ]
+    }
+} 

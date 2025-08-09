@@ -1,0 +1,72 @@
+{
+  "task": {
+    "preview": {
+      "taskInformation": "Информация о задаче",
+      "metadata": "Метаданные",
+      "parameters": "Параметры",
+      "fileInformation": "Информация о файле",
+      "labels": {
+        "id": "ID",
+        "type": "Тип",
+        "status": "Статус",
+        "created": "Создано"
+      }
+    },
+    "tooltip": {
+      "id": "ID задачи",
+      "type": "Тип",
+      "status": "Статус",
+      "createdAt": "Создано",
+      "updatedAt": "Обновлено",
+      "prompt": "Запрос",
+      "negativePrompt": "Негативный запрос",
+      "models": "Модели",
+      "images": "Изображения",
+      "subTasks": "Подзадачи",
+      "subTaskId": "ID подзадачи",
+      "subTaskStatus": "Статус подзадачи"
+    },
+    "taskType": {
+      "model-direct-invocation": "Прямой вызов модели",
+      "template": "Шаблон",
+      "other": "Другое"
+    },
+    "status": {
+      "pending": "В ожидании",
+      "processing": "В обработке",
+      "completed": "Завершено",
+      "failed": "Ошибка",
+      "cancelled": "Отменено",
+      "aborted": "Прервано",
+      "partially_completed": "Частично завершено"
+    },
+    "metadata": {
+      "true": "Да",
+      "false": "Нет",
+      "labels": {
+        "templateType": "Тип шаблона",
+        "modelCategory": "Категория модели",
+        "model": "Модель",
+        "models": "Модели",
+        "isPublic": "Публичный"
+      }
+    },
+    "templateType": {
+      "stylized-anime-image": "Стилизованное аниме-изображение",
+      "realistic-image": "Реалистичное изображение",
+      "stylized-image": "Стилизованное изображение"
+    },
+    "modelCategory": {
+      "text-to-image": "Текст в изображение",
+      "image-to-image": "Изображение в изображение",
+      "text-to-video": "Текст в видео",
+      "image-to-video": "Изображение в видео",
+      "text-to-music": "Текст в музыку"
+    },
+    "recall": {
+      "tooltip": "Отозвать задачу"
+    },
+    "public": "Публичный",
+    "private": "Частный"
+  }
+}

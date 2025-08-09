@@ -1,0 +1,27 @@
+enum AffiliateOrderStatus {
+    PENDING
+    PAID
+    INVALID
+}
+
+model AffiliateOrder {
+    id            String      @id @default(uuid())
+    billingUserId String
+    billingUser   BillingUser @relation("affiliateOrder", fields: [billingUserId], references: [id], onDelete: Cascade)
+
+    invitedUserId String
+    invitedUser   BillingUser @relation("invitedAffiliateOrder", fields: [invitedUserId], references: [id], onDelete: Cascade)
+
+    rewardAmount  Int
+    rewardPercent Int
+
+    invoiceId String  @unique
+    invoice   Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+
+    status AffiliateOrderStatus @default(PENDING)
+
+    @@index([invoiceId])
+    @@index([billingUserId])
+    @@index([invitedUserId])
+    @@map("billing_affiliate_orders")
+}

@@ -1,0 +1,13 @@
+{
+  "user": {
+    "profile": {
+      "privacy": {
+        "title": "Paramètres de confidentialité",
+        "publicDefault": "Rendre mes tâches publiques par défaut",
+        "publicDefaultDescription": "Lorsque activé, votre contenu généré par IA sera public par défaut. Vous pouvez toujours modifier cela pour des tâches individuelles.",
+        "success": "Paramètres de confidentialité mis à jour avec succès",
+        "openProfileInNewTab": "Ouvrir les paramètres de profil dans un nouvel onglet"
+      }
+    }
+  }
+}

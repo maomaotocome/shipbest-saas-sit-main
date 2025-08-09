@@ -1,0 +1,19 @@
+{
+  "user": {
+    "menu": {
+      "home": "首页",
+      "credits": "积分",
+      "notifications": "通知",
+      "invoice": "发票",
+      "subscriptions": "订阅",
+      "purchases": "购买记录",
+      "settings": "设置",
+      "teams": "团队",
+      "affiliates": "联盟",
+      "library": "媒体库",
+      "profile": "个人资料",
+      "account": "账户",
+      "billing": "账单"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "Total",
+      "pending": "Pending",
+      "uploading": "Uploading",
+      "success": "Success",
+      "failed": "Failed",
+      "startUpload": "Start Upload",
+      "cancelUpload": "Cancel Upload",
+      "clear": "Clear",
+      "clearing": "Clearing..."
+    },
+    "fileLibrary": {
+      "title": "Select File",
+      "searchPlaceholder": "Search filename...",
+      "tabs": {
+        "all": "All",
+        "image": "Images",
+        "video": "Videos",
+        "audio": "Audio",
+        "document": "Documents",
+        "other": "Others"
+      },
+      "selectedCount": "{count} files selected",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "fileSize": "{size}KB"
+    },
+    "replaceDialog": {
+      "title": "Replace File",
+      "description": "Do you want to replace the current file `{current}` with the new file `{new}`?",
+      "cancel": "Cancel",
+      "confirm": "Replace",
+      "currentFile": "Current File",
+      "newFile": "New File",
+      "size": "Size: {size}KB",
+      "type": "Type: {type}"
+    },
+    "filePreview": {
+      "uploadFailed": "Upload Failed"
+    },
+    "fileActions": {
+      "delete": "Delete",
+      "selectFromLibrary": "Select from Library",
+      "upload": "Upload",
+      "deleting": "Deleting..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "Upload or Select File"
+    },
+    "addButton": {
+      "addFile": "Add File"
+    },
+    "messages": {
+      "singleFileOnly": "Only one file can be selected",
+      "uploadComplete": "All uploads completed",
+      "uploadFailed": "Some files failed to upload",
+      "fetchError": "Failed to fetch file list",
+      "dragSingleFile": "Only one file can be dragged",
+      "unsupportedType": "Unsupported file type",
+      "dropToReplace": "Drop to replace file",
+      "deleteFailed": "Delete failed",
+      "deleteError": "Delete error",
+      "deleteSuccess": "Delete success",
+      "fileSizeExceeded": "File size exceeded",
+      "clearAllSuccess": "All files cleared successfully",
+      "clearAllFailed": "Failed to clear some files"
+    }
+  }
+}

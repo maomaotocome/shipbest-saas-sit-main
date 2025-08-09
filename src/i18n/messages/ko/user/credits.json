@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "크레딧",
+      "availableCredits": "사용 가능한 크레딧",
+      "availableAmount": "사용 가능한 금액",
+      "pendingCredits": "대기 중인 크레딧",
+      "creditGrants": "크레딧 부여",
+      "transactions": "거래 내역",
+      "amount": "금액",
+      "refundAmount": "환불 금액",
+      "remainingAmount": "잔여 금액",
+      "grantDate": "부여일자",
+      "validFrom": "유효 시작일",
+      "validUntil": "유효 종료일",
+      "source": "출처",
+      "actions": "작업",
+      "viewDetails": "상세 보기",
+      "grantDetails": "부여 상세",
+      "transactionDetails": "거래 상세",
+      "date": "날짜",
+      "type": "유형",
+      "status": "상태",
+      "description": "설명",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "구독 주기적",
+          "PLAN_INITIAL": "플랜 초기",
+          "ONE_TIME_PURCHASE": "일회성 구매",
+          "PROMOTION": "프로모션",
+          "MANUAL": "수동",
+          "NEW_USER_AWARD": "신규 사용자 보상",
+          "DAILY_LOGIN_AWARD": "일일 로그인 보상",
+          "INVITE_AWARD": "초대 보상"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "대기 중",
+          "CONFIRMED": "확인됨",
+          "CANCELLED": "취소됨",
+          "GRANTED": "부여됨"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "차감",
+          "REFUND": "환불",
+          "RESERVE": "예약",
+          "GRANT": "부여"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "playground": {
+    "new": "New",
+    "history": "History",
+    "prompt": {
+      "placeholder": "How can I help you today?"
+    },
+    "chat": {
+      "input": {
+        "placeholder": "Type your message...",
+        "send": "Send",
+        "enterToSend": "Enter to send",
+        "shiftEnterForNewline": "Shift + Enter for new line"
+      },
+      "noMessages": "What can I do for you today?"
+    }
+  }
+}

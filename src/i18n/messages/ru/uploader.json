@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "Всего",
+      "pending": "Ожидает",
+      "uploading": "Загружается",
+      "success": "Успешно",
+      "failed": "Ошибка",
+      "startUpload": "Начать загрузку",
+      "cancelUpload": "Отменить загрузку",
+      "clear": "Очистить",
+      "clearing": "Очистка..."
+    },
+    "fileLibrary": {
+      "title": "Выберите файл",
+      "searchPlaceholder": "Поиск по имени файла...",
+      "tabs": {
+        "all": "Все",
+        "image": "Изображения",
+        "video": "Видео",
+        "audio": "Аудио",
+        "document": "Документы",
+        "other": "Прочее"
+      },
+      "selectedCount": "Выбрано файлов: {count}",
+      "confirm": "Подтвердить",
+      "cancel": "Отмена",
+      "fileSize": "{size}КБ"
+    },
+    "replaceDialog": {
+      "title": "Заменить файл",
+      "description": "Хотите ли вы заменить текущий файл `{current}` новым файлом `{new}`?",
+      "cancel": "Отмена",
+      "confirm": "Заменить",
+      "currentFile": "Текущий файл",
+      "newFile": "Новый файл",
+      "size": "Размер: {size}КБ",
+      "type": "Тип: {type}"
+    },
+    "filePreview": {
+      "uploadFailed": "Ошибка загрузки"
+    },
+    "fileActions": {
+      "delete": "Удалить",
+      "selectFromLibrary": "Выбрать из библиотеки",
+      "upload": "Загрузить",
+      "deleting": "Удаление..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "Загрузите или выберите файл"
+    },
+    "addButton": {
+      "addFile": "Добавить файл"
+    },
+    "messages": {
+      "singleFileOnly": "Можно выбрать только один файл",
+      "uploadComplete": "Все загрузки завершены",
+      "uploadFailed": "Некоторые файлы не удалось загрузить",
+      "fetchError": "Не удалось получить список файлов",
+      "dragSingleFile": "Можно перетащить только один файл",
+      "unsupportedType": "Неподдерживаемый тип файла",
+      "dropToReplace": "Отпустите для замены файла",
+      "deleteFailed": "Удаление не удалось",
+      "deleteError": "Ошибка удаления",
+      "deleteSuccess": "Успешное удаление",
+      "fileSizeExceeded": "Превышен размер файла",
+      "clearAllSuccess": "Все файлы успешно очищены",
+      "clearAllFailed": "Не удалось очистить некоторые файлы"
+    }
+  }
+}

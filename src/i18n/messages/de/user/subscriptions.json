@@ -1,0 +1,39 @@
+{
+  "user": {
+    "subscriptions": {
+      "title": "Abonnement-Verwaltung",
+      "status": "Status",
+      "startDate": "Startdatum",
+      "price": "Preis",
+      "cancelAt": "Kündigen Am",
+      "cancelAtPeriodEnd": "Am Periodenende kündigen",
+      "subscriptionPeriods": "Abonnement-Perioden",
+      "periodNumber": "Periodennummer",
+      "endDate": "Enddatum",
+      "planName": "Plan-Name",
+      "billingCycle": "Abrechnungszyklus",
+      "currentPeriodEndDate": "Enddatum der Aktuellen Periode",
+      "viewPeriods": "Perioden Anzeigen",
+      "confirmCancelTitle": "Abonnement-Kündigung Bestätigen",
+      "confirmCancelDescription": "Sind Sie sicher, dass Sie dieses Abonnement kündigen möchten? Das Abonnement wird am Ende des aktuellen Abrechnungszeitraums gekündigt.",
+      "subscriptionDetails": "Abonnement-Details",
+      "cancel": "Abbrechen",
+      "confirm": "Bestätigen",
+      "enums": {
+        "subscriptionStatus": {
+          "ACTIVE": "Aktiv",
+          "CANCELLED": "Gekündigt",
+          "EXPIRED": "Abgelaufen",
+          "PRECANCEL": "Vorkündigung"
+        },
+        "subscriptionPeriodStatus": {
+          "SCHEDULED": "Geplant",
+          "ACTIVE": "Aktiv",
+          "COMPLETED": "Abgeschlossen",
+          "CANCELLED": "Gekündigt",
+          "FAILED": "Fehlgeschlagen"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "구매 기록",
+      "planName": "플랜명",
+      "billingCycle": "청구 주기",
+      "purchaseStatus": "구매 상태",
+      "invoiceStatus": "청구서 상태",
+      "amount": "금액",
+      "purchaseDate": "구매일",
+      "orderId": "주문 ID",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "완료됨",
+          "REFUNDED": "환불됨"
+        },
+        "invoiceStatus": {
+          "DRAFT": "초안",
+          "OPEN": "미결제",
+          "PAID": "결제완료",
+          "VOID": "무효",
+          "UNCOLLECTIBLE": "회수불가"
+        }
+      }
+    }
+  }
+}

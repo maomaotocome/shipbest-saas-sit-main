@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "Planos",
+        "general": "Geral",
+        "translations": "Traduções",
+        "features": "Recursos",
+        "periods": "Períodos",
+        "editPlan": "Editar Plano",
+        "createNewPlan": "Criar Novo Plano",
+        "saveError": "Falha ao salvar o plano",
+        "updateSuccess": "Plano atualizado com sucesso",
+        "createSuccess": "Plano criado com sucesso",
+        "syncSuccess": "Plano sincronizado com sucesso",
+        "saving": "Salvando...",
+        "update": "Atualizar",
+        "create": "Criar",
+        "cancel": "Cancelar",
+        "createError": "Falha ao criar o plano",
+        "updateError": "Falha ao atualizar o plano",
+        "syncError": "Falha ao sincronizar o plano",
+        "generalTab": {
+          "code": "Código",
+          "codePlaceholder": "ex. BASIC, PRO, ENTERPRISE",
+          "status": "Status",
+          "statusPlaceholder": "Selecionar status",
+          "billingScheme": "Esquema de Cobrança",
+          "billingSchemePlaceholder": "Selecionar esquema de cobrança",
+          "isPopular": "É Popular",
+          "sortOrder": "Ordem de Classificação",
+          "validFrom": "Válido De",
+          "validUntil": "Válido Até (opcional)",
+          "PlanStatus": {
+            "active": "Ativo",
+            "deprecated": "Obsoleto",
+            "archived": "Arquivado"
+          },
+          "BillingScheme": {
+            "creditBased": "Baseado em Créditos",
+            "timeBased": "Baseado em Tempo",
+            "hybrid": "Híbrido"
+          }
+        },
+        "featuresTab": {
+          "feature": "Recurso",
+          "included": "Incluído",
+          "primary": "Primário",
+          "limit": "Limite",
+          "limitPlaceholder": "Deixe em branco para sem limite",
+          "notApplicable": "Não Aplicável",
+          "noAvailableFeatures": "Nenhum recurso disponível",
+          "referenced": "Referenciado"
+        },
+        "periodsTab": {
+          "noPeriods": "Nenhum período de cobrança. Por favor, adicione pelo menos um período.",
+          "actions": "Ações",
+          "period": "Período",
+          "resetPeriodType": "Tipo de Período de Reinicialização",
+          "resetPeriodValue": "Valor do Período de Reinicialização",
+          "price": "Preço",
+          "selectPeriodType": "Selecionar tipo de período",
+          "periodType": "Tipo de Período",
+          "periodValue": "Valor do Período",
+          "addPeriod": "Adicionar Período",
+          "code": "Código",
+          "credits": "Créditos"
+        },
+        "translationsTab": {
+          "noTranslations": "Nenhuma tradução. Por favor, adicione pelo menos uma tradução.",
+          "selectLanguage": "Selecionar idioma",
+          "addTranslation": "Adicionar Tradução",
+          "language": "Idioma",
+          "name": "Nome",
+          "subtitle": "Subtítulo",
+          "description": "Descrição",
+          "actions": "Ações",
+          "planName": "Nome do plano",
+          "planSubtitle": "Subtítulo do plano",
+          "planDescription": "Descrição do plano"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "admin": {
+    "billing": {
+      "invoice": {
+        "page": {
+          "title": "Управление счетами",
+          "filters": {
+            "emailLabel": "Email клиента",
+            "emailPlaceholder": "Поиск по email...",
+            "dateRangeLabel": "Диапазон дат выставления",
+            "searchButton": "Найти"
+          }
+        },
+        "columns": {
+          "invoiceNumber": "Номер счета",
+          "customerEmail": "Email клиента",
+          "customerName": "Имя клиента",
+          "amount": "Сумма",
+          "status": "Статус",
+          "type": "Тип",
+          "planName": "Название плана",
+          "periodNumber": "Период",
+          "issueDate": "Дата выставления",
+          "paidDate": "Дата оплаты",
+          "actions": "Действия",
+          "dueDate": "Срок оплаты"
+        },
+        "status": {
+          "paid": "Оплачен",
+          "open": "Открыт",
+          "void": "Аннулирован",
+          "uncollectible": "Безнадёжный долг",
+          "unknown": "Неизвестен"
+        },
+        "types": {
+          "subscription": "Подписка",
+          "purchase": "Покупка",
+          "unknown": "Н/Д"
+        },
+        "downloadPdf": "Скачать PDF",
+        "viewOnline": "Посмотреть онлайн"
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "Benutzerverwaltung",
+      "search": "Suchen",
+      "form": {
+        "name": "Name",
+        "email": "E-Mail"
+      },
+      "searchNamePlaceholder": "Nach Name suchen...",
+      "searchEmailPlaceholder": "Nach E-Mail suchen...",
+      "columns": {
+        "name": "Name",
+        "email": "E-Mail",
+        "role": "Rolle",
+        "verified": "Verifiziert",
+        "not_available": "Nicht verfügbar",
+        "actions": "Aktionen",
+        "view_notifications": "Benachrichtigungen anzeigen",
+        "view_credits": "Guthaben anzeigen",
+        "view_billing_history": "Abrechnungsverlauf anzeigen"
+      },
+      "verification": {
+        "yes": "Ja",
+        "no": "Nein"
+      },
+      "roles": {
+        "ADMIN": "Administrator",
+        "USER": "Regulärer Benutzer"
+      },
+      "role_change": {
+        "error_self": "Sie können Ihre eigene Rolle nicht ändern",
+        "success": "Rolle aktualisiert zu {role}",
+        "confirm_to_admin": {
+          "title": "Zum Administrator befördern?",
+          "message": "Warnung: Dies gewährt diesem Benutzer volle administrative Rechte. Diese Aktion sollte mit Vorsicht durchgeführt werden.",
+          "cancel": "Abbrechen",
+          "confirm": "Ja, Administratorzugriff gewähren"
+        },
+        "confirm_to_user": {
+          "title": "Zum regulären Benutzer herabstufen?",
+          "message": "Dies entfernt alle administrativen Rechte dieses Benutzers.",
+          "cancel": "Abbrechen",
+          "confirm": "Ja, Administratorzugriff entfernen"
+        }
+      },
+      "common": {
+        "created_at": "Erstellt am",
+        "source": "Quelle",
+        "validity": "Gültigkeit",
+        "permanent": "Dauerhaft",
+        "transaction_time": "Transaktionszeit",
+        "transaction_type": "Transaktionstyp",
+        "amount_consumed": "Verbrauchter Betrag",
+        "status": "Status",
+        "description": "Beschreibung",
+        "no_description": "Keine Beschreibung",
+        "loading": "Laden...",
+        "error": "Fehler",
+        "no_data": "Keine Daten",
+        "actions": "Aktionen",
+        "transaction_id": "Transaktions-ID",
+        "clear": "Löschen"
+      },
+      "sources": {
+        "PURCHASE": "Kauf",
+        "ONE_TIME_PURCHASE": "Einmaliger Kauf",
+        "SYSTEM_GRANT": "Systemgewährung",
+        "SUBSCRIPTION_PERIODIC": "Periodische Abonnementgewährung",
+        "ADMIN_GRANT": "Admin-Gewährung",
+        "PROMOTION": "Aktion",
+        "REFUND": "Rückerstattung",
+        "OTHER": "Andere"
+      },
+      "transaction_types": {
+        "DEDUCT": "Abziehen",
+        "GRANT": "Gewähren",
+        "REFUND": "Rückerstatten",
+        "ADJUSTMENT": "Anpassung"
+      },
+      "transaction_statuses": {
+        "PENDING": "Ausstehend",
+        "CONFIRMED": "Bestätigt",
+        "CANCELLED": "Abgebrochen",
+        "GRANTED": "Gewährt"
+      },
+      "summary": {
+        "stats_title": "Guthabenstatistik",
+        "stats": {
+          "total": "Gesamtguthaben",
+          "available": "Verfügbares Guthaben",
+          "reserved": "Reserviertes Guthaben",
+          "used": "Verbrauchtes Guthaben",
+          "expiring": "Ablaufendes Guthaben (innerhalb von 30 Tagen)"
+        },
+        "expiring_alert": {
+          "title": "Guthaben läuft bald ab",
+          "description": "{count, plural, one {# Guthabenpunkt} other {# Guthabenpunkte}} laufen innerhalb von 30 Tagen ab"
+        },
+        "recent_grants": {
+          "title": "Kürzlich erhaltene Guthabengewährungen (Max. 5)",
+          "columns": {
+            "amount": "Betrag"
+          },
+          "empty": "Keine aktuellen Gewährungsdatensätze"
+        },
+        "recent_transactions": {
+          "title": "Aktuelle Verbrauchsdatensätze (Max. 5)",
+          "empty": "Keine aktuellen Verbrauchsdatensätze",
+          "disclaimer": "Hinweis: Hier angezeigte aktuelle Verbrauchsdatensätze können andere Benutzer einschließen. Eine präzise Filterung erfordert eine Backend-Optimierung."
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "Guthabenquelle",
+          "total": "Gesamtguthaben",
+          "remaining_total": "Verbleibend/Gesamt",
+          "used": "Verbrauchtes Guthaben"
+        },
+        "actions": {
+          "view_usage_detail": "Nutzungsdetails"
+        },
+        "filters": {
+          "source_label": "Guthabenquelle",
+          "all_sources": "Alle Quellen",
+          "valid_only_label": "Nur gültige anzeigen"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "Details anzeigen"
+        },
+        "filters": {
+          "date_range_label": "Datumsbereich",
+          "all_types": "Alle Typen",
+          "all_statuses": "Alle Status"
+        }
+      },
+      "grant_detail": {
+        "back_button": "Zurück zur Guthabengewährungsliste",
+        "error_load": "Guthabengewährungsdetails konnten nicht geladen werden.",
+        "title": "Guthabengewährungsdetails (ID: {shortId}...)",
+        "source": "Quelle",
+        "created_at": "Erhalten am",
+        "total_credits": "Gesamtguthaben",
+        "remaining_credits": "Verbleibendes Guthaben",
+        "available_credits": "Verfügbares Guthaben",
+        "reserved_credits": "Reserviertes Guthaben",
+        "used_credits": "Verbrauchtes Guthaben",
+        "validity": "Gültigkeit",
+        "usage": {
+          "title": "Nutzungsdatensätze",
+          "description": "Alle Nutzungsdatensätze für diese Guthabengewährung",
+          "empty": "Diese Guthabengewährung wurde noch nicht verwendet",
+          "columns": {
+            "transaction_time": "Transaktionszeit",
+            "transaction_id": "Transaktions-ID",
+            "transaction_type": "Transaktionstyp",
+            "amount_used": "Verwendeter Betrag",
+            "balance_after": "Saldo danach",
+            "transaction_description": "Transaktionsbeschreibung"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "Zurück zur Transaktionsliste",
+        "error_load": "Transaktionsdetails konnten nicht geladen werden.",
+        "title": "Transaktionsdetails",
+        "id": "Transaktions-ID",
+        "transaction_time": "Transaktionszeit",
+        "total_consumed": "Gesamt verbrauchtes Guthaben",
+        "transaction_type": "Transaktionstyp",
+        "status": "Status",
+        "description": "Beschreibung",
+        "expire_at": "Ablaufzeit",
+        "confirmed_at": "Bestätigungszeit",
+        "cancelled_at": "Stornierungszeit",
+        "metadata": "Metadaten",
+        "usage_detail": {
+          "title": "Guthabennutzungsdetails",
+          "description": "Details der durch diese Transaktion verbrauchten Guthabengewährungen",
+          "empty": "Keine Guthabennutzungsdetails",
+          "columns": {
+            "grant_id": "Gewährungs-ID",
+            "source": "Guthabenquelle",
+            "amount": "Verbrauchter Betrag",
+            "balance_after": "Saldo danach (Detail)"
+          }
+        }
+      },
+      "modal": {
+        "title": "Guthabendetails von {userName}",
+        "title_no_name": "Guthabendetails für Benutzer {userId}",
+        "tabs": {
+          "summary": "Zusammenfassung",
+          "grants": "Gewährungen",
+          "transactions": "Transaktionen"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "Benachrichtigungen von {name}",
+        "modal_title_fallback": "Benutzerbenachrichtigungen",
+        "tabs": {
+          "system": "Systembenachrichtigungen",
+          "personalized": "Personalisierte Benachrichtigungen"
+        },
+        "columns": {
+          "title": "Titel",
+          "no_title": "Kein Titel",
+          "content": "Inhalt",
+          "no_content": "Kein Inhalt",
+          "status": "Status",
+          "time": "Zeit"
+        },
+        "status": {
+          "READ": "Gelesen",
+          "UNREAD": "Ungelesen"
+        },
+        "error_loading": "Benachrichtigungen konnten nicht geladen werden",
+        "no_messages": "Keine Benachrichtigungsnachrichten"
+      },
+      "billing_history": {
+        "title": "Abrechnungsverlauf - {name}",
+        "description": "Abonnement- und Kaufverlauf für {name} anzeigen.",
+        "close_button": "Schließen",
+        "unknown_error": "Unbekannter Fehler",
+        "type_subscription": "Abonnement",
+        "type_purchase": "Kauf",
+        "table": {
+          "header_type": "Typ",
+          "header_plan": "Plan/Artikel",
+          "header_amount": "Betrag",
+          "header_status": "Status",
+          "header_date": "Datum",
+          "header_provider": "Anbieter",
+          "loading": "Laden...",
+          "error": "Laden fehlgeschlagen: {message}",
+          "empty": "Kein Abrechnungsverlauf gefunden"
+        },
+        "pagination": {
+          "total_records": "Gesamt {count, plural, one {# Datensatz} other {# Datensätze}}",
+          "previous": "Zurück",
+          "next": "Weiter",
+          "page_info": "Seite {page} von {totalPages}"
+        }
+      }
+    }
+  }
+}

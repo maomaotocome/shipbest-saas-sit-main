@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "blog": "Blog",
+      "pricing": "Pricing",
+      "playground": "Playground",
+      "products": "Products",
+      "models": "Models",
+      "explore": "Explore",
+      "studio": "Studio"
+    },
+    "userMenu": {
+      "accountSettings": "Account Settings",
+      "adminDashboard": "Admin Dashboard",
+      "signOut": "Sign Out",
+      "signIn": "Sign In",
+      "welcome": "Welcome!",
+      "signInToAccessAccount": "Sign in to access your account",
+      "signInWithGoogle": "Sign in with Google",
+      "signInWithPassword": "Sign in with Password",
+      "signUp": "Sign Up",
+      "enableAwardNotifications": "Award Notification"
+    }
+  }
+}

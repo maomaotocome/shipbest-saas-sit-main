@@ -1,0 +1,16 @@
+{
+  "common": {
+    "logo": "Logo",
+    "copySuccess": "Link copiato negli appunti",
+    "copyError": "Errore nella copia del link",
+    "errors": {
+      "videoPlaybackFailed": "Riproduzione video fallita",
+      "imageLoadFailed": "Caricamento immagine fallito",
+      "videoLoadFailed": "Caricamento video fallito"
+    },
+    "navigation": {
+      "closeMenu": "Chiudi menu",
+      "openMenu": "Apri menu"
+    }
+  }
+}

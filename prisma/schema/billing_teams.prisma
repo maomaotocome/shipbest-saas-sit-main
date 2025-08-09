@@ -1,0 +1,31 @@
+model Team {
+  id      String      @id @default(cuid())
+  name    String
+  ownerId String
+  owner   BillingUser @relation(fields: [ownerId], references: [id])
+
+  subscriptions Subscription[]
+  purchases     Purchase[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  members TeamMember[]
+
+  @@index([ownerId])
+  @@map("billing_teams")
+}
+
+model TeamMember {
+  id        String      @id @default(cuid())
+  teamId    String
+  team      Team        @relation(fields: [teamId], references: [id])
+  userId    String
+  user      BillingUser @relation(fields: [userId], references: [id])
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+
+  @@index([teamId])
+  @@index([userId])
+  @@map("billing_team_members")
+}

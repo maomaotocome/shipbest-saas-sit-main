@@ -1,0 +1,23 @@
+{
+  "playground": {
+    "new": "새로운 대화",
+    "history": "대화 기록",
+    "prompt": {
+      "placeholder": "오늘 도움이 될 수 있는 것은 무엇인가요?"
+    },
+    "chat": {
+      "input": {
+        "placeholder": "메시지를 입력하세요...",
+        "send": "전송",
+        "enterToSend": "전송",
+        "shiftEnterForNewline": "Shift + Enter 새 줄"
+      },
+      "noMessages": "오늘 도움이 될 수 있는 것은 무엇인가요?"
+    },
+    "history": {
+      "title": "대화 기록",
+      "searchPlaceholder": "대화 기록 검색...",
+      "loading": "로딩 중..."
+    }
+  }
+}

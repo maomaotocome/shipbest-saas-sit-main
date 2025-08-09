@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "blog": {
+      "posts": {
+        "title": "ブログ記事",
+        "addPost": "記事を追加",
+        "editPost": "記事を編集",
+        "createPost": "記事を作成",
+        "cancel": "キャンセル",
+        "update": "更新",
+        "create": "作成",
+        "search": "検索",
+        "searchTitlePlaceholder": "タイトルを検索...",
+        "searchAuthorPlaceholder": "作者を検索...",
+        "columns": {
+          "slug": "别名",
+          "titles": "タイトル",
+          "category": "カテゴリー",
+          "tags": "タグ",
+          "author": "作者",
+          "status": "ステータス"
+        },
+        "status": {
+          "published": "公開済み",
+          "draft": "下書き"
+        },
+        "form": {
+          "author": "作者",
+          "slug": "别名",
+          "coverImage": "封面图片链接",
+          "category": "カテゴリー",
+          "selectCategory": "カテゴリーを選択",
+          "tags": "タグ",
+          "title": "タイトル",
+          "content": "内容",
+          "metadata": "メタデータ",
+          "translateFrom": "翻訳元の {locale}",
+          "selectedTags": "選択されたタグ",
+          "selectTags": "タグを選択",
+          "slugRequired": "スラッグは必須です",
+          "titlePlaceholder": "タイトルを入力",
+          "contentPlaceholder": "内容を入力",
+          "saving": "保存中...",
+          "atLeastOneTranslation": "少なくとも一つの言語でタイトルと内容を入力してください",
+          "slugEmptyError": "スラッグを入力してください"
+        },
+        "messages": {
+          "createSuccess": "記事の作成に成功しました",
+          "updateSuccess": "記事の更新に成功しました",
+          "deleteSuccess": "記事の削除に成功しました",
+          "saveFailed": "保存に失敗しました: {message}",
+          "deleteFailed": "削除に失敗しました: {message}",
+          "unknownError": "記事の保存中に不明なエラーが発生しました",
+          "unknownDeleteError": "記事の削除中に不明なエラーが発生しました",
+          "noAuthorsFound": "ブログ作者が見つかりません。まずブログ作者を作成してください"
+        }
+      },
+      "categories": {
+        "title": "ブログカテゴリー",
+        "addCategory": "カテゴリーを追加",
+        "editCategory": "カテゴリーを編集",
+        "createCategory": "カテゴリーを作成",
+        "cancel": "キャンセル",
+        "update": "更新",
+        "create": "作成",
+        "search": "検索",
+        "searchSlugPlaceholder": "スラッグで検索...",
+        "searchNamePlaceholder": "名前で検索...",
+        "form": {
+          "slug": "スラッグ",
+          "slugPlaceholder": "カテゴリースラッグを入力",
+          "name": "{locale} 名前",
+          "namePlaceholder": "カテゴリー名を入力",
+          "translateFrom": "翻訳元の {locale}"
+        },
+        "messages": {
+          "createSuccess": "カテゴリーの作成に成功しました",
+          "updateSuccess": "カテゴリーの更新に成功しました",
+          "deleteSuccess": "カテゴリーの削除に成功しました",
+          "error": "エラーが発生しました"
+        },
+        "confirmDelete": {
+          "title": "カテゴリーを削除",
+          "description": "このカテゴリーを削除してもよろしいですか？この操作は元に戻せません。"
+        },
+        "confirm": "確認",
+        "save": "保存"
+      },
+      "tags": {
+        "title": "ブログタグ",
+        "addTag": "タグを追加",
+        "editTag": "タグを編集",
+        "createTag": "タグを作成",
+        "cancel": "キャンセル",
+        "update": "更新",
+        "create": "作成",
+        "search": "検索",
+        "searchSlugPlaceholder": "スラッグで検索...",
+        "searchNamePlaceholder": "名前で検索...",
+        "form": {
+          "slug": "スラッグ",
+          "name": "名前",
+          "nameWithLocale": "{locale} 名前",
+          "translateFrom": "翻訳元の {locale}"
+        },
+        "messages": {
+          "createSuccess": "タグの作成に成功しました",
+          "updateSuccess": "タグの更新に成功しました",
+          "deleteSuccess": "タグの削除に成功しました",
+          "error": "エラーが発生しました"
+        },
+        "confirmDelete": {
+          "title": "タグを削除",
+          "description": "このタグを削除してもよろしいですか？この操作は元に戻せません。"
+        },
+        "confirm": "確認",
+        "save": "保存"
+      }
+    }
+  }
+}

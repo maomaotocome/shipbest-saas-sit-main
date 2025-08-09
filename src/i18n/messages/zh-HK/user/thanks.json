@@ -1,0 +1,22 @@
+{
+  "user": {
+    "thanks": {
+      "title": "感謝您的購買",
+      "loading": "確認您的訂單狀態...",
+      "success": {
+        "purchaseTitle": "購買成功！",
+        "purchaseMessage": "您已成功購買 {planName}",
+        "subscriptionTitle": "訂閱成功！",
+        "subscriptionMessage": "您已成功訂閱 {planName}",
+        "button": "查看訂單"
+      },
+      "error": {
+        "title": "訂單處理中",
+        "message": "我們正在處理您的訂單，請稍後再試",
+        "button": "返回首頁"
+      },
+      "period": "訂閱週期",
+      "resetPeriod": "重置週期"
+    }
+  }
+}

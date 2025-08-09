@@ -1,0 +1,13 @@
+{
+  "user": {
+    "profile": {
+      "privacy": {
+        "title": "Impostazioni della privacy",
+        "publicDefault": "Rendi le mie attività pubbliche per impostazione predefinita",
+        "publicDefaultDescription": "Quando abilitato, i tuoi contenuti generati dall'IA saranno pubblici per impostazione predefinita. Puoi sempre modificare questo per singole attività.",
+        "success": "Impostazioni della privacy aggiornate con successo",
+        "openProfileInNewTab": "Apri impostazioni profilo in una nuova scheda"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+model NotificationMessage {
+  id             String                           @id @default(uuid())
+  createdAt      DateTime                         @default(now())
+  updatedAt      DateTime                         @updatedAt
+  type           NotificationType                 @default(PERSONALIZED)
+  priority       Int                              @default(50) // The smaller the number, the higher the priority
+  scheduledAt    DateTime?
+  expiresAt      DateTime?
+  targetUserType NotificationTargetUserType       @default(ALL)
+  translations   NotificationMessageTranslation[]
+  userStatuses   NotificationMessageUserStatus[]
+
+  @@map("notifications_messages")
+}
+
+model NotificationMessageTranslation {
+  id        String              @id @default(uuid())
+  messageId String
+  message   NotificationMessage @relation(fields: [messageId], references: [id])
+  locale    String              @default("en")
+  title     String
+  content   String
+  createdAt DateTime            @default(now())
+  updatedAt DateTime            @updatedAt
+
+  @@unique([messageId, locale])
+  @@map("notifications_message_translations")
+}
+
+model NotificationMessageUserStatus {
+  id        String                 @id @default(uuid())
+  userId    String
+  user      User                   @relation(fields: [userId], references: [id])
+  messageId String
+  message   NotificationMessage    @relation(fields: [messageId], references: [id])
+  status    NotificationReadStatus @default(UNREAD)
+  createdAt DateTime               @default(now())
+  updatedAt DateTime               @updatedAt
+
+  @@unique([userId, messageId])
+  @@index([userId])
+  @@index([messageId])
+  @@map("notifications_message_user_status")
+}
+
+enum NotificationReadStatus {
+  UNREAD
+  READ
+}
+
+enum NotificationType {
+  PERSONALIZED
+  SYSTEM
+}
+
+enum NotificationTargetUserType {
+  ALL
+  NEW_USERS
+  EXISTING_USERS
+}

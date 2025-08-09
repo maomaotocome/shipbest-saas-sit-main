@@ -1,0 +1,24 @@
+model BillingUser {
+  id                String                        @id @default(cuid())
+  userId            String                        @unique
+  user              User                          @relation(fields: [userId], references: [id])
+  providerCustomers UserPaymentProviderCustomer[]
+  creditGrants      CreditGrant[]
+  invoices          Invoice[]
+  subscriptions     Subscription[]
+  purchases         Purchase[]
+
+  teams       Team[]
+  teamMembers TeamMember[]
+
+  affiliateInviteCode    String?          @unique
+  affiliateRewardPercent Int              @default(10)
+  affiliatePaypalEmail   String?
+  affiliateOrders        AffiliateOrder[] @relation("affiliateOrder")
+  invitedAffiliateOrders AffiliateOrder[] @relation("invitedAffiliateOrder")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("billing_users")
+}

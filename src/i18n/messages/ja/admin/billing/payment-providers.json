@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "billing": {
+      "payment-providers": {
+        "title": "決済プロバイダー",
+        "addProvider": "プロバイダーを追加",
+        "editProvider": "プロバイダーを編集",
+        "columns": {
+          "name": "名称",
+          "code": "コード",
+          "provider": "プロバイダー",
+          "status": "ステータス",
+          "priority": "優先度",
+          "dailyQuota": "1日あたりのクォータ",
+          "monthlyQuota": "1ヶ月あたりのクォータ"
+        },
+        "form": {
+          "name": "名称",
+          "code": "コード",
+          "provider": "プロバイダー",
+          "status": "ステータス",
+          "priority": "優先度",
+          "secretKey": "プロバイダーキー",
+          "webhookSecret": "Webhookキー"
+        },
+        "unlimited": "無制限",
+        "status": {
+          "ACTIVE": "有効",
+          "SUSPENDED": "一時停止",
+          "BLOCKED": "ブロック",
+          "QUOTA_EXCEEDED": "クォータ超過",
+          "MAINTENANCE": "メンテナンス中"
+        },
+        "deleteConfirmation": {
+          "title": "プロバイダーを削除",
+          "message": "この決済プロバイダーを削除してもよろしいですか？",
+          "messageWithName": "決済プロバイダー '{name}' を削除してもよろしいですか？"
+        },
+        "cancel": "キャンセル",
+        "delete": "削除",
+        "deleting": "削除中...",
+        "saving": "保存中...",
+        "update": "更新",
+        "create": "作成",
+        "createSuccess": "決済プロバイダーの作成が完了しました",
+        "createError": "決済プロバイダーの作成に失敗しました",
+        "updateSuccess": "決済プロバイダーの更新が完了しました",
+        "updateError": "決済プロバイダーの更新に失敗しました",
+        "deleteSuccess": "決済プロバイダーの削除が完了しました",
+        "deleteError": "決済プロバイダーの削除に失敗しました",
+        "registerWebhook": "Webhookを登録",
+        "webhookRegistered": "Webhookの登録が完了しました",
+        "webhookRegistrationFailed": "Webhookの登録に失敗しました",
+        "webhookRegistrationDescription": "決済プロバイダー用のWebhookエンドポイントを登録します。Webhook URLは以下のようになります：",
+        "registering": "登録中...",
+        "register": "登録"
+      }
+    }
+  }
+}

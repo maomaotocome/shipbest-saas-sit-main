@@ -1,0 +1,60 @@
+{
+  "explore": {
+    "title": "探索",
+    "subtitle": "发现来自我们社区的精彩创作",
+    "filters": {
+      "type": "类型",
+      "all": "全部",
+      "images": "图片",
+      "videos": "视频",
+      "featured": "精选",
+      "featuredOnly": "仅精选",
+      "regular": "普通",
+      "sortBy": "排序",
+      "newest": "最新",
+      "reset": "重置"
+    },
+    "gallery": {
+      "viewDetails": "查看详情",
+      "noItems": "未找到内容",
+      "noItemsDescription": "请尝试调整筛选条件或稍后查看新内容。",
+      "loadMore": "加载更多",
+      "loading": "加载中...",
+      "error": "加载失败"
+    },
+    "preview": {
+      "title": "预览",
+      "imageAlt": "预览图片",
+      "loading": "加载中...",
+      "videoNotSupported": "您的浏览器不支持视频播放。",
+      "details": "详情",
+      "type": "类型",
+      "dimensions": "尺寸",
+      "created": "创建时间",
+      "featured": "精选",
+      "actions": "操作",
+      "download": "下载原图",
+      "recreate": "重新创建",
+      "originalSettings": "原始设置",
+      "viewFullPage": "查看完整页面",
+      "creatorInformation": "创作者信息",
+      "fileInformation": "文件信息",
+      "share": "分享"
+    },
+    "stats": {
+      "totalItems": "总项目数",
+      "featuredItems": "精选项目数"
+    },
+    "backToExplore": "返回探索",
+    "download": "下载",
+    "details": {
+      "title": "详情",
+      "taskType": "任务类型",
+      "createdAt": "创建时间",
+      "dimensions": "尺寸",
+      "taskId": "任务ID",
+      "subTaskId": "子任务ID",
+      "originalRequest": "原始请求"
+    }
+  }
+}

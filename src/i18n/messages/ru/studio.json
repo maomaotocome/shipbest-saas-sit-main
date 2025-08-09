@@ -1,0 +1,25 @@
+{
+  "studio": {
+    "menu": {
+      "home": "Home",
+      "text-to-image": "Text to Image",
+      "image-to-image": "Image to Image",
+      "image-to-video": "Image to Video",
+      "stylize-anime": "Stylize Anime",
+      "image": "Image",
+      "video": "Video"
+    },
+    "home": {
+      "title": "AI Studio",
+      "description": "Создавайте удивительный контент с помощью инструментов ИИ. Выбирайте из множества моделей ИИ для генерации изображений, видео и многого другого."
+    },
+    "dashboard": {
+      "title": "Studio",
+      "metadata": {
+        "title": "Studio Dashboard",
+        "description": "AI Studio - Create amazing content with AI",
+        "keywords": "AI Studio, text to image, image to video, AI generation"
+      }
+    }
+  }
+}

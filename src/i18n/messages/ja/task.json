@@ -1,0 +1,72 @@
+{
+  "task": {
+    "preview": {
+      "taskInformation": "タスク情報",
+      "metadata": "メタデータ",
+      "parameters": "パラメータ",
+      "fileInformation": "ファイル情報",
+      "labels": {
+        "id": "ID",
+        "type": "タイプ",
+        "status": "ステータス",
+        "created": "作成日"
+      }
+    },
+    "tooltip": {
+      "id": "タスクID",
+      "type": "タイプ",
+      "status": "ステータス",
+      "createdAt": "作成日時",
+      "updatedAt": "更新日時",
+      "prompt": "プロンプト",
+      "negativePrompt": "ネガティブプロンプト",
+      "models": "モデル",
+      "images": "画像",
+      "subTasks": "サブタスク",
+      "subTaskId": "サブタスクID",
+      "subTaskStatus": "サブタスクステータス"
+    },
+    "taskType": {
+      "model-direct-invocation": "モデル直接呼び出し",
+      "template": "テンプレート",
+      "other": "その他"
+    },
+    "status": {
+      "pending": "保留中",
+      "processing": "処理中",
+      "completed": "完了",
+      "failed": "失敗",
+      "cancelled": "キャンセル済み",
+      "aborted": "中止",
+      "partially_completed": "部分的に完了"
+    },
+    "metadata": {
+      "true": "はい",
+      "false": "いいえ",
+      "labels": {
+        "templateType": "テンプレートタイプ",
+        "modelCategory": "モデルカテゴリ",
+        "model": "モデル",
+        "models": "モデル",
+        "isPublic": "公開"
+      }
+    },
+    "templateType": {
+      "stylized-anime-image": "アニメ風画像",
+      "realistic-image": "リアルな画像",
+      "stylized-image": "様式化された画像"
+    },
+    "modelCategory": {
+      "text-to-image": "テキストから画像へ",
+      "image-to-image": "画像から画像へ",
+      "text-to-video": "テキストから動画へ",
+      "image-to-video": "画像から動画へ",
+      "text-to-music": "テキストから音楽へ"
+    },
+    "recall": {
+      "tooltip": "タスクを再呼び出し"
+    },
+    "public": "公開",
+    "private": "非公開"
+  }
+}

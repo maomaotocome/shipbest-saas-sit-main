@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "Crédits",
+      "availableCredits": "Crédits Disponibles",
+      "availableAmount": "Montant Disponible",
+      "pendingCredits": "Crédits en Attente",
+      "creditGrants": "Attributions de Crédits",
+      "transactions": "Transactions",
+      "amount": "Montant",
+      "refundAmount": "Montant du Remboursement",
+      "remainingAmount": "Restant",
+      "grantDate": "Date d'octroi",
+      "validFrom": "Valide à Partir de",
+      "validUntil": "Valide Jusqu'au",
+      "source": "Source",
+      "actions": "Actions",
+      "viewDetails": "Voir les Détails",
+      "grantDetails": "Détails de l'Attribution",
+      "transactionDetails": "Détails de la Transaction",
+      "date": "Date",
+      "type": "Type",
+      "status": "Statut",
+      "description": "Description",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "Abonnement Périodique",
+          "PLAN_INITIAL": "Plan Initial",
+          "ONE_TIME_PURCHASE": "Achat Unique",
+          "PROMOTION": "Promotion",
+          "MANUAL": "Manuel",
+          "NEW_USER_AWARD": "Récompense Nouvel Utilisateur",
+          "DAILY_LOGIN_AWARD": "Récompense Connexion Quotidienne",
+          "INVITE_AWARD": "Récompense d'Invitation"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "En Attente",
+          "CONFIRMED": "Confirmé",
+          "CANCELLED": "Annulé",
+          "GRANTED": "Accordé"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "Déduire",
+          "REFUND": "Remboursement",
+          "RESERVE": "Réserver",
+          "GRANT": "Accorder"
+        }
+      }
+    }
+  }
+}

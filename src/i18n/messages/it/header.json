@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "blog": "Blog",
+      "pricing": "Prezzi",
+      "playground": "Area Giochi",
+      "products": "Prodotti",
+      "models": "Modelli",
+      "explore": "Esplora",
+      "studio": "Studio"
+    },
+    "userMenu": {
+      "accountSettings": "Impostazioni Account",
+      "adminDashboard": "Dashboard Amministratore",
+      "signOut": "Disconnetti",
+      "signIn": "Accedi",
+      "welcome": "Benvenuto!",
+      "signInToAccessAccount": "Accedi per accedere al tuo account",
+      "signInWithGoogle": "Accedi con Google",
+      "signInWithPassword": "Accedi con Password",
+      "signUp": "Registrati",
+      "enableAwardNotifications": "Notifica Premio"
+    }
+  }
+}

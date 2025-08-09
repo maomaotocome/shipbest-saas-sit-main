@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "notifications": {
+      "title": "Benachrichtigungsverwaltung",
+      "create": "Benachrichtigung erstellen",
+      "edit": "Benachrichtigung bearbeiten",
+      "search": "Suchen",
+      "searchTitlePlaceholder": "Benachrichtigungstitel zum Suchen eingeben",
+      "columns": {
+        "title": "Titel",
+        "priority": "Priorität",
+        "targetUsers": "Zielbenutzer",
+        "scheduledAt": "Geplante Zeit",
+        "expiresAt": "Ablaufzeit",
+        "createdAt": "Erstellt am",
+        "readStatus": "Lesestatus",
+        "system": "System",
+        "userTypes": {
+          "all": "Alle",
+          "newUsers": "Neue Benutzer",
+          "existingUsers": "Bestehende Benutzer"
+        },
+        "scheduledStatus": {
+          "immediate": "Sofort"
+        },
+        "expiryStatus": {
+          "never": "Läuft nie ab"
+        },
+        "actions": "Aktionen"
+      },
+      "form": {
+        "title": "Titel",
+        "content": "Inhalt",
+        "titlePlaceholder": "Titel eingeben",
+        "contentPlaceholder": "Inhalt eingeben",
+        "cancel": "Abbrechen",
+        "save": "Speichern",
+        "saving": "Speichern..."
+      },
+      "send": {
+        "title": "Benachrichtigung senden",
+        "allUsers": "Alle Benutzer",
+        "specificUsers": "Bestimmte Benutzer",
+        "searchPlaceholder": "Benutzer suchen...",
+        "noUsersFound": "Keine Benutzer gefunden",
+        "searchToFindUsers": "Tippen Sie, um nach Benutzern zu suchen",
+        "selectedUsers": "Ausgewählte Benutzer: {count}",
+        "unknownUser": "Unbekannter Benutzer",
+        "submit": "Senden"
+      },
+      "modal": {
+        "editTitle": "Benachrichtigung bearbeiten",
+        "createTitle": "Benachrichtigung erstellen",
+        "basicSettings": "Grundeinstellungen",
+        "notificationType": "Benachrichtigungstyp",
+        "priority": "Priorität",
+        "priorityHelp": "Niedrigere Zahl bedeutet höhere Priorität (0-100)",
+        "scheduledTime": "Geplante Zeit",
+        "scheduledTimeHelp": "Wenn nicht gesetzt, wird die Benachrichtigung sofort gesendet",
+        "expiryTime": "Ablaufzeit",
+        "expiryTimeHelp": "Wenn nicht gesetzt, läuft die Benachrichtigung nie ab",
+        "targetUsers": "Zielbenutzergruppe",
+        "targetUsersHelp": {
+          "all": "Die Benachrichtigung wird an alle Benutzer gesendet",
+          "new": "Die Benachrichtigung wird nur an neue Benutzer gesendet, die sich später registrieren",
+          "existing": "Die Benachrichtigung wird nur an bestehende Benutzer gesendet, die bereits eine Weile nutzen"
+        },
+        "systemNoticeHelp": "Systembenachrichtigungen werden an alle qualifizierten Benutzer gesendet. Zuordnungsdatensätze werden erstellt, wenn Benutzer darauf zugreifen. Geeignet für Ankündigungen, wichtige Updates und andere Informationen, die weit verbreitet werden müssen.",
+        "personalizedNoticeHelp": "Personalisierte Benachrichtigungen werden nur an bestimmte von Ihnen ausgewählte Benutzer gesendet. Geeignet für Erinnerungen, Grüße und andere personalisierte Informationen für bestimmte Benutzer.",
+        "selectRecipients": "Empfänger auswählen",
+        "searchUserPlaceholder": "Nach Benutzername oder E-Mail suchen...",
+        "search": "Suchen",
+        "selectedUsers": "{count} Benutzer ausgewählt",
+        "clearSelection": "Auswahl löschen",
+        "selectAll": "Alle auswählen",
+        "usersFound": "{total} Benutzer gefunden",
+        "loadingError": "Fehler beim Laden der Benutzer",
+        "noMatchingUsers": "Keine passenden Benutzer gefunden",
+        "pleaseSearchUsers": "Bitte geben Sie Schlüsselwörter ein, um nach Benutzern zu suchen",
+        "clearSearch": "Suche löschen",
+        "unknownUser": "Unbekannter Benutzer",
+        "notificationContent": "Benachrichtigungsinhalt",
+        "selectLanguage": "Sprache auswählen",
+        "title": "Titel",
+        "titlePlaceholder": "{locale} Titel eingeben",
+        "content": "Inhalt",
+        "contentPlaceholder": "{locale} Inhalt eingeben",
+        "cancel": "Abbrechen",
+        "saveNotification": "Benachrichtigung speichern",
+        "errors": {
+          "fetchUsersFailed": "Benutzer konnten nicht abgerufen werden",
+          "personalizedNoUser": "Sie müssen mindestens einen Benutzer für personalisierte Benachrichtigungen auswählen",
+          "needTitleContent": "Mindestens eine Sprache benötigt Titel und Inhalt",
+          "updateFailed": "Benachrichtigung konnte nicht aktualisiert werden: {message}",
+          "createFailed": "Benachrichtigung konnte nicht erstellt werden: {message}",
+          "unknownError": "Ein unbekannter Fehler ist aufgetreten, bitte versuchen Sie es später erneut"
+        },
+        "success": {
+          "updated": "Benachrichtigung erfolgreich aktualisiert",
+          "created": "Benachrichtigung erfolgreich erstellt"
+        },
+        "userGroup": {
+          "all": "Alle Benutzer",
+          "new": "Neue Benutzer",
+          "existing": "Bestehende Benutzer"
+        },
+        "notificationTypes": {
+          "personalized": "Personalisierte Benachrichtigung",
+          "system": "Systembenachrichtigung"
+        },
+        "removeUser": "Benutzer {name} entfernen"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ai": {
+    "image": {
+      "text-to-image": {
+        "hero": {
+          "title": "Transformez vos Mots en Art",
+          "description": "Créez des images époustouflantes générées par l'IA à partir de descriptions textuelles. Décrivez simplement votre vision et regardez-la prendre vie."
+        }
+      }
+    }
+  }
+}

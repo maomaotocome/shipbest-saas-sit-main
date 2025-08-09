@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "總計",
+      "pending": "待上傳",
+      "uploading": "上傳中",
+      "success": "成功",
+      "failed": "失敗",
+      "startUpload": "開始上傳",
+      "cancelUpload": "取消上傳",
+      "clear": "清空",
+      "clearing": "清空中..."
+    },
+    "fileLibrary": {
+      "title": "選擇檔案",
+      "searchPlaceholder": "搜尋檔案名稱...",
+      "tabs": {
+        "all": "全部",
+        "image": "圖片",
+        "video": "影片",
+        "audio": "音訊",
+        "document": "文件",
+        "other": "其他"
+      },
+      "selectedCount": "已選擇 {count} 個檔案",
+      "confirm": "確認",
+      "cancel": "取消",
+      "fileSize": "{size}KB"
+    },
+    "replaceDialog": {
+      "title": "替換檔案",
+      "description": "是否要用新檔案 `{new}` 替換目前檔案 `{current}`？",
+      "cancel": "取消",
+      "confirm": "替換",
+      "currentFile": "目前檔案",
+      "newFile": "新檔案",
+      "size": "大小：{size}KB",
+      "type": "類型：{type}"
+    },
+    "filePreview": {
+      "uploadFailed": "上傳失敗"
+    },
+    "fileActions": {
+      "delete": "刪除",
+      "selectFromLibrary": "從檔案庫選擇",
+      "upload": "上傳",
+      "deleting": "刪除中..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "上傳或選擇檔案"
+    },
+    "addButton": {
+      "addFile": "新增檔案"
+    },
+    "messages": {
+      "singleFileOnly": "只能選擇一個檔案",
+      "uploadComplete": "全部上傳完成",
+      "uploadFailed": "部分檔案上傳失敗",
+      "fetchError": "取得檔案清單失敗",
+      "dragSingleFile": "只能拖拽一個檔案",
+      "unsupportedType": "不支援的檔案類型",
+      "dropToReplace": "拖放以替換檔案",
+      "deleteFailed": "刪除失敗",
+      "deleteError": "刪除錯誤",
+      "deleteSuccess": "刪除成功",
+      "fileSizeExceeded": "檔案大小超限",
+      "clearAllSuccess": "所有檔案已成功清空",
+      "clearAllFailed": "部分檔案清空失敗"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "task": {
+    "preview": {
+      "taskInformation": "Informations sur la Tâche",
+      "metadata": "Métadonnées",
+      "parameters": "Paramètres",
+      "fileInformation": "Informations sur le Fichier",
+      "labels": {
+        "id": "ID",
+        "type": "Type",
+        "status": "Statut",
+        "created": "Créé"
+      }
+    },
+    "tooltip": {
+      "id": "ID de la Tâche",
+      "type": "Type",
+      "status": "Statut",
+      "createdAt": "Créé le",
+      "updatedAt": "Mis à jour le",
+      "prompt": "Prompt",
+      "negativePrompt": "Prompt Négatif",
+      "models": "Modèles",
+      "images": "Images",
+      "subTasks": "Sous-tâches",
+      "subTaskId": "ID de Sous-tâche",
+      "subTaskStatus": "Statut de Sous-tâche"
+    },
+    "taskType": {
+      "model-direct-invocation": "Invocation Directe de Modèle",
+      "template": "Modèle",
+      "other": "Autre"
+    },
+    "status": {
+      "pending": "En attente",
+      "processing": "En cours de traitement",
+      "completed": "Terminé",
+      "failed": "Échoué",
+      "cancelled": "Annulé",
+      "aborted": "Interrompu",
+      "partially_completed": "Partiellement terminé"
+    },
+    "metadata": {
+      "true": "Oui",
+      "false": "Non",
+      "labels": {
+        "templateType": "Type de Modèle",
+        "modelCategory": "Catégorie de Modèle",
+        "model": "Modèle",
+        "models": "Modèles",
+        "isPublic": "Public"
+      }
+    },
+    "templateType": {
+      "stylized-anime-image": "Image d'Anime Stylisée",
+      "realistic-image": "Image Réaliste",
+      "stylized-image": "Image Stylisée"
+    },
+    "modelCategory": {
+      "text-to-image": "Texte en Image",
+      "image-to-image": "Image en Image",
+      "text-to-video": "Texte en Vidéo",
+      "image-to-video": "Image en Vidéo",
+      "text-to-music": "Texte en Musique"
+    },
+    "recall": {
+      "tooltip": "Rappeler la Tâche"
+    },
+    "public": "Public",
+    "private": "Privé"
+  }
+}

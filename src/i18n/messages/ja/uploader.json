@@ -1,0 +1,71 @@
+{
+  "uploader": {
+    "toolbar": {
+      "total": "合計",
+      "pending": "アップロード待ち",
+      "uploading": "アップロード中",
+      "success": "成功",
+      "failed": "失敗",
+      "startUpload": "アップロード開始",
+      "cancelUpload": "アップロードキャンセル",
+      "clear": "クリア",
+      "clearing": "クリア中..."
+    },
+    "fileLibrary": {
+      "title": "ファイルを選択",
+      "searchPlaceholder": "ファイル名で検索...",
+      "tabs": {
+        "all": "すべて",
+        "image": "画像",
+        "video": "動画",
+        "audio": "音声",
+        "document": "ドキュメント",
+        "other": "その他"
+      },
+      "selectedCount": "{count}個のファイルを選択",
+      "confirm": "確認",
+      "cancel": "キャンセル",
+      "fileSize": "{size}KB"
+    },
+    "replaceDialog": {
+      "title": "ファイルの置き換え",
+      "description": "現在のファイル `{current}` を新しいファイル `{new}` で置き換えますか？",
+      "cancel": "キャンセル",
+      "confirm": "置き換え",
+      "currentFile": "現在のファイル",
+      "newFile": "新しいファイル",
+      "size": "サイズ：{size}KB",
+      "type": "タイプ：{type}"
+    },
+    "filePreview": {
+      "uploadFailed": "アップロード失敗"
+    },
+    "fileActions": {
+      "delete": "削除",
+      "selectFromLibrary": "ライブラリから選択",
+      "upload": "アップロード",
+      "deleting": "削除中..."
+    },
+    "emptyState": {
+      "uploadOrSelect": "ファイルをアップロードまたは選択"
+    },
+    "addButton": {
+      "addFile": "ファイルを追加"
+    },
+    "messages": {
+      "singleFileOnly": "1つのファイルのみ選択可能",
+      "uploadComplete": "アップロード完了",
+      "uploadFailed": "一部のファイルのアップロードに失敗",
+      "fetchError": "ファイルリストの取得に失敗",
+      "dragSingleFile": "1つのファイルのみドラッグ可能",
+      "unsupportedType": "サポートされていないファイルタイプ",
+      "dropToReplace": "ファイルを置き換えるにはドロップ",
+      "deleteFailed": "削除に失敗",
+      "deleteError": "削除エラー",
+      "deleteSuccess": "削除成功",
+      "fileSizeExceeded": "ファイルサイズ超過",
+      "clearAllSuccess": "すべてのファイルを正常にクリア",
+      "clearAllFailed": "一部のファイルのクリアに失敗"
+    }
+  }
+}

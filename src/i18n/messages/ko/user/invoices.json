@@ -1,0 +1,22 @@
+{
+  "user": {
+    "invoices": {
+      "title": "청구서",
+      "number": "청구서 번호",
+      "status": "상태",
+      "issueDate": "발행일",
+      "dueDate": "지불 기한",
+      "total": "총 금액",
+      "paidAt": "지불일",
+      "downloadPdf": "PDF 다운로드",
+      "viewOnline": "온라인으로 보기",
+      "type": "유형",
+      "typePurchase": "구매",
+      "typeSubscription": "구독",
+      "planName": "플랜",
+      "startDate": "시작일",
+      "billingPeriod": "청구 기간",
+      "resetPeriod": "초기화 기간"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "보상 받기",
+      "claim_new_user": "신규 사용자 보상 받기",
+      "claim_daily": "일일 로그인 보상 받기",
+      "loading": "처리 중...",
+      "success": "보상을 성공적으로 받았습니다!",
+      "error": "보상 받기 실패",
+      "already_received": "이미 이 보상을 받았습니다",
+      "verify_human": "사람임을 확인해주세요",
+      "decline_today": "오늘은 안 받기",
+      "decline_forever": "다시 보지 않기",
+      "later": "나중에",
+      "daily_login": "{date} 일일 로그인 보상",
+      "new_user": "신규 사용자 보상",
+      "invite": "초대 보상",
+      "credits": "크레딧",
+      "newUserDescription": "환영합니다! 신규 사용자 보상을 받고 시작하세요.",
+      "dailyLoginDescription": "매일 로그인하여 보상을 받으세요!"
+    }
+  }
+}

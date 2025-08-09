@@ -1,0 +1,22 @@
+{
+  "user": {
+    "thanks": {
+      "title": "Obrigado pela sua compra",
+      "loading": "Confirmando o status do seu pedido...",
+      "success": {
+        "purchaseTitle": "Compra bem-sucedida!",
+        "purchaseMessage": "Você comprou com sucesso {planName}",
+        "subscriptionTitle": "Assinatura bem-sucedida!",
+        "subscriptionMessage": "Você se inscreveu com sucesso em {planName}",
+        "button": "Ver pedido"
+      },
+      "error": {
+        "title": "Processando pedido",
+        "message": "Estamos processando seu pedido, tente novamente mais tarde",
+        "button": "Voltar ao início"
+      },
+      "period": "Período de assinatura",
+      "resetPeriod": "Período de redefinição"
+    }
+  }
+}

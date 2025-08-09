@@ -1,0 +1,51 @@
+{
+  "user": {
+    "credits": {
+      "title": "Créditos",
+      "availableCredits": "Créditos Disponibles",
+      "availableAmount": "Cantidad Disponible",
+      "pendingCredits": "Créditos Pendientes",
+      "creditGrants": "Asignaciones de Créditos",
+      "transactions": "Transacciones",
+      "amount": "Cantidad",
+      "refundAmount": "Cantidad de Reembolso",
+      "remainingAmount": "Restante",
+      "grantDate": "Fecha de concesión",
+      "validFrom": "Válido Desde",
+      "validUntil": "Válido Hasta",
+      "source": "Fuente",
+      "actions": "Acciones",
+      "viewDetails": "Ver Detalles",
+      "grantDetails": "Detalles de Asignación",
+      "transactionDetails": "Detalles de Transacción",
+      "date": "Fecha",
+      "type": "Tipo",
+      "status": "Estado",
+      "description": "Descripción",
+      "enums": {
+        "creditSource": {
+          "SUBSCRIPTION_PERIODIC": "Suscripción Periódica",
+          "PLAN_INITIAL": "Plan Inicial",
+          "ONE_TIME_PURCHASE": "Compra Única",
+          "PROMOTION": "Promoción",
+          "MANUAL": "Manual",
+          "NEW_USER_AWARD": "Premio Nuevo Usuario",
+          "DAILY_LOGIN_AWARD": "Premio Inicio Diario",
+          "INVITE_AWARD": "Premio de Invitación"
+        },
+        "creditTransactionStatus": {
+          "PENDING": "Pendiente",
+          "CONFIRMED": "Confirmado",
+          "CANCELLED": "Cancelado",
+          "GRANTED": "Otorgado"
+        },
+        "creditTransactionType": {
+          "DEDUCT": "Deducir",
+          "REFUND": "Reembolso",
+          "RESERVE": "Reservar",
+          "GRANT": "Otorgar"
+        }
+      }
+    }
+  }
+}

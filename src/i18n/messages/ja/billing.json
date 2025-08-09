@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "報酬を受け取る",
+      "claim_new_user": "新規ユーザー報酬を受け取る",
+      "claim_daily": "デイリーログインボーナスを受け取る",
+      "loading": "処理中...",
+      "success": "報酬を受け取りました！",
+      "error": "報酬の受け取りに失敗しました",
+      "already_received": "この報酬は既に受け取っています",
+      "verify_human": "人間であることを確認してください",
+      "decline_today": "今日は不要",
+      "decline_forever": "二度と表示しない",
+      "later": "後で",
+      "daily_login": "{date}のデイリーログインボーナス",
+      "new_user": "新規ユーザー報酬",
+      "invite": "招待報酬",
+      "credits": "クレジット",
+      "newUserDescription": "ようこそ！新規ユーザー報酬を受け取って始めましょう。",
+      "dailyLoginDescription": "毎日ログインして報酬を受け取りましょう！"
+    }
+  }
+}

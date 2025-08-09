@@ -1,0 +1,27 @@
+{
+  "user": {
+    "purchases": {
+      "title": "История покупок",
+      "planName": "Название плана",
+      "billingCycle": "Цикл биллинга",
+      "purchaseStatus": "Статус покупки",
+      "invoiceStatus": "Статус счета",
+      "amount": "Сумма",
+      "purchaseDate": "Дата покупки",
+      "orderId": "ID заказа",
+      "enums": {
+        "purchaseStatus": {
+          "COMPLETED": "Завершено",
+          "REFUNDED": "Возвращено"
+        },
+        "invoiceStatus": {
+          "DRAFT": "Черновик",
+          "OPEN": "Открыт",
+          "PAID": "Оплачен",
+          "VOID": "Аннулирован",
+          "UNCOLLECTIBLE": "Невозможно собрать"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+model Purchase {
+  id                String                 @id @default(cuid())
+  orderId           String?                @unique
+  billingUserId     String
+  billingUser       BillingUser            @relation(fields: [billingUserId], references: [id])
+  status            PurchaseStatus
+  provider          PaymentProvider
+  info              Json?
+  providerAccountId String
+  providerAccount   PaymentProviderAccount @relation(fields: [providerAccountId], references: [id])
+
+  invoiceId String?  @unique
+  invoice   Invoice? @relation(fields: [invoiceId], references: [id])
+
+  providerOrderId String @unique
+
+  purchaseDate DateTime       @default(now())
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  creditGrants CreditGrant[]
+  WebhookEvent WebhookEvent[]
+
+  teamId String?
+  team   Team?   @relation(fields: [teamId], references: [id])
+
+  planPeriodId String
+  planPeriod   PlanPeriod @relation(fields: [planPeriodId], references: [id])
+
+  @@index([billingUserId])
+  @@index([providerAccountId])
+  @@index([invoiceId])
+  @@index([planPeriodId])
+  @@index([teamId])
+  @@map("billing_purchases")
+}

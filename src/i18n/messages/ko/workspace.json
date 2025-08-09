@@ -1,0 +1,21 @@
+{
+  "workspace": {
+    "sidebar": {
+      "themeToggler": {
+        "title": "테마 전환"
+      },
+      "home": "홈",
+      "logout": "로그아웃",
+      "pin": "사이드바 고정",
+      "unpin": "사이드바 고정 해제",
+      "userAvatar": "사용자 아바타"
+    },
+    "area": {
+      "goBack": "뒤로"
+    },
+    "projects": {
+      "fetchError": "프로젝트 로드 실패",
+      "noItemsFound": "항목을 찾을 수 없습니다"
+    }
+  }
+}

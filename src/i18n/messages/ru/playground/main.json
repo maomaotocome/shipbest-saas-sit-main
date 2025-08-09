@@ -1,0 +1,18 @@
+{
+  "playground": {
+    "new": "Новый",
+    "history": "История",
+    "prompt": {
+      "placeholder": "Как я могу помочь вам сегодня?"
+    },
+    "chat": {
+      "input": {
+        "placeholder": "Введите ваше сообщение...",
+        "send": "Отправить",
+        "enterToSend": "Enter для отправки",
+        "shiftEnterForNewline": "Shift + Enter для новой строки"
+      },
+      "noMessages": "Что я могу для вас сделать сегодня?"
+    }
+  }
+}

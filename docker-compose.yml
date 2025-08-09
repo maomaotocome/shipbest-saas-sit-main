@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: example_official_postgres
+    environment:
+      POSTGRES_DB: testdb
+      POSTGRES_USER: testuser
+      POSTGRES_PASSWORD: testpassword
+    ports:
+      - "15642:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  stripe:
+    image: stripe/stripe-cli:latest
+    container_name: example_official_stripe_cli
+    command: listen --api-key sk_test_51RgMs5QNE90HiekVlkmIjgNULQ8cDvWeycV5At6Ryg458tiWuljxb7RRtknFxKoWDzZzXdxkJ8R6b65rux8oGAeY005WpGq7QK --forward-to http://host.docker.internal:47890/api/billing/payment/webhook/stripe/dream-stripe --skip-verify
+    environment:
+      - STRIPE_API_KEY=sk_test_51RgMs5QNE90HiekVlkmIjgNULQ8cDvWeycV5At6Ryg458tiWuljxb7RRtknFxKoWDzZzXdxkJ8R6b65rux8oGAeY005WpGq7QK
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  postgres_data:

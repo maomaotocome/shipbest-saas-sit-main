@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "notifications": {
+      "title": "Notification Management",
+      "create": "Create Notification",
+      "edit": "Edit Notification",
+      "search": "Search",
+      "searchTitlePlaceholder": "Enter notification title to search",
+      "columns": {
+        "title": "Title",
+        "priority": "Priority",
+        "targetUsers": "Target Users",
+        "scheduledAt": "Scheduled Time",
+        "expiresAt": "Expiry Time",
+        "createdAt": "Created At",
+        "readStatus": "Read Status",
+        "system": "System",
+        "userTypes": {
+          "all": "All",
+          "newUsers": "New Users",
+          "existingUsers": "Existing Users"
+        },
+        "scheduledStatus": {
+          "immediate": "Immediate"
+        },
+        "expiryStatus": {
+          "never": "Never Expires"
+        },
+        "actions": "Actions"
+      },
+      "form": {
+        "title": "Title",
+        "content": "Content",
+        "titlePlaceholder": "Enter title",
+        "contentPlaceholder": "Enter content",
+        "cancel": "Cancel",
+        "save": "Save",
+        "saving": "Saving..."
+      },
+      "send": {
+        "title": "Send Notification",
+        "allUsers": "All users",
+        "specificUsers": "Specific users",
+        "searchPlaceholder": "Search users...",
+        "noUsersFound": "No users found",
+        "searchToFindUsers": "Type to search for users",
+        "selectedUsers": "Selected users: {count}",
+        "unknownUser": "Unknown user",
+        "submit": "Send"
+      },
+      "modal": {
+        "editTitle": "Edit Notification",
+        "createTitle": "Create Notification",
+        "basicSettings": "Basic Settings",
+        "notificationType": "Notification Type",
+        "priority": "Priority",
+        "priorityHelp": "Lower number means higher priority (0-100)",
+        "scheduledTime": "Scheduled Time",
+        "scheduledTimeHelp": "If not set, the notification will be sent immediately",
+        "expiryTime": "Expiry Time",
+        "expiryTimeHelp": "If not set, the notification will never expire",
+        "targetUsers": "Target User Group",
+        "targetUsersHelp": {
+          "all": "The notification will be sent to all users",
+          "new": "The notification will only be sent to new users who register later",
+          "existing": "The notification will only be sent to existing users who have been using for a while"
+        },
+        "systemNoticeHelp": "System notifications will be sent to all qualified users. Association records are created when users access them. Suitable for announcements, important updates, and other information that needs to be widely communicated.",
+        "personalizedNoticeHelp": "Personalized notifications are only sent to specific users you select. Suitable for reminders, greetings, and other personalized information for specific users.",
+        "selectRecipients": "Select Recipients",
+        "searchUserPlaceholder": "Search by username or email...",
+        "search": "Search",
+        "selectedUsers": "Selected {count} users",
+        "clearSelection": "Clear Selection",
+        "selectAll": "Select All",
+        "usersFound": "Found {total} users",
+        "loadingError": "Error loading users",
+        "noMatchingUsers": "No matching users found",
+        "pleaseSearchUsers": "Please enter keywords to search for users",
+        "clearSearch": "Clear Search",
+        "unknownUser": "Unknown User",
+        "notificationContent": "Notification Content",
+        "selectLanguage": "Select Language",
+        "title": "Title",
+        "titlePlaceholder": "Enter {locale} title",
+        "content": "Content",
+        "contentPlaceholder": "Enter {locale} content",
+        "cancel": "Cancel",
+        "saveNotification": "Save Notification",
+        "errors": {
+          "fetchUsersFailed": "Failed to fetch users",
+          "personalizedNoUser": "You must select at least one user for personalized notifications",
+          "needTitleContent": "At least one language needs title and content",
+          "updateFailed": "Failed to update notification: {message}",
+          "createFailed": "Failed to create notification: {message}",
+          "unknownError": "An unknown error occurred, please try again later"
+        },
+        "success": {
+          "updated": "Notification updated successfully",
+          "created": "Notification created successfully"
+        },
+        "userGroup": {
+          "all": "All Users",
+          "new": "New Users",
+          "existing": "Existing Users"
+        },
+        "notificationTypes": {
+          "personalized": "Personalized Notification",
+          "system": "System Notification"
+        },
+        "removeUser": "Remove user {name}"
+      }
+    }
+  }
+}

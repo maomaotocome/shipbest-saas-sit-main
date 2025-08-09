@@ -1,0 +1,38 @@
+{
+  "en": {
+    "title": "FLUX.1 Dev - Frequently Asked Questions",
+    "description": "Find answers to common questions about FLUX.1 Dev AI image generation model",
+    "items": [
+      {
+        "question": "What is FLUX.1 Dev?",
+        "answer": "FLUX.1 Dev is a 12 billion parameter rectified flow transformer capable of generating high-quality images from text descriptions. It's designed for developers and researchers who want to explore and build upon advanced AI image generation technology."
+      },
+      {
+        "question": "How does FLUX.1 Dev differ from other AI image generators?",
+        "answer": "FLUX.1 Dev stands out with its transformer-based flow architecture, offering superior prompt adherence, visual quality, and output diversity. It excels at generating detailed, photorealistic images while maintaining excellent control over composition and style."
+      },
+      {
+        "question": "What are the usage terms for FLUX.1 Dev?",
+        "answer": "FLUX.1 Dev is available under a non-commercial license. Generated outputs can be used for personal, scientific, and research purposes. For commercial applications, please check the licensing terms or consider FLUX.1 Pro."
+      }
+    ]
+  },
+  "zh": {
+    "title": "FLUX.1 Dev - 常见问题",
+    "description": "查找有关FLUX.1 Dev AI图像生成模型的常见问题解答",
+    "items": [
+      {
+        "question": "什么是FLUX.1 Dev？",
+        "answer": "FLUX.1 Dev是一个120亿参数的整流流变压器，能够从文本描述生成高质量图像。它专为希望探索和构建先进AI图像生成技术的开发者和研究人员设计。"
+      },
+      {
+        "question": "FLUX.1 Dev与其他AI图像生成器有何不同？",
+        "answer": "FLUX.1 Dev以其基于变压器的流架构脱颖而出，提供卓越的提示遵循性、视觉质量和输出多样性。它擅长生成详细的逼真图像，同时保持对构图和风格的出色控制。"
+      },
+      {
+        "question": "FLUX.1 Dev的使用条款是什么？",
+        "answer": "FLUX.1 Dev在非商业许可下提供。生成的输出可用于个人、科学和研究目的。对于商业应用，请查看许可条款或考虑使用FLUX.1 Pro。"
+      }
+    ]
+  }
+}

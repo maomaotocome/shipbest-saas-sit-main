@@ -1,0 +1,38 @@
+{
+    "en": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about FLUX.1 [dev]",
+        "items": [
+            {
+                "question": "What is FLUX.1 [dev]?",
+                "answer": "FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. It's designed for developers and researchers to explore and build upon."
+            },
+            {
+                "question": "How can I get started with FLUX.1 [dev]?",
+                "answer": "Getting started is easy! We provide a reference implementation and sampling code in our dedicated GitHub repository. Developers and creatives can use this as a starting point for their projects."
+            },
+            {
+                "question": "What are the usage terms for FLUX.1 [dev]?",
+                "answer": "Generated outputs can be used for personal, scientific, and commercial purposes as described in the FLUX.1 [dev] Non-Commercial License. The open weights are available to drive new scientific research and empower artists."
+            }
+        ]
+    },
+    "zh": {
+        "title": "常见问题",
+        "description": "查找有关FLUX.1 [dev]的常见问题解答",
+        "items": [
+            {
+                "question": "什么是FLUX.1 [dev]？",
+                "answer": "FLUX.1 [dev]是一个120亿参数的整流流变压器，能够从文本描述生成图像。它专为开发者和研究人员设计，用于探索和构建。"
+            },
+            {
+                "question": "如何开始使用FLUX.1 [dev]？",
+                "answer": "开始使用非常简单！我们在专门的GitHub仓库中提供参考实现和采样代码。开发者和创意人员可以将其作为项目的起点。"
+            },
+            {
+                "question": "FLUX.1 [dev]的使用条款是什么？",
+                "answer": "生成的输出可用于个人、科学和商业用途，符合FLUX.1 [dev]非商业许可协议。开放权重可用于推动新的科学研究并赋能艺术家。"
+            }
+        ]
+    }
+}

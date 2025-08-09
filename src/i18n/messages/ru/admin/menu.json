@@ -1,0 +1,25 @@
+{
+  "admin": {
+    "menu": {
+      "home": "Главная",
+      "users": "Пользователи",
+      "blog": "Блог",
+      "posts": "Посты",
+      "tags": "Теги",
+      "categories": "Категории",
+      "billing": "Биллинг",
+      "providers": "Провайдеры",
+      "plans": "Планы",
+      "subscriptions": "Подписки",
+      "purchases": "Покупки",
+      "settings": "Настройки",
+      "oss": "OSS",
+      "notifications": "Уведомления",
+      "affiliates": "Партнеры",
+      "invoice": "Счета",
+      "general": "Общее",
+      "content": "Контент",
+      "explore": "Управление исследованием"
+    }
+  }
+}

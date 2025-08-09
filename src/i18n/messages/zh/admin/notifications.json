@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "notifications": {
+      "title": "通知管理",
+      "create": "新建通知",
+      "edit": "编辑通知",
+      "search": "搜索",
+      "searchTitlePlaceholder": "请输入通知标题搜索",
+      "columns": {
+        "title": "标题",
+        "priority": "优先级",
+        "targetUsers": "目标用户",
+        "scheduledAt": "计划时间",
+        "expiresAt": "过期时间",
+        "createdAt": "创建时间",
+        "readStatus": "阅读状态",
+        "system": "系统",
+        "userTypes": {
+          "all": "全部",
+          "newUsers": "新用户",
+          "existingUsers": "现有用户"
+        },
+        "scheduledStatus": {
+          "immediate": "立即"
+        },
+        "expiryStatus": {
+          "never": "永不过期"
+        },
+        "actions": "操作"
+      },
+      "form": {
+        "title": "标题",
+        "content": "内容",
+        "titlePlaceholder": "请输入标题",
+        "contentPlaceholder": "请输入内容",
+        "cancel": "取消",
+        "save": "保存",
+        "saving": "保存中..."
+      },
+      "send": {
+        "title": "发送通知",
+        "allUsers": "所有用户",
+        "specificUsers": "指定用户",
+        "searchPlaceholder": "搜索用户...",
+        "noUsersFound": "未找到用户",
+        "searchToFindUsers": "输入关键词搜索用户",
+        "selectedUsers": "已选择用户: {count}",
+        "unknownUser": "未知用户",
+        "submit": "发送"
+      },
+      "modal": {
+        "editTitle": "编辑通知",
+        "createTitle": "创建通知",
+        "basicSettings": "基本设置",
+        "notificationType": "通知类型",
+        "priority": "优先级",
+        "priorityHelp": "数字越小优先级越高 (0-100)",
+        "scheduledTime": "计划时间",
+        "scheduledTimeHelp": "如果不设置，通知将立即发送",
+        "expiryTime": "过期时间",
+        "expiryTimeHelp": "如果不设置，通知将永不过期",
+        "targetUsers": "目标用户组",
+        "targetUsersHelp": {
+          "all": "通知将发送给所有用户",
+          "new": "通知只会发送给之后注册的新用户",
+          "existing": "通知只会发送给已经使用一段时间的现有用户"
+        },
+        "systemNoticeHelp": "系统通知将发送给所有符合条件的用户。当用户访问时会创建关联记录。适用于公告、重要更新和其他需要广泛传播的信息。",
+        "personalizedNoticeHelp": "个性化通知只会发送给您选择的特定用户。适用于提醒、问候和其他针对特定用户的个性化信息。",
+        "selectRecipients": "选择收件人",
+        "searchUserPlaceholder": "按用户名或邮箱搜索...",
+        "search": "搜索",
+        "selectedUsers": "已选择 {count} 个用户",
+        "clearSelection": "清除选择",
+        "selectAll": "全选",
+        "usersFound": "找到 {total} 个用户",
+        "loadingError": "加载用户时出错",
+        "noMatchingUsers": "未找到匹配的用户",
+        "pleaseSearchUsers": "请输入关键词搜索用户",
+        "clearSearch": "清除搜索",
+        "unknownUser": "未知用户",
+        "notificationContent": "通知内容",
+        "selectLanguage": "选择语言",
+        "title": "标题",
+        "titlePlaceholder": "输入 {locale} 标题",
+        "content": "内容",
+        "contentPlaceholder": "输入 {locale} 内容",
+        "cancel": "取消",
+        "saveNotification": "保存通知",
+        "errors": {
+          "fetchUsersFailed": "获取用户失败",
+          "personalizedNoUser": "个性化通知必须至少选择一个用户",
+          "needTitleContent": "至少需要一种语言的标题和内容",
+          "updateFailed": "更新通知失败: {message}",
+          "createFailed": "创建通知失败: {message}",
+          "unknownError": "发生未知错误，请稍后重试"
+        },
+        "success": {
+          "updated": "通知更新成功",
+          "created": "通知创建成功"
+        },
+        "userGroup": {
+          "all": "所有用户",
+          "new": "新用户",
+          "existing": "现有用户"
+        },
+        "notificationTypes": {
+          "personalized": "个性化通知",
+          "system": "系统通知"
+        },
+        "removeUser": "移除用户 {name}"
+      }
+    }
+  }
+}

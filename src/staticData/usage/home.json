@@ -1,0 +1,62 @@
+{
+    "en": {
+        "title": "How to Use example.ai",
+        "description": "Follow these simple steps to get started with our AI-powered platform",
+        "steps": [
+            {
+                "title": "Sign Up",
+                "description": "Create your account in just a few clicks. No credit card required for the free trial."
+            },
+            {
+                "title": "Connect Your Data",
+                "description": "Securely integrate your existing systems and data sources with our platform."
+            },
+            {
+                "title": "Configure Your Workflow",
+                "description": "Customize your AI models and automation workflows to match your specific needs."
+            },
+            {
+                "title": "Train Your Models",
+                "description": "Upload your training data and let our AI learn from your specific use case."
+            },
+            {
+                "title": "Monitor Performance",
+                "description": "Track your AI's performance with real-time analytics and insights."
+            },
+            {
+                "title": "Scale Automatically",
+                "description": "Our platform automatically scales to handle growing data volumes and user demands."
+            }
+        ]
+    },
+    "zh": {
+        "title": "如何使用 example.ai",
+        "description": "按照以下简单步骤开始使用我们的AI驱动平台",
+        "steps": [
+            {
+                "title": "注册账号",
+                "description": "只需点击几下即可创建您的账户。免费试用无需信用卡。"
+            },
+            {
+                "title": "连接数据",
+                "description": "安全地将您现有的系统和数据源与我们的平台集成。"
+            },
+            {
+                "title": "配置工作流",
+                "description": "根据您的具体需求自定义AI模型和自动化工作流。"
+            },
+            {
+                "title": "训练模型",
+                "description": "上传您的训练数据，让我们的AI从您的特定用例中学习。"
+            },
+            {
+                "title": "监控性能",
+                "description": "通过实时分析和洞察跟踪您的AI性能。"
+            },
+            {
+                "title": "自动扩展",
+                "description": "我们的平台会自动扩展以处理不断增长的数据量和用户需求。"
+            }
+        ]
+    }
+}

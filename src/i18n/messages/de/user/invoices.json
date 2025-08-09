@@ -1,0 +1,22 @@
+{
+  "user": {
+    "invoices": {
+      "title": "Rechnungen",
+      "number": "Rechnungsnummer",
+      "status": "Status",
+      "issueDate": "Ausstellungsdatum",
+      "dueDate": "Fälligkeitsdatum",
+      "total": "Gesamtbetrag",
+      "paidAt": "Zahlungsdatum",
+      "downloadPdf": "PDF herunterladen",
+      "viewOnline": "Online ansehen",
+      "type": "Typ",
+      "typePurchase": "Kauf",
+      "typeSubscription": "Abonnement",
+      "planName": "Plan",
+      "startDate": "Startdatum",
+      "billingPeriod": "Abrechnungszeitraum",
+      "resetPeriod": "Zurücksetzungszeitraum"
+    }
+  }
+}

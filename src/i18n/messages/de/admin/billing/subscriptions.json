@@ -1,0 +1,38 @@
+{
+  "admin": {
+    "billing": {
+      "subscriptions": {
+        "title": "Abonnements",
+        "columns": {
+          "billingUser": "Benutzer",
+          "status": "Status",
+          "currentPrice": "Preis",
+          "startDate": "Startdatum",
+          "endDate": "Enddatum",
+          "currentPeriodEnd": "Periodenende",
+          "cancelAtPeriodEnd": "Am Periodenende kündigen",
+          "planName": "Plan",
+          "billingPeriod": "Abrechnungszeitraum",
+          "resetPeriod": "Zurücksetzungszeitraum"
+        },
+        "statusEmuns": {
+          "ACTIVE": "Aktiv",
+          "CANCELLED": "Gekündigt",
+          "EXPIRED": "Abgelaufen",
+          "PRECANCEL": "Vorab gekündigt"
+        },
+        "cancelSubscription": "Kündigen",
+        "periodDetails": "Periodendetails",
+        "periodNumber": "Periodennummer",
+        "startDate": "Startdatum",
+        "endDate": "Enddatum",
+        "status": "Status",
+        "refundPeriod": "Rückerstattungszeitraum",
+        "confirmCancelTitle": "Abonnementkündigung bestätigen",
+        "confirmCancelDescription": "Sind Sie sicher, dass Sie das Abonnement für {email} ({plan}) kündigen möchten? Das Abonnement wird am Ende des aktuellen Abrechnungszeitraums gekündigt.",
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen"
+      }
+    }
+  }
+}

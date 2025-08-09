@@ -1,0 +1,22 @@
+{
+  "user": {
+    "thanks": {
+      "title": "感谢您的购买",
+      "loading": "正在确认您的订单状态...",
+      "success": {
+        "purchaseTitle": "购买成功！",
+        "purchaseMessage": "您已成功购买 {planName}",
+        "subscriptionTitle": "订阅成功！",
+        "subscriptionMessage": "您已成功订阅 {planName}",
+        "button": "查看订单"
+      },
+      "error": {
+        "title": "订单处理中",
+        "message": "我们正在处理您的订单，请稍后再试",
+        "button": "返回首页"
+      },
+      "period": "订阅周期",
+      "resetPeriod": "重置周期"
+    }
+  }
+}

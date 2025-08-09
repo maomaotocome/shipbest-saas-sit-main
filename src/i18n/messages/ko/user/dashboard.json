@@ -1,0 +1,13 @@
+{
+  "user": {
+    "dashboard": {
+      "title": "대시보드",
+      "general": "일반",
+      "metadata": {
+        "title": "대시보드",
+        "description": "대시보드",
+        "keywords": "대시보드"
+      }
+    }
+  }
+}

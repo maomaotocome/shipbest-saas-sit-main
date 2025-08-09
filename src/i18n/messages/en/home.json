@@ -1,0 +1,15 @@
+{
+  "home": {
+    "metadata": {
+      "title": "example AI - AI Tools for Everyone",
+      "description": "example AI brings you a curated collection of powerful AI tools. Explore, create, and innovate with cutting-edge AI applications.",
+      "keywords": "AI, tools, creativity, innovation, example"
+    },
+    "hero": {
+      "title": "example AI",
+      "description": "example AI brings you a curated collection of powerful AI tools. Explore, create, and innovate with cutting-edge AI applications.",
+      "getStarted": "Get Started",
+      "learnMore": "Learn More"
+    }
+  }
+}

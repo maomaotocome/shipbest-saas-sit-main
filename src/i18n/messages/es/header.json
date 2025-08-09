@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "blog": "Blog",
+      "pricing": "Precios",
+      "playground": "Área de Pruebas",
+      "products": "Productos",
+      "models": "Modelos",
+      "explore": "Explorar",
+      "studio": "Estudio"
+    },
+    "userMenu": {
+      "accountSettings": "Configuración de Cuenta",
+      "adminDashboard": "Panel de Administración",
+      "signOut": "Cerrar Sesión",
+      "signIn": "Iniciar Sesión",
+      "welcome": "¡Bienvenido!",
+      "signInToAccessAccount": "Inicia sesión para acceder a tu cuenta",
+      "signInWithGoogle": "Iniciar sesión con Google",
+      "signInWithPassword": "Iniciar sesión con Contraseña",
+      "signUp": "Registrarse",
+      "enableAwardNotifications": "Notificación de Premios"
+    }
+  }
+}

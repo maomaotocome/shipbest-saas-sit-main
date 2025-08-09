@@ -1,0 +1,34 @@
+{
+  "blog": {
+    "title": "Blog",
+    "description": "Lisez nos derniers articles et restez à jour avec les dernières nouvelles et conseils.",
+    "tags": "Tags",
+    "categories": "Catégories",
+    "latest": {
+      "title": "Derniers Articles",
+      "description": "Découvrez nos articles et idées les plus récents"
+    },
+    "metadata": {
+      "all": {
+        "title": "Blog",
+        "description": "Lisez nos derniers articles et restez à jour avec les dernières nouvelles et conseils.",
+        "keywords": "blog, articles, actualités, conseils"
+      },
+      "category": {
+        "title": "Catégorie : {category}",
+        "description": "Parcourez tous les articles de la catégorie {category}",
+        "keywords": "blog, catégorie, {category}, articles"
+      },
+      "tag": {
+        "title": "Tag : {tag}",
+        "description": "Parcourez tous les articles tagués avec {tag}",
+        "keywords": "blog, tag, {tag}, articles"
+      },
+      "post": {
+        "title": "{title}",
+        "description": "{description}",
+        "keywords": "{keywords}"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": {
+      "home": "Startseite",
+      "blog": "Blog",
+      "pricing": "Preise",
+      "playground": "Spielplatz",
+      "products": "Produkte",
+      "models": "Modelle",
+      "explore": "Entdecken",
+      "studio": "Studio"
+    },
+    "userMenu": {
+      "accountSettings": "Kontoeinstellungen",
+      "adminDashboard": "Admin-Dashboard",
+      "signOut": "Abmelden",
+      "signIn": "Anmelden",
+      "welcome": "Willkommen!",
+      "signInToAccessAccount": "Melden Sie sich an, um auf Ihr Konto zuzugreifen",
+      "signInWithGoogle": "Mit Google anmelden",
+      "signInWithPassword": "Mit Passwort anmelden",
+      "signUp": "Registrieren",
+      "enableAwardNotifications": "Auszeichnungsbenachrichtigung"
+    }
+  }
+}

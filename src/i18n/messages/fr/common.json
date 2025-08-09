@@ -1,0 +1,16 @@
+{
+  "common": {
+    "logo": "Logo",
+    "copySuccess": "Lien copié dans le presse-papiers",
+    "copyError": "Échec de la copie du lien",
+    "errors": {
+      "videoPlaybackFailed": "Échec de la lecture vidéo",
+      "imageLoadFailed": "Échec du chargement de l'image",
+      "videoLoadFailed": "Échec du chargement de la vidéo"
+    },
+    "navigation": {
+      "closeMenu": "Fermer le menu",
+      "openMenu": "Ouvrir le menu"
+    }
+  }
+}

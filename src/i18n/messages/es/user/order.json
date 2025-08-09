@@ -1,0 +1,10 @@
+{
+  "user": {
+    "order": {
+      "initiatingPayment": "Iniciando pago...",
+      "openingPayment": "Abriendo pasarela de pago...",
+      "paymentFailed": "El pago falló. Por favor, inténtelo de nuevo.",
+      "backToHome": "Volver al inicio"
+    }
+  }
+} 

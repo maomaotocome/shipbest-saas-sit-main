@@ -1,0 +1,72 @@
+{
+  "task": {
+    "preview": {
+      "taskInformation": "작업 정보",
+      "metadata": "메타데이터",
+      "parameters": "매개변수",
+      "fileInformation": "파일 정보",
+      "labels": {
+        "id": "ID",
+        "type": "유형",
+        "status": "상태",
+        "created": "생성됨"
+      }
+    },
+    "tooltip": {
+      "id": "작업 ID",
+      "type": "유형",
+      "status": "상태",
+      "createdAt": "생성 시간",
+      "updatedAt": "업데이트 시간",
+      "prompt": "프롬프트",
+      "negativePrompt": "네거티브 프롬프트",
+      "models": "모델",
+      "images": "이미지",
+      "subTasks": "하위 작업",
+      "subTaskId": "하위 작업 ID",
+      "subTaskStatus": "하위 작업 상태"
+    },
+    "taskType": {
+      "model-direct-invocation": "모델 직접 호출",
+      "template": "템플릿",
+      "other": "기타"
+    },
+    "status": {
+      "pending": "대기 중",
+      "processing": "처리 중",
+      "completed": "완료됨",
+      "failed": "실패함",
+      "cancelled": "취소됨",
+      "aborted": "중단됨",
+      "partially_completed": "부분적으로 완료됨"
+    },
+    "metadata": {
+      "true": "예",
+      "false": "아니요",
+      "labels": {
+        "templateType": "템플릿 유형",
+        "modelCategory": "모델 카테고리",
+        "model": "모델",
+        "models": "모델",
+        "isPublic": "공개"
+      }
+    },
+    "templateType": {
+      "stylized-anime-image": "스타일화된 애니메이션 이미지",
+      "realistic-image": "사실적인 이미지",
+      "stylized-image": "스타일화된 이미지"
+    },
+    "modelCategory": {
+      "text-to-image": "텍스트를 이미지로",
+      "image-to-image": "이미지를 이미지로",
+      "text-to-video": "텍스트를 비디오로",
+      "image-to-video": "이미지를 비디오로",
+      "text-to-music": "텍스트를 음악으로"
+    },
+    "recall": {
+      "tooltip": "작업 재호출"
+    },
+    "public": "공개",
+    "private": "비공개"
+  }
+}

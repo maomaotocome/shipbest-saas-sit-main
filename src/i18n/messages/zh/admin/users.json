@@ -1,0 +1,249 @@
+{
+  "admin": {
+    "users": {
+      "title": "用户管理",
+      "search": "搜索",
+      "form": {
+        "name": "姓名",
+        "email": "电子邮件"
+      },
+      "searchNamePlaceholder": "按姓名搜索...",
+      "searchEmailPlaceholder": "按电子邮件搜索...",
+      "columns": {
+        "name": "姓名",
+        "email": "电子邮件",
+        "role": "角色",
+        "verified": "已验证",
+        "not_available": "不可用",
+        "actions": "操作",
+        "view_notifications": "查看通知",
+        "view_credits": "查看积分",
+        "view_billing_history": "查看账单历史"
+      },
+      "verification": {
+        "yes": "是",
+        "no": "否"
+      },
+      "roles": {
+        "ADMIN": "管理员",
+        "USER": "普通用户"
+      },
+      "role_change": {
+        "error_self": "您不能修改自己的角色",
+        "success": "角色已更新为 {role}",
+        "confirm_to_admin": {
+          "title": "提升为管理员？",
+          "message": "警告：这将授予此用户完整的管理权限。此操作应谨慎执行。",
+          "cancel": "取消",
+          "confirm": "是，授予管理员权限"
+        },
+        "confirm_to_user": {
+          "title": "降级为普通用户？",
+          "message": "这将移除此用户的所有管理权限。",
+          "cancel": "取消",
+          "confirm": "是，移除管理员权限"
+        }
+      },
+      "common": {
+        "created_at": "创建于",
+        "source": "来源",
+        "validity": "有效期",
+        "permanent": "永久",
+        "transaction_time": "交易时间",
+        "transaction_type": "交易类型",
+        "amount_consumed": "消耗数量",
+        "status": "状态",
+        "description": "描述",
+        "no_description": "无描述",
+        "loading": "加载中...",
+        "error": "错误",
+        "no_data": "无数据",
+        "actions": "操作",
+        "transaction_id": "交易 ID",
+        "clear": "清除"
+      },
+      "sources": {
+        "PURCHASE": "购买",
+        "ONE_TIME_PURCHASE": "一次性购买",
+        "SYSTEM_GRANT": "系统发放",
+        "SUBSCRIPTION_PERIODIC": "订阅周期性发放",
+        "ADMIN_GRANT": "管理员发放",
+        "PROMOTION": "促销活动",
+        "REFUND": "退款",
+        "OTHER": "其他"
+      },
+      "transaction_types": {
+        "DEDUCT": "扣除",
+        "GRANT": "发放",
+        "REFUND": "退款",
+        "ADJUSTMENT": "调整"
+      },
+      "transaction_statuses": {
+        "PENDING": "待处理",
+        "CONFIRMED": "已确认",
+        "CANCELLED": "已取消",
+        "GRANTED": "已发放"
+      },
+      "summary": {
+        "stats_title": "积分统计",
+        "stats": {
+          "total": "总积分",
+          "available": "可用积分",
+          "reserved": "预留积分",
+          "used": "已用积分",
+          "expiring": "即将过期积分（30 天内）"
+        },
+        "expiring_alert": {
+          "title": "积分即将过期",
+          "description": "{count, plural, one {# 个积分} other {# 个积分}} 将在 30 天内过期"
+        },
+        "recent_grants": {
+          "title": "最近获得的积分发放记录（最多 5 条）",
+          "columns": {
+            "amount": "数量"
+          },
+          "empty": "暂无最近发放记录"
+        },
+        "recent_transactions": {
+          "title": "最近消费记录（最多 5 条）",
+          "empty": "暂无最近消费记录",
+          "disclaimer": "注意：此处显示的最近消费记录可能包含其他用户。精确过滤需要后端优化。"
+        }
+      },
+      "grants": {
+        "columns": {
+          "source": "积分来源",
+          "total": "总积分",
+          "remaining_total": "剩余/总计",
+          "used": "已用积分"
+        },
+        "actions": {
+          "view_usage_detail": "使用详情"
+        },
+        "filters": {
+          "source_label": "积分来源",
+          "all_sources": "所有来源",
+          "valid_only_label": "仅显示有效"
+        }
+      },
+      "transactions": {
+        "actions": {
+          "view_detail": "查看详情"
+        },
+        "filters": {
+          "date_range_label": "日期范围",
+          "all_types": "所有类型",
+          "all_statuses": "所有状态"
+        }
+      },
+      "grant_detail": {
+        "back_button": "返回积分发放列表",
+        "error_load": "无法加载积分发放详情。",
+        "title": "积分发放详情 (ID: {shortId}...)",
+        "source": "来源",
+        "created_at": "获取时间",
+        "total_credits": "总积分",
+        "remaining_credits": "剩余积分",
+        "available_credits": "可用积分",
+        "reserved_credits": "预留积分",
+        "used_credits": "已用积分",
+        "validity": "有效期",
+        "usage": {
+          "title": "使用记录",
+          "description": "此积分发放的所有使用记录",
+          "empty": "此积分发放尚未使用",
+          "columns": {
+            "transaction_time": "交易时间",
+            "transaction_id": "交易 ID",
+            "transaction_type": "交易类型",
+            "amount_used": "使用数量",
+            "balance_after": "之后余额",
+            "transaction_description": "交易描述"
+          }
+        }
+      },
+      "transaction_detail": {
+        "back_button": "返回交易列表",
+        "error_load": "无法加载交易详情。",
+        "title": "交易详情",
+        "id": "交易 ID",
+        "transaction_time": "交易时间",
+        "total_consumed": "消耗总积分",
+        "transaction_type": "交易类型",
+        "status": "状态",
+        "description": "描述",
+        "expire_at": "过期时间",
+        "confirmed_at": "确认时间",
+        "cancelled_at": "取消时间",
+        "metadata": "元数据",
+        "usage_detail": {
+          "title": "积分使用详情",
+          "description": "此交易消耗的积分发放详情",
+          "empty": "无积分使用详情",
+          "columns": {
+            "grant_id": "发放 ID",
+            "source": "积分来源",
+            "amount": "消耗数量",
+            "balance_after": "之后余额（详情）"
+          }
+        }
+      },
+      "modal": {
+        "title": "{userName} 的积分详情",
+        "title_no_name": "用户 {userId} 的积分详情",
+        "tabs": {
+          "summary": "摘要",
+          "grants": "发放记录",
+          "transactions": "交易记录"
+        }
+      },
+      "notifications_modal": {
+        "modal_title": "{name} 的通知",
+        "modal_title_fallback": "用户的通知",
+        "tabs": {
+          "system": "系统通知",
+          "personalized": "个性化通知"
+        },
+        "columns": {
+          "title": "标题",
+          "no_title": "无标题",
+          "content": "内容",
+          "no_content": "无内容",
+          "status": "状态",
+          "time": "时间"
+        },
+        "status": {
+          "READ": "已读",
+          "UNREAD": "未读"
+        },
+        "error_loading": "加载通知失败",
+        "no_messages": "无通知消息"
+      },
+      "billing_history": {
+        "title": "账单历史 - {name}",
+        "description": "查看 {name} 的订阅和购买历史。",
+        "close_button": "关闭",
+        "unknown_error": "未知错误",
+        "type_subscription": "订阅",
+        "type_purchase": "购买",
+        "table": {
+          "header_type": "类型",
+          "header_plan": "计划/项目",
+          "header_amount": "金额",
+          "header_status": "状态",
+          "header_date": "日期",
+          "header_provider": "提供商",
+          "loading": "加载中...",
+          "error": "加载失败：{message}",
+          "empty": "未找到账单历史"
+        },
+        "pagination": {
+          "total_records": "共 {count, plural, one {# 条记录} other {# 条记录}}",
+          "previous": "上一页",
+          "next": "下一页",
+          "page_info": "第 {page} 页 / 共 {totalPages} 页"
+        }
+      }
+    }
+  }
+}

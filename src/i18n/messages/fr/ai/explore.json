@@ -1,0 +1,48 @@
+{
+  "explore": {
+    "title": "Explorer",
+    "subtitle": "Découvrez d'incroyables créations de notre communauté",
+    "filters": {
+      "type": "Type",
+      "all": "Tous",
+      "images": "Images",
+      "videos": "Vidéos",
+      "featured": "En vedette",
+      "featuredOnly": "En vedette uniquement",
+      "regular": "Régulier",
+      "sortBy": "Trier par",
+      "newest": "Plus récents",
+      "reset": "Réinitialiser"
+    },
+    "gallery": {
+      "viewDetails": "Voir les détails",
+      "noItems": "Aucun élément trouvé",
+      "noItemsDescription": "Essayez d'ajuster vos filtres ou revenez plus tard pour du nouveau contenu.",
+      "loadMore": "Charger plus",
+      "loading": "Chargement...",
+      "error": "Échec du chargement des éléments"
+    },
+    "preview": {
+      "title": "Aperçu",
+      "imageAlt": "Image d'aperçu",
+      "loading": "Chargement...",
+      "videoNotSupported": "Votre navigateur ne prend pas en charge la lecture vidéo.",
+      "details": "Détails",
+      "type": "Type",
+      "dimensions": "Dimensions",
+      "created": "Créé",
+      "featured": "En vedette",
+      "actions": "Actions",
+      "download": "Télécharger l'original",
+      "recreate": "Recréer",
+      "originalSettings": "Paramètres d'origine",
+      "creatorInformation": "Informations du Créateur",
+      "fileInformation": "Informations du Fichier",
+      "share": "Partager"
+    },
+    "stats": {
+      "totalItems": "Total des éléments",
+      "featuredItems": "Éléments en vedette"
+    }
+  }
+}

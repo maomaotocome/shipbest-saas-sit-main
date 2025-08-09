@@ -1,0 +1,23 @@
+{
+  "billing": {
+    "award": {
+      "title": "Belohnungen einlösen",
+      "claim_new_user": "Neuer Nutzer Belohnung einlösen",
+      "claim_daily": "Tägliche Login Belohnung einlösen",
+      "loading": "Wird verarbeitet...",
+      "success": "Belohnung erfolgreich eingelöst!",
+      "error": "Belohnung konnte nicht eingelöst werden",
+      "already_received": "Sie haben diese Belohnung bereits erhalten",
+      "verify_human": "Bitte bestätigen Sie, dass Sie ein Mensch sind",
+      "decline_today": "Nicht heute",
+      "decline_forever": "Nie wieder anzeigen",
+      "later": "Später",
+      "daily_login": "Tägliche Login Belohnung am {date}",
+      "new_user": "Neuer Nutzer Belohnung",
+      "invite": "Einladungsbelohnung",
+      "credits": "Guthaben",
+      "newUserDescription": "Willkommen! Lösen Sie Ihre Neuer-Nutzer-Belohnung ein, um zu beginnen.",
+      "dailyLoginDescription": "Kommen Sie täglich zurück, um Ihre Login-Belohnung zu erhalten!"
+    }
+  }
+}

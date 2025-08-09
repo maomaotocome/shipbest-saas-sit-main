@@ -1,0 +1,115 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "套餐",
+        "general": "基本信息",
+        "translations": "翻译",
+        "features": "功能",
+        "periods": "周期",
+        "editPlan": "编辑套餐",
+        "createNewPlan": "创建新套餐",
+        "saveError": "保存套餐失败",
+        "updateSuccess": "套餐更新成功",
+        "createSuccess": "套餐创建成功",
+        "syncSuccess": "套餐同步成功",
+        "saving": "保存中...",
+        "update": "更新",
+        "create": "创建",
+        "cancel": "取消",
+        "createError": "创建套餐失败",
+        "updateError": "更新套餐失败",
+        "syncError": "同步套餐失败",
+        "syncToProvider": "同步到支付提供商",
+        "syncPlansDialogTitle": "同步套餐到支付提供商",
+        "selectProvider": "选择提供商",
+        "selectProviderPlaceholder": "选择一个提供商",
+        "selectProviderError": "请选择支付提供商",
+        "syncing": "同步中...",
+        "confirmSync": "确认同步",
+        "manageFeatures": "管理功能",
+        "addPlan": "添加套餐",
+        "addFeature": "添加功能",
+        "noFeaturesDefined": "未定义功能",
+        "noPeriodsDefined": "未定义周期",
+        "noTranslations": "无翻译",
+        "allocationsByPeriod": "各周期配额:",
+        "limitLabel": "限制",
+        "notIncluded": "未包含",
+        "unlimited": "无限制",
+        "resetEvery": "每隔",
+        "headers": {
+          "code": "代码",
+          "name": "名称",
+          "status": "状态",
+          "billingScheme": "计费方案",
+          "features": "功能",
+          "periods": "周期",
+          "validFrom": "有效期开始",
+          "validUntil": "有效期结束"
+        },
+        "generalTab": {
+          "code": "代码",
+          "codePlaceholder": "例如：BASIC、PRO、ENTERPRISE",
+          "status": "状态",
+          "statusPlaceholder": "选择状态",
+          "billingScheme": "计费方案",
+          "billingSchemePlaceholder": "选择计费方案",
+          "isPopular": "是否热门",
+          "sortOrder": "排序顺序",
+          "validFrom": "有效期开始",
+          "validUntil": "有效期结束（可选）",
+          "PlanStatus": {
+            "active": "激活",
+            "deprecated": "已弃用",
+            "archived": "已归档"
+          },
+          "BillingScheme": {
+            "creditBased": "基于积分",
+            "creditbased": "基于积分",
+            "timeBased": "基于时间",
+            "timebased": "基于时间",
+            "hybrid": "混合"
+          }
+        },
+        "featuresTab": {
+          "feature": "功能",
+          "included": "包含",
+          "primary": "主要",
+          "limit": "限制",
+          "limitPlaceholder": "留空表示无限制",
+          "notApplicable": "不适用",
+          "noAvailableFeatures": "无可用功能",
+          "referenced": "已引用"
+        },
+        "periodsTab": {
+          "noPeriods": "无计费周期。请至少添加一个周期。",
+          "actions": "操作",
+          "period": "周期",
+          "resetPeriodType": "重置周期类型",
+          "resetPeriodValue": "重置周期值",
+          "price": "价格",
+          "selectPeriodType": "选择周期类型",
+          "periodType": "周期类型",
+          "periodValue": "周期值",
+          "addPeriod": "添加周期",
+          "code": "代码",
+          "credits": "积分"
+        },
+        "translationsTab": {
+          "noTranslations": "无翻译。请至少添加一种翻译。",
+          "selectLanguage": "选择语言",
+          "addTranslation": "添加翻译",
+          "language": "语言",
+          "name": "名称",
+          "subtitle": "副标题",
+          "description": "描述",
+          "actions": "操作",
+          "planName": "套餐名称",
+          "planSubtitle": "套餐副标题",
+          "planDescription": "套餐描述"
+        }
+      }
+    }
+  }
+}

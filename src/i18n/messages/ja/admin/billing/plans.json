@@ -1,0 +1,85 @@
+{
+  "admin": {
+    "billing": {
+      "plans": {
+        "title": "プラン",
+        "general": "一般",
+        "translations": "翻訳",
+        "features": "機能",
+        "periods": "期間",
+        "editPlan": "プランを編集",
+        "createNewPlan": "新規プランを作成",
+        "saveError": "プランの保存に失敗しました",
+        "updateSuccess": "プランが正常に更新されました",
+        "createSuccess": "プランが正常に作成されました",
+        "syncSuccess": "プランが正常に同期されました",
+        "saving": "保存中...",
+        "update": "更新",
+        "create": "作成",
+        "cancel": "キャンセル",
+        "createError": "プランの作成に失敗しました",
+        "updateError": "プランの更新に失敗しました",
+        "syncError": "プランの同期に失敗しました",
+        "generalTab": {
+          "code": "コード",
+          "codePlaceholder": "例：BASIC、PRO、ENTERPRISE",
+          "status": "ステータス",
+          "statusPlaceholder": "ステータスを選択",
+          "billingScheme": "請求スキーム",
+          "billingSchemePlaceholder": "請求スキームを選択",
+          "isPopular": "人気",
+          "sortOrder": "並び順",
+          "validFrom": "有効開始日",
+          "validUntil": "有効期限（オプション）",
+          "PlanStatus": {
+            "active": "有効",
+            "deprecated": "非推奨",
+            "archived": "アーカイブ"
+          },
+          "BillingScheme": {
+            "creditBased": "クレジットベース",
+            "timeBased": "時間ベース",
+            "hybrid": "ハイブリッド"
+          }
+        },
+        "featuresTab": {
+          "feature": "機能",
+          "included": "含まれる",
+          "primary": "主要",
+          "limit": "制限",
+          "limitPlaceholder": "制限なしの場合は空白",
+          "notApplicable": "該当なし",
+          "noAvailableFeatures": "利用可能な機能はありません",
+          "referenced": "参照"
+        },
+        "periodsTab": {
+          "noPeriods": "請求期間がありません。少なくとも1つの期間を追加してください。",
+          "actions": "操作",
+          "period": "期間",
+          "resetPeriodType": "リセット期間タイプ",
+          "resetPeriodValue": "リセット期間値",
+          "price": "価格",
+          "selectPeriodType": "期間タイプを選択",
+          "periodType": "期間タイプ",
+          "periodValue": "期間値",
+          "addPeriod": "期間を追加",
+          "code": "コード",
+          "credits": "クレジット"
+        },
+        "translationsTab": {
+          "noTranslations": "翻訳がありません。少なくとも1つの翻訳を追加してください。",
+          "selectLanguage": "言語を選択",
+          "addTranslation": "翻訳を追加",
+          "language": "言語",
+          "name": "名前",
+          "subtitle": "サブタイトル",
+          "description": "説明",
+          "actions": "操作",
+          "planName": "プラン名",
+          "planSubtitle": "プランのサブタイトル",
+          "planDescription": "プランの説明"
+        }
+      }
+    }
+  }
+}

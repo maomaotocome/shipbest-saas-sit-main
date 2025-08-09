@@ -1,0 +1,41 @@
+{
+  "admin": {
+    "oss": {
+      "buckets": {
+        "title": "OSS-Buckets",
+        "addBucket": "Bucket hinzufügen",
+        "editBucket": "Bucket bearbeiten",
+        "createBucket": "Bucket erstellen",
+        "name": "Name",
+        "provider": "Anbieter",
+        "bucketName": "Bucket-Name",
+        "region": "Region",
+        "endpoint": "Endpunkt",
+        "publicUrl": "Öffentliche URL",
+        "accessKey": "Zugriffsschlüssel",
+        "secretKey": "Geheimschlüssel",
+        "maxSize": "Maximale Größe (Bytes)",
+        "pathPrefix": "Pfad-Präfix",
+        "publicAccess": "Öffentlicher Zugriff",
+        "cancel": "Abbrechen",
+        "update": "Aktualisieren",
+        "create": "Erstellen",
+        "columns": {
+          "name": "Name",
+          "provider": "Anbieter",
+          "bucket": "Bucket",
+          "region": "Region",
+          "access": "Zugriff",
+          "status": "Status",
+          "objects": "Objekte"
+        },
+        "status": {
+          "public": "Öffentlich",
+          "private": "Privat",
+          "active": "AKTIV"
+        }
+      },
+      "objects": {}
+    }
+  }
+}
